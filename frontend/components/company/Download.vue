@@ -5,6 +5,7 @@
         <v-card-title style="background-color: white">
           <v-row>
             <v-col cols="10">
+
               <div class="d-block">
                 <h4>Select file type</h4>
               </div>
