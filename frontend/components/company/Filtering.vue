@@ -15,6 +15,7 @@
                 @click="closeDownloadDialog"
                 class=""
                 style="background-color: white"
+
               >
                 <v-icon>mdi-close</v-icon>
               </v-btn>
