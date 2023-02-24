@@ -6,6 +6,7 @@
           <h4 style="margin-left: 5px">Actions</h4>
           <v-row align="center" justify="center">
              <v-btn
+
              class="blue-grey mr-2"
              depressed
              solo
