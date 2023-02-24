@@ -14,6 +14,8 @@
                   v-model="searchType"
                   column
                   class="mt-0"
+
+
                   mandatory
                 >
                   <v-radio label="ID" value="id"></v-radio>
