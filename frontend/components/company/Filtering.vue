@@ -55,6 +55,7 @@
                   item-text="system_name"
                   item-value="id"
                   clearable
+
                   :loading = "DataLoad"
                 label="System"  background-color="indigo accent-1" dense solo>
                 </v-select>
