@@ -1,156 +1,278 @@
-import colors from "vuetify/es5/util/colors";
+import config from "./src/configs";
+
+const { gaId } = config.analytics;
 
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    titleTemplate: "%s - frontend",
-    title: "frontend",
-    htmlAttrs: {
-      lang: "en",
-    },
-    meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
-      { name: "format-detection", content: "telephone=no" },
-      { name: "csrf-token", content: "{{ csrf_token() }}" },
-    ],
-    link: [
-      {
-        rel: "icon",
-        type: "image/x-icon",
-        href: "/favicon.ico",
-        rel: "stylesheet",
-        type: "text/css",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css",
-        // rel:"stylesheet",  href: "https://emoji-css.afeld.me/emoji.css"
-      },
-    ],
-    // link: [
-    //   {
-    //     rel: "stylesheet",
-    //     href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css",
-    //   }
-    // ],
-    // script: [
-    //   {
-    //     src: "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
-    //     src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-    //   }
-    // ],
-  },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+	// target: "static",
+	srcDir: "src/",
+	// generate: {
+	//   dir: "public",
+	// },
+	loading: "./components/LoadingComponent.vue",
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+	ssr: false,
+	// target: 'static',
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/vuetify
-    "@nuxtjs/vuetify",
-  ],
+	head: {
+		titleTemplate: "%s",
+		title: "Smart Friqi",
+		meta: [
+			{
+				charset: "utf-8",
+			},
+			{
+				name: "viewport",
+				content: "width=device-width, initial-scale=1",
+			},
+			{
+				hid: "description",
+				name: "description",
+				content: "",
+			},
+		],
+		link: [
+			{
+				rel: "icon",
+				type: "image/svg",
+				href: "/favicon.svg",
+			},
+			{
+				rel: "stylesheet",
+				href: "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap",
+			},
+			{
+				rel: "stylesheet",
+				href: "https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap",
+			},
+			{
+				rel: "stylesheet",
+				href: "/assets/css/owl.min.css",
+			},
+			...config.icons.map((href) => ({
+				rel: "stylesheet",
+				href,
+			})),
+		],
+		script: [
+			{
+				src: "/assets/script/lottie-player.js",
+			},
+			{
+				src: "/assets/script/jquery.js",
+			},
+			{
+				src: "/assets/script/owl.min.js",
+			},
+			{
+				src: "/assets/script/script.js",
+			},
+			{
+				src: "/assets/script/audio.js",
+			},
+		],
+	},
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    "@nuxtjs/auth-next",
-    "@nuxtjs/axios",
-    "@nuxtjs/toast",
+	css: ["~/assets/scss/theme.scss", "~/assets/main.scss"],
 
-    // // Simple usage
-    // 'dropzone-nuxt',
-    // // With options
-    // ['dropzone-nuxt', { /* module options */ }],
-  ],
-  env: {
-    backendUrl: "http://localhost:8000/",
-  },
+	plugins: [
+		// plugins
+		{
+			src: "~/plugins/axios2.js",
+			mode: "all",
+		},
+		{
+			src: "~/plugins/Vuelidate.js",
+			mode: "all",
+		},
+		{
+			src: "~/plugins/vue-toastr.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/lodash.js",
+			mode: "all",
+		},
+		{
+			src: "~/plugins/animate.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/apexcharts.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/clipboard.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/vue-shortkey.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/draggable.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/csvExport.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/vuetify.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/global.js",
+			mode: "all",
+		},
+		{
+			src: "~/plugins/alertNasim.js",
+			mode: "all",
+		},
+		{
+			src: "~/plugins/nasToaster.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/editor.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/echo.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/player.js",
+			mode: "client",
+		},
+		{
+			src: "~/plugins/chart.js",
+			mode: "client",
+		},
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: "http://localhost:8000/api/",
-    credentials: true,
-    changeOrigin: true,
-    common: {
-      Accept: "application/json",
-    },
-  },
-  toast: {
-    position: "top-right",
-    duration: "3000",
-  },
-  router: {
-    middleware: ["auth"],
-  },
-  auth: {
-    strategies: {
-      laravelSanctum: {
-        url: "http://localhost:8000",
+		// // // filters
+		{
+			src: "~/filters/capitalize.js",
+		},
+		{
+			src: "~/filters/lowercase.js",
+		},
+		{
+			src: "~/filters/uppercase.js",
+		},
+		{
+			src: "~/filters/formatDate.js",
+		},
+		{
+			src: "~/filters/helpers.js",
+		},
+		{
+			src: "~/filters/kFormatter.js",
+		},
+	],
 
-      },
-      local: {
-        user: {
-          property: false,
-          autoFetch: true,
-        },
-        token: {
-          required: true,
-          property: "token",
-          type: "Bearer",
-          global: true,
-          maxAge: 24 * 60 * 30, // one month,
-        },
-        refreshToken: {
-          maxAge: 24 * 60 * 365, // one year,
-        },
-        endpoints: {
-          login: {
-            url: "/auth/login",
-            method: "post",
-            propertyName: "token",
-          },
-          logout: {
-            url: "/auth/logout",
-            method: "post",
-            propertyName: "token",
-          },
-          user: { url: "/auth/user", method: "get" },
-        },
-        autoLogout: false,
-      },
-    },
-    redirect: {
-      login: "/auth/login",
-      logout: "/auth/login",
-      home: "/",
-      callback: false,
-    },
-  },
-  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
-  vuetify: {
-    customVariables: ["~/assets/variables.scss"],
-    theme: {
-      dark: false,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3,
-        },
-      },
-    },
-  },
+	buildModules: [
+		// https://go.nuxtjs.dev/vuetify
+		[
+			"@nuxtjs/vuetify",
+			{
+				customVariables: ["~/assets/scss/vuetify/variables/_index.scss"],
+				optionsPath: "~/configs/vuetify.js",
+				treeShake: true,
+				defaultAssets: {
+					font: false,
+				},
+			},
+		],
+	],
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+	// Modules (https://go.nuxtjs.dev/config-modules)
+	modules: [
+		"@nuxtjs/auth-next",
+		"@nuxtjs/google-gtag",
+		"@nuxtjs/axios",
+		"vue-sweetalert2/nuxt",
+		[
+			"vuejs-google-maps/nuxt",
+			{
+				apiKey: "AIzaSyDNtpPnk9q69exb8wEGA_XYIM5YJlJR9aI",
+				libraries: ["places"],
+			},
+		],
+		"vue2-editor/nuxt",
+	],
+
+	sweetalert: {
+		confirmButtonColor: "#FF5252",
+		cancelButtonColor: "#2c7be5",
+	},
+
+	"google-gtag": {
+		id: gaId,
+		debug: true, // enable to track in dev mode
+		disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+	},
+	server: {
+		port: 3004,
+		// host: "0.0.0.0",
+	},
+	axios: {
+		// baseURL: "https://clientbackend.oredoh.org/api/v1",
+		baseURL: "http://localhost:8000/api/v1",
+		//	baseURL: "http://192.168.3.111:8000/api/v1",
+		credentials: true,
+		changeOrigin: true,
+		common: {
+			Accept: "application/json",
+		},
+	},
+
+	auth: {
+		cookie: false,
+		localStorage: {
+			prefix: "auth.",
+		},
+		redirect: {
+			login: "/auth/signin",
+			logout: "/auth/signin",
+			callback: "/auth/signin",
+			home: false,
+		},
+		strategies: {
+			local: {
+				token: {
+					property: "token",
+					global: true,
+					required: true,
+					type: "Bearer",
+				},
+				user: {
+					property: "data",
+					autoFetch: true,
+				},
+				endpoints: {
+					login: {
+						url: "/login",
+						method: "post",
+					},
+					logout: {
+						url: "/logout",
+						method: "post",
+					},
+					user: {
+						url: "/auth/user",
+						method: "get",
+					},
+				},
+			},
+		},
+	},
+	router: {
+		middleware: ["auth", "authScope"],
+	},
+
+	build: {},
 };
+
+// full code of nuxt.config.js

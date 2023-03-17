@@ -2,29 +2,28 @@
 
 namespace Database\Factories;
 
-use App\Models\Department;
+use App\Models\Team;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Team>
- */
 class TeamFactory extends Factory
 {
     /**
      * Define the model's default state.
      *
-     * @return array<string, mixed>
+     * @return array
      */
     public function definition()
     {
-        $department=Department::inRandomOrder()->first()->id;
         return [
-            'department_id'=>$department,
-            'team_name'=>$this->faker->name(),
-            'logo'=>$this->faker->name(),
-            'note'=>$this->faker->name(),
-            'status' => $this->faker->randomElement(['pending ','active','inactive','blocked','warning']),
-            'prev_status' => $this->faker->randomElement(['pending ','active','inactive','blocked','warning']),
+            "code" => rand(100000, 9999999999),
+            "name" => $this->faker->name,
+            "number_of_people" => $this->faker->randomDigitNotNull,
+            "note" => $this->faker->unique->text,
+            "status" => $this->faker->randomElement(Team::getTypes()),
+            "schedule_type" => "unlimited",
+            "created_by" => User::inRandomOrder()->first()->id,
+            "updated_by" => User::inRandomOrder()->first()->id,
         ];
     }
 }

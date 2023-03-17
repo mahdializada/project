@@ -2,189 +2,124 @@
 
 namespace App\Http\Controllers;
 
+use ActivityLog;
+use App\Repositories\DepartmentRepository;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Illuminate\Database\Eloquent\Builder;
-use App\Models\Department;
+use App\Exports\DepartmentExport;
+use App\Models\BusinessLocation;
 use App\Models\Company;
+use App\Models\Department;
+use App\Models\Industry;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
+use Maatwebsite\Excel\Facades\Excel;
 
-
-
-class departmentController extends Controller
+class DepartmentController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    private $repository;
+    private $init_status = 'active';
+    private $ActivityLog;
+
+    public function __construct()
+    {
+        $this->repository = new DepartmentRepository();
+        $this->ActivityLog = new ActivityLog();
+
+        $this->middleware('scope:dpv')->only(['validateDepartmentName', 'searchDepartment', 'show']);
+        $this->middleware('scope:dpc')->only(['store']);
+        $this->middleware('scope:dpu')->only(['update', 'changeDepartmentStatus']);
+        $this->middleware('scope:dpd')->only(['destroy']);
+    }
+
+    // Display a listing of the resource.
+
     public function index(Request $request)
     {
-        $department = Department::with('company');
-
-         // start mahdi's code
-         if($request->type=="depEdit"){
-            $id=$request->user_id;
-            $dep=Department::whereHas('users',function(Builder $query) use($id){
-                $query->where('user_id',$id);
-            })->get();
-            return $dep;
-         }
-         if ($request->type == "search"){
-            $id = $request->company_id;
-            $comp= Department::with('company')->whereHas('company',function(Builder $query) use($id) {
-                $query->where('company_id',$id);
-            })->get();
-
-            return $comp;
+        if (in_array('dpv', Auth::user()->get_scopes())) {
+            return $this->repository->paginate($request);
         }
-        // end of mahdi's coding
-        if($request->type == 'search'){
-            $id = $request->country_id;
-            $company = Company::with('Location')->whereHas('Location', function(Builder $query) use($id){
-                $query->where('country_id', $id);
-            })->get();
-            return $company;
-        }
-
-        if($request->tabkey && $request->tabkey !='all'){
-            $department = $department->where('status',$request->tabkey);
-
-        }
-        $extraData = \DB::select("select count(status) as total,status from departments group by status");
-        $total = [];
-        $total["allTotal"] = 0;
-        foreach ($extraData as $value) {
-            $total["allTotal"] += $value->total;
-            $total[$value->status."Total"] = $value->total;
-        }
-
-        if ($request->type == 'SearchByContent') {
-            if($request->tabkey == "all" && $request->searchData == null){
-               $department = $department;
-            }
-            elseif ($request->tabkey != "all") {
-                if ($request->searchData ==  null) {
-
-                    $department = $department->where('status', $request->tabkey);
-                } else {
-                    $department = $department->where('department_name', 'like', '%' . $request->searchData . '%')->where('status', $request->tabkey);
-                }
-            }
-            else{
-                $department = $department->where('department_name', 'like', '%' . $request->searchData . '%');
-            }
-        }
-        if($request->type == 'SearchById' ){
-            if($request->tabkey == "all" && $request->searchData == null){
-                $department = $department;
-             }
-             elseif ($request->tabkey != "all") {
-                if ( $request->searchData == null) {
-                    $department = $department->where('status', $request->tabkey);
-                } else {
-                    $department = $department->where('id', $request->searchData)->where('status', $request->tabkey);
-                }
-            } else {
-                $department = $department->where('id', $request->searchData);
-            }
-        }
-        return response()->json(["data"=>$department->get(),"extraData"=>$total]);
+        return $this->repository->getAllowedDepartmentsOfCompanies($request);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+    // Store a newly created resource in storage.
+
     public function store(Request $request)
     {
-        // if($request->hasFile('logo')){
-        //     $file = $request->logo;
-        //     $name = time().'_'.$file->getClientOriginalName();
-        //     $folder = $file->move(public_path('profile'), $name);
-            $store = Department::create([
-                'company_id'=>$request->company_id,
-                // 'logo'=>'profile/'.$name,
-                'department_name'=>$request->department_name,
-            ]);
-            return response()->json($store, 201);
-        // }
 
-
-        // $data = Department::create([
-        //     'company_id' => $request->company_id,
-        //     'department_name' => $request->department_name,
-        //     'status' => $request->status,
-        // ]);
-        // return response()->json($data, 201);
+        // $this->ActivityLog->setLog($request, 'masters', 'department', 'insert');
+        $request->validate($this->repository->storeRules());
+        return $this->repository->store($request);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
+    public function searchDepartment(Request $request): JsonResponse
     {
-        // view code
-        return Department::find($id);
+        return $this->repository->search($request);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    // Update the specified resource in storage.
+
+    public function update(Request $request): JsonResponse
     {
-        if($request->type == 'change_status'){
-            Department::find($request->id)->update([
-                'status'=>$request->status
-            ]);
-            return true;
-        }else{
-        $depa = Department::find($id)->update([
-            'company_id' => $request->company_id,
-            'department_name' => $request->department_name,
-            'status' => $request->status
-        ]);
-        return response()->json($depa, 200);
-        }
+        $this->repository->updateRules($request);
+        $this->ActivityLog->setLog($request, 'masters', 'department', 'update');
+        return $this->repository->update($request);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Request $request)
+    // Return the specified resource if exists
+
+    public function show($id): JsonResponse
     {
-        if($request->type == 'deleted'){
-            if($request->tabkey == 'removed'){
-                $department = Department::whereIn('id', $request->ids)->get();
-                foreach ($department as $value) {
-                     \File::delete($value->logo);
-                }
-                Department::whereIn('id', $request->ids)->delete();
-            }else{
-                Department::whereIn('id', $request->ids)->update([
-                    'status'=>'removed',
-                    'pre_status'=> $request->tabkey,
-                ]);
-            }
-        }else{
-            $dep = Department::whereIn('id', $request->ids)->get();
-            for($i=0; $i < count($request->ids); $i++){
-                Department::where('id', $request->ids[$i])->update([
-                    'status'=>$dep[$i]->pre_status,
-                    'pre_status'=>null,
-                ]);
-            }
-        }
-        return true;
+        return $this->repository->show($id);
+    }
+
+    // Remove the specified resource from storage.
+    public function destroy(Request $request, $ids)
+    {
+        $ids = explode(",", $ids);
+        $this->ActivityLog->setLog($request, 'masters', 'department', 'delete');
+        return $this->repository->destroy($ids, $request->query->get('reasonId'), $request);
+    }
+
+    public function changeDepartmentStatus(Request $request): JsonResponse
+    {
+        $this->ActivityLog->setLog($request, 'masters', 'department', 'change status');
+        return $this->repository->changeDepartmentStatus($request);
+    }
+
+    public function exportDepartmentTemplate(): JsonResponse
+    {
+        $companies = $this->getRelatedCompanies();
+        $businessLocations = $this->getRelatedBusinessLocation();
+        Excel::store(
+            new DepartmentExport(
+                $companies,
+                $businessLocations
+            ),
+            'export-excel-files/department.xlsx',
+            'public'
+        );
+        return response()->json(env("APP_URL") . Storage::url('export-excel-files/department.xlsx'));
+    }
+
+    public function checkUniqueness(Request $request): JsonResponse
+    {
+        return $this->repository->checkUniqueness($request);
+    }
+
+    function getRelatedCompanies()
+    {
+        $loggedInUser = auth()->user()->id;
+        $companies = Company::whereHas('users', function (Builder $builder) use ($loggedInUser) {
+            $builder->whereIn('user_id', [$loggedInUser]);
+        })->where('status', $this->init_status)->orderBy('name', 'asc')->get();
+        return collect($companies);
+    }
+
+    function getRelatedBusinessLocation()
+    {
+        $businessLocations = BusinessLocation::where('status', $this->init_status)->orderBy('name', 'asc')->get();
+        return collect($businessLocations);
     }
 }

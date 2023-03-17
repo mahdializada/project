@@ -18,7 +18,7 @@ class CreateContentLibraryMediaTable extends Migration
             $table->id();
             $table->string('project_url');
             $table->string('media_size');
-            $table->enum('status', ContentLibraryMedia::getTypes())->default('not_publish');
+            $table->enum('status', ContentLibraryMedia::getTypes())->default('not publish');
             $table->foreignUuid('content_library_id')->constrained()->cascadeOnUpdate()->nullable()->cascadeOnDelete();
             $table->timestamps();
             $table->softDeletes();

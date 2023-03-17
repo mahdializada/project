@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateActionSubActionTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('action_sub_action', function (Blueprint $table) {
+            $table->id();
+
+            //FOREIGN KEY CONSTRAINTS
+            $table->foreignUuid('action_id')->nullable()->constrained()->cascadeOnUpdate()->nullable()->cascadeOnDelete();
+            $table->foreignUuid('sub_action_id')->nullable()->constrained("sub_actions")->cascadeOnUpdate()->cascadeOnDelete();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('action_sub_action');
+    }
+}

@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Department;
 use App\Models\Role;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class RoleSeeder extends Seeder
@@ -15,6 +15,10 @@ class RoleSeeder extends Seeder
      */
     public function run()
     {
-        Role::factory(10)->create();
+        $roles = Role::factory(1)->create();
+        $departments = Department::query()->inRandomOrder()->take(1);
+        foreach ($roles as $role) {
+            $role->departments()->sync($departments->pluck("id")->toArray());
+        }
     }
 }

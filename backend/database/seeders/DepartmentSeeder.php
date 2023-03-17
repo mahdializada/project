@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Company;
 use App\Models\Department;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DepartmentSeeder extends Seeder
@@ -15,6 +15,10 @@ class DepartmentSeeder extends Seeder
      */
     public function run()
     {
-        Department::factory(10)->create();
+        $departments = Department::factory(1)->create();
+        foreach ($departments as $department) {
+            $companies = Company::query()->inRandomOrder()->take(1);
+            $department->companies()->sync($companies->pluck("id")->toArray());
+        }
     }
 }

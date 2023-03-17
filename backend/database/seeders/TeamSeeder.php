@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Department;
 use App\Models\Team;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class TeamSeeder extends Seeder
@@ -15,6 +15,10 @@ class TeamSeeder extends Seeder
      */
     public function run()
     {
-        Team::factory(10)->create();
+        $teams = Team::factory(1)->create();
+        $departments = Department::query()->inRandomOrder()->take(1);
+        foreach ($teams as $team) {
+            $team->departments()->sync($departments->pluck("id")->toArray());
+        }
     }
 }

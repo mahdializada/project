@@ -131,17 +131,25 @@ class ConnectionController extends Controller
     }
     public function refreshCrm(Request $request)
     {
+        try {
 
-        $countries =  Country::whereHas('connections')->with('connections', function ($query) {
-            $query->where("history_ad_id", "!=", null)->groupBy(["server_account_id", "history_ad_id"]);
-        })->get();
-
-
-        foreach ($countries as $country) {
-            # code...
-            RefreshCrmJob::dispatch($country, $request);
+            $countries =  Country::whereHas('connections', function ($query) use ($request) {
+                $query->where("history_ad_id", "!=", null);
+            })->with('connections', function ($query)  use ($request) {
+                $query->select('pcode', 'server_ad_id', 'code', 'country_id')->where("history_ad_id", "!=", null)->whereHas('historyAd', function ($q) use ($request) {
+                    $q->where('data_date', $request->date);
+                });
+            })->get();
+            foreach ($countries as $country) {
+                $connection = collect($country->connections);
+                $connection = $connection->toArray();
+                if (count($connection) > 0)
+                    RefreshCrmJob::dispatch($country, $request);
+            }
+            return response()->json(['result' => true, "total_countries" => count($countries)]);
+        } catch (\Throwable $th) {
+            return response()->json(['result' => false, "error" => $th->getMessage()], 500);
         }
-        return response()->json(['result' => true, "total_countries" => count($countries)]);
     }
 
     public  static function insertInactiveAds(Request $request = null)

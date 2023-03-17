@@ -2,234 +2,171 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\System;
-use App\Models\Company;
-use App\Models\Location;
-use Illuminate\Support\Str;
+use ActivityLog;
+use App\Repositories\CompanyRepository;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use App\Models\CompanySystem;
-use App\Models\CompanySocialMedia;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Supports\Facades\DB;
+use Illuminate\Support\Facades\DB;
+use App\Models\Company;
+use App\Exports\CompanyExport;
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
-use PhpParser\Node\Stmt\Return_;
+use Maatwebsite\Excel\Facades\Excel;
 
 class CompanyController extends Controller
 {
+    private $repository;
+    private $init_status = 'active';
+    private $investment_type = ['Main Comapny', 'Other'];
+    private $ActivityLog;
 
-    public function index(Request $req)
+    public function __construct()
     {
-        $company = Company::with('Location.Country', 'systems');
-        $countData = \DB::select("select count(status) as total,status from companies group by status");
-        $total = [];
-        $total["allTotal"] = 0;
-        foreach ($countData as $data){
-            $total[$data->status."Total"] = $data->total;
-            $total["allTotal"] += $data->total;
-        }
+        $this->ActivityLog = new ActivityLog();
+        $this->repository = new CompanyRepository();
+        $this->middleware('scope:cmv')->only(['validateCompanyName', 'validateCompanyEmail', 'searchCompany']);
+        $this->middleware('scope:cmc')->only(['store', 'exportCompanyTemplate']);
+        $this->middleware('scope:cmu')->only(['update', 'restore', 'updateCompany', 'changeCompanyStatus']);
+        $this->middleware('scope:cmd')->only(['destroy']);
 
-        // Returning data for Search
-
-            if ($req->type == 'nameSearch') {
-                if($req->searchTab == "All" && $req->searchData == null){
-                   $comp = $company;
-                }
-                elseif ($req->searchTab != "All") {
-                    if ($req->searchData ==  null) {
-
-                        $comp = $company->where('status', $req->searchTab);
-                    } else {
-                        $comp = $company->where('company_name', 'like', '%' . $req->searchData . '%')->where('status', $req->searchTab);
-                    }
-                }
-                else{
-                    $comp = $company->where('company_name', 'like', '%' . $req->searchData . '%');
-                }
-                return  response()->json(["data"=>$comp->get(),"countData"=>$total]);
-            }
-            if($req->type == 'idSearch' ){
-                if($req->searchTab == "All" && $req->searchData == null){
-                    $comp = $company;
-                 }
-                 elseif ($req->searchTab != "All") {
-                    if ( $req->searchData == null) {
-                        $comp = $company->where('status', $req->searchTab);
-                    } else {
-                        $comp = $company->where('id', $req->searchData)->where('status', $req->searchTab);
-                    }
-                } else {
-                    $comp = $company->where('id', $req->searchData);
-                }
-                // return $comp->get();
-                return  response()->json(["data"=>$comp->get(),"countData"=>$total]);
-            }
-
-
-        // Returning data for filterations
-
-        if ($req->type == 'filter') {
-            if ($req->country_id) {
-                $company = $company->whereHas('Location.Country', function (Builder $query) use ($req) {
-                    $query->where('id', $req->country_id);
-                });
-            }
-            if ($req->system_id) {
-                $company = $company->whereHas('systems', function (Builder $query) use ($req) {
-                    $query->where('systems.id', $req->system_id);
-                });
-            }
-            if ($req->investment_type) {
-                $company = Company::where('investment_type', $req->investment_type);
-            }
-            if ($req->company_name) {
-                $company = Company::with('Location.Country', 'systems')->where('company_name', $req->company_name);
-            }
-            if ($req->created_date) {
-                $company = Company::with('Location.Country', 'systems')->whereDate('created_at', $req->created_date);
-            }
-            if ($req->updated_date) {
-                $company = Company::with('Location.Country', 'systems')->whereDate('updated_at', $req->updated_date);
-            }
-            if ($req->company_id) {
-                $company = Company::with('Location.Country', 'systems')->where('id', $req->company_id);
-            }
-
-
-            // return $company->get();
-            return  response()->json(["data"=>$company->get(),"countData"=>$total]);
-        }
-
-
-        // end of filteration
-
-
-        // start mahdi's
-        elseif ($req->type == "search") {
-            $id = $req->country_id;
-            $comp = Company::with('Location')->whereHas('Location', function (Builder $query) use ($id) {
-                $query->where('country_id', $id);
-            })->get();
-            return $comp;
-        }
-        // end of mahdi's coding
-        elseif ($req->tabKey && $req->tabKey != 'all') {
-            $company = $company->where('status', $req->tabKey);
-        }
-        $company = $company->get();
-        return  response()->json(["data"=>$company,"countData"=>$total]);
+        // log middlware
+        // $this->middleware('dailylogs:masters,company,insert')->only(['store']);
+        // $this->middleware('dailylogs:masters,company,update')->only(['updateCompany']);
+        // $this->middleware('dailylogs:masters,company,delete')->only(['destroy']);
+        // $this->middleware('dailylogs:masters,company,change status')->only(['changeCompanyStatus']);
     }
 
-    public function store(Request $req)
+    public function validateCompanyName(Request $request): JsonResponse
     {
-        Location::create([
-            'country_id' => $req->country_id,
-            'state_district' => $req->state,
-            'city' => $req->city,
-            'address_line' => $req->address,
-        ]);
-        $location_id = Location::orderBy('id', 'desc')->first()->id;
-
-        if ($req->hasFile('logo')) {
-            $file = $req->logo;
-
-            $name = time() . '_' . $file->getClientOriginalName();
-            $file->move(public_path('company'), $name);
-
-            $response = Company::create([
-                'company_name' => $req->company_name,
-                'email' => $req->email,
-                'logo' => $name,
-                'investment_type' => $req->investment_type,
-                'location_id' => $location_id,
-
-
-            ]);
-        }
-
-        $company_id =  Company::orderBy('id', 'desc')->first()->id;
-        CompanySystem::create([
-            'system_id' => $req->system_id,
-            'company_id' =>  $company_id,
-        ]);
-
-        CompanySocialMedia::create([
-            'socialMedia_id' => $req->media_id,
-            'company_id' =>  $company_id,
-            'link' => $req->link,
-        ]);
-
-
-
-        return response()->json($response, 201);
+        return $this->repository->validateCompanyName($request);
+    }
+    public function validateCompanyEmail(Request $request): JsonResponse
+    {
+        return $this->repository->validateCompanyEmail($request);
     }
 
-    public function update(Request $req, $id = null)
+
+    // Display a listing of the resource.
+
+    public function index(Request $request): JsonResponse
     {
-        if ($req->type == 'change_status') {
-            Company::whereIn('id', $req->ids)->update([
-                'status' => $req->status
-
-            ]);
-
-            return true;
-        } else {
-            $company1 = Company::find($id);
-            $location1 = Location::find($req->location_id);
-
-            $location1->update([
-                'country_id' => $req->country_id,
-                'state_district' => $req->state,
-                'city' => $req->city,
-                'address_line' => $req->address,
-            ]);
-
-            $update = $company1->update([
-                'comapny_name' => $req->company_name,
-                'email' => $req->email,
-                'logo' => '1667190819_IMG_4230.JPG',
-                'invesment_type' => $req->investment_type,
-                'location_id' => $req->location_id,
-                'status' => $req->status,
-            ]);
-
-            $comSystem = CompanySystem::find($req->company_id);
-
-            $comSystem->update([
-                'system_id' => $req->system_id,
-                'company_id' =>  $req->company_id,
-            ]);
-
-            $comMedia = CompanySocialMedia::find($req->country_id);
-            $comMedia->update([
-                'socialMedia_id' => $req->media_id,
-                'company_id' =>  $req->company_id,
-                'link' => $req->link,
-            ]);
-
-
-            return response()->json($update, 200);
+        if ($this->tokenCan('cmv')) {
+            return $this->repository->paginate($request);
         }
+        return $this->repository->getAllowedCompaniesOfCountries($request);
     }
-    public function destroy(Request $req)
+    // Display a listing of the resource.
+
+    public function paginate(Request $request): JsonResponse
     {
-        if ($req->type == 'delete') {
-            if ($req->tabKey == 'removed') {
-                Company::whereIn('id', $req->ids)->delete();
-            } else {
-                Company::whereIn('id', $req->ids)->update([
-                    'status' => 'removed',
-                    'pre_status' => $req->tabKey,
-                ]);
-            }
-        } else {
-            $companies = Company::whereIn('id', $req->ids)->get();
-            for ($i = 0; $i < count($req->ids); $i++) {
-                Company::where('id', $req->ids[$i])->update([
-                    'status' => $companies[$i]->pre_status,
-                    'pre_status' => null
-                ]);
-            }
+        return $this->repository->paginateCompanies($request);
+    }
+
+    public function searchCompany(Request $request)
+    {
+        return $this->repository->search($request);
+    }
+
+    public function restore($id)
+    {
+        return DB::transaction(function () use ($id) {
+            $project = Company::onlyTrashed()->findOrFail($id);
+            $project->restore();
+            return response()->json(['result' => true, "data" => $project->load('businessType')], Response::HTTP_CREATED);
+        });
+    }
+
+    // Store a newly created resource in storage.
+
+    public function store(Request $request): JsonResponse
+    {
+        $request->validate($this->repository->storeRules());
+        // $this->ActivityLog->setLog($request, 'masters', 'company', 'insert');
+
+        return $this->repository->store($request);
+    }
+
+
+    // Update the specified resource in storage.
+
+    public function update(Request $request)
+    {
+
+        $this->repository->updateRules($request);
+        // $this->ActivityLog->setLog($request, 'masters', 'company', 'update');
+        return $this->repository->update($request);
+    }
+
+    // Return the specified resource if exists
+
+    public function show($id): JsonResponse
+    {
+        return $this->repository->show($id);
+    }
+
+
+
+    // Remove the specified resource from storage.
+    public function destroy(Request $request, $ids): JsonResponse
+    {
+        // $this->ActivityLog->setLog($request, 'masters', 'company', 'delete');
+        $ids = explode(",", $ids);
+        return $this->repository->destroy($ids, $request->query->get('reasonId'), $request);
+    }
+
+    public function changeCompanyStatus(Request $request): JsonResponse
+    {
+        // $this->ActivityLog->setLog($request, 'masters', 'company', 'change status');
+        return $this->repository->changeCompanyStatus($request);
+    }
+
+    public function exportCompanyTemplate(): JsonResponse
+    {
+        Excel::store(
+            new CompanyExport(
+                $this->investment_type,
+                $this->init_status,
+            ),
+            'export-excel-files/company.xlsx',
+            'public'
+        );
+        return response()->json(env("APP_URL") . Storage::url('export-excel-files/company.xlsx'));
+    }
+
+    public function checkUniqueness(Request $request): JsonResponse
+    {
+        return $this->repository->checkUniqueness($request);
+    }
+    public function checkNameUniquenessOnCrud(Request $request): JsonResponse
+    {
+        return $this->repository->checkNameUniquenessOnCrud($request);
+    }
+    public function checkEmailUniquenessOnCrud(Request $request): JsonResponse
+    {
+        return $this->repository->checkEmailUniquenessOnCrud($request);
+    }
+
+    public function getCompaniesUsedInConnection(Request $request)
+    {
+        $companyQuery = Company::where('status', 'active')->whereHas('connections')->orderBy("name", "ASC");
+        return  $companyQuery->select(['id', 'name', 'code', 'logo'])->get();
+    }
+    public function changeCompanyStatusAndAddUser(Request $request)
+    {
+
+        try {
+            DB::beginTransaction();
+            $company = Company::find($request->company_id);
+            $company->status = @$request->status ?? 'active';
+            $company->save();
+            if($request->users && count($request->users)>0)
+            $company->users()->attach($request->users);
+            DB::commit();
+            return response()->json(['result' => true], 200);
+        } catch (\Throwable $th) {
+            DB::rollBack();
+            return response()->json(['error' => $th->getMessage()], 500);
         }
-        return null;
     }
 }

@@ -8,14 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class CompanySocialMedia extends Model
 {
     use HasFactory;
-    protected $table='company_social_media';
     protected $fillable = [
-        'socialMedia_id',
-        'company_id',
-        'link',
-        'status'
-
+        "company_id",
+        "social_media_id",
+        "url",
     ];
-
-
 }

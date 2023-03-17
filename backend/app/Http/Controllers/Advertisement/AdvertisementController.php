@@ -29,6 +29,7 @@ use App\Models\Advertisement\Connection;
 use App\Models\Advertisement\DisabledAd;
 use App\Models\Advertisement\ItemStatus;
 use App\Models\CommonChangesHistory;
+use App\Models\OnlineSalesManagement\OnlineSales;
 use App\Models\TiktokWebhook;
 use App\Repositories\Advertisement\AdvertisementUtil;
 use App\Repositories\Advertisement\Platforms\Snapchat;
@@ -98,6 +99,8 @@ class AdvertisementController extends Controller
             case 'project':
                 return $repository->fetchProjects($request);
             case 'sales_type':
+                $ad = new Ads();
+                return $ad->fetchSalesTypeITems($request);
                 return $repository->fetchSalesType($request);
             case 'item_code':
                 return $repository->fetchItemCode($request);
@@ -432,14 +435,18 @@ class AdvertisementController extends Controller
     {
         try {
             date_default_timezone_set("Asia/Dubai");
-            ItemStatus::where('item_code', $request->item_code)->where('country_id', $request->country_id)->update(['isActive' => false]);
+            ItemStatus::where('item_code', $request->item_code)->where('country_id', $request->country_id)->where('isActive', true)->update(['isActive' => false, 'end_date' => date('Y-m-d H:i:s')]);
+            if (OnlineSales::where('product_code', $request->item_code)->first()) {
+                OnlineSales::where('product_code', $request->item_code)->update(['status' => $request->item_status['status']]);
+            }
             ItemStatus::create([
                 'item_code' => $request->item_code,
                 'country_id' => $request->country_id,
                 'item_status' => $request->item_status['status'],
                 'color' => $request->item_status['color'],
-                'created_by' => auth()->user()->firstname . ' ' . auth()->user()->lastname,
+                'created_by' => auth()->user()->id,
                 'created_at' => date('Y-m-d H:i:s'),
+                'end_date' => null,
             ]);
             return response()->json(true, Response::HTTP_CREATED);
         } catch (\Throwable $th) {
@@ -480,8 +487,8 @@ class AdvertisementController extends Controller
 
             DB::beginTransaction();
 
-            $ad1 =    HistoryAd::where('data_date', $request->data_date)->where('spend', '0.00')->delete();
-            $ad2 =    HistoryAd::where('data_date', $request->data_date)->whereNULL('spend')->delete();
+            $ad1 =    HistoryAd::where('data_date', $request->data_date)->where('spend', '0.00')->where('crm_total_orders', 0)->delete();
+            $ad2 =    HistoryAd::where('data_date', $request->data_date)->whereNULL('spend')->where('crm_total_orders', 0)->delete();
             $adset =  HistoryAdset::where('data_date', $request->data_date)->whereDoesntHave('inactiveAds')->delete();
             $campaign =  HistoryCampaign::where('data_date', $request->data_date)->whereDoesntHave('inActiveAdset')->delete();
             DB::commit();

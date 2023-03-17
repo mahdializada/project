@@ -33,6 +33,7 @@ class CreateContentLibrariesTable extends Migration
             $table->string('shooting');
             $table->string('people');
             $table->string('graphics');
+            $table->string('sales_type');
             $table->foreignUuid('country_id')->constrained()->cascadeOnUpdate()->nullable()->cascadeOnDelete();
             $table->foreignUuid('company_id')->constrained()->cascadeOnUpdate()->nullable()->cascadeOnDelete();
             $table->timestamps();

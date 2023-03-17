@@ -4,45 +4,48 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use App\Traits\UuidTrait;
+use Illuminate\Support\Facades\Storage;
+use Carbon\Carbon;
 
 class SocialMedia extends Model
 {
-    use HasFactory;
-
-    use HasFactory;
-    protected $table='social_medias';
-
+    use HasFactory, SoftDeletes, UuidTrait;
     protected $fillable = [
-        'name',
+        'code',
+        "name",
+        "website",
+        "logo",
+        'sample_url_account',
         'status',
-        'image',
         'created_by',
-        'updated_by',
-        'website',
-        'per_status',
+        'updated_by'
     ];
-    public function getCreatedAtAttribute($value)
- {
-     return date("d F Y H:i A", strtotime($value));
- }
-    public function getUpdatedAtAttribute($value)
- {
-     return date("d F Y H:i A", strtotime($value));
- }
-    public function createdBy(){
-        return $this->belongsTo(User::class,'created_by')->select('id','first_name','last_name');
-    }
-    public function updatedBy(){
-        return $this->belongsTo(User::class,'updated_by')->select('id','first_name','last_name');
-    }
-    public function companies(){
-        return $this->belongsToMany(
-           Company::class,
-           "company_social_media",
-           "social_media_id",
-           "company_id",
-        );
+    protected static $types = ["active", "inactive", "blocked", "pending", "removed"];
 
+    public static function getTypes()
+    {
+        return SocialMedia::$types;
+    }
+
+
+    public function getLogoAttribute($value): string
+    {
+        if (filter_var($value, FILTER_VALIDATE_URL)) {
+            return $value;
+        }
+        return env("APP_URL") . Storage::url($value);
+    }
+
+    public function createdBy()
+    {
+        return $this->belongsTo(User::class, "created_by");
+    }
+
+    public function updatedBy()
+    {
+        return $this->belongsTo(User::class, "updated_by");
     }
 
 }

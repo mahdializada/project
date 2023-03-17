@@ -87,4 +87,10 @@ class ProjectController extends Controller
         $repository = new ProjectRepository();
         return $repository->destroy($ids);
     }
+
+
+    public function getProjects()
+    {
+        return Project::get(['id','name']);
+    }
 }

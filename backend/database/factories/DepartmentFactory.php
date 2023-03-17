@@ -2,27 +2,32 @@
 
 namespace Database\Factories;
 
+use App\Models\BusinessLocation;
+use App\Models\User;
 use App\Models\Company;
+use App\Models\Industry;
+use App\Models\Department;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Department>
- */
 class DepartmentFactory extends Factory
 {
     /**
      * Define the model's default state.
      *
-     * @return array<string, mixed>
+     * @return array
      */
     public function definition()
     {
-        $company=Company::inRandomOrder()->first()->id;
+        $types  = Department::getTypes();
+        $business_location = BusinessLocation::where('status', 'active')->inRandomOrder()->first();
         return [
-            'company_id'=>$company,
-            'logo'=>$this->faker->name(),
-            'Department_name'=>$this->faker->name(),
-            'status' => $this->faker->randomElement(['pending ','active','inactive','blocked']),
+            "name" => "Main Department",
+            "note" => $this->faker->unique->text,
+            "code" => rand(100000, 999999999999),
+            "status" => "active", //$this->faker->randomElement($types),
+            "business_location_id" => $business_location->id,
+            "created_by" => User::inRandomOrder()->first()->id,
+            "updated_by" => User::inRandomOrder()->first()->id,
         ];
     }
 }

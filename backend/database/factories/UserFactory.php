@@ -2,47 +2,52 @@
 
 namespace Database\Factories;
 
+use Carbon\Carbon;
+use App\Models\User;
+use App\Models\State;
+use App\Models\Country;
+use App\Models\Language;
+use App\Models\National;
+use App\Models\TranslatedLanguage;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 
-/**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
- */
 class UserFactory extends Factory
 {
     /**
      * Define the model's default state.
      *
-     * @return array<string, mixed>
+     * @return array
      */
     public function definition()
     {
+
+        $country = Country::inRandomOrder()->first();
+        $state = State::inRandomOrder()->first();
+        $language = Language::query()->inRandomOrder()->first();
         return [
-            'first_name' => $this->faker->name(),
-            'last_name' => $this->faker->lastname(),
-            'user_name' => $this->faker->userName(),
-            'email' => $this->faker->unique()->safeEmail(),
-            'password' => $this->faker->password(),
-            'change_password' =>$this->faker->password(),
-            'phone' => $this->faker->phoneNumber(),
-            'birth_date' => $this->faker->date(),
-            'image' => $this->faker->image(),
-            'gender' => $this->faker->randomElement(['male','female']),
-            'permission_type' => $this->faker->randomElement(['role ','team','user']),
-            'status' => $this->faker->randomElement(['pending ','active','inactive','blocked']),
-
+            'firstname' => $this->faker->unique->firstName,
+            "lastname" => $this->faker->unique->lastName,
+            "username" => $this->faker->unique->userName,
+            'email' => $this->faker->unique->email,
+            'password' => "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi", // password
+            "phone" => $this->faker->unique->e164PhoneNumber(),
+            "whatsapp" => $this->faker->unique->e164PhoneNumber(),
+            "note" => $this->faker->unique->text,
+            "change_password" => false,
+            "schedule_type" => "unlimited",
+            "time_range" => null,
+            "date_range" => null,
+            "code" => rand(100000, 9999999999),
+            "gender" => $this->faker->randomElement(['male', 'female']),
+            "status" => $this->faker->randomElement(["active", "inactive", "blocked", "pending", "warning"]),
+            "birth_date" => Carbon::now()->subYears(20),
+            "tracing_status" => true,
+            "image" => $this->faker->unique->imageUrl,
+            "address" => $this->faker->address,
+            "country_id" => $country->id,
+            "state_id" => $state->id,
+            "current_country_id" => $country->id,
+            "language_id" => $language->id,
         ];
-    }
-
-    /**
-     * Indicate that the model's email address should be unverified.
-     *
-     * @return static
-     */
-    public function unverified()
-    {
-        return $this->state(fn (array $attributes) => [
-            'email_verified_at' => null,
-        ]);
     }
 }

@@ -2,296 +2,245 @@
 
 namespace App\Http\Controllers;
 
+use ActivityLog;
 use App\Models\User;
-use App\Models\Country;
-use App\Models\Department;
-use App\Models\UserDepartment;
+use App\Models\Company;
+use App\Traits\FileTrait;
+use App\Exports\UserExport;
 use Illuminate\Http\Request;
+use App\Rules\MatchOldPassword;
+use App\Rules\CheckSamePassword;
+use Illuminate\Http\JsonResponse;
+use App\Repositories\UserRepository;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\File;
-use Illuminate\Database\Eloquent\Builder;
-use function PHPSTORM_META\type;
+use Maatwebsite\Excel\Facades\Excel;
+use Illuminate\Support\Facades\Storage;
 
 class UserController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index(Request $request)
+
+    use FileTrait;
+
+    private $filePath = "usermanagement/user/images";
+
+    private $repository;
+    private $ActivityLog;
+
+    private $init_status = 'active';
+    private $gender  = ['male', 'female'];
+    private $schedule_type = ['limited', 'unlimited'];
+
+    public function __construct()
     {
-        $user = User::with('Departments','Departments.Company','Departments.Company.Location.Country');
-        // count records
-        $extraData = \DB::select("select count(status) as total,status from users group by status");
-        $total = [];
-        $total["allTotal"] = 0;
-        foreach ($extraData as $value) {
-            $total["allTotal"] += $value->total;
-            $total[$value->status."Total"] = $value->total;
-        }
+        $this->middleware('scope:uv')->only(['index', 'searchUser', 'show', 'getUserDetails', 'checkUniqueness', 'allUsers']);
+        $this->middleware('scope:uc')->only(['store']);
+        $this->middleware('scope:uu')->only(['update', 'changeUserStatus']);
+        $this->middleware('scope:ud')->only(['destroy']);
 
 
-        // end of count records
-
-
-        // search
-        if($request->searchData){
-            if($request->type=="nameSearch"){
-                if($request->searchTab != "All"){
-                    if (empty($request->searchData)){
-                        $use = $user->where('status', $request->searchTab);
-                    } else {
-                        $use = $user->where('first_name', 'like', '%' . $request->searchData . '%')->where('status', $request->searchTab);
-                    }
-
-                }
-                else{
-                    $use = $user->where('first_name', 'like', '%' . $request->searchData . '%');
-                }
-
-            } else{
-                if ($request->searchTab != "All") {
-                    if ( !$request->searchData ) {
-                        $use = $user->where('status', $request->searchTab);
-                    } else {
-                        $use = $user->where('id', $request->searchData)->where('status', $request->searchTab);
-                    }
-                } else {
-                    $use = $user->where('id', $request->searchData);
-                }
-            }
-            return $use->get();
-        }
-
-        // end of search
-
-        if ($request->has('item')){
-            $id = $request->id;
-            $dep= Department::with('users')->whereHas('users',function(Builder $query) use($id) {
-                $query->where('user_id',$id);
-            })->get();
-
-            return $dep;
-        }
-        //
-
-        if($request->type=="search"){
-            $id=$request->company_id;
-            $userComp= user::with('departments.company')->whereHas('departments',function(Builder $query) use ($id){
-                $query->where('company_id',$id);
-            })->get();
-            return $userComp;
-        }
-
-        // filterig data
-        if($request->type == 'filter'){
-            if($request->country_id){
-                $user = $user->whereHas('Departments.company.Location.Country', function(Builder $query) use ($request){
-                     $query->where('id',$request->country_id);
-                });
-             }
-             if($request->company_id){
-                $user = $user->whereHas('Departments.company', function(Builder $query) use ($request){
-                    $query->where('id',$request->company_id);
-               });
-             }
-             if($request->created_date){
-                $user = User::with('Departments.company.Location.Country','Departments.company')->whereDate('created_at',$request->created_date);
-            }
-            if($request->updated_date){
-                $user = User::with('Departments.company.Location.Country','Departments.company')->whereDate('updated_at',$request->updated_date);
-            }
-            if($request->user_id){
-                $user = User::with('Departments.company.Location.Country','Departments.company')->where('id',$request->user_id);
-            }
-
-            return $user->get();
-
-        }
-        // end of filtering data
-        elseif($request->tabKey && $request->tabKey !='all'){
-            $user= $user ->where('status', $request->tabKey)->get();
-
-        }else{
-
-            $user= $user->get();
-        }
-        return response()->json(["data"=>$user,"TolalCount"=>$total]);
+        $this->repository = new UserRepository();
+        $this->ActivityLog = new ActivityLog();
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    // Display a listing of the resource.
+
+    public function index(Request $request): JsonResponse
     {
-        $departments=Department::all();
-        if($request->id){
-            $user1=user::find($request->id);
-            if($request->hasFile('image'))
-            {
-                $path= 'assets/images/users'.$user1->image;
-                if( $user1->image !='' && $user1->image !=null){
-                    $file_old =$path.$user1->image;
-                    // unlink($file_old);
-                    if(File::exists($file_old)){
-                        File::delete($file_old);
-                    }
-                }
-                $image = $request->image;
-                $imagename = time().'.'.$image->getClientOriginalName();
-
-                $image->move(public_path('assets/images/users'), $imagename);
-            }
-
-                $user1->update([
-                    'first_name'=>$request->first_name,
-                    'last_name'=>$request->last_name,
-                    'user_name'=>$request->user_name,
-                    'email'=>$request->email,
-                    // 'password'=>Hash::make($request->password),
-                    // 'change_password'=>Hash::make($request->change_password),
-                    'phone'=>$request->phone,
-                    'gender'=>$request->gender,
-                    'birth_date'=>$request->birth_date,
-                    'image'=>'assets/images/users/'.$imagename,
-                    // 'image'=>'assets/images/users/b.jpg',
-                    'permission_type'=>$request->permission_type,
-                    'status'=>$request->status
-                ]);
-
-                return response()->json($user1->load('Departments.Company.Location.Country'),200);
-
-
-
-        }else{
-
-            if($request->hasFile('image')){
-                $file=$request->image;
-                 $name = time().'.'.$file->getClientOriginalName();
-                $file->move(public_path('assets/images/users'),$name);
-
-                $user=User::create([
-                    'first_name'=>$request->first_name,
-                    'last_name'=>$request->last_name,
-                    'user_name'=>$request->user_name,
-                    'email'=>$request->email,
-                    'password'=>Hash::make($request->password),
-                    'change_password'=>Hash::make($request->change_password),
-                    'phone'=>$request->phone,
-                    'gender'=>$request->gender,
-                    'birth_date'=>$request->birth_date,
-                    'image'=>'assets/images/users/'.$name,
-                    'permission_type'=>$request->permission_type,
-                    'status'=>$request->status
-                ]);
-                 $user_id= User::orderBy('id', 'desc')->first()->id;
-                 UserDepartment::create([
-                     'user_id'=>$user_id,
-                     'department_id' => $request->department_id,
-                 ]);
-                return response()->json($user,201);
-            }
-        }
+        return $this->repository->{'paginate'}($request);
+        return $this->repository->paginate($request);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+    public function searchUser(Request $request)
+    {
+        return $this->repository->search($request);
+    }
+
+    // Store a newly created resource in storage.
+
+    public function store(Request $request): JsonResponse
+    {
+
+        if ($request->query->getBoolean("update-permissions")) {
+            $request->validate($this->repository->permissionRules());
+            $userId = $request->query->get("user-id");
+            return $this->repository->editUserPermissions($request, $userId);
+        }
+        $request->validate($this->repository->storeRules());
+        // $this->ActivityLog->setLog($request, 'users', 'user', 'insert');
+        return $this->repository->store($request);
+    }
+
+
+    // Update the specified resource in storage.
+
+    public function update(Request $request): JsonResponse
+    {
+        $this->repository->updateRules($request);
+        // $this->ActivityLog->setLog($request, 'users', 'user', 'update');
+
+        return $this->repository->update($request);
+    }
+
+
+    // Return the specified resource if exists
+
     public function show($id)
     {
-        //
+        return $this->repository->show($id);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    // return users details like systems, sub systems, actions, etc
+
+    public function getUserDetails($userId): JsonResponse
     {
-        if($request->type == 'changeStatus'){
-            $user=User::whereIn('id',$request->ids);
-            $user->update([
-                'status'=>$request->status,
+        return $this->repository->getUserDetails($userId);
+    }
+
+
+    // Remove the specified resource from storage.
+
+    public function destroy(Request $request, $userIds)
+    {
+        // $this->ActivityLog->setLog($request, 'users', 'user', 'delete');
+        $userIds = explode(",", $userIds);
+        return $this->repository->destroy($userIds, $request->query->get('reasonId'));
+    }
+
+
+    public function checkUniqueness(Request $request): JsonResponse
+    {
+        return $this->repository->checkUniqueness($request);
+    }
+
+
+    public function checkUniquenesOfCulumnsWithIndex(Request $request)
+    {
+        return $this->repository->checkUniquenesOfCulumnsWithIndex($request);
+    }
+
+    public function changeUserStatus(Request $request)
+    {
+        // $this->ActivityLog->setLog($request, 'users', 'user', 'change status');
+        return $this->repository->changeUserStatus($request);
+    }
+
+    public function allUsers(Request $request): JsonResponse
+    {
+        $users = User::all();
+        return response()->json($users);
+    }
+
+    public function exportUserTemplate(): JsonResponse
+    {
+        $companies = Company::all();
+        Excel::store(
+            new UserExport(
+                $this->init_status,
+                $this->gender,
+                $this->schedule_type,
+                $companies
+            ),
+            'export-excel-files/users.xlsx',
+            'public'
+        );
+        return response()->json(env("APP_URL") . Storage::url('export-excel-files/users.xlsx'));
+    }
+
+    public function changeLanguage(Request $request): JsonResponse
+    {
+        $user = $request->user();
+        $user->update(['translated_language_id' => $request->params['language_id']]);
+        $user->save();
+        return response()->json($user);
+    }
+    public function getContentDataOfChangeStatus($request)
+    {
+    }
+
+    // change just user photo
+    public function updateUserProfilePhoto(Request $request)
+    {
+        $user = $request->user();
+        $newImagePath = null;
+        $this->prefix = $this->filePath;
+        $newImagePath = $this->storeAndRemove($request->file("image"), $user->image);
+        $request->validate([
+            'image' => ['required', 'mimes:jpg,png,gif']
+        ]);
+        $item = User::find($request->id);
+        $result = $item->update([
+            'image' => $newImagePath
+        ]);
+        return response()->json(['massage' => 'photo updated', 'image' => $user->image], 200);
+    }
+
+    public function changePassword(Request $request)
+    {
+        if ($request->query->getBoolean("check-current")) {
+            $request->validate([
+                'password' => ['required', 'confirmed', 'min:6', new CheckSamePassword]
             ]);
-            return true;
-        }else{
-            $user1=user::find($id);
-            // if($request->hasFile('image'))
-            // {
-            //     $path= public_path().'/';
-            //     if( $user1->image !='' && $user1->image !=null){
-            //         $file_old =$path.$user1->image;
-            //         unlink($file_old);
-            //     }
+            $user = $request->user();
+            $user->password = Hash::make($request->password);
+            $user->change_password = false;
+            $user->save();
+        } else {
+            $request->validate([
+                'currentPassword' => ['required', new MatchOldPassword],
+                'password' => ['required', 'confirmed', 'min:6', new CheckSamePassword]
+            ]);
 
-            //     $image = $request->image;
-            //     $imagename = time().'.'.$image->getClientOriginalName();
+            $user = $request->user();
+            $user->password = Hash::make($request->password);
 
-            //     $image->move($path, $imagename);
-            // }
-                // $user1->update([
-                //     'first_name'=>$request->first_name,
-                //     'last_name'=>$request->last_name,
-                //     'user_name'=>$request->user_name,
-                //     'email'=>$request->email,
-                    // 'password'=>Hash::make($request->password),
-                    // 'change_password'=>Hash::make($request->change_password),
-                    // 'phone'=>$request->phone,
-                    // 'gender'=>$request->gender,
-                    // 'birth_date'=>$request->birth_date,
-                    // 'image'=>'assets/images/users/'.$imagename,
-                //     'image'=>'assets/images/users/b.jpg',
-                //     'permission_type'=>$request->permission_type,
-                //     'status'=>$request->status
-                // ]);
-                // $user_id= User::orderBy('id', 'desc')->first()->id;
-                // UserDepartment::create([
-                //     'user_id'=>$user_id,
-                //     'department_id' => $request->department_id,
-                // ]);
-                // return response()->json($user1->load('Departments.Company.Location.Country'),200);
-                return response()->json($user1,200);
-
+            $user->save();
         }
 
+        return response()->json(['massage' => 'password updated'], 200);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Request $request)
+    public function profileUserEdit(Request $request)
     {
-        if($request->type=='deleted'){
-            if($request->tabKey=='removed'){
-                User::whereIn('id',$request->ids)->delete();
-            }else{
-                User::whereIn('id',$request->ids)->update([
-                    'status'=>'removed',
-                    'prev_status'=>$request->tabKey,
-                ]);
-            }
-        }else{
-            $user=User::whereIn('id',$request->ids)->get();
-            for ($i=0; $i <count($request->ids) ; $i++) {
-                User::where('id',$request->ids[$i])->update([
-                    'status'=>$user[$i]->prev_status?$user[$i]->prev_status:'pending',
-                    'prev_status'=>null,
-                ]);
-            }
-        }
-        return null;
+
+        $user = $request->user();
+
+        $request->validate([
+            $this->rules()
+        ]);
+
+
+        $item = User::find($request->id);
+        $result = $item->update([
+            'username' => $request->username
+        ]);
+
+        return response()->json(['massage' => 'username updated'], 200);
+    }
+    public function rules()
+    {
+        return [
+            'username' => 'required|unique:users,username'
+        ];
+    }
+
+    public function changeLoaction(Request $request)
+    {
+        $user = $request->user();
+        $user->coords = $request->all();
+        $user->save();
+    }
+
+    public function changeAuthCurrency(Request $request)
+    {
+        $request->validate([
+            "currency_id" => ["required", "exists:currencies,id"],
+        ]);
+        $auth = $request->user();
+        $currency = $request->currency_id;
+        if ($currency == $auth->currency_id)
+            return response()->json(["message" => "Currency already selected!"]);
+        $auth->currency_id = $currency;
+        $auth->save();
+        return response()->json(["status" => "success"]);
     }
 }

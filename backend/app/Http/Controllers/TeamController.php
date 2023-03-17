@@ -1,128 +1,117 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Team;
-use App\Models\User;
-use App\Models\TeamMember;
+
+use ActivityLog;
+use App\Exports\TeamExport;
 use App\Models\Department;
+use App\Models\Team;
+use App\Repositories\TeamRepository;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+use Maatwebsite\Excel\Facades\Excel;
 
 class TeamController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index(Request $request)
-    {
-        $team = Team::with('department');
-        $result = $team->count();
-        if($request->tabkey && $request->tabkey != 'all'){
-            $team=$team->where('status',$request->tabkey)->get();
-        }else{
-            $team=$team->get();
-        }
+    private $repository;
+    private $ActivityLog;
+    private $init_status = 'active';
+    private $schedule_type = ['time', 'date', 'unlimited'];
 
-        if ($request->searchData) {
-            if ($request->column == 'id') {
-                $team = $team->where('id', 'like','%'.$request->searchData.'%')->get();
-            }
-            if ($request->column == 'content') {
-                $team = $team->where('team_name','like','%'.$request->searchData.'%')->get();
-            }
-        }
-        return $team;
+    public function __construct()
+    {
+        $this->repository = new TeamRepository();
+        $this->ActivityLog = new ActivityLog();
+
+        $this->middleware('scope:tv')->only(['index', 'show', 'checkUniqueness']);
+        $this->middleware('scope:tc')->only(['store']);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
+    // Display a listing of the resource.
+
+    public function index(Request $request): JsonResponse
+    {
+        return $this->repository->paginate($request);
+    }
+
+
+
+    // Store a newly created resource in storage.
+
     public function store(Request $request)
     {
-        // $department= Department::orderBy('id','desc')->first()->id;
-        
-            $file=$request->logo;
-            $name = time().'.'.$file->getClientOriginalName();
-            $file->move(public_path('assets/team'),$name);
-
-            $team=Team::create([
-            'team_name'=>$request->team_name,
-            'note'=>$request->note,
-            'logo'=>'assets/team/'.$name,
-            'department_id'=>$request->department_id,
-        ]);
-
-        $exp = explode("," , $request->user_id);
-        $team->users()->sync($exp);
-        return response()->json($team,201);
-    }
-    
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
+        $request->validate($this->repository->storeRules());
+        // $this->ActivityLog->setLog($request, 'users', 'team', 'insert');
+        return $this->repository->store($request);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    public function searchTeam(Request $request)
     {
-        if($request->type=='change_status'){
-                Team::whereIn('id',$request->ids)->update([
-                    'status'=>$request->status
-                ]);
-
-            return true;
-        }else if($request->type=='blocked'){
-                Team::whereIn('id',$request->ids)->update([
-                    'status'=>'blocked',
-                ]);
-            return true;
-        }
+        return $this->repository->search($request);
     }
-    
 
-    /**
-     * Remove the specified resource from storage.
-     *
-    * @param  \Illuminate\Http\Request  $req
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Request $request, $id)
+    // Update the specified resource in storage.
+
+    public function update(Request $request)
     {
-        if ($request->type == 'delete'){
-            if($request->tabkey == 'removed'){
-                Team::whereIn('id',$request->ids)->delete();
-            }else{
-                Team::whereIn('id',$request->ids)->update([
-                    'status'=>'removed',
-                    'prev_status'=>$request->tabkey,
-                ]);
-            }
-        }else if ($request->type == 'restore') {
-            $teams = Team::whereIn('id',$request->ids)->get();
-            for ($i=0; $i < count($request->ids) ; $i++) {
-                Team::where('id',$request->ids[$i])->update([
-                    'status'=>$teams[$i]->prev_status?$teams[$i]->prev_status:'active',
-                    'prev_status'=>null,
-                ]);
-            }
-        }
-        return null;
+        $this->repository->updateRules($request);
+        // $this->ActivityLog->setLog($request, 'users', 'team', 'update');
+        return $this->repository->update($request);
+    }
+
+
+    // Return the specified resource if exists
+
+    public function show($id): JsonResponse
+    {
+        return $this->repository->show($id);
+    }
+
+    public function checkUniqueness(Request $request): JsonResponse
+    {
+        return $this->repository->checkUniqueness($request);
+    }
+    // Remove the specified resource from storage.
+    public function destroy(Request $request, $ids)
+    {
+        // $this->ActivityLog->setLog($request, 'users', 'team', 'delete');
+
+        $ids = explode(",", $ids);
+        return $this->repository->destroy($ids, $request->query->get('reasonId'), $request);
+    }
+
+    public function changeTeamStatus(Request $request): JsonResponse
+    {
+        // $this->ActivityLog->setLog($request, 'users', 'team', 'change status');
+
+        return $this->repository->changeTeamStatus($request);
+    }
+
+    public function exportTeamTemplate(): JsonResponse
+    {
+        $departments = $this->getRelatedDepartments();
+        Excel::store(
+            new TeamExport(
+                $this->schedule_type,
+                $departments
+            ),
+            'export-excel-files/team.xlsx',
+            'public'
+        );
+        return response()->json(env("APP_URL") . Storage::url('export-excel-files/team.xlsx'));
+    }
+
+    function getRelatedDepartments()
+    {
+        $loggedInUser = auth()->user()->id;
+        $departments = Department::whereHas('companies', function (Builder $builder) use ($loggedInUser) {
+            $builder->whereHas('users', function (Builder $builder) use ($loggedInUser) {
+                $builder->whereIn('user_id', [$loggedInUser]);
+            });
+        })->where('status', $this->init_status)->orderBy('name', 'asc')->get();
+        return collect($departments);
     }
 }

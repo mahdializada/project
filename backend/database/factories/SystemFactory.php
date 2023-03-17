@@ -4,20 +4,18 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\System>
- */
 class SystemFactory extends Factory
 {
     /**
      * Define the model's default state.
      *
-     * @return array<string, mixed>
+     * @return array
      */
     public function definition()
     {
         return [
-            'System_name'=>$this->faker->name,
+            "name" => $this->faker->unique->name,
+            "logo" => $this->faker->unique->imageUrl,
         ];
     }
 }
