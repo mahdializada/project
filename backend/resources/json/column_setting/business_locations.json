@@ -1,0 +1,52 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "logo",
+            "value": "logoAvatar"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "country",
+            "value": "country.name"
+        },
+        {
+            "text": "company",
+            "value": "company.name"
+        },
+        {
+            "text": "state",
+            "value": "state.name"
+        },
+        {
+            "text": "address",
+            "value": "address"
+        },
+        {
+            "text": "note",
+            "value": "note"
+        },
+        {
+            "text": "map_link",
+            "value": "map_link"
+        },
+        {
+            "text": "created_by",
+            "value": "created_by"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "user_task_progress",
+        "description": "user_progress_changed",
+        "icon": "fa-tasks",
+        "type": "notify"
+    },
+    {
+        "title": "new_task",
+        "description": "task_assigned_to_you",
+        "icon": "fa-tasks",
+        "type": "notify"
+    },
+    {
+        "title": "approved",
+        "description": "has_been_approved",
+        "icon": "fa-thumbs-up",
+        "type": "success"
+    },
+    {
+        "title": "rejected",
+        "description": "has_been_rejected",
+        "icon": "fa-thumbs-down",
+        "type": "error"
+    },
+    {
+        "title": "files_sharing",
+        "description": "user_shared_files_with_you",
+        "icon": "fa-file-alt",
+        "type": "notify"
+    },
+    {
+        "title": "request_storage",
+        "description": "user_is_requesting_for_storage",
+        "icon": "fa-database",
+        "type": "notify"
+    },
+    {
+        "title": "comment_file",
+        "description": "user_commented_on_your_file",
+        "icon": "fa-comment",
+        "type": "notify"
+    },
+    {
+        "title": "reply_file",
+        "description": "user_reply_to_your_comment",
+        "icon": "fa-comments",
+        "type": "notify"
+    },
+    {
+        "title": "comment_file",
+        "description": "user_also_commented_on_a_file_commented",
+        "icon": "fa-comment",
+        "type": "notify"
+    },
+    {
+        "title": "reply_file",
+        "description": "user_also_replied_on_user_comment_on_file",
+        "icon": "fa-comments",
+        "type": "notify"
+    }
+]

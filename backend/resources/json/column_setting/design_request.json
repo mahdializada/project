@@ -1,0 +1,100 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "content_type",
+            "value": "content_type"
+        },
+        {
+            "text": "company",
+            "value": "company"
+        },
+        {
+            "text": "template",
+            "value": "template"
+        },
+        {
+            "text": "product_code",
+            "value": "product_code"
+        },
+        {
+            "text": "product_name",
+            "value": "product_name"
+        },
+        {
+            "text": "priority",
+            "value": "priority"
+        },
+        {
+            "text": "percentage",
+            "value": "percentage"
+        },
+        {
+            "text": "download_status",
+            "value": "download_status"
+        },
+        {
+            "text": "request_type",
+            "value": "requestType"
+        },
+        {
+            "text": "total_time_spent",
+            "value": "total_time_spent"
+        },
+        {
+            "text": "assigned_user",
+            "value": "assignedUser"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "order_type",
+            "value": "order_type"
+        },
+        {
+            "text": "Sales Notes",
+            "value": "sales_note"
+        },
+        {
+            "text": "StoryBoard Note",
+            "value": "storyboard_note"
+        },
+        {
+            "text": "design_note",
+            "value": "design_note"
+        },
+        {
+            "text": "landing_page_link",
+            "value": "landing_page_link"
+        },
+        {
+            "text": "total_storyboard_rejected",
+            "value": "storyboard_reject_count"
+        },
+        {
+            "text": "total_design_rejected",
+            "value": "design_reject_count"
+        },
+        {
+            "text": "cancels",
+            "value": "cancels"
+        },
+        {
+            "text": "label",
+            "value": "label"
+        },
+        {
+            "text": "updated_by",
+            "value": "updatedBy"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "id",
+            "visible": false
+        },
+        {
+            "text": "currency_from",
+            "value": "currency_from"
+        },
+        {
+            "text": "currency_to",
+            "value": "currency_to"
+        },
+        {
+            "text": "rate",
+            "value": "rate"
+        },
+        {
+            "text": "creator",
+            "value": "created_by"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+        }
+    ]
+}

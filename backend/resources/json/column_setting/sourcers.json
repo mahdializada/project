@@ -1,0 +1,44 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "profile",
+            "value": "profile"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "last_name",
+            "value": "last_name"
+        },
+        {
+            "text": "phone_number",
+            "value": "phone_number"
+        },
+        {
+            "text": "email",
+            "value": "email"
+        },
+        {
+            "text": "country",
+            "value": "country.name"
+        },
+        {
+            "text": "company",
+            "value": "company.name"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

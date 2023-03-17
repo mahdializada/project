@@ -1,0 +1,64 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "selling_goals",
+            "value": "selling_goals"
+        },
+        {
+            "text": "product",
+            "value": "product.name"
+        },
+        {
+            "text": "product_study_id",
+            "value": "product_study_id"
+        },
+        {
+            "text": "sales_modal",
+            "value": "sales_modal"
+        },
+        {
+            "text": "creation_type",
+            "value": "creation_type"
+        },
+        {
+            "text": "head_selling_price",
+            "value": "head_selling_price"
+        },
+        {
+            "text": "sale_currency",
+            "value": "sale_currency"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "landing_page_style",
+            "value": "landing_page_style"
+        },
+        {
+            "text": "landing_page_note",
+            "value": "landing_page_note"
+        },
+        {
+            "text": "language",
+            "value": "display_language.name"
+        },
+        {
+            "text": "company",
+            "value": "company.name"
+        },
+        {
+            "text": "created at",
+            "value": "created_at"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+        }
+    ]
+}

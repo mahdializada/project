@@ -1,0 +1,38 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "arabic_name",
+            "value": "arabic_name"
+        },
+        {
+            "text": "logo",
+            "value": "logo"
+        },
+        {
+            "text": "is_approved",
+            "value": "is_approved",
+            "visible": false
+        },
+        {
+            "text": "status",
+            "value": "status",
+            "visible": false
+        },
+        {
+            "text": "created at",
+            "value": "created_at"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "content_type",
+            "value": "type"
+        },
+        {
+            "text": "company",
+            "value": "company"
+        },
+        {
+            "text": "template",
+            "value": "template"
+        },
+        {
+            "text": "product_code",
+            "value": "product_code"
+        },
+        {
+            "text": "product_name",
+            "value": "product_name"
+        },
+        {
+            "text": "total_time_spent",
+            "value": "total_time_spent"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "order_type",
+            "value": "order_type"
+        },
+        {
+            "text": "sales_note",
+            "value": "sales_note"
+        },
+        {
+            "text": "storyboard_note",
+            "value": "storyboard_note"
+        },
+        {
+            "text": "design_note",
+            "value": "design_note"
+        },
+        {
+            "text": "design_link",
+            "value": "design_link"
+        },
+        {
+            "text": "landing_page_link",
+            "value": "landing_page_link"
+        },
+        {
+            "text": "updated_by",
+            "value": "updatedBy"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

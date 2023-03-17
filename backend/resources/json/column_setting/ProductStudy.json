@@ -1,0 +1,32 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "product",
+            "value": "product.name"
+        },
+        {
+            "text": "language",
+            "value": "language"
+        },
+        {
+            "text": "study_reason",
+            "value": "study_reason"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

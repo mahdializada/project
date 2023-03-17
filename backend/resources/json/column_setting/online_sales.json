@@ -1,0 +1,553 @@
+{
+    "country": [
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "Unique Code Of Country",
+            "visible": false
+        },
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "tooltip": "",
+            "visible": true
+        },
+        {
+            "text": "profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "country",
+            "value": "country",
+            "tooltip": "Flag and name Of Country",
+            "visible": true
+        },
+        {
+            "text": "total_products",
+            "value": "total_products",
+            "tooltip": "Total Products",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize Country Quickly",
+            "visible": true
+        },
+        {
+            "text": "new_sales_count",
+            "value": "new_sales_count",
+            "tooltip": "New Sales Record Count",
+            "visible": true
+        },
+        {
+            "text": "in_source_count",
+            "value": "in_source_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "in_study_count",
+            "value": "in_study_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "store_creation_count",
+            "value": "store_creation_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "content_creation_count",
+            "value": "content_creation_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "final_review_count",
+            "value": "final_review_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "ready_to_sale_count",
+            "value": "ready_to_sale_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "cancel_count",
+            "value": "cancel_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "remove_count",
+            "value": "remove_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "created_at",
+            "value": "created_at",
+            "tooltip": "Record created at",
+            "visible": true
+        }
+    ],
+    "company": [
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "unique id of your company",
+            "visible": false
+        },
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "visible": true
+        },
+        {
+            "text": "profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "company",
+            "value": "company",
+            "tooltip": "logo and name of your company",
+            "visible": true
+        },
+        {
+            "text": "total_products",
+            "value": "total_products",
+            "tooltip": "Total Products",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize your company Quickly",
+            "visible": true
+        },
+        {
+            "text": "new_sales_count",
+            "value": "new_sales_count",
+            "tooltip": "New Sales Record Count",
+            "visible": true
+        },
+        {
+            "text": "in_source_count",
+            "value": "in_source_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "in_study_count",
+            "value": "in_study_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "store_creation_count",
+            "value": "store_creation_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "content_creation_count",
+            "value": "content_creation_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "final_review_count",
+            "value": "final_review_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "ready_to_sale_count",
+            "value": "ready_to_sale_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "cancel_count",
+            "value": "cancel_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "remove_count",
+            "value": "remove_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "created_at",
+            "value": "created_at",
+            "tooltip": "Record created at",
+            "visible": true
+        }
+    ],
+    "project": [
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "unique id of your project",
+            "visible": false
+        },
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "visible": true
+        },
+        {
+            "text": "profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "project.name",
+            "tooltip": "full name of your project",
+            "visible": true
+        },
+        {
+            "text": "total_products",
+            "value": "total_products",
+            "tooltip": "Total Products",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize your project Quickly",
+            "visible": true
+        },
+        {
+            "text": "new_sales_count",
+            "value": "new_sales_count",
+            "tooltip": "New Sales Record Count",
+            "visible": true
+        },
+        {
+            "text": "in_source_count",
+            "value": "in_source_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "in_study_count",
+            "value": "in_study_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "store_creation_count",
+            "value": "store_creation_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "content_creation_count",
+            "value": "content_creation_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "final_review_count",
+            "value": "final_review_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "ready_to_sale_count",
+            "value": "ready_to_sale_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "cancel_count",
+            "value": "cancel_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "remove_count",
+            "value": "remove_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "created_at",
+            "value": "created_at",
+            "tooltip": "Record created at",
+            "visible": true
+        }
+    ],
+    "sales_type": [
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "unique id of your product",
+            "visible": false
+        },
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "visible": true
+        },
+        {
+            "text": "profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "sales_type",
+            "sortable": true,
+            "value": "sales_type",
+            "visible": true
+        },
+        {
+            "text": "total_products",
+            "value": "total_products",
+            "tooltip": "Total Products",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize your product Quickly",
+            "visible": true
+        },
+        {
+            "text": "new_sales_count",
+            "value": "new_sales_count",
+            "tooltip": "New Sales Record Count",
+            "visible": true
+        },
+        {
+            "text": "in_source_count",
+            "value": "in_source_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "in_study_count",
+            "value": "in_study_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "store_creation_count",
+            "value": "store_creation_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "content_creation_count",
+            "value": "content_creation_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "final_review_count",
+            "value": "final_review_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "ready_to_sale_count",
+            "value": "ready_to_sale_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "cancel_count",
+            "value": "cancel_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "remove_count",
+            "value": "remove_count",
+            "tooltip": "tooltip",
+            "visible": true
+        },
+        {
+            "text": "created_at",
+            "value": "created_at",
+            "tooltip": "Record created at",
+            "visible": true
+        }
+    ],
+    "item_code": [
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "unique id of your project",
+            "visible": false
+        },
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "visible": true
+        },
+        {
+            "text": "item_status",
+            "value": "item_status",
+            "tooltip": "Item status",
+            "visible": true
+        },
+        {
+            "text": "item_sales_english_name",
+            "value": "product_name",
+            "tooltip": "Item sales english name",
+            "visible": true
+        },
+        {
+            "text": "item_sales_arabic_name",
+            "value": "product_name_arabic",
+            "tooltip": "Item sales arabic name",
+            "visible": true
+        },
+        {
+            "text": "item_sales_code",
+            "value": "product_code",
+            "tooltip": "Item Sales Code",
+            "visible": true
+        },
+        {
+            "text": "p images",
+            "value": "product_images",
+            "tooltip": "Product Images",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize your project Quickly",
+            "visible": true
+        },
+        {
+            "text": "iiu",
+            "value": "iiu",
+            "tooltip": "Item Information Update",
+            "visible": true
+        },
+        {
+            "text": "profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "note",
+            "value": "note",
+            "tooltip": "Note",
+            "visible": true
+        },
+        {
+            "text": "sale goal",
+            "value": "prod_sale_goal",
+            "tooltip": "Product Sale Goal",
+            "visible": true
+        },
+        {
+            "text": "state",
+            "value": "state",
+            "tooltip": "Product Profile State",
+            "visible": true
+        },
+        {
+            "text": "ps stability",
+            "value": "prod_sales_stability",
+            "tooltip": "Product Sales Stability",
+            "visible": true
+        },
+        {
+            "text": "prod_source",
+            "value": "prod_source",
+            "tooltip": "Product Source",
+            "visible": true
+        },
+        {
+            "text": "p style",
+            "value": "prod_style",
+            "tooltip": "Product Style",
+            "visible": true
+        },
+        {
+            "text": "p section",
+            "value": "prod_section",
+            "tooltip": "Product Section",
+            "visible": true
+        },
+        {
+            "text": "prod_new_product_source",
+            "value": "prod_new_product_source",
+            "tooltip": "New Product Source",
+            "visible": true
+        },
+        {
+            "text": "pw type",
+            "value": "prod_work_type",
+            "tooltip": "Product Work Type",
+            "visible": true
+        },
+        {
+            "text": "product import source",
+            "value": "prod_import_source",
+            "tooltip": "Product Import Source",
+            "visible": true
+        },
+        {
+            "text": "pp type",
+            "value": "prod_production_type",
+            "tooltip": "Product Production Type",
+            "visible": true
+        },
+        {
+            "text": "p cost",
+            "value": "prod_cost",
+            "tooltip": "Product Cost",
+            "visible": true
+        },
+        {
+            "text": "paq",
+            "value": "prod_available_quantity",
+            "tooltip": "Product Available Quantity",
+            "visible": true
+        },
+        {
+            "text": "p pro",
+            "value": "prod_profitability",
+            "tooltip": "Product Profitability",
+            "visible": true
+        },
+        {
+            "text": "p profit",
+            "value": "prod_profit",
+            "tooltip": "Product Profit",
+            "visible": true
+        },
+        {
+            "text": "created_at",
+            "value": "created_at",
+            "tooltip": "Record created at",
+            "visible": true
+        }
+    ]
+}

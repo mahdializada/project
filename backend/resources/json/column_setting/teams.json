@@ -1,0 +1,48 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "logo",
+            "value": "logoAvatar"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "country",
+            "value": "department_company_country"
+        },
+        {
+            "text": "restriction_type",
+            "value": "schedule_type"
+        },
+        {
+            "text": "number_of_people",
+            "value": "number_of_people"
+        },
+        {
+            "text": "note",
+            "value": "note"
+        },
+        {
+            "text": "created_by",
+            "value": "created_by"
+        },
+        {
+            "text": "start_date",
+            "value": "start_time"
+        },
+        {
+            "text": "end_date",
+            "value": "end_time"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        }
+    ]
+}

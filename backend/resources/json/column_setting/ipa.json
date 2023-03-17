@@ -1,0 +1,32 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "product",
+            "value": "ispp.product.name"
+        },
+        {
+            "text": "target_countries",
+            "value": "target_countries"
+        },
+        {
+            "text": "target_gender",
+            "value": "target_gender"
+        },
+        {
+            "text": "target_age",
+            "value": "target_age"
+        },
+        {
+            "text": "target_date",
+            "value": "target_date"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        }
+    ]
+}

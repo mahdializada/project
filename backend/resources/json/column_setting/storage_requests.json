@@ -1,0 +1,36 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "user",
+            "value": "user"
+        },
+        {
+            "text": "type",
+            "value": "type"
+        },
+        {
+            "text": "amount",
+            "value": "amount"
+        },
+        {
+            "text": "size",
+            "value": "size"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+        }
+    ]
+}

@@ -1,0 +1,265 @@
+[
+    {
+        "name": "All",
+        "phrase": "all",
+        "sub_actions": [
+            {
+                "name": "d",
+                "action": "Delete"
+            },
+            {
+                "name": "u",
+                "action": "Update"
+            },
+            {
+                "name": "v",
+                "action": "View"
+            },
+            {
+                "name": "c",
+                "action": "Create"
+            },
+            {
+                "name": "e",
+                "action": "Export"
+            }
+        ]
+    },
+    {
+        "name": "Data Analysis",
+        "phrase": "data_analysis",
+        "sub_actions": [
+            {
+                "name": "v",
+                "action": "View"
+            }
+        ]
+    },
+
+    {
+        "name": "Create Record",
+        "phrase": "create_record",
+        "sub_actions": [
+            {
+                "name": "c",
+                "action": "Create"
+            },
+            {
+                "name": "v",
+                "action": "View"
+            }
+        ]
+    },
+    {
+        "name": "Data Management",
+        "phrase": "data_management",
+        "sub_actions": [
+            {
+                "name": "d",
+                "action": "Delete"
+            },
+            {
+                "name": "u",
+                "action": "Update"
+            },
+            {
+                "name": "v",
+                "action": "View"
+            },
+            {
+                "name": "c",
+                "action": "Create"
+            }
+        ]
+    },
+    {
+        "name": "Export",
+        "phrase": "export",
+        "sub_actions": [
+            {
+                "name": "v",
+                "action": "View"
+            },
+            {
+                "name": "e",
+                "action": "Export"
+            }
+        ]
+    },
+    {
+        "name": "Access",
+        "phrase": "access",
+        "sub_actions": [
+            {
+                "name": "v",
+                "action": "View"
+            }
+        ]
+    },
+    {
+        "name": "Assign",
+        "phrase": "assign",
+        "sub_actions": [
+            {
+                "name": "a",
+                "action": "Assign"
+            },
+            {
+                "name": "v",
+                "action": "View"
+            }
+        ]
+    },
+    {
+        "name": "In Story Board",
+        "phrase": "in_storyboard",
+        "sub_actions": [
+            {
+                "name": "isb",
+                "action": "In Story Board"
+            }
+        ]
+    },
+    {
+        "name": "In Story Board Review",
+        "phrase": "storyboard_review",
+        "sub_actions": [
+            {
+                "name": "isbr",
+                "action": "In Story Board Review"
+            }
+        ]
+    },
+    {
+        "name": "In Design",
+        "phrase": "in_design",
+        "sub_actions": [
+            {
+                "name": "id",
+                "action": "In Design"
+            }
+        ]
+    },
+    {
+        "name": "In Design Review",
+        "phrase": "design_review",
+        "sub_actions": [
+            {
+                "name": "idr",
+                "action": "In Design Review"
+            }
+        ]
+    },
+    {
+        "name": "In Programming",
+        "phrase": "in_programming",
+        "sub_actions": [
+            {
+                "name": "ip",
+                "action": "In Programming"
+            }
+        ]
+    },
+    {
+        "name": "Approve and Reject",
+        "phrase": "approve_and_reject",
+        "sub_actions": [
+            {
+                "name": "aprj",
+                "action": "Approve and Reject"
+            }
+        ]
+    },
+    {
+        "name": "View all",
+        "phrase": "view_all",
+        "sub_actions": [
+            {
+                "name": "v",
+                "action": "View"
+            },
+            {
+                "name": "va",
+                "action": "View all"
+            }
+        ]
+    },
+    {
+        "name": "Refresh Button",
+        "phrase": "refresh_button",
+        "sub_actions": [
+            {
+                "name": "refresh",
+                "action": "Refresh"
+            }
+        ]
+    },
+    {
+        "name": "Refresh By Date",
+        "phrase": "refresh_date",
+        "sub_actions": [
+            {
+                "name": "rfdate",
+                "action": "Refresh Date"
+            }
+        ]
+    },
+    {
+        "name": "Refresh CRM",
+        "phrase": "refresh_crm",
+        "sub_actions": [
+            {
+                "name": "rfcrm",
+                "action": "Refresh Crm"
+            }
+        ]
+    },
+    {
+        "name": "Refresh snapchat",
+        "phrase": "refresh_snapchat",
+        "sub_actions": [
+            {
+                "name": "rfsnapchat",
+                "action": "Refresh Snapchat"
+            }
+        ]
+    },
+    {
+        "name": "Refresh Tiktok",
+        "phrase": "refresh_tiktok",
+        "sub_actions": [
+            {
+                "name": "rftiktok",
+                "action": "Refresh TikTok"
+            }
+        ]
+    },
+    {
+        "name": "Create Ad",
+        "phrase": "create_ad",
+        "sub_actions": [
+            {
+                "name": "c",
+                "action": "Create"
+            },
+            {
+                "name": "v",
+                "action": "View"
+            }
+        ]
+    },
+    {
+        "name": "Create Adset",
+        "phrase": "create_adset",
+        "sub_actions": [
+            {
+                "name": "c",
+                "action": "Create"
+            },
+            {
+                "name": "v",
+                "action": "View"
+            }
+        ]
+    }
+]

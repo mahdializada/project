@@ -1,0 +1,40 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "arabic_name",
+            "value": "arabic_name"
+        },
+        {
+            "text": "english_name",
+            "value": "name"
+        },
+        {
+            "text": "values",
+            "value": "values"
+        },
+        {
+            "text": "type",
+            "value": "type"
+        },
+        {
+            "text": "created_by",
+            "value": "created_by"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

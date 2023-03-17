@@ -1,0 +1,40 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "goals",
+            "value": "goals"
+        },
+        {
+            "text": "priority",
+            "value": "priority"
+        },
+        {
+            "text": "created_by",
+            "value": "created_by"
+        },
+        {
+            "text": "done_by",
+            "value": "done_by"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "done_date",
+            "value": "done_date"
+        },
+        {
+            "text": "created at",
+            "value": "created_at"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+        }
+    ]
+}

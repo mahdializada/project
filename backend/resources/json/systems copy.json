@@ -1,0 +1,1759 @@
+[{
+        "name": "User Mangement System",
+        "phrase": "user_management_system",
+        "has_file": true,
+        "logo": "/icons/SYSTEM ICON/System Icone-03.svg",
+        "sub_systems": [{
+                "name": "Users",
+                "phrase": "users",
+                "scope": "u",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Create Record",
+                        "phrase": "create_record"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Teams",
+                "phrase": "teams",
+                "scope": "t",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Create Record",
+                        "phrase": "create_record"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Roles",
+                "phrase": "roles",
+                "scope": "r",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Create Record",
+                        "phrase": "create_record"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "User Activity",
+                "phrase": "user_activity",
+                "scope": "ua",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Labels (user)",
+                "phrase": "labels",
+                "scope": "lu",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Status Events (user)",
+                "phrase": "status_events",
+                "scope": "seu",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Reasons (user)",
+                "phrase": "reasons",
+                "scope": "rnu",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Master Mangement System",
+        "phrase": "master_management_system",
+        "logo": "/icons/SYSTEM ICON/System Icone-01.svg",
+        "sub_systems": [{
+                "name": "Business Locations",
+                "phrase": "business_locations",
+                "scope": "bl",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Social Media",
+                "phrase": "social_media",
+                "scope": "sm",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Countries",
+                "phrase": "countries",
+                "scope": "cn",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Companies",
+                "phrase": "companies",
+                "scope": "cm",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Departments",
+                "phrase": "departments",
+                "scope": "dp",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Languages",
+                "phrase": "languages",
+                "scope": "ln",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Labels (master)",
+                "phrase": "labels",
+                "scope": "lm",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Column Category",
+                "phrase": "column_category",
+                "scope": "ccm",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Column Setting",
+                "phrase": "column_setting",
+                "scope": "csm",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Status Events (master)",
+                "phrase": "status_events",
+                "scope": "sem",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Reasons (master)",
+                "phrase": "reasons",
+                "scope": "rnm",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Systems",
+                "phrase": "systems",
+                "scope": "sy",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "name": "Personal File Management",
+        "phrase": "personal_file_management",
+        "logo": "/icons/SYSTEM ICON/System Icone-010.svg",
+        "sub_systems": [{
+                "name": "My Drive",
+                "phrase": "my_drive",
+                "scope": "md",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                    "name": "Access",
+                    "phrase": "access"
+                }]
+            },
+            {
+                "name": "Recent Files",
+                "phrase": "recent_files",
+                "scope": "rf",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                    "name": "Access",
+                    "phrase": "access"
+                }]
+            },
+            {
+                "name": "Favorites",
+                "phrase": "fovorites",
+                "scope": "f",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                    "name": "Access",
+                    "phrase": "access"
+                }]
+            },
+            {
+                "name": "Shared Files",
+                "phrase": "shared_files",
+                "scope": "sf",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                    "name": "Access",
+                    "phrase": "access"
+                }]
+            },
+            {
+                "name": "My Shares",
+                "phrase": "my_shared",
+                "scope": "msh",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                    "name": "Access",
+                    "phrase": "access"
+                }]
+            },
+            {
+                "name": "Trash",
+                "phrase": "trash_files",
+                "scope": "tf",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                    "name": "Access",
+                    "phrase": "access"
+                }]
+            },
+            {
+                "name": "Storage Requests",
+                "phrase": "storage_requests",
+                "scope": "str",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Settings",
+                "phrase": "settings",
+                "scope": "set",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                    "name": "Access",
+                    "phrase": "access"
+                }]
+            },
+            {
+                "name": "Status Events (personal)",
+                "phrase": "status_events",
+                "scope": "sep",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Reasons (personal)",
+                "phrase": "reasons",
+                "scope": "rnp",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Content Mangement System",
+        "phrase": "content_management_system",
+        "logo": "/icons/SYSTEM ICON/System Icone-10.svg",
+        "sub_systems": [{
+                "name": "Design Request",
+                "phrase": "design_request",
+                "scope": "dr",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Create Record",
+                        "phrase": "create_record"
+                    },
+                    {
+                        "name": "Assign",
+                        "phrase": "assign"
+                    },
+                    {
+                        "name": "In Story Board",
+                        "phrase": "in_storyboard"
+                    },
+                    {
+                        "name": "In Story Board Review",
+                        "phrase": "storyboard_review"
+                    },
+                    {
+                        "name": "In Design",
+                        "phrase": "in_design"
+                    },
+                    {
+                        "name": "In Design Review",
+                        "phrase": "design_review"
+                    },
+                    {
+                        "name": "In Programming",
+                        "phrase": "in_programming"
+                    },
+                    {
+                        "name": "Approve and Reject",
+                        "phrase": "approve_and_reject"
+                    },
+                    {
+                        "name": "View all",
+                        "phrase": "view_all"
+                    }
+                ]
+            },
+            {
+                "name": "My Order",
+                "phrase": "my_orders",
+                "scope": "dro",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    },
+                    {
+                        "name": "In Story Board",
+                        "phrase": "in_storyboard"
+                    },
+                    {
+                        "name": "In Story Board Review",
+                        "phrase": "storyboard_review"
+                    },
+                    {
+                        "name": "In Design",
+                        "phrase": "in_design"
+                    },
+                    {
+                        "name": "In Design Review",
+                        "phrase": "design_review"
+                    },
+                    {
+                        "name": "In Programming",
+                        "phrase": "in_programming"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    }
+                ]
+            },
+            {
+                "name": "Landing Page Activity",
+                "phrase": "landing_page_activity",
+                "scope": "lpa",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "History",
+                "phrase": "history_CMS",
+                "scope": "hcms",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Status Events (content)",
+                "phrase": "status_events",
+                "scope": "sec",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Reasons (content)",
+                "phrase": "reasons",
+                "scope": "rnc",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Labels (content)",
+                "phrase": "labels",
+                "scope": "lc",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Products Management System",
+        "phrase": "product",
+        "logo": "/icons/SYSTEM ICON/System Icone-10.svg",
+        "sub_systems": [{
+                "name": "Products",
+                "phrase": "products",
+                "scope": "p",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Categories",
+                "phrase": "categories",
+                "scope": "cat",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Attributes",
+                "phrase": "attributes",
+                "scope": "att",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Brands",
+                "phrase": "Brands",
+                "scope": "br",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "ProductStudy",
+                "phrase": "ProductStudy",
+                "scope": "prs",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+
+            {
+                "name": "My Order (Products)",
+                "phrase": "my_orders_p",
+                "scope": "po",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    },
+                    {
+                        "name": "In Story Board",
+                        "phrase": "in_storyboard"
+                    },
+                    {
+                        "name": "In Story Board Review",
+                        "phrase": "storyboard_review"
+                    },
+                    {
+                        "name": "In Design",
+                        "phrase": "in_design"
+                    },
+                    {
+                        "name": "In Design Review",
+                        "phrase": "design_review"
+                    },
+                    {
+                        "name": "In Programming",
+                        "phrase": "in_programming"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    }
+                ]
+            },
+            {
+                "name": "Status Events (Product)",
+                "phrase": "status_events",
+                "scope": "sepr",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Reasons (Product)",
+                "phrase": "reasons",
+                "scope": "rnpr",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Labels (product)",
+                "phrase": "labels",
+                "scope": "lp",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "name": "Suppliers Management System",
+        "phrase": "supplier",
+        "logo": "/icons/SYSTEM ICON/System Icone-10.svg",
+        "sub_systems": [{
+                "name": "Sourcing Request",
+                "phrase": "sourcing_request",
+                "scope": "ssr",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+
+            {
+                "name": "Quantity Reservation Request",
+                "phrase": "quantity_reservation_request",
+                "scope": "qrr",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+
+            {
+                "name": "My Order (Suppliers)",
+                "phrase": "my_orders_sup",
+                "scope": "so",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    },
+                    {
+                        "name": "In Story Board",
+                        "phrase": "in_storyboard"
+                    },
+                    {
+                        "name": "In Story Board Review",
+                        "phrase": "storyboard_review"
+                    },
+                    {
+                        "name": "In Design",
+                        "phrase": "in_design"
+                    },
+                    {
+                        "name": "In Design Review",
+                        "phrase": "design_review"
+                    },
+                    {
+                        "name": "In Programming",
+                        "phrase": "in_programming"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    }
+                ]
+            },
+            {
+                "name": "Status Events (Supplier)",
+                "phrase": "status_events",
+                "scope": "sesup",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Reasons (Suppliers)",
+                "phrase": "reasons",
+                "scope": "rnsup",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Labels (supplier)",
+                "phrase": "labels",
+                "scope": "ls",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Application File Management",
+        "phrase": "application_file_management",
+        "logo": "/icons/SYSTEM ICON/System Icone-10.svg",
+        "sub_systems": [{
+                "name": "Application Files",
+                "phrase": "application_files",
+                "scope": "af",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Request Storage",
+                "phrase": "request_storage",
+                "scope": "t",
+                "has_file": false,
+                "has_status": true,
+                "actions": []
+            }
+        ]
+    },
+    {
+        "name": "Library",
+        "phrase": "library",
+        "logo": "/icons/SYSTEM ICON/System Icone-10.svg",
+        "sub_systems": [{
+            "name": "Library Files",
+            "phrase": "library_files",
+            "scope": "lf",
+            "has_file": false,
+            "has_status": true,
+            "actions": [{
+                    "name": "All",
+                    "phrase": "all"
+                },
+                {
+                    "name": "Data Analysis",
+                    "phrase": "data_analysis"
+                },
+                {
+                    "name": "Data Management",
+                    "phrase": "data_management"
+                },
+                {
+                    "name": "Export",
+                    "phrase": "export"
+                }
+            ]
+        }]
+    },
+    {
+        "name": "Single Sales Management System",
+        "phrase": "single_sale",
+        "logo": "/icons/SYSTEM ICON/System Icone-10.svg",
+        "sub_systems": [{
+                "name": "ISPP",
+                "phrase": "ispp",
+                "scope": "isp",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Actions",
+                "phrase": "actions",
+                "scope": "ac",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+
+            {
+                "name": "My Order (Single Sales)",
+                "phrase": "my_orders_ssp",
+                "scope": "sso",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    },
+                    {
+                        "name": "In Story Board",
+                        "phrase": "in_storyboard"
+                    },
+                    {
+                        "name": "In Story Board Review",
+                        "phrase": "storyboard_review"
+                    },
+                    {
+                        "name": "In Design",
+                        "phrase": "in_design"
+                    },
+                    {
+                        "name": "In Design Review",
+                        "phrase": "design_review"
+                    },
+                    {
+                        "name": "In Programming",
+                        "phrase": "in_programming"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    }
+                ]
+            },
+            {
+                "name": "Status Events (single_sale)",
+                "phrase": "status_events",
+                "scope": "ses",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Reasons (single_sales)",
+                "phrase": "reasons",
+                "scope": "rns",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Advertisement Mangement System",
+        "phrase": "advertisement_management_system",
+        "has_file": true,
+        "logo": "/icons/SYSTEM ICON/System Icone-03.svg",
+        "sub_systems": [{
+                "name": "Advertisement",
+                "phrase": "advertisement",
+                "scope": "adv",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Create Record",
+                        "phrase": "create_record"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    },
+                    {
+                        "name": "Refresh Button",
+                        "phrase": "refresh_button"
+                    }, {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Manual Upload",
+                "phrase": "manual_upload",
+                "scope": "mp",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Create Record",
+                        "phrase": "create_record"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    },
+                    {
+                        "name": "Refresh Button",
+                        "phrase": "refresh_button"
+                    }, {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "ipa",
+                "phrase": "ipa",
+                "scope": "ipa",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Platforms",
+                "phrase": "platforms",
+                "scope": "advplatforms",
+                "has_file": true,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Create Record",
+                        "phrase": "create_record"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Projects",
+                "phrase": "projects",
+                "scope": "advprojects",
+                "has_file": false,
+                "has_status": true,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Create Record",
+                        "phrase": "create_record"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Applications",
+                "phrase": "applications",
+                "scope": "advapps",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Labels (advertisement)",
+                "phrase": "labels",
+                "scope": "la",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Status Events (advertisement)",
+                "phrase": "status_events",
+                "scope": "sea",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Reasons (advertisement)",
+                "phrase": "reasons",
+                "scope": "rna",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            },
+            {
+                "name": "Currencies",
+                "phrase": "currency",
+                "scope": "cur",
+                "has_file": false,
+                "has_status": false,
+                "actions": [{
+                        "name": "All",
+                        "phrase": "all"
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "phrase": "data_analysis"
+                    },
+                    {
+                        "name": "Data Management",
+                        "phrase": "data_management"
+                    },
+                    {
+                        "name": "Export",
+                        "phrase": "export"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "sourcing_type",
+            "value": "sourcing_type"
+        },
+        {
+            "text": "importing_country",
+            "value": "importing_country.name"
+        },
+        {
+            "text": "receiving_country",
+            "value": "receiving_country.name"
+        },
+        {
+            "text": "product",
+            "value": "product.name"
+        },
+        {
+            "text": "product_category",
+            "value": "product.category.name"
+        },
+        {
+            "text": "reason_for_search",
+            "value": "reason_for_search"
+        },
+        {
+            "text": "approx_quantity",
+            "value": "approx_quantity"
+        },
+        {
+            "text": "required_shipping_method",
+            "value": "required_shipping_method"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

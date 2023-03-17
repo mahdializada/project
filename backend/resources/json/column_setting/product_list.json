@@ -1,0 +1,28 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "image",
+            "value": "product_image"
+        },
+        {
+            "text": "product_name",
+            "value": "product_name"
+        },
+        {
+            "text": "product_code",
+            "value": "product_code"
+        },
+        {
+            "text": "suppliers",
+            "value": "suppliers"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "domain",
+            "value": "domain"
+        },
+        {
+            "text": "countries",
+            "value": "countries"
+        },
+        {
+            "text": "companies",
+            "value": "companies"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

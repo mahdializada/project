@@ -1,0 +1,36 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "user_code"
+        },
+        {
+            "text": "username",
+            "value": "username"
+        },
+        {
+            "text": "location",
+            "value": "location"
+        },
+        {
+            "text": "event",
+            "value": "event"
+        },
+        {
+            "text": "content",
+            "value": "content"
+        },
+        {
+            "text": "page",
+            "value": "page"
+        },
+        {
+            "text": "date",
+            "value": "date"
+        },
+        {
+            "text": "time",
+            "value": "time"
+        }
+    ]
+}

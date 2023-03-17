@@ -1,0 +1,32 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "logo",
+            "value": "logo"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "website",
+            "value": "website"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        }
+    ]
+}

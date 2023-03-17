@@ -1,0 +1,52 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "flag",
+            "value": "country_language.country.iso2"
+        },
+        {
+            "text": "name",
+            "value": "country_language.language.name"
+        },
+        {
+            "text": "native",
+            "value": "country_language.language.native"
+        },
+        {
+            "text": "frontend",
+            "value": "frontendCount"
+        },
+        {
+            "text": "backend",
+            "value": "backendCount"
+        },
+        {
+            "text": "translated",
+            "value": "translatedCount"
+        },
+        {
+            "text": "percentage",
+            "value": "percentage"
+        },
+        {
+            "text": "created_by",
+            "value": "created_by"
+        },
+        {
+            "text": "updated_by",
+            "value": "updated_by"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        }
+    ]
+}

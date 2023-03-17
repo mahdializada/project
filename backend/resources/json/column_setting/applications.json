@@ -1,0 +1,44 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "name",
+            "visible": true
+        },
+        {
+            "text": "platform_name",
+            "value": "platform.platform_name",
+            "visible": true
+        },
+        {
+            "text": "platform_logo",
+            "value": "platform.logo",
+            "visible": true
+        },
+        {
+            "text": "scope",
+            "value": "scope",
+            "visible": true
+        },
+        {
+            "text": "client_id",
+            "value": "client_id",
+            "visible": true
+        },
+        {
+            "text": "status",
+            "value": "system_status"
+            ,"visible": true
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+            ,"visible": true
+        }
+    ]
+}

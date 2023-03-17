@@ -1,0 +1,36 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "label",
+            "value": "label"
+        },
+        {
+            "text": "title",
+            "value": "title"
+        },
+        {
+            "text": "sub_systems",
+            "value": "sub_systems"
+        },
+        {
+            "text": "label_category",
+            "value": "label_category.title"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        }
+    ]
+}

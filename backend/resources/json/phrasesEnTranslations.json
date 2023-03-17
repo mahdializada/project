@@ -1,0 +1,7662 @@
+{
+    "welcome": {
+        "word": "Welcome",
+        "type": "frontend"
+    },
+    "english_description": {
+        "word": "English Description",
+        "type": "frontend"
+    },
+    "upload_file_here...": {
+        "word": "Upload File Here ...",
+        "type": "frontend"
+    },
+    "input_value_here...": {
+        "word": "Input Value Here ...",
+        "type": "frontend"
+    },
+    "english_name": {
+        "word": "English Name",
+        "type": "frontend"
+    },
+    "upload_icon_here...": {
+        "word": "Upload Icon Here...",
+        "type": "frontend"
+    },
+    "cost_of_supplier": {
+        "word": "Cost Of Supplier",
+        "type": "frontend"
+    },
+    "attribute_values": {
+        "word": "Attribute values",
+        "type": "frontend"
+    },
+    "add_another_attribute": {
+        "word": "Add another attribute ",
+        "type": "frontend"
+    },
+    "sign_in_to_your_account": {
+        "word": "Sign in to your account",
+        "type": "frontend"
+    },
+    "logout": {
+        "word": "Log out",
+        "type": "frontend"
+    },
+    ".com": {
+        "word": ".com",
+        "type": "frontend"
+    },
+    "arabic_name": {
+        "word": "Arabic Name",
+        "type": "frontend"
+    },
+    "arabic_description": {
+        "word": "Arabic Description",
+        "type": "frontend"
+    },
+    "todo": {
+        "word": "To Do",
+        "type": "frontend"
+    },
+    "invalid_ad_ad_account_id": {
+        "word": "You entered AD ID which belongs to another ad account!",
+        "type": "frontend"
+    },
+    "product_code_not_found": {
+        "word": "You entered an invalid product code!",
+        "type": "frontend"
+    },
+    "selected_ad_account_not_found": {
+        "word": "Selected ad account is not found!",
+        "type": "frontend"
+    },
+    "ad_id_already_exists": {
+        "word": "AD ID already exists!",
+        "type": "frontend"
+    },
+    "application_authenticated_successfully": {
+        "word": "Application authenticated successfully!",
+        "type": "frontend"
+    },
+    "view_completion": {
+        "word": "View Completion",
+        "type": "frontend"
+    },
+    "result": {
+        "word": "Result",
+        "type": "frontend"
+    },
+    "impressions": {
+        "word": "Impressions",
+        "type": "frontend"
+    },
+    "two_second_video_views": {
+        "word": "2s Video Views",
+        "type": "frontend"
+    },
+    "six_second_video_views": {
+        "word": "6s Video Views",
+        "type": "frontend"
+    },
+    "video_views": {
+        "word": "Video Views",
+        "type": "frontend"
+    },
+    "average_screen_time": {
+        "word": "Avg Screen Time",
+        "type": "frontend"
+    },
+    "spend": {
+        "word": "Spend",
+        "type": "frontend"
+    },
+    "total_orders": {
+        "word": "Total Orders",
+        "type": "frontend"
+    },
+    "total_spend": {
+        "word": "Total Spend",
+        "type": "frontend"
+    },
+    "clicks": {
+        "word": "Cicks",
+        "type": "frontend"
+    },
+    "total_page_views": {
+        "word": "Total Page Views",
+        "type": "frontend"
+    },
+    "story_opens": {
+        "word": "Story Opens",
+        "type": "frontend"
+    },
+    "reach": {
+        "word": "Reach",
+        "type": "frontend"
+    },
+    "cost_per_fifteen_sec_video_view": {
+        "word": "Cost Per 15s Video Views",
+        "type": "frontend"
+    },
+    "crm_total_orders": {
+        "word": "CRM Total Orders",
+        "type": "frontend"
+    },
+    "crm_confirm": {
+        "word": "CRM Confirmed",
+        "type": "frontend"
+    },
+    "crm_cancelled": {
+        "word": "CRM Cancelled",
+        "type": "frontend"
+    },
+    "crm_repeated": {
+        "word": "CRM Repeated",
+        "type": "frontend"
+    },
+    "crm_pickedup": {
+        "word": "CRM Pickedup",
+        "type": "frontend"
+    },
+    "crm_total_pickedup": {
+        "word": "CRM Total Pickedup",
+        "type": "frontend"
+    },
+    "crm_logis_deliverd": {
+        "word": "CRM Logistic Delivered",
+        "type": "frontend"
+    },
+    "crm_logis_cancelled": {
+        "word": "CRM Logistic Cancelled",
+        "type": "frontend"
+    },
+    "crm_total_sale": {
+        "word": "CRM Total Sales",
+        "type": "frontend"
+    },
+    "crm_product_cost": {
+        "word": "CRM Product Cost",
+        "type": "frontend"
+    },
+    "crm_delivery_cost": {
+        "word": "CRM Delivery Cost",
+        "type": "frontend"
+    },
+    "ga_total_users": {
+        "word": "Total Users",
+        "type": "frontend"
+    },
+    "ga_new_users": {
+        "word": "New Users",
+        "type": "frontend"
+    },
+    "ga_user_engagement": {
+        "word": "User Engagement",
+        "type": "frontend"
+    },
+    "ga_sessions": {
+        "word": "Sessions",
+        "type": "frontend"
+    },
+    "ga_engaged_sessions": {
+        "word": "Engaged Sessions",
+        "type": "frontend"
+    },
+    "ga_page_views": {
+        "word": "Analytics Page Views",
+        "type": "frontend"
+    },
+    "cpo": {
+        "word": "CPO",
+        "type": "frontend"
+    },
+    "cpm": {
+        "word": "CPM",
+        "type": "frontend"
+    },
+    "ctr": {
+        "word": "CTR",
+        "type": "frontend"
+    },
+    "cpc": {
+        "word": "CPC",
+        "type": "frontend"
+    },
+    "cpp": {
+        "word": "CPP",
+        "type": "frontend"
+    },
+    "story_open_rate": {
+        "word": "Story Open Rate",
+        "type": "frontend"
+    },
+    "cost_per_story_open": {
+        "word": "Cost Per Story Open Rate",
+        "type": "frontend"
+    },
+    "crm_confirmed_percentage": {
+        "word": "CRM Confirmed %",
+        "type": "frontend"
+    },
+    "crm_profit_lose": {
+        "word": "CRM Profit/Lose",
+        "type": "frontend"
+    },
+    "crm_cancelled_percentage": {
+        "word": "CRM Cancelled %",
+        "type": "frontend"
+    },
+    "crm_send_back_percentage": {
+        "word": "CRM Send Back %",
+        "type": "frontend"
+    },
+    "crm_difference": {
+        "word": "CRM Difference",
+        "type": "frontend"
+    },
+    "crm_delivered_percentage": {
+        "word": "CRM Delivered %",
+        "type": "frontend"
+    },
+    "crm_logis_cancelled_percentage": {
+        "word": "CRM Logistic Cancelled %",
+        "type": "frontend"
+    },
+    "crm_final_percentage": {
+        "word": "CRM Final %",
+        "type": "frontend"
+    },
+    "crm_total_expense": {
+        "word": "CRM Total Expenses %",
+        "type": "frontend"
+    },
+    "crm_profit_percentage": {
+        "word": "CRM Profit %",
+        "type": "frontend"
+    },
+    "crm_product_cost_percentage": {
+        "word": "CRM Product Cost %",
+        "type": "frontend"
+    },
+    "crm_delivery_cost_percentage": {
+        "word": "CRM Delivery Cost %",
+        "type": "frontend"
+    },
+    "crm_ad_cost_percentage": {
+        "word": "CRM Ad Cost Cost %",
+        "type": "frontend"
+    },
+    "crm_percentage": {
+        "word": "CRM %",
+        "type": "frontend"
+    },
+    "ga_engagement_rate_percentage": {
+        "word": "Engement Rate %",
+        "type": "frontend"
+    },
+    "crm_logistics_percentage": {
+        "word": "CRM Logistics %",
+        "type": "frontend"
+    },
+    "post": {
+        "word": "Post",
+        "type": "frontend"
+    },
+    "project_name": {
+        "word": "Project Name",
+        "type": "frontend"
+    },
+    "domain": {
+        "word": "Domain",
+        "type": "frontend"
+    },
+    "clear": {
+        "word": "Clear",
+        "type": "frontend"
+    },
+    "storage_used_text": {
+        "word": "of {1} used",
+        "type": "frontend"
+    },
+    "used_storage": {
+        "word": "Used Storage",
+        "type": "frontend"
+    },
+    "free_storage": {
+        "word": "Free Storage",
+        "type": "frontend"
+    },
+    "number_of_records": {
+        "word": "Number of records",
+        "type": "frontend"
+    },
+    "notifications": {
+        "word": "Notifications",
+        "type": "frontend"
+    },
+    "write_down_your_comment": {
+        "word": "Write down your comment",
+        "type": "frontend"
+    },
+    "see_all": {
+        "word": "See all",
+        "type": "frontend"
+    },
+    "prograssive": {
+        "word": "Progressive",
+        "type": "frontend"
+    },
+    "Landing_page_files": {
+        "word": "Landing page files",
+        "type": "frontend"
+    },
+    "project_url": {
+        "word": "Project URL",
+        "type": "frontend"
+    },
+    "no_file_uploaded": {
+        "word": "No file uploaded yet!",
+        "type": "frontend"
+    },
+    "you_are": {
+        "word": "You are",
+        "type": "frontend"
+    },
+    "projects": {
+        "word": "Projects",
+        "type": "frontend"
+    },
+    "advertisement": {
+        "word": "Advertisement",
+        "type": "frontend"
+    },
+    "started": {
+        "word": "started",
+        "type": "frontend"
+    },
+    "applications": {
+        "word": "Applications",
+        "type": "frontend"
+    },
+    "client_secret ": {
+        "word": "Client Secret",
+        "type": "frontend"
+    },
+    "client_id": {
+        "word": "Client ID",
+        "type": "frontend"
+    },
+    "start_spent_time": {
+        "word": "Start spend time",
+        "type": "frontend"
+    },
+    "end_spent_time": {
+        "word": "End spend time",
+        "type": "frontend"
+    },
+    "working": {
+        "word": "working",
+        "type": "frontend"
+    },
+    "half_done": {
+        "word": "50 % done",
+        "type": "frontend"
+    },
+    "almost_done": {
+        "word": "Almost done",
+        "type": "frontend"
+    },
+    "see_more": {
+        "word": "See More",
+        "type": "frontend"
+    },
+    "no_more_Items": {
+        "word": "There Are No More Items",
+        "type": "frontend"
+    },
+    "no_items_found": {
+        "word": "No Items found",
+        "type": "frontend"
+    },
+    "mark_all_read": {
+        "word": "Mark all as read",
+        "type": "frontend"
+    },
+    "settings": {
+        "word": "Settings",
+        "type": "frontend"
+    },
+    "add_order": {
+        "word": "Add Order",
+        "type": "frontend"
+    },
+    "order": {
+        "word": "Order",
+        "type": "frontend"
+    },
+    "storyboard": {
+        "word": "Storyboard",
+        "type": "frontend"
+    },
+    "in_storyboard": {
+        "word": "In Storyboard",
+        "type": "frontend"
+    },
+    "in storyboard": {
+        "word": "In Storyboard",
+        "type": "frontend"
+    },
+    "storyboard_review": {
+        "word": "Storyboard Review",
+        "type": "frontend"
+    },
+    "storyboard review": {
+        "word": "Storyboard Review",
+        "type": "frontend"
+    },
+    "storyboard_note": {
+        "word": "Storyboard Note",
+        "type": "frontend"
+    },
+    "storyboard_rejected": {
+        "word": "Storyboard Rejected",
+        "type": "frontend"
+    },
+    "storyboard rejected": {
+        "word": "Storyboard Rejected",
+        "type": "frontend"
+    },
+    "in_design": {
+        "word": "In Design",
+        "type": "frontend"
+    },
+    "in design": {
+        "word": "In Design",
+        "type": "frontend"
+    },
+    "assigned": {
+        "word": "Assigned",
+        "type": "frontend"
+    },
+    "assigned_user": {
+        "word": "assigned User",
+        "type": "frontend"
+    },
+    "not_assigned": {
+        "word": "Not Assigned",
+        "type": "frontend"
+    },
+    "design_review": {
+        "word": "Design Review",
+        "type": "frontend"
+    },
+    "design_rejected": {
+        "word": "Design Rejected",
+        "type": "frontend"
+    },
+    "design rejected": {
+        "word": "Design Rejected",
+        "type": "frontend"
+    },
+    "in_programming": {
+        "word": "In Programming",
+        "type": "frontend"
+    },
+    "in programming": {
+        "word": "In Programming",
+        "type": "frontend"
+    },
+    "order_type": {
+        "word": "Order Type",
+        "type": "frontend"
+    },
+    "design_note": {
+        "word": "Design Note",
+        "type": "frontend"
+    },
+    "design": {
+        "word": "Design",
+        "type": "frontend"
+    },
+    "sales_note": {
+        "word": "Sales Note",
+        "type": "frontend"
+    },
+    "global_theme": {
+        "word": "Global Theme",
+        "type": "frontend"
+    },
+    "toolbar_theme": {
+        "word": "Toolbar Theme",
+        "type": "frontend"
+    },
+    "menu_theme": {
+        "word": "Menu Theme",
+        "type": "frontend"
+    },
+    "toolbar_style": {
+        "word": "Toolbar Style",
+        "type": "frontend"
+    },
+    "primary_color": {
+        "word": "Primary Color",
+        "type": "frontend"
+    },
+    "right_to_left": {
+        "word": "Right to Left",
+        "type": "frontend"
+    },
+    "cancels": {
+        "word": "Cancels",
+        "type": "frontend"
+    },
+    "programming_review": {
+        "word": "Programming Review",
+        "type": "frontend"
+    },
+    "content_layout": {
+        "word": "Content Layout",
+        "type": "frontend"
+    },
+    "content_type": {
+        "word": "Content Type",
+        "type": "frontend"
+    },
+    "fluid": {
+        "word": "Fluid",
+        "type": "frontend"
+    },
+    "boxed": {
+        "word": "Boxed",
+        "type": "frontend"
+    },
+    "full": {
+        "word": "Full",
+        "type": "frontend"
+    },
+    "solo": {
+        "word": "Solo",
+        "type": "frontend"
+    },
+    "employee_task_not_done": {
+        "word": "Employee task has not been done",
+        "type": "frontend"
+    },
+    "no_employee_has_been_assigned": {
+        "word": "No employee has been assigned",
+        "type": "frontend"
+    },
+    "global": {
+        "word": "Global",
+        "type": "frontend"
+    },
+    "light": {
+        "word": "Light",
+        "type": "frontend"
+    },
+    "dark": {
+        "word": "Dark",
+        "type": "frontend"
+    },
+    "toolbar_search": {
+        "word": "Search (press 'ctrl + /' to focus)",
+        "type": "frontend"
+    },
+    "email_or_username": {
+        "word": "Email or Username",
+        "type": "frontend"
+    },
+    "password": {
+        "word": "Password",
+        "type": "frontend"
+    },
+    "same_password": {
+        "word": "{1} must be same as password.",
+        "type": "frontend"
+    },
+    "successfully": {
+        "word": "Successfully {1}",
+        "type": "frontend"
+    },
+    "confirm_password": {
+        "word": "Confirm Password",
+        "type": "frontend"
+    },
+    "forgot_password": {
+        "word": "Forgot Password",
+        "type": "frontend"
+    },
+    "sign_in": {
+        "word": "Sign In",
+        "type": "frontend"
+    },
+    "successfully_logged_in": {
+        "word": "Successfully logged in",
+        "type": "frontend"
+    },
+    "invalid_login_details": {
+        "word": "Invalid Login Details!",
+        "type": "frontend"
+    },
+    "account_not_activated": {
+        "word": "Your Account is not activated, Please contact a system admin to activate account!",
+        "type": "frontend"
+    },
+    "server_error_please_try_again": {
+        "word": "Server Error. Please Try again!",
+        "type": "frontend"
+    },
+    "account_warning_password_incorrect_5_times": {
+        "word": "You are in Warning now because of using 5 time wrong password!",
+        "type": "frontend"
+    },
+    "account_in_warning_cant_login": {
+        "word": "Your account is in Warning, you can't login till you are in warning!",
+        "type": "frontend"
+    },
+    "account_in_inactive_cant_login": {
+        "word": "Your account is Inactive, you can't login till your account is Inactive!",
+        "type": "frontend"
+    },
+    "account_in_warning_because_country_changes": {
+        "word": "Your account is in warning, because you have change your country!",
+        "type": "frontend"
+    },
+    "account_in_warning_because_reseting_3_times_in_an_hour": {
+        "word": "Your account is in Warning now because of reseting three time in a hour",
+        "type": "frontend"
+    },
+    "network_error_please_try_again": {
+        "word": "Network Error. Please Try again!",
+        "type": "frontend"
+    },
+    "item_is_required": {
+        "word": "{1} is required",
+        "type": "frontend"
+    },
+    "cant_view_more_than_one_item_at_the_same_time": {
+        "word": "Can not view more than 1 item at the same time",
+        "type": "frontend"
+    },
+    "cant_do_operation_on_more_than_ten_items_at_the_same_time": {
+        "word": "Can not do operation on more than 10 items at the same time",
+        "type": "frontend"
+    },
+    "cant_do_operation_on_more_than_100_items_at_the_same_time": {
+        "word": "Can not do operation on more than 100 items at the same time",
+        "type": "frontend"
+    },
+    "cant_delete_application_for_now": {
+        "word": "You can't delete application permanently now, we will add it soon...",
+        "type": "frontend"
+    },
+    "only_one_item_is_allowed_for_this_operation": {
+        "word": "Only one item is allowed for this operation",
+        "type": "frontend"
+    },
+    "ask_for_why": {
+        "word": "Why do you want to {1} selected {2}",
+        "type": "frontend"
+    },
+    "approved": {
+        "word": "Approved",
+        "type": "frontend"
+    },
+    "approve": {
+        "word": "Approve",
+        "type": "frontend"
+    },
+    "note_here": {
+        "word": "Note Here",
+        "type": "frontend"
+    },
+    "design_note_and_design_link_are_empty": {
+        "word": "Design note and design link are empty",
+        "type": "frontend"
+    },
+    "design_link_is_empty": {
+        "word": "Design link is empty",
+        "type": "frontend"
+    },
+    "reject": {
+        "word": "Reject",
+        "type": "frontend"
+    },
+    "note_is_either_empty_or_not_enough": {
+        "word": "{1} note is either empty or not enough",
+        "type": "frontend"
+    },
+    "has_been_approved": {
+        "word": "{1} approved {2}",
+        "type": "frontend"
+    },
+    "rejected": {
+        "word": "Rejected",
+        "type": "frontend"
+    },
+    "has_been_rejected": {
+        "word": "{1} rejected {2}",
+        "type": "frontend"
+    },
+    "maximum_salary_cant_be_less_than_minimum_salary": {
+        "word": "Maximum salary can not be less than minimum salary.",
+        "type": "frontend"
+    },
+    "item": {
+        "word": "Item",
+        "type": "frontend"
+    },
+    "items": {
+        "word": "Items",
+        "type": "frontend"
+    },
+    "item_is_invalid": {
+        "word": "{1} is invalid",
+        "type": "frontend"
+    },
+    "password_must_contain": {
+        "word": "{1} must contains alpha numeric and at least one symbol (A1%^&b)",
+        "type": "frontend"
+    },
+    "item_must_be_between": {
+        "word": "{1} and {2}",
+        "type": "frontend"
+    },
+    "item_must_be_numeric": {
+        "word": "The {1} must be a number.",
+        "type": "frontend"
+    },
+    "item_already_exists": {
+        "word": "{1} already exists",
+        "type": "frontend"
+    },
+    "already_exists": {
+        "word": "Already exists",
+        "type": "frontend"
+    },
+    "enter_email_to_reset_password": {
+        "word": "Enter your email to reset your password",
+        "type": "frontend"
+    },
+    "email": {
+        "word": "Email",
+        "type": "frontend"
+    },
+    "label_required": {
+        "word": "{1} *",
+        "type": "frontend"
+    },
+    "label": {
+        "word": "Label",
+        "type": "frontend"
+    },
+    "back_to_sign_in": {
+        "word": "Bact to Sign In",
+        "type": "frontend"
+    },
+    "send_otp_code": {
+        "word": "Send OTP Code",
+        "type": "frontend"
+    },
+    "please_fill_all_fields_correctly": {
+        "word": "Please fill all field correctly",
+        "type": "frontend"
+    },
+    "reset_link_sent": {
+        "word": "Reset link sent",
+        "type": "frontend"
+    },
+    "reset_title": {
+        "word": "Reset Password",
+        "type": "frontend"
+    },
+    "reset_password": {
+        "word": "Reset Password",
+        "type": "frontend"
+    },
+    "new_password": {
+        "word": "New Password",
+        "type": "frontend"
+    },
+    "current_password": {
+        "word": "Current Password",
+        "type": "frontend"
+    },
+    "password_setted": {
+        "word": "Password has been setted!",
+        "type": "frontend"
+    },
+    "password_changed": {
+        "word": "Password has been changed!",
+        "type": "frontend"
+    },
+    "password_cleared": {
+        "word": "Password has been cleared!",
+        "type": "frontend"
+    },
+    "enter_your_current_password": {
+        "word": "Enter your current password",
+        "type": "frontend"
+    },
+    "copied_items": {
+        "word": "Selected records has been copied to {1}",
+        "type": "frontend"
+    },
+    "movied_items": {
+        "word": "Selected records has been moved to {1}",
+        "type": "frontend"
+    },
+    "enter_your_password": {
+        "word": "Enter your password",
+        "type": "frontend"
+    },
+    "incorrect_current_password": {
+        "word": "You current password is incorrect!",
+        "type": "frontend"
+    },
+    "invalid_email_or_token": {
+        "word": "Invalid email or token",
+        "type": "frontend"
+    },
+    "unauthorized_to_access_this_page": {
+        "word": "You are not authorized to access this page",
+        "type": "frontend"
+    },
+    "unauthorized_to_do_this_operation": {
+        "word": "You are not authorized to do this operation",
+        "type": "frontend"
+    },
+    "reseting_password": {
+        "word": "Resetting password",
+        "type": "frontend"
+    },
+    "login_failed": {
+        "word": "Login failed",
+        "type": "frontend"
+    },
+    "token_expired": {
+        "word": "Token Expired",
+        "type": "frontend"
+    },
+    "password_reset": {
+        "word": "Password Reset",
+        "type": "frontend"
+    },
+    "min_length": {
+        "word": "{1} can't be less than {2} characters",
+        "type": "frontend"
+    },
+    "max_length": {
+        "word": "{1} can't be more than {2} characters.",
+        "type": "frontend"
+    },
+    "min_value": {
+        "word": "The {1} must be at least {2}.",
+        "type": "frontend"
+    },
+    "max_value": {
+        "word": "The {1} must not be greater than {2}.",
+        "type": "frontend"
+    },
+    "file": {
+        "word": "File",
+        "type": "frontend"
+    },
+    "name": {
+        "word": "Name",
+        "type": "frontend"
+    },
+    "item_name": {
+        "word": "{1} Name",
+        "type": "frontend"
+    },
+    "item_url": {
+        "word": "{1} URL",
+        "type": "frontend"
+    },
+    "item_id": {
+        "word": "{1} ID",
+        "type": "frontend"
+    },
+    "create_item": {
+        "word": "Create {1}",
+        "type": "frontend"
+    },
+    "status_is_not_available_for": {
+        "word": "Status is not available for {1}",
+        "type": "frontend"
+    },
+    "update_item": {
+        "word": "Update {1}",
+        "type": "frontend"
+    },
+    "item_name_required": {
+        "word": "{1} Name *",
+        "type": "frontend"
+    },
+    "firstname": {
+        "word": "FirstName",
+        "type": "frontend"
+    },
+    "lastname": {
+        "word": "LastName",
+        "type": "frontend"
+    },
+    "username": {
+        "word": "Username",
+        "type": "frontend"
+    },
+    "phone": {
+        "word": "Phone",
+        "type": "frontend"
+    },
+    "whatsapp": {
+        "word": "Whatsapp",
+        "type": "frontend"
+    },
+    "whatsapp_sales": {
+        "word": "WhatsApp Sales",
+        "type": "frontend"
+    },
+    "gender": {
+        "word": "Gender",
+        "type": "frontend"
+    },
+    "select_gender": {
+        "word": "Select Gender",
+        "type": "frontend"
+    },
+    "address": {
+        "word": "Address",
+        "type": "frontend"
+    },
+    "addresses": {
+        "word": "Addresses",
+        "type": "frontend"
+    },
+    "dependents": {
+        "word": "Dependents",
+        "type": "frontend"
+    },
+    "emergency_contacts": {
+        "word": "Emergency Contacts",
+        "type": "frontend"
+    },
+    "birthday_date": {
+        "word": "Birth Date",
+        "type": "frontend"
+    },
+    "birth_date": {
+        "word": "Birth Date",
+        "type": "frontend"
+    },
+    "birth_date_format": {
+        "word": "yy/mm/dd",
+        "type": "frontend"
+    },
+    "time_format": {
+        "word": "HH:MM",
+        "type": "frontend"
+    },
+    "image": {
+        "word": "Image",
+        "type": "frontend"
+    },
+    "images": {
+        "word": "Images",
+        "type": "frontend"
+    },
+    "note": {
+        "word": "Note",
+        "type": "frontend"
+    },
+    "notes": {
+        "word": "Notes",
+        "type": "frontend"
+    },
+    "roles": {
+        "word": "Roles",
+        "type": "frontend"
+    },
+    "teams": {
+        "word": "Teams",
+        "type": "frontend"
+    },
+    "systems": {
+        "word": "Systems",
+        "type": "frontend"
+    },
+    "companies": {
+        "word": "Companies",
+        "type": "frontend"
+    },
+    "language": {
+        "word": "Language",
+        "type": "frontend"
+    },
+    "landing_page_language": {
+        "word": "Landing Page Language",
+        "type": "frontend"
+    },
+    "direction": {
+        "word": "Direction",
+        "type": "frontend"
+    },
+    "countries": {
+        "word": "Countries",
+        "type": "frontend"
+    },
+    "country": {
+        "word": "Country",
+        "type": "frontend"
+    },
+    "noCountry": {
+        "word": "No Country",
+        "type": "frontend"
+    },
+    "city": {
+        "word": "City",
+        "type": "frontend"
+    },
+    "current_country": {
+        "word": "Current Country",
+        "type": "frontend"
+    },
+    "team": {
+        "word": "Team",
+        "type": "frontend"
+    },
+    "team_role": {
+        "word": "Team Role",
+        "type": "frontend"
+    },
+    "team_name": {
+        "word": "Team Name",
+        "type": "frontend"
+    },
+    "role": {
+        "word": "Role",
+        "type": "frontend"
+    },
+    "role_name": {
+        "word": "Role Name",
+        "type": "frontend"
+    },
+    "member": {
+        "word": "Member",
+        "type": "frontend"
+    },
+    "members": {
+        "word": "Members",
+        "type": "frontend"
+    },
+    "choose": {
+        "word": "Choose",
+        "type": "frontend"
+    },
+    "choose_item": {
+        "word": "Choose {1}",
+        "type": "frontend"
+    },
+    "investment_type": {
+        "word": "Investment Type",
+        "type": "frontend"
+    },
+    "department": {
+        "word": "Department",
+        "type": "frontend"
+    },
+    "departments": {
+        "word": "Departments",
+        "type": "frontend"
+    },
+    "sub_system": {
+        "word": "Sub System",
+        "type": "frontend"
+    },
+    "title": {
+        "word": "Title",
+        "type": "frontend"
+    },
+    "state": {
+        "word": "State",
+        "type": "frontend"
+    },
+    "subject": {
+        "word": "Subject",
+        "type": "frontend"
+    },
+    "icon": {
+        "word": "Icon",
+        "type": "frontend"
+    },
+    "map_link": {
+        "word": "Map Link",
+        "type": "frontend"
+    },
+    "add_country_note": {
+        "word": "Add Country Note",
+        "type": "frontend"
+    },
+    "add_company": {
+        "word": "Add company",
+        "type": "frontend"
+    },
+    "search": {
+        "word": "Search",
+        "type": "frontend"
+    },
+    "search_filter": {
+        "word": "Search & Filter",
+        "type": "frontend"
+    },
+    "search_type": {
+        "word": "Search Type",
+        "type": "frontend"
+    },
+    "filter_button": {
+        "word": "Filter",
+        "type": "frontend"
+    },
+    "clear_filter_button": {
+        "word": "Clear Filter",
+        "type": "frontend"
+    },
+    "download": {
+        "word": "Download",
+        "type": "frontend"
+    },
+    "time_and_date": {
+        "word": "Time & Date",
+        "type": "frontend"
+    },
+    "start_date": {
+        "word": "Start Date",
+        "type": "frontend"
+    },
+    "end_date": {
+        "word": "End Date",
+        "type": "frontend"
+    },
+    "number_of_people": {
+        "word": "Number of People",
+        "type": "frontend"
+    },
+    "created_by": {
+        "word": "Created By",
+        "type": "frontend"
+    },
+    "updated_by": {
+        "word": "Updated By",
+        "type": "frontend"
+    },
+    "choose_download_types": {
+        "word": "Choose one or multiple type you want to download",
+        "type": "frontend"
+    },
+    "select_file_type": {
+        "word": "Select file type",
+        "type": "frontend"
+    },
+    "cancel": {
+        "word": "Cancel",
+        "type": "frontend"
+    },
+    "save": {
+        "word": "Save",
+        "type": "frontend"
+    },
+    "share": {
+        "word": "Share",
+        "type": "frontend"
+    },
+    "unshare": {
+        "word": "Unshare",
+        "type": "frontend"
+    },
+    "permalink": {
+        "word": "Permalink",
+        "type": "frontend"
+    },
+    "esc": {
+        "word": "Esc",
+        "type": "frontend"
+    },
+    "save_next": {
+        "word": "Save & Next",
+        "type": "frontend"
+    },
+    "ok": {
+        "word": "OK",
+        "type": "frontend"
+    },
+    "yes": {
+        "word": "Yes",
+        "type": "frontend"
+    },
+    "no": {
+        "word": "No",
+        "type": "frontend"
+    },
+    "add_plus": {
+        "word": "Add+",
+        "type": "frontend"
+    },
+    "add": {
+        "word": "Add",
+        "type": "frontend"
+    },
+    "save_changes": {
+        "word": "Save Changes",
+        "type": "frontend"
+    },
+    "open": {
+        "word": "Open",
+        "type": "frontend"
+    },
+    "close": {
+        "word": "Close",
+        "type": "frontend"
+    },
+    "rename": {
+        "word": "Rename",
+        "type": "frontend"
+    },
+    "select": {
+        "word": "Select",
+        "type": "frontend"
+    },
+    "edit": {
+        "word": "Edit",
+        "type": "frontend"
+    },
+    "item_edit": {
+        "word": "{1} Edit",
+        "type": "frontend"
+    },
+    "item_auto_edit": {
+        "word": "{1} Auto Edit",
+        "type": "frontend"
+    },
+    "update": {
+        "word": "Update",
+        "type": "frontend"
+    },
+    "auto": {
+        "word": "Auto",
+        "type": "frontend"
+    },
+    "auto_edit": {
+        "word": "Auto Edit",
+        "type": "frontend"
+    },
+    "block": {
+        "word": "Block",
+        "type": "frontend"
+    },
+    "delete": {
+        "word": "Delete",
+        "type": "frontend"
+    },
+    "delete_permanently": {
+        "word": "Delete Permanently",
+        "type": "frontend"
+    },
+    "select_status": {
+        "word": "Select Status",
+        "type": "frontend"
+    },
+    "apply": {
+        "word": "Apply",
+        "type": "frontend"
+    },
+    "page": {
+        "word": "Page",
+        "type": "frontend"
+    },
+    "date": {
+        "word": "Date",
+        "type": "frontend"
+    },
+    "column": {
+        "word": "Column",
+        "type": "frontend"
+    },
+    "upload": {
+        "word": "Upload",
+        "type": "frontend"
+    },
+    "bulk_upload": {
+        "word": "Bulk Upload",
+        "type": "frontend"
+    },
+    "add_location": {
+        "word": "Add Location",
+        "type": "frontend"
+    },
+    "view": {
+        "word": "View",
+        "type": "frontend"
+    },
+    "view_name": {
+        "word": "View Name",
+        "type": "frontend"
+    },
+    "thumbnail_size": {
+        "word": "Thumbnail Size",
+        "type": "frontend"
+    },
+    "reasons": {
+        "word": "Reasons",
+        "type": "frontend"
+    },
+    "actions": {
+        "word": "Actions",
+        "type": "frontend"
+    },
+    "action": {
+        "word": "Action",
+        "type": "frontend"
+    },
+    "toggle_tracing": {
+        "word": "Toggle Tracing",
+        "type": "frontend"
+    },
+    "active": {
+        "word": "Active",
+        "type": "frontend"
+    },
+    "inactive": {
+        "word": "Inactive",
+        "type": "frontend"
+    },
+    "blocked": {
+        "word": "Blocked",
+        "type": "frontend"
+    },
+    "quiz": {
+        "word": "Quiz",
+        "type": "frontend"
+    },
+    "survey": {
+        "word": "Survey",
+        "type": "frontend"
+    },
+    "deleted": {
+        "word": "Deleted",
+        "type": "frontend"
+    },
+    "pending": {
+        "word": "Pending",
+        "type": "frontend"
+    },
+    "waiting": {
+        "word": "Waiting",
+        "type": "frontend"
+    },
+    "warning": {
+        "word": "Warning",
+        "type": "frontend"
+    },
+    "removed": {
+        "word": "Removed",
+        "type": "frontend"
+    },
+    "onhold": {
+        "word": "On Hold",
+        "type": "frontend"
+    },
+    "expired": {
+        "word": "Expired",
+        "type": "frontend"
+    },
+    "cancelled": {
+        "word": "Cancelled",
+        "type": "frontend"
+    },
+    "tracing": {
+        "word": "Tracing",
+        "type": "frontend"
+    },
+    "id": {
+        "word": "ID",
+        "type": "frontend"
+    },
+    "status": {
+        "word": "Status",
+        "type": "frontend"
+    },
+    "flag": {
+        "word": "Flag",
+        "type": "frontend"
+    },
+    "phone_code": {
+        "word": "Phone Code",
+        "type": "frontend"
+    },
+    "native": {
+        "word": "Native",
+        "type": "frontend"
+    },
+    "timezones": {
+        "word": "Time Zones",
+        "type": "frontend"
+    },
+    "created_at": {
+        "word": "Created At",
+        "type": "frontend"
+    },
+    "updated_at": {
+        "word": "Updated At",
+        "type": "frontend"
+    },
+    "last_update": {
+        "word": "Last Update",
+        "type": "frontend"
+    },
+    "logo": {
+        "word": "Logo",
+        "type": "frontend"
+    },
+    "content": {
+        "word": "Content",
+        "type": "frontend"
+    },
+    "customize_columns": {
+        "word": "Customize Columns",
+        "type": "frontend"
+    },
+    "all": {
+        "word": "All",
+        "type": "frontend"
+    },
+    "select_all": {
+        "word": "Select All",
+        "type": "frontend"
+    },
+    "unselect_all": {
+        "word": "Unselect All",
+        "type": "frontend"
+    },
+    "columns_selected": {
+        "word": "{1} columns selected",
+        "type": "frontend"
+    },
+    "shared_views": {
+        "word": "Shared Views",
+        "type": "frontend"
+    },
+    "no_custom_view_saved": {
+        "word": "No Custom view saved yet!",
+        "type": "frontend"
+    },
+    "my_view": {
+        "word": "My View",
+        "type": "frontend"
+    },
+    "shared": {
+        "word": "Shared",
+        "type": "frontend"
+    },
+    "my_shares": {
+        "word": "My shares",
+        "type": "frontend"
+    },
+    "shared_with_me": {
+        "word": "Shared with me",
+        "type": "frontend"
+    },
+    "personal": {
+        "word": "Personal",
+        "type": "frontend"
+    },
+    "save_view": {
+        "word": "Save View",
+        "type": "frontend"
+    },
+    "saved_successfully": {
+        "word": "{1} successfully saved!",
+        "type": "frontend"
+    },
+    "updated_successfully_": {
+        "word": "{1} successfully updated!",
+        "type": "frontend"
+    },
+    "translated_successfully_": {
+        "word": "{1} successfully translated!",
+        "type": "frontend"
+    },
+    "successfully_inserted": {
+        "word": "Record successfully inserted!",
+        "type": "frontend"
+    },
+    "successfully_updated": {
+        "word": "Record Successfully updated!",
+        "type": "frontend"
+    },
+    "successfully_blocked": {
+        "word": "Record Successfully blocked!",
+        "type": "frontend"
+    },
+    "successfully_active": {
+        "word": "Record Successfully activited!",
+        "type": "frontend"
+    },
+    "successfully_inactive": {
+        "word": "Record Successfully inactivited!",
+        "type": "frontend"
+    },
+    "successfully_tracing": {
+        "word": "Record Successfully traced!",
+        "type": "frontend"
+    },
+    "successfully_untracing": {
+        "word": "Record Successfully untraced!",
+        "type": "frontend"
+    },
+    "successfully_removed": {
+        "word": "Record Successfully removed!",
+        "type": "frontend"
+    },
+    "successfully_restored": {
+        "word": "Record Successfully restored!",
+        "type": "frontend"
+    },
+    "successfully_deleted": {
+        "word": "Record Successfully deleted!",
+        "type": "frontend"
+    },
+    "successfully_translated": {
+        "word": "Record Successfully translated!",
+        "type": "frontend"
+    },
+    "not_allowed_to_change_status": {
+        "word": "Selected status is not allowed for this item.",
+        "type": "frontend"
+    },
+    "something_went_wrong": {
+        "word": "Something went wrong!",
+        "type": "frontend"
+    },
+    "change": {
+        "word": "Change",
+        "type": "frontend"
+    },
+    "change_status": {
+        "word": "Change status",
+        "type": "frontend"
+    },
+    "not_allowed_at_current_time": {
+        "word": "You are not allowed to login at the current time.<br /> Please try again later!",
+        "type": "frontend"
+    },
+    "selected_company_is_not_save": {
+        "word": "Something went wrong while selecting company!",
+        "type": "frontend"
+    },
+    "selecting": {
+        "word": "Selecting...",
+        "type": "frontend"
+    },
+    "change_your_account_password": {
+        "word": "Change your account password",
+        "type": "frontend"
+    },
+    "password_changed_successfully": {
+        "word": "Your password has been changed",
+        "type": "frontend"
+    },
+    "changing": {
+        "word": "Changing...",
+        "type": "frontend"
+    },
+    "continue": {
+        "word": "Continue",
+        "type": "frontend"
+    },
+    "choice_your_default_company": {
+        "word": "Choose your default company",
+        "type": "frontend"
+    },
+    "company_changed": {
+        "word": "Your company has been changed!",
+        "type": "frontend"
+    },
+    "team_list": {
+        "word": "Team List",
+        "type": "frontend"
+    },
+    "role_list": {
+        "word": "Role List",
+        "type": "frontend"
+    },
+    "please_select_permission": {
+        "word": "Please select user permission or skip it.",
+        "type": "frontend"
+    },
+    "please_select_team_permission_no_skip": {
+        "word": "Please select Team permission.",
+        "type": "frontend"
+    },
+    "please_select_role_permission_no_skip": {
+        "word": "Please select Role permission.",
+        "type": "frontend"
+    },
+    "name_exists": {
+        "word": "Name already exist, Please try another name!",
+        "type": "frontend"
+    },
+    "yes_sure": {
+        "word": "Yes, sure",
+        "type": "frontend"
+    },
+    "yes_delete": {
+        "word": "Yes, delete",
+        "type": "frontend"
+    },
+    "yes_unassign": {
+        "word": "Yes, Unassing",
+        "type": "frontend"
+    },
+    "yes_restore": {
+        "word": "Yes, restore",
+        "type": "frontend"
+    },
+    "yes_block": {
+        "word": "Yes, block",
+        "type": "frontend"
+    },
+    "yes_trace": {
+        "word": "Yes, trace",
+        "type": "frontend"
+    },
+    "yes_untrace": {
+        "word": "Yes, untrace",
+        "type": "frontend"
+    },
+    "yes_cancel": {
+        "word": "Yes, Cancel",
+        "type": "frontend"
+    },
+    "yes_cancel_all": {
+        "word": "Yes, Cancel All",
+        "type": "frontend"
+    },
+    "yes_clear": {
+        "word": "Yes, Clear",
+        "type": "frontend"
+    },
+    "yes_unshare": {
+        "word": "Yes, Unshare",
+        "type": "frontend"
+    },
+    "restricted": {
+        "word": "Restricted",
+        "type": "frontend"
+    },
+    "storage_used": {
+        "word": "storage Used",
+        "type": "frontend"
+    },
+    "time_created": {
+        "word": "Time Created",
+        "type": "frontend"
+    },
+    "please_select_your_destination": {
+        "word": "Please select your destination",
+        "type": "frontend"
+    },
+    "are_you_sure": {
+        "word": "Are you sure?",
+        "type": "frontend"
+    },
+    "are_you_sure_to": {
+        "word": "Are you sure to {1}?",
+        "type": "frontend"
+    },
+    "to_approve_selected_order": {
+        "word": "to approve selected order",
+        "type": "frontend"
+    },
+    "exit_from_system": {
+        "word": "Exit from system",
+        "type": "frontend"
+    },
+    "do_you_want_to_block_selected": {
+        "word": "Do you want to block the selected row?",
+        "type": "frontend"
+    },
+    "cant_change_record_status_in_delete_tab": {
+        "word": "You can't change record status to active or blocked when deleted!",
+        "type": "frontend"
+    },
+    "cant_change_record_status_in_tracing_tab": {
+        "word": "You can't change user status from tracing tab.!",
+        "type": "frontend"
+    },
+    "record_status_changed_success_title": {
+        "word": "Record's status successfully changed",
+        "type": "frontend"
+    },
+    "record_item_status_changed": {
+        "word": "{1} status successfully changed",
+        "type": "frontend"
+    },
+    "cant_delete_more_than_one_item": {
+        "word": "Sorry you can't delete more than one item at a time!",
+        "type": "frontend"
+    },
+    "cant_make_status_active_in_block_tab": {
+        "word": "You can't change record status to active directly when blocked!",
+        "type": "frontend"
+    },
+    "cant_block_more_than_one_item": {
+        "word": "Sorry you can't block more than one item at a time!",
+        "type": "frontend"
+    },
+    "cant_update_more_than_one_item": {
+        "word": "Sorry you can't update more than one item at a time!",
+        "type": "frontend"
+    },
+    "cant_force_delete_an_item": {
+        "word": "You can't force delete an Item!",
+        "type": "frontend"
+    },
+    "cant_do_operation_on_all_tab": {
+        "word": "You can't do operation when all tab is selected!",
+        "type": "frontend"
+    },
+    "cant_change_status_in_tracing_tab": {
+        "word": "You can't change user status from tracing tab.",
+        "type": "frontend"
+    },
+    "item_is_already_blocked": {
+        "word": "Record is already blocked!",
+        "type": "frontend"
+    },
+    "you_can_toggle_tracing_from_active_and_tracing_tab": {
+        "word": "You can only trace a user from active tab and tracing tab",
+        "type": "frontend"
+    },
+    "record_is_already_in_desired_status": {
+        "word": "Record is already in desired status!",
+        "type": "frontend"
+    },
+    "user_is_already_in_tracing_status": {
+        "word": "User is already in tracing mode!",
+        "type": "frontend"
+    },
+    "status_not_selected_please_status_first": {
+        "word": "Status not selected! Please select a status first",
+        "type": "frontend"
+    },
+    "select_only_one_item": {
+        "word": "Please select only one item",
+        "type": "frontend"
+    },
+    "unable_status_change_in_tracing_tab": {
+        "word": "Unable status change in tracing tab",
+        "type": "frontend"
+    },
+    "item_not_selected": {
+        "word": "No Item Selected",
+        "type": "frontend"
+    },
+    "please_select_an_item_first": {
+        "word": "Please select an Item first",
+        "type": "frontend"
+    },
+    "please_select_one_option": {
+        "word": "Please select one option",
+        "type": "frontend"
+    },
+    "please_select_a_record_first": {
+        "word": "Please select a record/row first",
+        "type": "frontend"
+    },
+    "swal_restore_text": {
+        "word": "To restore the selected items",
+        "type": "frontend"
+    },
+    "swal_remove_text": {
+        "word": "This operation is not restoreable.",
+        "type": "frontend"
+    },
+    "item_limited": {
+        "word": "{1} Limited",
+        "type": "frontend"
+    },
+    "filter_item": {
+        "word": "Filter {1}",
+        "type": "frontend"
+    },
+    "data": {
+        "word": "Data",
+        "type": "frontend"
+    },
+    "country_name": {
+        "word": "Country Name",
+        "type": "frontend"
+    },
+    "capital": {
+        "word": "Capital",
+        "type": "frontend"
+    },
+    "national": {
+        "word": "National",
+        "type": "frontend"
+    },
+    "nationality": {
+        "word": "Nationality",
+        "type": "frontend"
+    },
+    "currency": {
+        "word": "Currency",
+        "type": "frontend"
+    },
+    "currency_symbol": {
+        "word": "Currency Symbol",
+        "type": "frontend"
+    },
+    "currency_list": {
+        "word": "Currency List",
+        "type": "frontend"
+    },
+    "region": {
+        "word": "Region",
+        "type": "frontend"
+    },
+    "sub_region": {
+        "word": "Sub Region",
+        "type": "frontend"
+    },
+    "date_range": {
+        "word": "Date Range",
+        "type": "frontend"
+    },
+    "time_range": {
+        "word": "Time Range",
+        "type": "frontend"
+    },
+    "select_created_date": {
+        "word": "Select Created Date",
+        "type": "frontend"
+    },
+    "last_edited": {
+        "word": "Last Edit",
+        "type": "frontend"
+    },
+    "select_last_updated_date": {
+        "word": "Select Last Updated Date",
+        "type": "frontend"
+    },
+    "id_filtering": {
+        "word": "ID Filtering",
+        "type": "frontend"
+    },
+    "include_caps": {
+        "word": "INCLUDE",
+        "type": "frontend"
+    },
+    "exclude_caps": {
+        "word": "EXCLUDE",
+        "type": "frontend"
+    },
+    "all_caps": {
+        "word": "ALL",
+        "type": "frontend"
+    },
+    "general_info_caps": {
+        "word": "GENERAL INFORMATION",
+        "type": "frontend"
+    },
+    "general_info_details": {
+        "word": "General Info Details",
+        "type": "frontend"
+    },
+    "country_info_caps": {
+        "word": "COUNTRY INFORMATION",
+        "type": "frontend"
+    },
+    "language_info_caps": {
+        "word": "LANGUAGE INFORMATION",
+        "type": "frontend"
+    },
+    "department_info_caps": {
+        "word": "DEPARTMENT INFORMATION",
+        "type": "frontend"
+    },
+    "user_info_caps": {
+        "word": "USER INFORMATION",
+        "type": "frontend"
+    },
+    "location_caps": {
+        "word": "LOCATION",
+        "type": "frontend"
+    },
+    "role_caps": {
+        "word": "ROLE INFORMATION",
+        "type": "frontend"
+    },
+    "team_caps": {
+        "word": "TEAM INFORMATION",
+        "type": "frontend"
+    },
+    "datewise_caps": {
+        "word": "DATE WISE",
+        "type": "frontend"
+    },
+    "dashboard": {
+        "word": "Dashboard",
+        "type": "frontend"
+    },
+    "selection": {
+        "word": "Selection",
+        "type": "frontend"
+    },
+    "select_country": {
+        "word": "Select Country",
+        "type": "frontend"
+    },
+    "select_current_country": {
+        "word": "Select Current Country",
+        "type": "frontend"
+    },
+    "select_company": {
+        "word": "Select Company",
+        "type": "frontend"
+    },
+    "company": {
+        "word": "Company",
+        "type": "frontend"
+    },
+    "prev": {
+        "word": "Prev",
+        "type": "frontend"
+    },
+    "next": {
+        "word": "Next",
+        "type": "frontend"
+    },
+    "skip": {
+        "word": "Skip",
+        "type": "frontend"
+    },
+    "submit": {
+        "word": "Submit",
+        "type": "frontend"
+    },
+    "start_over": {
+        "word": "Start Over",
+        "type": "frontend"
+    },
+    "submitting": {
+        "word": "Submitting",
+        "type": "frontend"
+    },
+    "validating": {
+        "word": "Validating",
+        "type": "frontend"
+    },
+    "general": {
+        "word": "General",
+        "type": "frontend"
+    },
+    "permissions": {
+        "word": "Permissions",
+        "type": "frontend"
+    },
+    "remarks": {
+        "word": "Remarks",
+        "type": "frontend"
+    },
+    "remark": {
+        "word": "Remark",
+        "type": "frontend"
+    },
+    "done": {
+        "word": "Done",
+        "type": "frontend"
+    },
+    "duplicated_name": {
+        "word": "Name has already been taken, please try a different on",
+        "type": "frontend"
+    },
+    "item_all_set": {
+        "word": "{1} is all Set",
+        "type": "frontend"
+    },
+    "you_can_access_your_item": {
+        "word": "Now you can access the {1}!",
+        "type": "frontend"
+    },
+    "item_already_selected": {
+        "word": "{1} already selected!",
+        "type": "frontend"
+    },
+    "item_not_found": {
+        "word": "{1} not found!",
+        "type": "frontend"
+    },
+    "profile": {
+        "word": "Profile",
+        "type": "frontend"
+    },
+    "details": {
+        "word": "Details",
+        "type": "frontend"
+    },
+    "no_item": {
+        "word": "This Item has no {1}",
+        "type": "frontend"
+    },
+    "male": {
+        "word": "Male",
+        "type": "frontend"
+    },
+    "female": {
+        "word": "Female",
+        "type": "frontend"
+    },
+    "both": {
+        "word": "Both",
+        "type": "frontend"
+    },
+    "showing_items": {
+        "word": "Showing {1} to {2} of {3}",
+        "type": "frontend"
+    },
+    "languages": {
+        "word": "Languages",
+        "type": "frontend"
+    },
+    "frontend": {
+        "word": "Frontend",
+        "type": "frontend"
+    },
+    "backend": {
+        "word": "Backend",
+        "type": "frontend"
+    },
+    "translated": {
+        "word": "Translated",
+        "type": "frontend"
+    },
+    "translate": {
+        "word": "Translate",
+        "type": "frontend"
+    },
+    "not_translated": {
+        "word": "Not Translated",
+        "type": "frontend"
+    },
+    "translation": {
+        "word": "Translation",
+        "type": "frontend"
+    },
+    "translations": {
+        "word": "Translations",
+        "type": "frontend"
+    },
+    "percentage": {
+        "word": "Percentage",
+        "type": "frontend"
+    },
+    "translation_no": {
+        "word": "Transalation No.",
+        "type": "frontend"
+    },
+    "completed": {
+        "word": "Completed",
+        "type": "frontend"
+    },
+    "in_progress": {
+        "word": "In Progress",
+        "type": "frontend"
+    },
+    "phrase": {
+        "word": "Phrase",
+        "type": "frontend"
+    },
+    "base_language": {
+        "word": "Base Language",
+        "type": "frontend"
+    },
+    "word_type": {
+        "word": "Word Type",
+        "type": "frontend"
+    },
+    "word_sentence": {
+        "word": "Word/Sentence",
+        "type": "frontend"
+    },
+    "words_sentences": {
+        "word": "Words/Sentences",
+        "type": "frontend"
+    },
+    "all_words_are_translated": {
+        "word": "All Words/Sentences Are Translated",
+        "type": "frontend"
+    },
+    "there_are_no_words_to_translate": {
+        "word": "There are No words to translate",
+        "type": "frontend"
+    },
+    "there_are_no_item_yet": {
+        "word": "There are no {1} yet!",
+        "type": "frontend"
+    },
+    "account": {
+        "word": "Account",
+        "type": "frontend"
+    },
+    "generate_password": {
+        "word": "Automatically generate password",
+        "type": "frontend"
+    },
+    "change_password_first_sign_in": {
+        "word": "Require user to change their password at first sign in",
+        "type": "frontend"
+    },
+    "email_the_password": {
+        "word": "Send password in email upon completion",
+        "type": "frontend"
+    },
+    "upload_user_profile": {
+        "word": "Upload User Profile",
+        "type": "frontend"
+    },
+    "size": {
+        "word": "Size",
+        "type": "frontend"
+    },
+    "permission": {
+        "word": "Permission",
+        "type": "frontend"
+    },
+    "manual_permission": {
+        "word": "Manual Permission",
+        "type": "frontend"
+    },
+    "user_management_system": {
+        "word": "User Management System",
+        "type": "frontend"
+    },
+    "content_library_management_system": {
+        "word": "Content Library Management System",
+        "type": "frontend"
+    },
+    "content_library": {
+        "word": "Content Library",
+        "type": "frontend"
+    },
+    "login_activity_system": {
+        "word": "Login Activity System",
+        "type": "frontend"
+    },
+    "landing_page_activity": {
+        "word": "Landing page Activity",
+        "type": "frontend"
+    },
+    "landing_page": {
+        "word": "Landing Page",
+        "type": "frontend"
+    },
+    "landing_page_template": {
+        "word": "Landing Page Template",
+        "type": "frontend"
+    },
+    "landing_page_sales": {
+        "word": "Landing Page Sales",
+        "type": "frontend"
+    },
+    "login_page": {
+        "word": "Login Page",
+        "type": "frontend"
+    },
+    "personal_file_management": {
+        "word": "Personal File Management",
+        "type": "frontend"
+    },
+    "application_file_management": {
+        "word": "Application File Management",
+        "type": "frontend"
+    },
+    "quick_card_sales": {
+        "word": "Quick Card Sales",
+        "type": "frontend"
+    },
+    "application_files": {
+        "word": "Application Files",
+        "type": "frontend"
+    },
+    "library_files": {
+        "word": "Library Files",
+        "type": "frontend"
+    },
+    "library": {
+        "word": "Library",
+        "type": "frontend"
+    },
+    "master_management_system": {
+        "word": "Master Management System",
+        "type": "frontend"
+    },
+    "content_management_system": {
+        "word": "Content Management System",
+        "type": "frontend"
+    },
+    "designer_management_system": {
+        "word": "Designer Management System",
+        "type": "frontend"
+    },
+    "call_center_management_system": {
+        "word": "Call Center Management System",
+        "type": "frontend"
+    },
+    "fulfilment_management_system": {
+        "word": "Fulfilment Management System",
+        "type": "frontend"
+    },
+    "order_management_system": {
+        "word": "Order Management System",
+        "type": "frontend"
+    },
+    "team_management_system": {
+        "word": "Team Management System",
+        "type": "frontend"
+    },
+    "digital_marketing_management_system": {
+        "word": "Digital Marketing Management System",
+        "type": "frontend"
+    },
+    "inventory_management_system": {
+        "word": "Inventory Management System",
+        "type": "frontend"
+    },
+    "product_management_system": {
+        "word": "Product Management System",
+        "type": "frontend"
+    },
+    "product_management": {
+        "word": "Product Management",
+        "type": "frontend"
+    },
+    "system_file_manager": {
+        "word": "System File Manager",
+        "type": "frontend"
+    },
+    "time_schedule": {
+        "word": "Time Schedule",
+        "type": "frontend"
+    },
+    "unlimited": {
+        "word": "Unlimited",
+        "type": "frontend"
+    },
+    "limited": {
+        "word": "Limited",
+        "type": "frontend"
+    },
+    "to": {
+        "word": "To",
+        "type": "frontend"
+    },
+    "clear_permissions": {
+        "word": "Do you want to clear selected permissions?",
+        "type": "frontend"
+    },
+    "select_permissions_or_skip": {
+        "word": "Please select permissions or skip.",
+        "type": "frontend"
+    },
+    "user_list": {
+        "word": "User List",
+        "type": "frontend"
+    },
+    "employee_list": {
+        "word": "Employee List",
+        "type": "frontend"
+    },
+    "status_management": {
+        "word": "Status Management",
+        "type": "frontend"
+    },
+    "status_event_list": {
+        "word": "Status Event",
+        "type": "frontend"
+    },
+    "status_events": {
+        "word": "Status Events",
+        "type": "frontend"
+    },
+    "add_status_events": {
+        "word": "Add Status Events",
+        "type": "frontend"
+    },
+    "reason_list": {
+        "word": "Reason List",
+        "type": "frontend"
+    },
+    "active_users_right_now": {
+        "word": "Active Users Right Now",
+        "type": "frontend"
+    },
+    "active_users": {
+        "word": "Active Users",
+        "type": "frontend"
+    },
+    "online_users": {
+        "word": "Online Users",
+        "type": "frontend"
+    },
+    "add_user_note": {
+        "word": "Add User Note",
+        "type": "frontend"
+    },
+    "last_login": {
+        "word": "Last Login",
+        "type": "frontend"
+    },
+    "general_information": {
+        "word": "General Information",
+        "type": "frontend"
+    },
+    "general_info": {
+        "word": "General Info",
+        "type": "frontend"
+    },
+    "marketing_information": {
+        "word": "Marketing Information",
+        "type": "frontend"
+    },
+    "design_info": {
+        "word": "Design Info",
+        "type": "frontend"
+    },
+    "content_info": {
+        "word": "Content Info",
+        "type": "frontend"
+    },
+    "active_sessions": {
+        "word": "Active Sessions",
+        "type": "frontend"
+    },
+    "duration": {
+        "word": "Duration",
+        "type": "frontend"
+    },
+    "activity_logs": {
+        "word": "Activity Logs",
+        "type": "frontend"
+    },
+    "deactive": {
+        "word": "Deactive",
+        "type": "frontend"
+    },
+    "select_work_area": {
+        "word": "Please Select your work area",
+        "type": "frontend"
+    },
+    "only_one_option": {
+        "word": "You can select only one option",
+        "type": "frontend"
+    },
+    "select_one_or_multiple_placements": {
+        "word": "You can select one or multiple placements.",
+        "type": "frontend"
+    },
+    "user_has_no_permission": {
+        "word": "Sorry user has no permissions!",
+        "type": "frontend"
+    },
+    "please_select_company": {
+        "word": "Please select your company!",
+        "type": "frontend"
+    },
+    "no_files": {
+        "word": "No files!",
+        "type": "frontend"
+    },
+    "folder_not_found": {
+        "word": "Folder not Found!",
+        "type": "frontend"
+    },
+    "file_format_not_support_to_preview_in_browser": {
+        "word": "File format is not supported to preview in browser!",
+        "type": "frontend"
+    },
+    "add_new_permissions": {
+        "word": "Do you want to add permissions?",
+        "type": "frontend"
+    },
+    "how_did_you_get_here": {
+        "word": "How did you get here?",
+        "type": "frontend"
+    },
+    "cant_find_page": {
+        "word": "Sorry we can't seem to find the page you're looking for.",
+        "type": "frontend"
+    },
+    "unauthorized_to_page": {
+        "word": "Sorry It seems you are not authorized to see content of this page.",
+        "type": "frontend"
+    },
+    "oops_something_went_wrong": {
+        "word": "OOPS! Something went wrong here",
+        "type": "frontend"
+    },
+    "our_experts_are_working": {
+        "word": "Our experts are working to fix the issue.",
+        "type": "frontend"
+    },
+    "sent_me_back": {
+        "word": "Send me Back",
+        "type": "frontend"
+    },
+    "back": {
+        "word": "Back",
+        "type": "frontend"
+    },
+    "unauthorized": {
+        "word": "Unauthorized",
+        "type": "frontend"
+    },
+    "language_setting": {
+        "word": "Language Settings",
+        "type": "frontend"
+    },
+    "system_info_caps": {
+        "word": "SYSTEM INFORMATION",
+        "type": "frontend"
+    },
+    "system_name": {
+        "word": "System name",
+        "type": "frontend"
+    },
+    "item_already_added_to_list": {
+        "word": "Item already added to list.",
+        "type": "frontend"
+    },
+    "the_system_does_not_have_any_sub_system": {
+        "word": "The system does not have any sub systems !",
+        "type": "frontend"
+    },
+    "filter_activity": {
+        "word": "Filter Activity",
+        "type": "frontend"
+    },
+    "event": {
+        "word": "Event",
+        "type": "frontend"
+    },
+    "activity_date": {
+        "word": "Activity Date",
+        "type": "frontend"
+    },
+    "activity_time": {
+        "word": "Activity Time",
+        "type": "frontend"
+    },
+    "search_date": {
+        "word": "Search Date",
+        "type": "frontend"
+    },
+    "user_activity": {
+        "word": "User Activity",
+        "type": "frontend"
+    },
+    "contents": {
+        "word": "Contents",
+        "type": "frontend"
+    },
+    "activity_information": {
+        "word": "ACTIVITY INFORMATION",
+        "type": "frontend"
+    },
+    "user": {
+        "word": "User",
+        "type": "frontend"
+    },
+    "location": {
+        "word": "Location",
+        "type": "frontend"
+    },
+    "time": {
+        "word": "Time",
+        "type": "frontend"
+    },
+    "removed_title": {
+        "word": "Removed Title",
+        "type": "frontend"
+    },
+    "could_not_delete": {
+        "word": "Could not delete some error ocured",
+        "type": "frontend"
+    },
+    "could_not_unshare": {
+        "word": "Could not unshare some error ocured",
+        "type": "frontend"
+    },
+    "media": {
+        "word": "Media",
+        "type": "frontend"
+    },
+    "no_media": {
+        "word": "No Media",
+        "type": "frontend"
+    },
+    "media_size": {
+        "word": "Media Size",
+        "type": "frontend"
+    },
+    "not_downloaded": {
+        "word": "Not Downloaded",
+        "type": "frontend"
+    },
+    "downloaded": {
+        "word": "Downloaded",
+        "type": "frontend"
+    },
+    "download_status": {
+        "word": "Download Status",
+        "type": "frontend"
+    },
+    "subjects": {
+        "word": "Labels",
+        "type": "frontend"
+    },
+    "labels": {
+        "word": "Labels",
+        "type": "frontend"
+    },
+    "total_labels": {
+        "word": "total Labels",
+        "type": "frontend"
+    },
+    "add_label": {
+        "word": "Add label",
+        "type": "frontend"
+    },
+    "add_reason": {
+        "word": "Add Reason",
+        "type": "frontend"
+    },
+    "add_status_event": {
+        "word": "Add Status Event",
+        "type": "frontend"
+    },
+    "archive": {
+        "word": "Archive",
+        "type": "frontend"
+    },
+    "live": {
+        "word": "Live",
+        "type": "frontend"
+    },
+    "sub_systems": {
+        "word": "Sub Systems",
+        "type": "frontend"
+    },
+    "color": {
+        "word": "Color",
+        "type": "frontend"
+    },
+    "archive_this_label": {
+        "word": "Archive this label",
+        "type": "frontend"
+    },
+    "reason": {
+        "word": "Reason",
+        "type": "frontend"
+    },
+    "users": {
+        "word": "Users",
+        "type": "frontend"
+    },
+    "master_activity": {
+        "word": "Master Activity",
+        "type": "frontend"
+    },
+    "master_activity_caps": {
+        "word": "MASTER ACTIVITY",
+        "type": "frontend"
+    },
+    "select_filter": {
+        "word": "Selection",
+        "type": "frontend"
+    },
+    "date_filter": {
+        "word": "Date Range",
+        "type": "frontend"
+    },
+    "specifiec_filter": {
+        "word": "Data",
+        "type": "frontend"
+    },
+    "business_locations": {
+        "word": "Business Locations",
+        "type": "frontend"
+    },
+    "business_location": {
+        "word": "Business Location",
+        "type": "frontend"
+    },
+    "create_business_location": {
+        "word": "Create Business Location",
+        "type": "frontend"
+    },
+    "create_role": {
+        "word": "Create Role",
+        "type": "frontend"
+    },
+    "add_role_note": {
+        "word": "Add Role Note",
+        "type": "frontend"
+    },
+    "add_team_note": {
+        "word": "Add Team Note",
+        "type": "frontend"
+    },
+    "create_team": {
+        "word": "Create Team",
+        "type": "frontend"
+    },
+    "view_item_max_limit_text": {
+        "word": "At most (1) item must be selected for view",
+        "type": "frontend"
+    },
+    "edit_item_max_limit_text": {
+        "word": "At most (1) item must be selected for edition",
+        "type": "frontend"
+    },
+    "auto_edit_item_max_limit_text": {
+        "word": "At most (1) item must be selected for auto edition",
+        "type": "frontend"
+    },
+    "sub_system_not_found": {
+        "word": "Sorry system or sub system not found on server",
+        "type": "frontend"
+    },
+    "item_max_limit_text": {
+        "word": "At most (1) item must be selected",
+        "type": "frontend"
+    },
+    "business_location_all_set": {
+        "word": "Business Locataion All Set!",
+        "type": "frontend"
+    },
+    "now_you_can_use_business_location": {
+        "word": "Now you can use business location",
+        "type": "frontend"
+    },
+    "sending_email_failed": {
+        "word": "Sending password to email failed",
+        "type": "frontend"
+    },
+    "waiting_text": {
+        "word": "Please wait...",
+        "type": "frontend"
+    },
+    "select_location_type": {
+        "word": "Select Location Type",
+        "type": "frontend"
+    },
+    "exists": {
+        "word": "{1} is already exists.",
+        "type": "frontend"
+    },
+    "user_id": {
+        "word": "User ID",
+        "type": "frontend"
+    },
+    "am": {
+        "word": "am",
+        "type": "frontend"
+    },
+    "pm": {
+        "word": "pm",
+        "type": "frontend"
+    },
+    "filter_business_locations": {
+        "word": "Filter Business Locations",
+        "type": "frontend"
+    },
+    "information": {
+        "word": "Information",
+        "type": "frontend"
+    },
+    "fill_all_field": {
+        "word": "Please fill all field correctly.",
+        "type": "frontend"
+    },
+    "Business_Location_Profile": {
+        "word": "Business Location Profile",
+        "type": "frontend"
+    },
+    "businessLocation_information": {
+        "word": "Business Location Information",
+        "type": "frontend"
+    },
+    "id_selection": {
+        "word": "ID Filtering",
+        "type": "frontend"
+    },
+    "add_project_note": {
+        "word": "Add Company Note",
+        "type": "frontend"
+    },
+    "supply_type": {
+        "word": "Supply Type",
+        "type": "frontend"
+    },
+    "legal_type": {
+        "word": "Legal Type",
+        "type": "frontend"
+    },
+    "country_type": {
+        "word": "Country Type",
+        "type": "frontend"
+    },
+    "commercial_type": {
+        "word": "Commercial Type",
+        "type": "frontend"
+    },
+    "purchase_order_phone": {
+        "word": "Purchase Order Phone",
+        "type": "frontend"
+    },
+    "website": {
+        "word": "Website",
+        "type": "frontend"
+    },
+    "prepration_period": {
+        "word": "Prepration Period",
+        "type": "frontend"
+    },
+    "location_details": {
+        "word": "Location Details",
+        "type": "frontend"
+    },
+    "type": {
+        "word": "Type",
+        "type": "frontend"
+    },
+    "crowd_status": {
+        "word": "Crowd Status",
+        "type": "frontend"
+    },
+    "staff_name": {
+        "word": "Staff Name",
+        "type": "frontend"
+    },
+    "access_services": {
+        "word": "Now you can use our services",
+        "type": "frontend"
+    },
+    "purchase_phone": {
+        "word": "Purchase Order Phone",
+        "type": "frontend"
+    },
+    "main": {
+        "word": "Main",
+        "type": "frontend"
+    },
+    "in": {
+        "word": " in ",
+        "type": "frontend"
+    },
+    "sub": {
+        "word": "Sub",
+        "type": "frontend"
+    },
+    "location_phone": {
+        "word": "Location Phone",
+        "type": "frontend"
+    },
+    "select_crowd_status": {
+        "word": "Select Crowd Status",
+        "type": "frontend"
+    },
+    "contact_staff_name": {
+        "word": "Contact Staff Name",
+        "type": "frontend"
+    },
+    "state_id": {
+        "word": "State ID",
+        "type": "frontend"
+    },
+    "location_type": {
+        "word": "Location Type",
+        "type": "frontend"
+    },
+    "updated_date": {
+        "word": "Select Last Edited Date",
+        "type": "frontend"
+    },
+    "select_commercial_type": {
+        "word": "Select Commercial Type",
+        "type": "frontend"
+    },
+    "please_select_end_date": {
+        "word": "Please select end date",
+        "type": "frontend"
+    },
+    "please_select_end_time": {
+        "word": "Please select end time",
+        "type": "frontend"
+    },
+    "select_country_type": {
+        "word": "Select Country Type",
+        "type": "frontend"
+    },
+    "select_supply_type": {
+        "word": "Select Supply Type",
+        "type": "frontend"
+    },
+    "select_legal_type": {
+        "word": "Select Legal Type",
+        "type": "frontend"
+    },
+    "sourcers": {
+        "word": "Sourcers",
+        "type": "frontend"
+    },
+    "select_sourcers": {
+        "word": "Select Sourcers",
+        "type": "frontend"
+    },
+    "main_phone": {
+        "word": "Main Phone",
+        "type": "frontend"
+    },
+    "select_state": {
+        "word": "Select State",
+        "type": "frontend"
+    },
+    "create_company": {
+        "word": "Create Company",
+        "type": "frontend"
+    },
+    "update_company": {
+        "word": "Update Company",
+        "type": "frontend"
+    },
+    "file_upload_extension_conflict": {
+        "word": "We found a problem with File Format Please Make sure from the file Format Excel",
+        "type": "frontend"
+    },
+    "choose_file": {
+        "word": "Choose File",
+        "type": "frontend"
+    },
+    "file_link": {
+        "word": "File Link",
+        "type": "frontend"
+    },
+    "pdf_file": {
+        "word": "PDF File",
+        "type": "frontend"
+    },
+    "file_upload": {
+        "word": "File Upload",
+        "type": "frontend"
+    },
+    "check": {
+        "word": "Check",
+        "type": "frontend"
+    },
+    "upload_only_excel": {
+        "word": "Upload only excel",
+        "type": "frontend"
+    },
+    "download_format": {
+        "word": "Download Format",
+        "type": "frontend"
+    },
+    "download_ads_id_not_exists": {
+        "word": "Download ADS ID Not Exists",
+        "type": "frontend"
+    },
+    "downloading": {
+        "word": "Downloading...",
+        "type": "frontend"
+    },
+    "empty": {
+        "word": "Empty",
+        "type": "frontend"
+    },
+    "system_required": {
+        "word": "System Required",
+        "type": "frontend"
+    },
+    "system": {
+        "word": "System",
+        "type": "frontend"
+    },
+    "users_created": {
+        "word": "Users created successfully",
+        "type": "frontend"
+    },
+    "create": {
+        "word": "Create",
+        "type": "frontend"
+    },
+    "new_product": {
+        "word": " a new product",
+        "type": "frontend"
+    },
+    "main_company": {
+        "word": "Main Company",
+        "type": "frontend"
+    },
+    "other": {
+        "word": "Other",
+        "type": "frontend"
+    },
+    "wrong_template_uploaded": {
+        "word": "You have not uploaded our template",
+        "type": "frontend"
+    },
+    "inappropriate_uploaded_file": {
+        "word": "You have uploaded the wrong format",
+        "type": "frontend"
+    },
+    "record_has_no_error": {
+        "word": "Records have been validated and has no error for the moment",
+        "type": "frontend"
+    },
+    "record_not_found": {
+        "word": "Record not found!",
+        "type": "frontend"
+    },
+    "empty_file_uploaded": {
+        "word": "You have uploaded an empty excel file",
+        "type": "frontend"
+    },
+    "duplicate_row_for": {
+        "word": "Duplicate entry for {1}",
+        "type": "frontend"
+    },
+    "opening": {
+        "word": "Opening",
+        "type": "frontend"
+    },
+    "optional": {
+        "word": "Optional",
+        "type": "frontend"
+    },
+    "select_user_optional": {
+        "word": "Select User (Optional)",
+        "type": "frontend"
+    },
+    "validation_table_header": {
+        "word": "ERRORS OF VALIDATIONS",
+        "type": "frontend"
+    },
+    "row_caps": {
+        "word": "ROW",
+        "type": "frontend"
+    },
+    "column_caps": {
+        "word": "COLUMN",
+        "type": "frontend"
+    },
+    "descriptions_caps": {
+        "word": "DESCRIPTIONS",
+        "type": "frontend"
+    },
+    "descriptions": {
+        "word": "Descriptions",
+        "type": "frontend"
+    },
+    "storage_full": {
+        "word": "Storage Full",
+        "type": "frontend"
+    },
+    "your_storage_is_full": {
+        "word": "Your storage is full & you can not upload more files",
+        "type": "frontend"
+    },
+    "upload_profile": {
+        "word": "Upload {1} Profile Picture",
+        "type": "frontend"
+    },
+    "upload_logo": {
+        "word": "Upload {1} Logo",
+        "type": "frontend"
+    },
+    "duplicated_company_name": {
+        "word": "Company Name is Duplicate",
+        "type": "frontend"
+    },
+    "duplicated_company_email": {
+        "word": "Company Email is Duplicate",
+        "type": "frontend"
+    },
+    "view_item": {
+        "word": "View {1}",
+        "type": "frontend"
+    },
+    "create_job": {
+        "word": "Create Job",
+        "type": "frontend"
+    },
+    "complete_form": {
+        "word": "Complete a Form",
+        "type": "frontend"
+    },
+    "use_template": {
+        "word": "Use a Template",
+        "type": "frontend"
+    },
+    "template": {
+        "word": "Template",
+        "type": "frontend"
+    },
+    "new_template": {
+        "word": "New Template",
+        "type": "frontend"
+    },
+    "design_link": {
+        "word": "Design Link",
+        "type": "frontend"
+    },
+    "landing_page_link": {
+        "word": "Landing Page Link",
+        "type": "frontend"
+    },
+    "content_link": {
+        "word": "Content Link",
+        "type": "frontend"
+    },
+    "please_add_content_link": {
+        "word": "Please add content link",
+        "type": "frontend"
+    },
+    "invalid_extension": {
+        "word": "Invalid {1} Extension",
+        "type": "frontend"
+    },
+    "duplicate_row": {
+        "word": "Duplicate entry for Row",
+        "type": "frontend"
+    },
+    "company_information": {
+        "word": "COMPANY INFORMATION",
+        "type": "frontend"
+    },
+    "code_id": {
+        "word": "Code ID",
+        "type": "frontend"
+    },
+    "applied_by": {
+        "word": "Applied By",
+        "type": "frontend"
+    },
+    "project": {
+        "word": "Project",
+        "type": "frontend"
+    },
+    "status_transformation": {
+        "word": "Status Transformation",
+        "type": "frontend"
+    },
+    "filter_company": {
+        "word": "Filter Companies",
+        "type": "frontend"
+    },
+    "created_date": {
+        "word": "Created Date",
+        "type": "frontend"
+    },
+    "types": {
+        "word": "Types",
+        "type": "frontend"
+    },
+    "view_job": {
+        "word": "View Job",
+        "type": "frontend"
+    },
+    "no_reasons_available": {
+        "word": "No reasons available",
+        "type": "frontend"
+    },
+    "no_reasons_yet": {
+        "word": "No reasons available",
+        "type": "frontend"
+    },
+    "line": {
+        "word": "Line",
+        "type": "frontend"
+    },
+    "in_line": {
+        "word": "In Line",
+        "type": "frontend"
+    },
+    "cant_do_operation_on_current_tab": {
+        "word": "Can not do operations on current tab",
+        "type": "frontend"
+    },
+    "unable_to_auto_edit_more_than_ten_items_at_the_same_time": {
+        "word": "Unable to auto edit more than 10 items at the same time.",
+        "type": "frontend"
+    },
+    "read_more": {
+        "word": "Read More",
+        "type": "frontend"
+    },
+    "read": {
+        "word": "Read",
+        "type": "frontend"
+    },
+    "write": {
+        "word": "Write",
+        "type": "frontend"
+    },
+    "read_&_write": {
+        "word": "Read & Write",
+        "type": "frontend"
+    },
+    "read_less": {
+        "word": "Read Less",
+        "type": "frontend"
+    },
+    "social_media": {
+        "word": "Social Media",
+        "type": "frontend"
+    },
+    "total_user": {
+        "word": "Total User",
+        "type": "frontend"
+    },
+    "signed_user": {
+        "word": "Signed User",
+        "type": "frontend"
+    },
+    "approved_user": {
+        "word": "Approved User",
+        "type": "frontend"
+    },
+    "urlFormat": {
+        "word": "invalid URL {1}",
+        "type": "frontend"
+    },
+    "can_not_active_language_unless_completely_translated": {
+        "word": "Can not active language unless completely translated",
+        "type": "frontend"
+    },
+    "date_resume_added": {
+        "word": "Date Resume Added",
+        "type": "frontend"
+    },
+    "additional_information": {
+        "word": "Additional Information",
+        "type": "frontend"
+    },
+    "log_book": {
+        "word": "Log Book",
+        "type": "frontend"
+    },
+    "match_stage": {
+        "word": "Match Stage",
+        "type": "frontend"
+    },
+    "dropped": {
+        "word": "Dropped",
+        "type": "frontend"
+    },
+    "drop": {
+        "word": "Drop",
+        "type": "frontend"
+    },
+    "add_back": {
+        "word": "Add Back",
+        "type": "frontend"
+    },
+    "remove": {
+        "word": "Remove",
+        "type": "frontend"
+    },
+    "drop_reason": {
+        "word": "Drop Reason",
+        "type": "frontend"
+    },
+    "match_owner": {
+        "word": "Match Owner",
+        "type": "frontend"
+    },
+    "match_create_date": {
+        "word": "Match Created Date",
+        "type": "frontend"
+    },
+    "move": {
+        "word": "Move",
+        "type": "frontend"
+    },
+    "compose_email": {
+        "word": "Compose Email",
+        "type": "frontend"
+    },
+    "summary": {
+        "word": "Summary",
+        "type": "frontend"
+    },
+    "inbox": {
+        "word": "Inbox",
+        "type": "frontend"
+    },
+    "social": {
+        "word": "Social",
+        "type": "frontend"
+    },
+    "history": {
+        "word": "History",
+        "type": "frontend"
+    },
+    "recommendation": {
+        "word": "Recommendation",
+        "type": "frontend"
+    },
+    "recommendations": {
+        "word": "Recommendations",
+        "type": "frontend"
+    },
+    "activities": {
+        "word": "Activities",
+        "type": "frontend"
+    },
+    "attachments": {
+        "word": "Attachments",
+        "type": "frontend"
+    },
+    "sourcing": {
+        "word": "Sourcing",
+        "type": "frontend"
+    },
+    "reports": {
+        "word": "Reports",
+        "type": "frontend"
+    },
+    "hired": {
+        "word": "Hired",
+        "type": "frontend"
+    },
+    "in_pipline": {
+        "word": "In Pipline",
+        "type": "frontend"
+    },
+    "job_description": {
+        "word": "Job Description",
+        "type": "frontend"
+    },
+    "job_details": {
+        "word": "Job Details",
+        "type": "frontend"
+    },
+    "job_reference": {
+        "word": "Job Reference",
+        "type": "frontend"
+    },
+    "position_name": {
+        "word": "Position Name",
+        "type": "frontend"
+    },
+    "job_location": {
+        "word": "Job Location",
+        "type": "frontend"
+    },
+    "remote": {
+        "word": "Remote",
+        "type": "frontend"
+    },
+    "office_address": {
+        "word": "Office Address",
+        "type": "frontend"
+    },
+    "headcount": {
+        "word": "Headcount",
+        "type": "frontend"
+    },
+    "experience_level": {
+        "word": "Experience Level",
+        "type": "frontend"
+    },
+    "expected_close_date": {
+        "word": "Expected Close Date",
+        "type": "frontend"
+    },
+    "minimum_salary": {
+        "word": "Minimum Salary",
+        "type": "frontend"
+    },
+    "specifications": {
+        "word": "Specifications",
+        "type": "frontend"
+    },
+    "scores": {
+        "word": "Scores",
+        "type": "frontend"
+    },
+    "score": {
+        "word": "Score",
+        "type": "frontend"
+    },
+    "maximum_salary": {
+        "word": "Maximum Salary",
+        "type": "frontend"
+    },
+    "minimum_experience_level": {
+        "word": "Minimum Experience Level",
+        "type": "frontend"
+    },
+    "frequency": {
+        "word": "Frequency",
+        "type": "frontend"
+    },
+    "date_format": {
+        "word": "yyyy-mm-dd",
+        "type": "frontend"
+    },
+    "contract_details": {
+        "word": "Contract Details",
+        "type": "frontend"
+    },
+    "open_date": {
+        "word": "Open Date",
+        "type": "frontend"
+    },
+    "close_date": {
+        "word": "Close Date",
+        "type": "frontend"
+    },
+    "job_industry": {
+        "word": "Job Industry",
+        "type": "frontend"
+    },
+    "add_team_memeber": {
+        "word": "Add Team Member",
+        "type": "frontend"
+    },
+    "change_language": {
+        "word": "Change Language",
+        "type": "frontend"
+    },
+    "facebook": {
+        "word": "Facebook",
+        "type": "frontend"
+    },
+    "story": {
+        "word": "Story",
+        "type": "frontend"
+    },
+    "newsfeed": {
+        "word": "Newsfeed",
+        "type": "frontend"
+    },
+    "livestrem": {
+        "word": "livestrem",
+        "type": "frontend"
+    },
+    "facebook_placeholder": {
+        "word": "Add link to Company's Facebook page",
+        "type": "frontend"
+    },
+    "publish": {
+        "word": "Publish",
+        "type": "frontend"
+    },
+    "not_publish": {
+        "word": "Not Publish",
+        "type": "frontend"
+    },
+    "pin": {
+        "word": "Pin",
+        "type": "frontend"
+    },
+    "show_package_details": {
+        "word": "Show package details",
+        "type": "frontend"
+    },
+    "show_details": {
+        "word": "Show Details",
+        "type": "frontend"
+    },
+    "show_salary_info": {
+        "word": "Show salary info",
+        "type": "frontend"
+    },
+    "instagram": {
+        "word": "Instagram",
+        "type": "frontend"
+    },
+    "instagram_placeholder": {
+        "word": "Add link to Company's Instagram account",
+        "type": "frontend"
+    },
+    "linkedIn": {
+        "word": "LinkedIn",
+        "type": "frontend"
+    },
+    "linkedIn_placeholder": {
+        "word": "Add link to Company's LinkedIn account",
+        "type": "frontend"
+    },
+    "Whatsapp_placeholder": {
+        "word": "Add link to Company's Whatsapp number",
+        "type": "frontend"
+    },
+    "user_performance": {
+        "word": "User performance",
+        "type": "frontend"
+    },
+    "agency_performance": {
+        "word": "Agency performance",
+        "type": "frontend"
+    },
+    "Telegram": {
+        "word": "Telegram",
+        "type": "frontend"
+    },
+    "Telegram_placeholder": {
+        "word": "Add link to Company's Telegram account",
+        "type": "frontend"
+    },
+    "twitter": {
+        "word": "Twitter",
+        "type": "frontend"
+    },
+    "twitter_placeholder": {
+        "word": "Add link to Company's Twitter account",
+        "type": "frontend"
+    },
+    "YouTube": {
+        "word": "YouTube",
+        "type": "frontend"
+    },
+    "YouTube_placeholder": {
+        "word": "Add link to Company's YouTube account",
+        "type": "frontend"
+    },
+    "Zoom": {
+        "word": "Zoom",
+        "type": "frontend"
+    },
+    "Zoom_placeholder": {
+        "word": "Add link to Company's Zoom account",
+        "type": "frontend"
+    },
+    "Wechat": {
+        "word": "Wechat",
+        "type": "frontend"
+    },
+    "Wechat_placeholder": {
+        "word": "Add link to Company's Wechat account",
+        "type": "frontend"
+    },
+    "Github": {
+        "word": "Github",
+        "type": "frontend"
+    },
+    "Github_placeholder": {
+        "word": "Add link to Company's Github account",
+        "type": "frontend"
+    },
+    "Imo": {
+        "word": "Imo",
+        "type": "frontend"
+    },
+    "Imo_placeholder": {
+        "word": "Add link to Company's Imo account",
+        "type": "frontend"
+    },
+    "Skype": {
+        "word": "Skype",
+        "type": "frontend"
+    },
+    "Skype_placeholder": {
+        "word": "Add link to Company's Skype account",
+        "type": "frontend"
+    },
+    "Slack": {
+        "word": "Slack",
+        "type": "frontend"
+    },
+    "Slack_placeholder": {
+        "word": "Add link to Company's Slack account",
+        "type": "frontend"
+    },
+    "Tumblr": {
+        "word": "Tumblr",
+        "type": "frontend"
+    },
+    "Tumblr_placeholder": {
+        "word": "Add link to Company's Tumblr account",
+        "type": "frontend"
+    },
+    "Reddit": {
+        "word": "Reddit",
+        "type": "frontend"
+    },
+    "Reddit_placeholder": {
+        "word": "Add link to Company's Reddit account",
+        "type": "frontend"
+    },
+    "Snapchat": {
+        "word": "Snapchat",
+        "type": "frontend"
+    },
+    "Snapchat_placeholder": {
+        "word": "Add link to Company's Snapchat account",
+        "type": "frontend"
+    },
+    "Pinterest": {
+        "word": "Pinterest",
+        "type": "frontend"
+    },
+    "Pinterest_placeholder": {
+        "word": "Add link to Company's Pinterest account",
+        "type": "frontend"
+    },
+    "Quora": {
+        "word": "Quora",
+        "type": "frontend"
+    },
+    "Quora_placeholder": {
+        "word": "Add link to Company's Quora account",
+        "type": "frontend"
+    },
+    "invalid_link": {
+        "word": "URL/Link address is invalid",
+        "type": "frontend"
+    },
+    "available": {
+        "word": "Available",
+        "type": "frontend"
+    },
+    "no_data_available": {
+        "word": "No data available",
+        "type": "frontend"
+    },
+    "download_template": {
+        "word": "Download Template",
+        "type": "frontend"
+    },
+    "sales_type": {
+        "word": "Sales Type",
+        "type": "frontend"
+    },
+    "ispp": {
+        "word": "ISPP",
+        "type": "frontend"
+    },
+    "ipa": {
+        "word": "IPA",
+        "type": "frontend"
+    },
+    "application_or_organization": {
+        "word": "Application/Organization",
+        "type": "frontend"
+    },
+    "link_has_copied_to_your_clipboard": {
+        "word": "Link has been copied to your clipboard",
+        "type": "frontend"
+    },
+    "connection_save_as_template": {
+        "word": "Do you want to save this entry as a template?",
+        "type": "frontend"
+    },
+    "link_is_not_copied": {
+        "word": "Can't copy link",
+        "type": "frontend"
+    },
+    "single_sales": {
+        "word": "Single Sales",
+        "type": "frontend"
+    },
+    "shopping_cart": {
+        "word": "Shopping Cart",
+        "type": "frontend"
+    },
+    "copy_public_link": {
+        "word": "Copy Public Link",
+        "type": "frontend"
+    },
+    "at_current_speed_one_hire_takes": {
+        "word": "At current speed, 1 hire takes",
+        "type": "frontend"
+    },
+    "ad_id_not_found": {
+        "word": "AD ID is not found, Please enter the correct AD ID",
+        "type": "frontend"
+    },
+    "teebalhoor_products_error": {
+        "word": "Can not fetch products from teebalhoor server due to unknown exception",
+        "type": "frontend"
+    },
+    "ad_account": {
+        "word": "Ad Account",
+        "type": "frontend"
+    },
+    "new_link": {
+        "word": "New Link",
+        "type": "frontend"
+    },
+    "copy_link": {
+        "word": "Copy Link",
+        "type": "frontend"
+    },
+    "tranfer_link": {
+        "word": "Transfer Link",
+        "type": "frontend"
+    },
+    "media_id ": {
+        "word": "Media ID ",
+        "type": "frontend"
+    },
+    "ad_id": {
+        "word": "AD ID",
+        "type": "frontend"
+    },
+    "pipeline_performance_report": {
+        "word": "Pipeline performance report",
+        "type": "frontend"
+    },
+    "drop_reasons_by_stages": {
+        "word": "Drop reasons by stages",
+        "type": "frontend"
+    },
+    "overqualified": {
+        "word": "Overqualified",
+        "type": "frontend"
+    },
+    "overview": {
+        "word": "Overview",
+        "type": "frontend"
+    },
+    "culture_fit": {
+        "word": "Culture fit",
+        "type": "frontend"
+    },
+    "unresponsive": {
+        "word": "Unresponsive",
+        "type": "frontend"
+    },
+    "above_budget": {
+        "word": "Above budget",
+        "type": "frontend"
+    },
+    "not_available": {
+        "word": "Not available",
+        "type": "frontend"
+    },
+    "rejected_the_offer": {
+        "word": "Rejected the offer",
+        "type": "frontend"
+    },
+    "not_qualified": {
+        "word": "Not qualified",
+        "type": "frontend"
+    },
+    "reference_check_failed": {
+        "word": "Reference check failed",
+        "type": "frontend"
+    },
+    "accepted_another_offer": {
+        "word": "Accepted another offer",
+        "type": "frontend"
+    },
+    "pipeline_performance": {
+        "word": "Pipeline performance",
+        "type": "frontend"
+    },
+    "medium_performance": {
+        "word": "Medium performance",
+        "type": "frontend"
+    },
+    "portal": {
+        "word": "Portal",
+        "type": "frontend"
+    },
+    "technical_text_failed": {
+        "word": "Technical text failed",
+        "type": "frontend"
+    },
+    "did_not_attend_the_interview": {
+        "word": "Did not attend the interview",
+        "type": "frontend"
+    },
+    "drop_reasons": {
+        "word": "Drop reasons",
+        "type": "frontend"
+    },
+    "day": {
+        "word": "Day",
+        "type": "frontend"
+    },
+    "were_submitted": {
+        "word": "Were submitted",
+        "type": "frontend"
+    },
+    "were_schedule_for_interview": {
+        "word": "Were schedule for interview",
+        "type": "frontend"
+    },
+    "accepted_it": {
+        "word": "Accepted it",
+        "type": "frontend"
+    },
+    "received_an_offer": {
+        "word": "Received an offer",
+        "type": "frontend"
+    },
+    "are_hired": {
+        "word": "Are hired",
+        "type": "frontend"
+    },
+    "select_date_range": {
+        "word": "Select date range",
+        "type": "frontend"
+    },
+    "industry": {
+        "word": "Industry",
+        "type": "frontend"
+    },
+    "new": {
+        "word": "New",
+        "type": "frontend"
+    },
+    "last_modified": {
+        "word": "Last Modified",
+        "type": "frontend"
+    },
+    "last_modified_by": {
+        "word": "Last Modified By",
+        "type": "frontend"
+    },
+    "setting_already_exist_in_this_name": {
+        "word": "Setting already exist in this name",
+        "type": "frontend"
+    },
+    "you_cant_have_more_than_three_setting": {
+        "word": "You Can't have more than tree setting",
+        "type": "frontend"
+    },
+    "do_you_want_to_replace_the_setting": {
+        "word": "Do you want to replace the setting?",
+        "type": "frontend"
+    },
+    "loading_text": {
+        "word": "Loading data...",
+        "type": "frontend"
+    },
+    "loading": {
+        "word": "Loading...",
+        "type": "frontend"
+    },
+    "url": {
+        "word": "Url",
+        "type": "frontend"
+    },
+    "basic": {
+        "word": "Basic",
+        "type": "frontend"
+    },
+    "voice_over": {
+        "word": "Voice Over",
+        "type": "frontend"
+    },
+    "none": {
+        "word": "None",
+        "type": "frontend"
+    },
+    "no_risk": {
+        "word": "No Risk",
+        "type": "frontend"
+    },
+    "average": {
+        "word": "Average",
+        "type": "frontend"
+    },
+    "animate_banner": {
+        "word": "Animate Banner",
+        "type": "frontend"
+    },
+    "information_offering": {
+        "word": "Information Offering",
+        "type": "frontend"
+    },
+    "media_type": {
+        "word": "Media Type",
+        "type": "frontend"
+    },
+    "is_the_content_for_the_specific_reason?": {
+        "word": "Is the content for the specific reason?",
+        "type": "frontend"
+    },
+    "content_risks_of_violating_advertising_policy": {
+        "word": "Content Risks of violating advertising policy",
+        "type": "frontend"
+    },
+    "is_there_an_oreder_of_the_custormer_to_do_someting?": {
+        "word": "Is there an oreder of the custormer to do someting?",
+        "type": "frontend"
+    },
+    "instagram_portrait": {
+        "word": "Instagram Portrait",
+        "type": "frontend"
+    },
+    "instagram_post": {
+        "word": "Instagram Post",
+        "type": "frontend"
+    },
+    "content_language": {
+        "word": "Content Language",
+        "type": "frontend"
+    },
+    "request_when": {
+        "word": "Request When",
+        "type": "frontend"
+    },
+    "product_is_sold_for_the_first_time": {
+        "word": "Product is sold for the first time",
+        "type": "frontend"
+    },
+    "during_the_sales_phase": {
+        "word": "During the sales phase",
+        "type": "frontend"
+    },
+    "content_source": {
+        "word": "Content Source",
+        "type": "frontend"
+    },
+    "shortlisted": {
+        "word": "Shortlisted",
+        "type": "frontend"
+    },
+    "submitted": {
+        "word": "Submiited",
+        "type": "frontend"
+    },
+    "scheduling_interview": {
+        "word": "Scheduling Interview",
+        "type": "frontend"
+    },
+    "hr_interview": {
+        "word": "HR Interview",
+        "type": "frontend"
+    },
+    "final_interview": {
+        "word": "Final Interview",
+        "type": "frontend"
+    },
+    "offered": {
+        "word": "Offered",
+        "type": "frontend"
+    },
+    "onboarding": {
+        "word": "Onboarding",
+        "type": "frontend"
+    },
+    "probation_passed": {
+        "word": "Probation Passed",
+        "type": "frontend"
+    },
+    "is_remote": {
+        "word": "Is Remote",
+        "type": "frontend"
+    },
+    "contract_type": {
+        "word": "Contract Type",
+        "type": "frontend"
+    },
+    "salary_type": {
+        "word": "Salary Type",
+        "type": "frontend"
+    },
+    "min_salary": {
+        "word": "Min Salary",
+        "type": "frontend"
+    },
+    "max_salary": {
+        "word": "Max Salary",
+        "type": "frontend"
+    },
+    "description": {
+        "word": "Description",
+        "type": "frontend"
+    },
+    "reference": {
+        "word": "Reference",
+        "type": "frontend"
+    },
+    "number_of_views": {
+        "word": "Number Of Views",
+        "type": "frontend"
+    },
+    "is_published": {
+        "word": "Is Published",
+        "type": "frontend"
+    },
+    "you_can_only_toggle_pin_status_from_published_and_pinned_tab": {
+        "word": "You can only toggle pin status from published and pinned tab",
+        "type": "frontend"
+    },
+    "published": {
+        "word": "Published",
+        "type": "frontend"
+    },
+    "pinned": {
+        "word": "Pinned",
+        "type": "frontend"
+    },
+    "unpinned": {
+        "word": "Unpinned",
+        "type": "frontend"
+    },
+    "yes_pin": {
+        "word": "Yes, pin",
+        "type": "frontend"
+    },
+    "job_is_already_pinned": {
+        "word": "Job is already pinned",
+        "type": "frontend"
+    },
+    "yes_unpin": {
+        "word": "Yes, unpin",
+        "type": "frontend"
+    },
+    "published_link": {
+        "word": "Published Link",
+        "type": "frontend"
+    },
+    "first_published_at": {
+        "word": "First Published At",
+        "type": "frontend"
+    },
+    "last_published_at": {
+        "word": "Last Published At",
+        "type": "frontend"
+    },
+    "is_pinned": {
+        "word": "Is Pinned",
+        "type": "frontend"
+    },
+    "source": {
+        "word": "Source",
+        "type": "frontend"
+    },
+    "occupation": {
+        "word": "Occupation",
+        "type": "frontend"
+    },
+    "display_name": {
+        "word": "Display Name",
+        "type": "frontend"
+    },
+    "discount_type": {
+        "word": "Discount Type",
+        "type": "frontend"
+    },
+    "discount_amount": {
+        "word": "Discount Amount",
+        "type": "frontend"
+    },
+    "current_company": {
+        "word": "Current Company",
+        "type": "frontend"
+    },
+    "current_position": {
+        "word": "Current Position",
+        "type": "frontend"
+    },
+    "other_contact": {
+        "word": "Other Contact",
+        "type": "frontend"
+    },
+    "add_your_account_url": {
+        "word": "Add your account url",
+        "type": "frontend"
+    },
+    "relationship": {
+        "word": "Relationship",
+        "type": "frontend"
+    },
+    "sample_url_account": {
+        "word": "A Sample link to user accounts or pages of this social media",
+        "type": "frontend"
+    },
+    "upload_your_resume": {
+        "word": "Please select your resume",
+        "type": "frontend"
+    },
+    "resume": {
+        "word": "Resume",
+        "type": "frontend"
+    },
+    "company_name": {
+        "word": "Company Name",
+        "type": "frontend"
+    },
+    "position": {
+        "word": "Position",
+        "type": "frontend"
+    },
+    "salary": {
+        "word": "Salary",
+        "type": "frontend"
+    },
+    "is_currently_working": {
+        "word": "Is currently working",
+        "type": "frontend"
+    },
+    "from_options": {
+        "word": "From Options",
+        "type": "frontend"
+    },
+    "add_address": {
+        "word": "Add Address",
+        "type": "frontend"
+    },
+    "address1": {
+        "word": "Address 1",
+        "type": "frontend"
+    },
+    "address2": {
+        "word": "Address 2",
+        "type": "frontend"
+    },
+    "address3": {
+        "word": "Address 3",
+        "type": "frontend"
+    },
+    "district": {
+        "word": "District",
+        "type": "frontend"
+    },
+    "sub_district": {
+        "word": "Sub district",
+        "type": "frontend"
+    },
+    "post_code": {
+        "word": "Post Code",
+        "type": "frontend"
+    },
+    "add_experience": {
+        "word": "Add Experience",
+        "type": "frontend"
+    },
+    "experience": {
+        "word": "Experience",
+        "type": "frontend"
+    },
+    "experiences": {
+        "word": "Experiences",
+        "type": "frontend"
+    },
+    "emergency_contact": {
+        "word": "Emergency Contact",
+        "type": "frontend"
+    },
+    "skill": {
+        "word": "Skill",
+        "type": "frontend"
+    },
+    "skills": {
+        "word": "Skills",
+        "type": "frontend"
+    },
+    "education": {
+        "word": "Education",
+        "type": "frontend"
+    },
+    "educations": {
+        "word": "Educations",
+        "type": "frontend"
+    },
+    "school_name": {
+        "word": "School Name",
+        "type": "frontend"
+    },
+    "university": {
+        "word": "Univeristy",
+        "type": "frontend"
+    },
+    "university_name": {
+        "word": "University Name",
+        "type": "frontend"
+    },
+    "education_degree": {
+        "word": "Education Degree",
+        "type": "frontend"
+    },
+    "education_field": {
+        "word": "Education Field",
+        "type": "frontend"
+    },
+    "add_education": {
+        "word": "Add Education",
+        "type": "frontend"
+    },
+    "add_dependent": {
+        "word": "Add Dependent",
+        "type": "frontend"
+    },
+    "dependent_name": {
+        "word": "Dependent Name",
+        "type": "frontend"
+    },
+    "add_emergency_contact": {
+        "word": "Add Emergency Contact",
+        "type": "frontend"
+    },
+    "landline_number": {
+        "word": "Landline Number",
+        "type": "frontend"
+    },
+    "office_number": {
+        "word": "Office Number",
+        "type": "frontend"
+    },
+    "add_skill": {
+        "word": "Add Skill",
+        "type": "frontend"
+    },
+    "skill_name": {
+        "word": "Skill Name",
+        "type": "frontend"
+    },
+    "skill_level": {
+        "word": "Skill Level",
+        "type": "frontend"
+    },
+    "add_social_media": {
+        "word": "Add Social Media",
+        "type": "frontend"
+    },
+    "diploma": {
+        "word": "Diploma",
+        "type": "frontend"
+    },
+    "reason_status": {
+        "word": "Reason Status",
+        "type": "frontend"
+    },
+    "job_info_caps": {
+        "word": "JOB INFORMATION",
+        "type": "frontend"
+    },
+    "type_three_character_to_search": {
+        "word": "Type three characters to sear...",
+        "type": "frontend"
+    },
+    "supported_file_type": {
+        "word": "Supported File Types",
+        "type": "frontend"
+    },
+    "questioner_management": {
+        "word": "Questioner Management",
+        "type": "frontend"
+    },
+    "question_type": {
+        "word": "Question Type",
+        "type": "frontend"
+    },
+    "question_type_required": {
+        "word": "Question Type *",
+        "type": "frontend"
+    },
+    "difficulty_level": {
+        "word": "Difficulty Level",
+        "type": "frontend"
+    },
+    "difficulty_level_required": {
+        "word": "Difficulty Level *",
+        "type": "frontend"
+    },
+    "questions": {
+        "word": "Questions",
+        "type": "frontend"
+    },
+    "question": {
+        "word": "Question",
+        "type": "frontend"
+    },
+    "question_list": {
+        "word": "Question List",
+        "type": "frontend"
+    },
+    "time_in_sec": {
+        "word": "Required Time In Seconds",
+        "type": "frontend"
+    },
+    "purpose": {
+        "word": "Purpose",
+        "type": "frontend"
+    },
+    "hint": {
+        "word": "Hint",
+        "type": "frontend"
+    },
+    "explanation": {
+        "word": "Explanation",
+        "type": "frontend"
+    },
+    "answer": {
+        "word": "Answer",
+        "type": "frontend"
+    },
+    "correct_answer": {
+        "word": "Correct Answer ?",
+        "type": "frontend"
+    },
+    "true": {
+        "word": "True",
+        "type": "frontend"
+    },
+    "false": {
+        "word": "False",
+        "type": "frontend"
+    },
+    "questionaire_list": {
+        "word": "Questionaire List",
+        "type": "frontend"
+    },
+    "file_selected": {
+        "word": "File Selected",
+        "type": "frontend"
+    },
+    "file_settings": {
+        "word": "File Settings",
+        "type": "frontend"
+    },
+    "file_max_size_error": {
+        "word": "File reached more than max size({1} MB)",
+        "type": "frontend"
+    },
+    "file_name": {
+        "word": "File Name",
+        "type": "frontend"
+    },
+    "no_of_questions": {
+        "word": "Number of Questions",
+        "type": "frontend"
+    },
+    "total_time": {
+        "word": "Total Time in seconds",
+        "type": "frontend"
+    },
+    "total_score": {
+        "word": "Total Score",
+        "type": "frontend"
+    },
+    "multiple_choice_percentage": {
+        "word": "Choose Multiple Choice Questions Percentage",
+        "type": "frontend"
+    },
+    "true_false_percentage": {
+        "word": "Choose True False Questions Percentage",
+        "type": "frontend"
+    },
+    "descriptive_percentage": {
+        "word": "Choose Descriptive Questions Percentage",
+        "type": "frontend"
+    },
+    "advanced_percentage": {
+        "word": "Choose Advanced Questions Percentage",
+        "type": "frontend"
+    },
+    "hard_percentage": {
+        "word": "Choose Hard Questions Percentage",
+        "type": "frontend"
+    },
+    "medium_percentage": {
+        "word": "Choose Medium Questions Percentage",
+        "type": "frontend"
+    },
+    "easy_percentage": {
+        "word": "Choose Easy Questions Percentage",
+        "type": "frontend"
+    },
+    "questionaire_title": {
+        "word": "Questionaire Title",
+        "type": "frontend"
+    },
+    "questionaire": {
+        "word": "Questionaire",
+        "type": "frontend"
+    },
+    "question_type_sum_should_be_100": {
+        "word": "Sum of question types percentage should be 100 %",
+        "type": "frontend"
+    },
+    "difficulty_level_sum_should_be_100": {
+        "word": "Sum of difficulty levels percentage should be 100 %",
+        "type": "frontend"
+    },
+    "questionaire_date": {
+        "word": "Questionaire Date",
+        "type": "frontend"
+    },
+    "show_per_page": {
+        "word": "Number of questions to show per page",
+        "type": "frontend"
+    },
+    "design_request": {
+        "word": "Design Request",
+        "type": "frontend"
+    },
+    "design_request_order": {
+        "word": "Design Request Order",
+        "type": "frontend"
+    },
+    "month": {
+        "word": "Month",
+        "type": "frontend"
+    },
+    "week": {
+        "word": "Week",
+        "type": "frontend"
+    },
+    "year": {
+        "word": "Year",
+        "type": "frontend"
+    },
+    "request_type": {
+        "word": "Request Type",
+        "type": "frontend"
+    },
+    "mixed": {
+        "word": "Mixed",
+        "type": "frontend"
+    },
+    "copy": {
+        "word": "Copy",
+        "type": "frontend"
+    },
+    "cut": {
+        "word": "Cut",
+        "type": "frontend"
+    },
+    "paste": {
+        "word": "Paste",
+        "type": "frontend"
+    },
+    "scratch": {
+        "word": "Scratch",
+        "type": "frontend"
+    },
+    "product": {
+        "word": "Product",
+        "type": "frontend"
+    },
+    "product_code": {
+        "word": "Product Code",
+        "type": "frontend"
+    },
+    "product_name": {
+        "word": "Product Name",
+        "type": "frontend"
+    },
+    "product_sales_stability": {
+        "word": "Product Sales Stability",
+        "type": "frontend"
+    },
+    "product_source": {
+        "word": "Product Source",
+        "type": "frontend"
+    },
+    "product_style": {
+        "word": "Product Style",
+        "type": "frontend"
+    },
+    "product_section": {
+        "word": "Product Section",
+        "type": "frontend"
+    },
+    "new_product_source": {
+        "word": "Product Product Source",
+        "type": "frontend"
+    },
+    "product_work_type": {
+        "word": "Product Work Type",
+        "type": "frontend"
+    },
+    "product_import_source": {
+        "word": "Product Import Source",
+        "type": "frontend"
+    },
+    "product_production_type": {
+        "word": "Product Production Type",
+        "type": "frontend"
+    },
+    "product_available_quantity": {
+        "word": "Product Available Quantity",
+        "type": "frontend"
+    },
+    "product_max_adver_cost": {
+        "word": "Product Max Advertiser Cost",
+        "type": "frontend"
+    },
+    "product_profitability": {
+        "word": "Product Profitabilityt",
+        "type": "frontend"
+    },
+    "product_profit": {
+        "word": "Product Profit",
+        "type": "frontend"
+    },
+    "stable": {
+        "word": "Stable",
+        "type": "frontend"
+    },
+    "unstable": {
+        "word": "Unstable",
+        "type": "frontend"
+    },
+    "warehouse": {
+        "word": "Warehouse",
+        "type": "frontend"
+    },
+    "market": {
+        "word": "Market",
+        "type": "frontend"
+    },
+    "for_stock_disposal": {
+        "word": "For Stock Disposal",
+        "type": "frontend"
+    },
+    "for_profit": {
+        "word": "For Profit",
+        "type": "frontend"
+    },
+    "single": {
+        "word": "Single",
+        "type": "frontend"
+    },
+    "collection": {
+        "word": "Collection",
+        "type": "frontend"
+    },
+    "old": {
+        "word": "Old",
+        "type": "frontend"
+    },
+    "stock": {
+        "word": "Stock",
+        "type": "frontend"
+    },
+    "renew": {
+        "word": "Renew",
+        "type": "frontend"
+    },
+    "market_visit": {
+        "word": "Market Visit",
+        "type": "frontend"
+    },
+    "supplier_suggestion": {
+        "word": "Supplier Suggestion",
+        "type": "frontend"
+    },
+    "advertiser_products": {
+        "word": "Advertiser Products",
+        "type": "frontend"
+    },
+    "company_source": {
+        "word": "Comapny Source",
+        "type": "frontend"
+    },
+    "creation": {
+        "word": "Creation",
+        "type": "frontend"
+    },
+    "priority": {
+        "word": "Priority",
+        "type": "frontend"
+    },
+    "ready": {
+        "word": "Ready",
+        "type": "frontend"
+    },
+    "manufacturing": {
+        "word": "Manufacturing",
+        "type": "frontend"
+    },
+    "profit": {
+        "word": "Profit",
+        "type": "frontend"
+    },
+    "medium_profit": {
+        "word": "Medium Profit",
+        "type": "frontend"
+    },
+    "less_profit": {
+        "word": "Less Profit",
+        "type": "frontend"
+    },
+    "less_loss": {
+        "word": "Less Loss",
+        "type": "frontend"
+    },
+    "medium_loss": {
+        "word": "Medium Loss",
+        "type": "frontend"
+    },
+    "more_loss": {
+        "word": "More Loss",
+        "type": "frontend"
+    },
+    "low": {
+        "word": "Low",
+        "type": "frontend"
+    },
+    "medium": {
+        "word": "Medium",
+        "type": "frontend"
+    },
+    "high": {
+        "word": "High",
+        "type": "frontend"
+    },
+    "quantity": {
+        "word": "Quantity",
+        "type": "frontend"
+    },
+    "un_assign": {
+        "word": "Unassign",
+        "type": "frontend"
+    },
+    "assign": {
+        "word": "Assign",
+        "type": "frontend"
+    },
+    "assign_user": {
+        "word": "Assign User",
+        "type": "frontend"
+    },
+    "unassign_users": {
+        "word": "Unassigned Users",
+        "type": "frontend"
+    },
+    "design_request_order_not_found": {
+        "word": "Design request order not found!",
+        "type": "frontend"
+    },
+    "all_users_are_assigned_to_selected_design_request": {
+        "word": "All users are assigned to selected design request!",
+        "type": "frontend"
+    },
+    "company_country": {
+        "word": "Company Country",
+        "type": "frontend"
+    },
+    "link": {
+        "word": "Link",
+        "type": "frontend"
+    },
+    "assigned_to": {
+        "word": "Assigned to",
+        "type": "frontend"
+    },
+    "veiw_design": {
+        "word": "Veiw Design",
+        "type": "frontend"
+    },
+    "total_time_spent": {
+        "word": "Total time spent",
+        "type": "frontend"
+    },
+    "total_storyboard_rejected": {
+        "word": "Total Storyboard rejected",
+        "type": "frontend"
+    },
+    "total_design_rejected": {
+        "word": "Total Design rejected",
+        "type": "frontend"
+    },
+    "task_prograssive": {
+        "word": "Task Prograssive",
+        "type": "frontend"
+    },
+    "range_task_prograssive": {
+        "word": "Please Drag the Range  to Show Your Task Prograssive",
+        "type": "frontend"
+    },
+    "design_request_info": {
+        "word": "Design Request Information",
+        "type": "frontend"
+    },
+    "my_orders": {
+        "word": "My orders",
+        "type": "frontend"
+    },
+    "default_setting": {
+        "word": "Default Setting",
+        "type": "frontend"
+    },
+    "set_default": {
+        "word": "Set Default",
+        "type": "frontend"
+    },
+    "storyboard_reject_count": {
+        "word": "Storyboard Reject Count",
+        "type": "frontend"
+    },
+    "storyboard_phase": {
+        "word": "Storyboard Phase",
+        "type": "frontend"
+    },
+    "design_phase": {
+        "word": "Design Phase",
+        "type": "frontend"
+    },
+    "programming_phase": {
+        "word": "Programming Phase",
+        "type": "frontend"
+    },
+    "total_storyboard": {
+        "word": "Total Storyboard",
+        "type": "frontend"
+    },
+    "total_design": {
+        "word": "Total Design",
+        "type": "frontend"
+    },
+    "total_programming": {
+        "word": "Total Programming",
+        "type": "frontend"
+    },
+    "list_of_time_spent_per_status": {
+        "word": "List Of Time Spents Per Status",
+        "type": "frontend"
+    },
+    "user_progress_changed": {
+        "word": "{1} has completed {2} of {3}",
+        "type": "frontend"
+    },
+    "user_task_progress": {
+        "word": "{1}'s task progress",
+        "type": "frontend"
+    },
+    "design_reject_count": {
+        "word": "Design Reject Count",
+        "type": "frontend"
+    },
+    "select_completed_date": {
+        "word": "Select Completed Date",
+        "type": "frontend"
+    },
+    "new_task": {
+        "word": "New task",
+        "type": "frontend"
+    },
+    "task_assigned_to_you": {
+        "word": "{1} assigned {2} to you.",
+        "type": "frontend"
+    },
+    "no_reject_reasons": {
+        "word": "No Reject Reasons",
+        "type": "frontend"
+    },
+    "no_more_data": {
+        "word": "No more data!",
+        "type": "frontend"
+    },
+    "edit_profile": {
+        "word": "Edit Profile",
+        "type": "frontend"
+    },
+    "edit_your_profile": {
+        "word": "Edit Your Profile",
+        "type": "frontend"
+    },
+    "crop": {
+        "word": "Crop",
+        "type": "frontend"
+    },
+    "change_password": {
+        "word": "Change Password",
+        "type": "frontend"
+    },
+    "confirm_new_password": {
+        "word": "Confirm New password",
+        "type": "frontend"
+    },
+    "upload_photo": {
+        "word": "Upload Photo",
+        "type": "frontend"
+    },
+    "view_design": {
+        "word": "View Design",
+        "type": "frontend"
+    },
+    "in_storyboard_review": {
+        "word": "in storyboard review",
+        "type": "frontend"
+    },
+    "programming_reivew": {
+        "word": "programming reivew",
+        "type": "frontend"
+    },
+    "submission_files": {
+        "word": "Submission files",
+        "type": "frontend"
+    },
+    "submission_link": {
+        "word": "Submission Link",
+        "type": "frontend"
+    },
+    "industries": {
+        "word": "Industries",
+        "type": "frontend"
+    },
+    "work_area": {
+        "word": "Work Area",
+        "type": "frontend"
+    },
+    "please_select_your_work_area": {
+        "word": "Please select your work area and click next",
+        "type": "frontend"
+    },
+    "this_user_has_no_permission": {
+        "word": "This user has no permission in this tab",
+        "type": "frontend"
+    },
+    "not_decided_yet": {
+        "word": "Not decided yet",
+        "type": "frontend"
+    },
+    "not_changed": {
+        "word": "You can't decrease the progress bar value",
+        "type": "frontend"
+    },
+    "list_of_companies": {
+        "word": "List of Companies",
+        "type": "frontend"
+    },
+    "location_unavailable": {
+        "word": "Location Unavailable!",
+        "type": "frontend"
+    },
+    "you_have_to_allow_location_first": {
+        "word": "Location access denied either by your system or browser",
+        "type": "frontend"
+    },
+    "please_turn_on_location": {
+        "word": "Please turn on Location first, then reload the window.",
+        "type": "frontend"
+    },
+    "reload": {
+        "word": "Reload",
+        "type": "frontend"
+    },
+    "auto_review": {
+        "word": "Auto review",
+        "type": "frontend"
+    },
+    "no_request_selected": {
+        "word": "No request selected",
+        "type": "frontend"
+    },
+    "already_approved": {
+        "word": "Already approved",
+        "type": "frontend"
+    },
+    "already_rejected": {
+        "word": "Already rejected",
+        "type": "frontend"
+    },
+    "note_lenght_is_not_enough": {
+        "word": "Note at least Should be{1} chracter ",
+        "type": "frontend"
+    },
+    "feild_is_empty": {
+        "word": "{1} is Empty",
+        "type": "frontend"
+    },
+    "read_only": {
+        "word": "Read Only",
+        "type": "frontend"
+    },
+    "team_member": {
+        "word": "Team members",
+        "type": "frontend"
+    },
+    "out_of_team_member": {
+        "word": "Members out of Team",
+        "type": "frontend"
+    },
+    "data_analysis": {
+        "word": "Data Analysis",
+        "type": "frontend"
+    },
+    "create_record": {
+        "word": "Create Record",
+        "type": "frontend"
+    },
+    "data_management": {
+        "word": "Data Management",
+        "type": "frontend"
+    },
+    "export": {
+        "word": "Export",
+        "type": "frontend"
+    },
+    "approve_and_reject": {
+        "word": "Approve and Reject",
+        "type": "frontend"
+    },
+    "social_media_design": {
+        "word": "Social Media Design",
+        "type": "frontend"
+    },
+    "social media design": {
+        "word": "Social Media Design",
+        "type": "frontend"
+    },
+    "advertisement_content": {
+        "word": "Advertisement Content",
+        "type": "frontend"
+    },
+    "used_in_advertisement": {
+        "word": "Used In Advertisement",
+        "type": "frontend"
+    },
+    "design_information": {
+        "word": "Design Information",
+        "type": "frontend"
+    },
+    "landing_page_design": {
+        "word": "Landing Page Design",
+        "type": "frontend"
+    },
+    "edit_work_area": {
+        "word": "Edit work area",
+        "type": "frontend"
+    },
+    "landing page design": {
+        "word": "Landing Page Design",
+        "type": "frontend"
+    },
+    "texts_and_writings": {
+        "word": "Texts and Writings",
+        "type": "frontend"
+    },
+    "texts and writings": {
+        "word": "Texts and Writings",
+        "type": "frontend"
+    },
+    "general_design": {
+        "word": "General Design",
+        "type": "frontend"
+    },
+    "general design": {
+        "word": "General Design",
+        "type": "frontend"
+    },
+    "shooting": {
+        "word": "Shooting",
+        "type": "frontend"
+    },
+    "view_all": {
+        "word": "View all (assigned to every one)",
+        "type": "frontend"
+    },
+    "schedule_type": {
+        "word": "Schedule Type",
+        "type": "frontend"
+    },
+    "write_something": {
+        "word": "Write Something...",
+        "type": "frontend"
+    },
+    "please_select_items_to_delete": {
+        "word": "Please Select what data do you want to delete",
+        "type": "frontend"
+    },
+    "deletion": {
+        "word": "Deletion",
+        "type": "frontend"
+    },
+    "restriction_type": {
+        "word": "Restriction type",
+        "type": "frontend"
+    },
+    "no_link_added": {
+        "word": "No link added!",
+        "type": "frontend"
+    },
+    "no_cancel_reasons": {
+        "word": "No cancel found!",
+        "type": "frontend"
+    },
+    "January": {
+        "word": "January",
+        "type": "frontend"
+    },
+    "February": {
+        "word": "February",
+        "type": "frontend"
+    },
+    "March": {
+        "word": "March",
+        "type": "frontend"
+    },
+    "April": {
+        "word": "April",
+        "type": "frontend"
+    },
+    "May": {
+        "word": "May",
+        "type": "frontend"
+    },
+    "June": {
+        "word": "June",
+        "type": "frontend"
+    },
+    "July": {
+        "word": "July",
+        "type": "frontend"
+    },
+    "August": {
+        "word": "August",
+        "type": "frontend"
+    },
+    "September": {
+        "word": "September",
+        "type": "frontend"
+    },
+    "October": {
+        "word": "October",
+        "type": "frontend"
+    },
+    "November": {
+        "word": "November",
+        "type": "frontend"
+    },
+    "December": {
+        "word": "December",
+        "type": "frontend"
+    },
+    "Jan": {
+        "word": "Jan",
+        "type": "frontend"
+    },
+    "Feb": {
+        "word": "Feb",
+        "type": "frontend"
+    },
+    "Mar": {
+        "word": "Mar",
+        "type": "frontend"
+    },
+    "Apr": {
+        "word": "Apr",
+        "type": "frontend"
+    },
+    "Jun": {
+        "word": "Jun",
+        "type": "frontend"
+    },
+    "Jul": {
+        "word": "Jul",
+        "type": "frontend"
+    },
+    "Aug": {
+        "word": "Aug",
+        "type": "frontend"
+    },
+    "Sep": {
+        "word": "Sep",
+        "type": "frontend"
+    },
+    "Oct": {
+        "word": "Oct",
+        "type": "frontend"
+    },
+    "Nov": {
+        "word": "Nov",
+        "type": "frontend"
+    },
+    "Dec": {
+        "word": "Dec",
+        "type": "frontend"
+    },
+    "Mon": {
+        "word": "Mon",
+        "type": "frontend"
+    },
+    "Tue": {
+        "word": "Tue",
+        "type": "frontend"
+    },
+    "Wed": {
+        "word": "Wed",
+        "type": "frontend"
+    },
+    "Thu": {
+        "word": "Thu",
+        "type": "frontend"
+    },
+    "Fri": {
+        "word": "Fri",
+        "type": "frontend"
+    },
+    "Sut": {
+        "word": "Sut",
+        "type": "frontend"
+    },
+    "Sun": {
+        "word": "Sun",
+        "type": "frontend"
+    },
+    "destination": {
+        "word": "Destination",
+        "type": "frontend"
+    },
+    "label_category": {
+        "word": "Label category",
+        "type": "frontend"
+    },
+    "go_to_files": {
+        "word": "Go to files",
+        "type": "frontend"
+    },
+    "trash_files": {
+        "word": "Trashed Files",
+        "type": "frontend"
+    },
+    "files_count": {
+        "word": "{1} files",
+        "type": "frontend"
+    },
+    "properties": {
+        "word": "Properties",
+        "type": "frontend"
+    },
+    "folder": {
+        "word": "Folder",
+        "type": "frontend"
+    },
+    "my_drive": {
+        "word": "My Drive",
+        "type": "frontend"
+    },
+    "quick_access": {
+        "word": "Quick Access",
+        "type": "frontend"
+    },
+    "recent_files": {
+        "word": "Recent Files",
+        "type": "frontend"
+    },
+    "pinned_files": {
+        "word": "Pinned Files",
+        "type": "frontend"
+    },
+    "uploading_files": {
+        "word": "Uploading Files",
+        "type": "frontend"
+    },
+    "cant_do_upload_on_root_folder": {
+        "word": "Can't Upload Files Here",
+        "type": "frontend"
+    },
+    "share_to_departments": {
+        "word": "Share to Departments",
+        "type": "frontend"
+    },
+    "share_to_teams": {
+        "word": "Share to Teams",
+        "type": "frontend"
+    },
+    "share_to_roles": {
+        "word": "Share to Roles",
+        "type": "frontend"
+    },
+    "share_to_users": {
+        "word": "Share to Users",
+        "type": "frontend"
+    },
+    "share_to": {
+        "word": "Share To",
+        "type": "frontend"
+    },
+    "excluded_users": {
+        "word": "Excluded Users",
+        "type": "frontend"
+    },
+    "share_to_companies": {
+        "word": "Share to Companies",
+        "type": "frontend"
+    },
+    "upload_file": {
+        "word": "Upload File",
+        "type": "frontend"
+    },
+    "upload_files": {
+        "word": "Upload Files",
+        "type": "frontend"
+    },
+    "upload_folder": {
+        "word": "Upload Folder",
+        "type": "frontend"
+    },
+    "create_folder": {
+        "word": "Create Folder",
+        "type": "frontend"
+    },
+    "selected_files_copied_to_clipboard": {
+        "word": "Selected files copied to clipboard.",
+        "type": "frontend"
+    },
+    "activity_sessions": {
+        "word": "Activity Sessions",
+        "type": "frontend"
+    },
+    "included_users": {
+        "word": "Included Users",
+        "type": "frontend"
+    },
+    "files_sharing": {
+        "word": "File Sharing",
+        "type": "frontend"
+    },
+    "user_shared_files_with_you": {
+        "word": "{1} shared {2} folder(s) and {3} file(s) with you.",
+        "type": "frontend"
+    },
+    "count_files_selected": {
+        "word": "{1} files selected",
+        "type": "frontend"
+    },
+    "number_item_selected": {
+        "word": "{1} selected",
+        "type": "frontend"
+    },
+    "count_files_uploading": {
+        "word": "{1} files uploading",
+        "type": "frontend"
+    },
+    "files_uploaded_successfully": {
+        "word": "Files uploaded successfully",
+        "type": "frontend"
+    },
+    "file_deleted_successfully": {
+        "word": "File deleted successfully",
+        "type": "frontend"
+    },
+    "creating_folders": {
+        "word": "Creating Folders",
+        "type": "frontend"
+    },
+    "unreads": {
+        "word": "Unreads",
+        "type": "frontend"
+    },
+    "favorites": {
+        "word": "Favorites",
+        "type": "frontend"
+    },
+    "trash": {
+        "word": "Trash",
+        "type": "frontend"
+    },
+    "pin_to_quick_access": {
+        "word": "Pin To Quick Access",
+        "type": "frontend"
+    },
+    "add_favorites": {
+        "word": "Add Favorites",
+        "type": "frontend"
+    },
+    "sort_by": {
+        "word": "Sort By",
+        "type": "frontend"
+    },
+    "file_type": {
+        "word": "File Type",
+        "type": "frontend"
+    },
+    "date_modified": {
+        "word": "Date Modified",
+        "type": "frontend"
+    },
+    "enter_email_or_name": {
+        "word": "Enter email or name",
+        "type": "frontend"
+    },
+    "please_select_date": {
+        "word": "Please Select Date",
+        "type": "frontend"
+    },
+    "any": {
+        "word": "Any",
+        "type": "frontend"
+    },
+    "video": {
+        "word": "Video",
+        "type": "frontend"
+    },
+    "videos": {
+        "word": "Videos",
+        "type": "frontend"
+    },
+    "audio": {
+        "word": "Audio",
+        "type": "frontend"
+    },
+    "audios": {
+        "word": "Audios",
+        "type": "frontend"
+    },
+    "document": {
+        "word": "Document",
+        "type": "frontend"
+    },
+    "documents": {
+        "word": "Documents",
+        "type": "frontend"
+    },
+    "owner": {
+        "word": "Owner",
+        "type": "frontend"
+    },
+    "anyone": {
+        "word": "Anyone",
+        "type": "frontend"
+    },
+    "owned_by_me": {
+        "word": "Owned by me",
+        "type": "frontend"
+    },
+    "not_owned_by_me": {
+        "word": "Not owned by me",
+        "type": "frontend"
+    },
+    "specific_person": {
+        "word": "Specific Person",
+        "type": "frontend"
+    },
+    "any_time": {
+        "word": "Any time",
+        "type": "frontend"
+    },
+    "today": {
+        "word": "Today",
+        "type": "frontend"
+    },
+    "yesterday": {
+        "word": "Yesterday",
+        "type": "frontend"
+    },
+    "last_seven_day": {
+        "word": "Last seven day",
+        "type": "frontend"
+    },
+    "custom": {
+        "word": "Custom",
+        "type": "frontend"
+    },
+    "from": {
+        "word": "From",
+        "type": "frontend"
+    },
+    "email_or_name": {
+        "word": "Email or name",
+        "type": "frontend"
+    },
+    "no_more_record": {
+        "word": "There is no more records found!",
+        "type": "frontend"
+    },
+    "shared_to": {
+        "word": "Shared to",
+        "type": "frontend"
+    },
+    "there_is_no_description": {
+        "word": "There is no descriptions",
+        "type": "frontend"
+    },
+    "there_is_no_reason": {
+        "word": "There is no reason",
+        "type": "frontend"
+    },
+    "restore_all": {
+        "word": "Restore all",
+        "type": "frontend"
+    },
+    "move_to": {
+        "word": "Move To",
+        "type": "frontend"
+    },
+    "copy_to": {
+        "word": "Copy To",
+        "type": "frontend"
+    },
+    "move_to_trashed": {
+        "word": "Move To Trashed",
+        "type": "frontend"
+    },
+    "enter_folder_name": {
+        "word": "Enter Folder Name",
+        "type": "frontend"
+    },
+    "add_to_favorites": {
+        "word": "Add To Favorites",
+        "type": "frontend"
+    },
+    "item_added_to_favorites": {
+        "word": "{1} has been added to favorites.",
+        "type": "frontend"
+    },
+    "item_removed_from_favorites": {
+        "word": "{1} has been removed from favorites.",
+        "type": "frontend"
+    },
+    "uploading_number_of_files": {
+        "word": "Uploading {1} of {2} files",
+        "type": "frontend"
+    },
+    "uploading_number_files": {
+        "word": "Uploading {1} files",
+        "type": "frontend"
+    },
+    "start_uploading": {
+        "word": "Start Uploading",
+        "type": "frontend"
+    },
+    "add_files": {
+        "word": "Add files",
+        "type": "frontend"
+    },
+    "cancel_all": {
+        "word": "Cancel All",
+        "type": "frontend"
+    },
+    "clear_all": {
+        "word": "Clear All",
+        "type": "frontend"
+    },
+    "action_not_allowed": {
+        "word": "The selected action is not allowed!",
+        "type": "frontend"
+    },
+    "number_items_selected": {
+        "word": "{1} items selected",
+        "type": "frontend"
+    },
+    "one_item_selected": {
+        "word": "1 item selected",
+        "type": "frontend"
+    },
+    "category": {
+        "word": "Category",
+        "type": "frontend"
+    },
+    "sub_category": {
+        "word": "Sub-category",
+        "type": "frontend"
+    },
+    "compressing_files": {
+        "word": "Compressing {1} files...",
+        "type": "frontend"
+    },
+    "downloading_files": {
+        "word": "Downloading {1} files...",
+        "type": "frontend"
+    },
+    "compress_download_files": {
+        "word": "{1} Comp,  {2} Down files...",
+        "type": "frontend"
+    },
+    "open_in_new_window": {
+        "word": "Open in new window",
+        "type": "frontend"
+    },
+    "count_selected": {
+        "word": "({1} selected)",
+        "type": "frontend"
+    },
+    "move_file_to": {
+        "word": "Move file to",
+        "type": "frontend"
+    },
+    "copy_file_to": {
+        "word": "Copy file to",
+        "type": "frontend"
+    },
+    "no_folders_found": {
+        "word": "no_folders_found",
+        "type": "frontend"
+    },
+    "to_create_new_folder_click_on_icon_folder_near_search": {
+        "word": "To add new folder, click on icon folder near to search bar",
+        "type": "frontend"
+    },
+    "no_file_shared_succssfully": {
+        "word": "{1} files shared successfully",
+        "type": "frontend"
+    },
+    "share_with_users_teams_roles_departments_companies": {
+        "word": "Share with users, teams, roles, departments and companies",
+        "type": "frontend"
+    },
+    "share_with": {
+        "word": "Share with",
+        "type": "frontend"
+    },
+    "add_users_teams_roles_departments_companies": {
+        "word": "Add users, teams, roles, departments and companies",
+        "type": "frontend"
+    },
+    "please_select_at_least_one_item_to_share": {
+        "word": "Please select at least one item to share",
+        "type": "frontend"
+    },
+    "please_select_at_least_one_file_folder_to_share": {
+        "word": "Please select at least one File/Folder to share",
+        "type": "frontend"
+    },
+    "folder_same_destination": {
+        "word": "This destination folder is a sub folder of the source folder",
+        "type": "frontend"
+    },
+    "protect_your_folder": {
+        "word": "Protect your folder",
+        "type": "frontend"
+    },
+    "protect_your_file": {
+        "word": "Protect your file",
+        "type": "frontend"
+    },
+    "set_password": {
+        "word": "Set Password",
+        "type": "frontend"
+    },
+    "clear_password": {
+        "word": "Clear Password",
+        "type": "frontend"
+    },
+    "can't_delete_file": {
+        "word": "Can't delete the selected item",
+        "type": "frontend"
+    },
+    "design_link_files": {
+        "word": "Design link files",
+        "type": "frontend"
+    },
+    "select_file": {
+        "word": "Select File",
+        "type": "frontend"
+    },
+    "drag_and_drop": {
+        "word": "Drag and drop",
+        "type": "frontend"
+    },
+    "allowed_extensions": {
+        "word": "allowed_extensions",
+        "type": "frontend"
+    },
+    "design_files_are_emtpy": {
+        "word": "Design files are empty",
+        "type": "frontend"
+    },
+    "login_time": {
+        "word": "Login Time",
+        "type": "frontend"
+    },
+    "shared_with": {
+        "word": "Shared with",
+        "type": "frontend"
+    },
+    "category_area": {
+        "word": "Category area",
+        "type": "frontend"
+    },
+    "remove_shared_item": {
+        "word": "Remove Shared {1}",
+        "type": "frontend"
+    },
+    "only_removes_item_from_shared_drive": {
+        "word": "This will delete the selected {1} only from your shared drive!",
+        "type": "frontend"
+    },
+    "would_you_like_to_remove_files_created_inside_item": {
+        "word": "Would you like to delete all files and folders you have created inside selected items?",
+        "type": "frontend"
+    },
+    "dont_delete_my_files": {
+        "word": "Don't delete my files",
+        "type": "frontend"
+    },
+    "delete_my_files": {
+        "word": "Delete my files",
+        "type": "frontend"
+    },
+    "remove_item": {
+        "word": "Remove {1}",
+        "type": "frontend"
+    },
+    "permanently_delete_item_for_everyone": {
+        "word": "This will permanently delete selected {1} for every one!",
+        "type": "frontend"
+    },
+    "could_not_delete_items_because": {
+        "word": "Couldn't delete {1}, because either you are not the creator or folder contains files that are not yours, but your files inside has been deleted.",
+        "type": "frontend"
+    },
+    "could_not_delete_item_because": {
+        "word": "Couldn't delete {1}, because you are not the creator.",
+        "type": "frontend"
+    },
+    "selected_item": {
+        "word": "Selected {1}",
+        "type": "frontend"
+    },
+    "refresh": {
+        "word": "Refresh",
+        "type": "frontend"
+    },
+    "thumbnail": {
+        "word": "Thumbnail",
+        "type": "frontend"
+    },
+    "list": {
+        "word": "List",
+        "type": "frontend"
+    },
+    "storage_requests": {
+        "word": "Storage Requests",
+        "type": "frontend"
+    },
+    "andy": {
+        "word": "Any",
+        "type": "frontend"
+    },
+    "filter": {
+        "word": "Filter",
+        "type": "frontend"
+    },
+    "drive": {
+        "word": "Drive",
+        "type": "frontend"
+    },
+    "files": {
+        "word": "Files",
+        "type": "frontend"
+    },
+    "folders": {
+        "word": "Folders",
+        "type": "frontend"
+    },
+    "0_byte": {
+        "word": "0 Byte",
+        "type": "frontend"
+    },
+    "recent": {
+        "word": "Recent",
+        "type": "frontend"
+    },
+    "drop_your_reply": {
+        "word": "Drop your reply",
+        "type": "frontend"
+    },
+    "reply": {
+        "word": "Reply",
+        "type": "frontend"
+    },
+    "assign_users": {
+        "word": "Assign users",
+        "type": "frontend"
+    },
+    "assign_item": {
+        "word": "Assign {1}",
+        "type": "frontend"
+    },
+    "would_you_like_to_unshare_selected_item": {
+        "word": "Would you like to unshare selected {1}?",
+        "type": "frontend"
+    },
+    "selected_items_unshared_successfully": {
+        "word": "Selected Items unshared successfully!",
+        "type": "frontend"
+    },
+    "comment_file": {
+        "word": "Comment",
+        "type": "frontend"
+    },
+    "reply_file": {
+        "word": "Reply",
+        "type": "frontend"
+    },
+    "user_commented_on_your_file": {
+        "word": "{1} commented on ({2}) file",
+        "type": "frontend"
+    },
+    "user_reply_to_your_comment": {
+        "word": "{1} replied to your comment on {2}",
+        "type": "frontend"
+    },
+    "user_also_commented_on_a_file_commented": {
+        "word": "{1} also commented on ({2})",
+        "type": "frontend"
+    },
+    "user_also_replied_on_user_comment_on_file": {
+        "word": "{1} also replied to a comment on ({2})",
+        "type": "frontend"
+    },
+    "folder_length_error_text": {
+        "word": "The folder name must not be greater than 250 characters.",
+        "type": "frontend"
+    },
+    "file_length_error_text": {
+        "word": "The file name must not be greater than 250 characters.",
+        "type": "frontend"
+    },
+    "invalid_folder_name": {
+        "word": "The folder name must not contains any of the characters (<>/\\*:|?\")",
+        "type": "frontend"
+    },
+    "owner_user_name": {
+        "word": "You",
+        "type": "frontend"
+    },
+    "invalid_file_name": {
+        "word": "The file name must not contains any of the characters (<>/\\*:|?\").",
+        "type": "frontend"
+    },
+    "request_for_more_storage": {
+        "word": "Request for More Storage",
+        "type": "frontend"
+    },
+    "default_view": {
+        "word": "Default View",
+        "type": "frontend"
+    },
+    "default": {
+        "word": "Default",
+        "type": "frontend"
+    },
+    "default_sorting": {
+        "word": "Default Sorting",
+        "type": "frontend"
+    },
+    "cancel_request": {
+        "word": "Cancel Request",
+        "type": "frontend"
+    },
+    "your_storage_request_for": {
+        "word": "Your storage request for",
+        "type": "frontend"
+    },
+    "is_in_pending": {
+        "word": "is in pending",
+        "type": "frontend"
+    },
+    "used": {
+        "word": "Used",
+        "type": "frontend"
+    },
+    "free": {
+        "word": "Free",
+        "type": "frontend"
+    },
+    "of": {
+        "word": "of",
+        "type": "frontend"
+    },
+    "others": {
+        "word": "Others",
+        "type": "frontend"
+    },
+    "share_files": {
+        "word": "Share files",
+        "type": "frontend"
+    },
+    "total": {
+        "word": "Total",
+        "type": "frontend"
+    },
+    "request_size": {
+        "word": "Request Size",
+        "type": "frontend"
+    },
+    "current_size": {
+        "word": "Current Size",
+        "type": "frontend"
+    },
+    "free_size": {
+        "word": "Free Size",
+        "type": "frontend"
+    },
+    "single_sales_management_system": {
+        "word": "Single Sales Management System",
+        "type": "frontend"
+    },
+    "single_sale": {
+        "word": "Single Sale",
+        "type": "frontend"
+    },
+    "platform_name": {
+        "word": "Platform Name",
+        "type": "frontend"
+    },
+    "platform_key": {
+        "word": "Platform Key",
+        "type": "frontend"
+    },
+    "reset_form": {
+        "word": "Reset Form",
+        "type": "frontend"
+    },
+    "platform": {
+        "word": "Platform",
+        "type": "frontend"
+    },
+    "platforms": {
+        "word": "Platforms",
+        "type": "frontend"
+    },
+    "platform_placement": {
+        "word": "Platform Placement",
+        "type": "frontend"
+    },
+    "placement": {
+        "word": "Placement",
+        "type": "frontend"
+    },
+    "date_of_request": {
+        "word": "Date of request",
+        "type": "frontend"
+    },
+    "in_sourcing": {
+        "word": "In Sourcing",
+        "type": "frontend"
+    },
+    "in_hold": {
+        "word": "In Hold",
+        "type": "frontend"
+    },
+    "not_found": {
+        "word": "Not Found",
+        "type": "frontend"
+    },
+    "sourcing_request": {
+        "word": "Sourcing Request",
+        "type": "frontend"
+    },
+    "found": {
+        "word": "Found",
+        "type": "frontend"
+    },
+    "confirm": {
+        "word": "Confirm",
+        "type": "frontend"
+    },
+    "or": {
+        "word": "Or",
+        "type": "frontend"
+    },
+    "product_study": {
+        "word": "Product Study",
+        "type": "frontend"
+    },
+    "study_reason": {
+        "word": "Study Reason",
+        "type": "frontend"
+    },
+    "attributes": {
+        "word": "Attributes",
+        "type": "frontend"
+    },
+    "brand_Information": {
+        "word": "Brand Information",
+        "type": "frontend"
+    },
+    "attribute": {
+        "word": "Attribute",
+        "type": "frontend"
+    },
+    "done_by": {
+        "word": "Done By",
+        "type": "frontend"
+    },
+    "done_date": {
+        "word": "Done Date",
+        "type": "frontend"
+    },
+    "very_high": {
+        "word": "Very High",
+        "type": "frontend"
+    },
+    "normal": {
+        "word": "Normal",
+        "type": "frontend"
+    },
+    "inprocess": {
+        "word": "In Process",
+        "type": "frontend"
+    },
+    "action_type": {
+        "word": "Action Type",
+        "type": "frontend"
+    },
+    "action_goals": {
+        "word": "Action Gouls",
+        "type": "frontend"
+    },
+    "action_category": {
+        "word": "Action Category",
+        "type": "frontend"
+    },
+    "statement": {
+        "word": "Statement",
+        "type": "frontend"
+    },
+    "instruction": {
+        "word": "In Struction",
+        "type": "frontend"
+    },
+    "brand": {
+        "word": "Brand",
+        "type": "frontend"
+    },
+    "failed": {
+        "word": "Failed",
+        "type": "frontend"
+    },
+    "to_navigate": {
+        "word": "To Navigate",
+        "type": "frontend"
+    },
+    "what_do_you_want_to_create": {
+        "word": "What do you want to create?",
+        "type": "frontend"
+    },
+    "choose_a_section": {
+        "word": "Choose a Section",
+        "type": "frontend"
+    },
+    "choose_a_product": {
+        "word": "Choose A Product",
+        "type": "frontend"
+    },
+    "comming_soon": {
+        "word": "Comming Soon",
+        "type": "frontend"
+    },
+    "choose_a_category": {
+        "word": "Choose A Category",
+        "type": "frontend"
+    },
+    "quantity_reservation_request": {
+        "word": "Quantity Reservation Request",
+        "type": "frontend"
+    },
+    "quantity_reservation": {
+        "word": "Quantity Reservation",
+        "type": "frontend"
+    },
+    "budget_&_target_CPC": {
+        "word": "Budget & Target CPC",
+        "type": "frontend"
+    },
+    "vat_tax": {
+        "word": "VAT Tax",
+        "type": "frontend"
+    },
+    "price_per_unit": {
+        "word": "Price Per Unit",
+        "type": "frontend"
+    },
+    "target_CPO": {
+        "word": "Target CPO",
+        "type": "frontend"
+    },
+    "add_another_platform": {
+        "word": "Add another platform",
+        "type": "frontend"
+    },
+    "advertisement_management_system": {
+        "word": "Advertisement Management System",
+        "type": "frontend"
+    },
+    "column_setting": {
+        "word": "Column Setting",
+        "type": "frontend"
+    },
+    "columns_more_than_10": {
+        "word": "PDF download is not available for large tables!",
+        "type": "frontend"
+    },
+    "please_select_at_least_on_item": {
+        "word": "Please select at least one item.",
+        "type": "frontend"
+    },
+    "please_select_at_least_one_item": {
+        "word": "Please select at least one {1}.",
+        "type": "frontend"
+    },
+    "please_select_at_least_one_user_or_skip": {
+        "word": "Please select at least one user or skip it.",
+        "type": "frontend"
+    },
+    "selected_users_successfully_assigned": {
+        "word": "Selected users successfully assigned",
+        "type": "frontend"
+    },
+    "latest": {
+        "word": "Latest",
+        "type": "frontend"
+    },
+    "most_relevent": {
+        "word": "Most Relevent",
+        "type": "frontend"
+    },
+    "top_comments": {
+        "word": "Top Comments",
+        "type": "frontend"
+    },
+    "tabs_&_columns": {
+        "word": "Tabs & Columns",
+        "type": "frontend"
+    },
+    "categories": {
+        "word": "Categories",
+        "type": "frontend"
+    },
+    "columns": {
+        "word": "Columns",
+        "type": "frontend"
+    },
+    "columns_arrangement": {
+        "word": "Columns Arrangement",
+        "type": "frontend"
+    },
+    "public": {
+        "word": "Public",
+        "type": "frontend"
+    },
+    "select_subsystem": {
+        "word": "Select Subsystem",
+        "type": "frontend"
+    },
+    "you_can_select_multiple_categories_or_add_new_one": {
+        "word": "You can select multiple categories or add new one.",
+        "type": "frontend"
+    },
+    "add_new_category": {
+        "word": "Add New Category",
+        "type": "frontend"
+    },
+    "select_system_&_subsystem": {
+        "word": "Select System & Subsystem",
+        "type": "frontend"
+    },
+    "type_here": {
+        "word": "Type Here",
+        "type": "frontend"
+    },
+    "please_select_a_subsystem_from_the_left_panel": {
+        "word": "Please select a subsystem from the left panel",
+        "type": "frontend"
+    },
+    "systems_and_subsystems": {
+        "word": "systems & subsystems",
+        "type": "frontend"
+    },
+    "tab_and_columns": {
+        "word": "Tabs & Columns",
+        "type": "frontend"
+    },
+    "tooltip_text": {
+        "word": "Tooltip text",
+        "type": "frontend"
+    },
+    "info": {
+        "word": "Info",
+        "type": "frontend"
+    },
+    "advertisement_country": {
+        "word": "Country",
+        "type": "frontend"
+    },
+    "advertisement_company": {
+        "word": "Company",
+        "type": "frontend"
+    },
+    "advertisement_item_code": {
+        "word": "Item Code",
+        "type": "frontend"
+    },
+    "advertisement_ispp_code": {
+        "word": "Ispp Code",
+        "type": "frontend"
+    },
+    "ispp_code": {
+        "word": "Ispp Code",
+        "type": "frontend"
+    },
+    "advertisement_platform": {
+        "word": "Platform",
+        "type": "frontend"
+    },
+    "advertisement_organization": {
+        "word": "Organization",
+        "type": "frontend"
+    },
+    "advertisement_ad_account": {
+        "word": "Ad Account",
+        "type": "frontend"
+    },
+    "advertisement_campaign": {
+        "word": "Campaign",
+        "type": "frontend"
+    },
+    "advertisement_ad_set": {
+        "word": "Adset",
+        "type": "frontend"
+    },
+    "advertisement_ad": {
+        "word": "Ad",
+        "type": "frontend"
+    },
+    "total_companies": {
+        "word": "Total Companies",
+        "type": "frontend"
+    },
+    "total_products": {
+        "word": "Total Products",
+        "type": "frontend"
+    },
+    "total_platforms": {
+        "word": "Total Platforms",
+        "type": "frontend"
+    },
+    "total_organizations": {
+        "word": "Total Organizations",
+        "type": "frontend"
+    },
+    "total_ad_accounts": {
+        "word": "Total ad Accounts",
+        "type": "frontend"
+    },
+    "total_adsets": {
+        "word": "Total Adsets",
+        "type": "frontend"
+    },
+    "total_campaigns": {
+        "word": "Total Campaigns",
+        "type": "frontend"
+    },
+    "total_ads": {
+        "word": "Total ads",
+        "type": "frontend"
+    },
+    "checking_ads": {
+        "word": "Checking Ads",
+        "type": "frontend"
+    },
+    "viewable_impressions": {
+        "word": "Viewable Impressions",
+        "type": "frontend"
+    },
+    "page_views": {
+        "word": "Page Views",
+        "type": "frontend"
+    },
+    "video_watched_2s": {
+        "word": "Video Watched 2s",
+        "type": "frontend"
+    },
+    "video_watched_6s": {
+        "word": "Video Watched 6s",
+        "type": "frontend"
+    },
+    "avg_screen_time": {
+        "word": "Avg Screen Time",
+        "type": "frontend"
+    },
+    "total_page_view": {
+        "word": "Total Page View",
+        "type": "frontend"
+    },
+    "orders": {
+        "word": "Orders",
+        "type": "frontend"
+    },
+    "crm_confirmed": {
+        "word": "CRM Confirmed",
+        "type": "frontend"
+    },
+    "crm_sendback": {
+        "word": "CRM Send Back",
+        "type": "frontend"
+    },
+    "total_picked_up": {
+        "word": "Total Picked Up",
+        "type": "frontend"
+    },
+    "picked_up": {
+        "word": "Picked Up",
+        "type": "frontend"
+    },
+    "logis_delivered": {
+        "word": "Logis Delivered",
+        "type": "frontend"
+    },
+    "logis_cancelled": {
+        "word": "Logis Cancelled",
+        "type": "frontend"
+    },
+    "total_sales": {
+        "word": "Total Sales",
+        "type": "frontend"
+    },
+    "product_cost": {
+        "word": "Product Cost",
+        "type": "frontend"
+    },
+    "suppliers_list": {
+        "word": "Supplier List",
+        "type": "frontend"
+    },
+    "supplier_product_cost": {
+        "word": "Supplier - Product Cost",
+        "type": "frontend"
+    },
+    "supplier_trading_name": {
+        "word": "Supplier Trading Name",
+        "type": "frontend"
+    },
+    "supplier_name": {
+        "word": "Supplier Name",
+        "type": "frontend"
+    },
+    "supplier_source": {
+        "word": "Supplier Source",
+        "type": "frontend"
+    },
+    "supplier_filter": {
+        "word": "Supplier Filter page",
+        "type": "frontend"
+    },
+    "supplier_information": {
+        "word": "Supplier Information",
+        "type": "frontend"
+    },
+    "supplier_info": {
+        "word": "Supplier Info",
+        "type": "frontend"
+    },
+    "product_price": {
+        "word": "Product Price",
+        "type": "frontend"
+    },
+    "price": {
+        "word": "Price",
+        "type": "frontend"
+    },
+    "no_cost": {
+        "word": "No Cost",
+        "type": "frontend"
+    },
+    "supplier_successfully_added_to_selected_product": {
+        "word": "Suppplier Successfully Added To Selected Product",
+        "type": "frontend"
+    },
+    "delivery_cost": {
+        "word": "Delivery Cost",
+        "type": "frontend"
+    },
+    "crm_sendback_percentage": {
+        "word": "CRM Send Back Percentage",
+        "type": "frontend"
+    },
+    "logis_delivered_percentage": {
+        "word": "Logis Delivered Percentage",
+        "type": "frontend"
+    },
+    "logis_cancelled_percentage": {
+        "word": "Logis Cancelled Percentage",
+        "type": "frontend"
+    },
+    "final_percentage": {
+        "word": "Final Percentage",
+        "type": "frontend"
+    },
+    "total_expense": {
+        "word": "Total Expense",
+        "type": "frontend"
+    },
+    "profit_and_loss": {
+        "word": "Profit And Loss",
+        "type": "frontend"
+    },
+    "profit_percentage": {
+        "word": "Profit Percentage",
+        "type": "frontend"
+    },
+    "product_cost_percentage": {
+        "word": "Product Cost Percentage",
+        "type": "frontend"
+    },
+    "delivery_cost_percentage": {
+        "word": "Delivery Cost Percentage",
+        "type": "frontend"
+    },
+    "ad_cost_percentage": {
+        "word": "Ad Cost Percentage",
+        "type": "frontend"
+    },
+    "logistics_percentage": {
+        "word": "Logistics Percentage",
+        "type": "frontend"
+    },
+    "total_users": {
+        "word": "Total Users",
+        "type": "frontend"
+    },
+    "new_users": {
+        "word": "New Users",
+        "type": "frontend"
+    },
+    "user_engagement": {
+        "word": "User Engagement",
+        "type": "frontend"
+    },
+    "sessions": {
+        "word": "Sessions",
+        "type": "frontend"
+    },
+    "engaged_sessions": {
+        "word": "Engaged Sessions",
+        "type": "frontend"
+    },
+    "page_view": {
+        "word": "Page View",
+        "type": "frontend"
+    },
+    "page_type": {
+        "word": "Page Type",
+        "type": "frontend"
+    },
+    "engagement_rate": {
+        "word": "Engagement Rate",
+        "type": "frontend"
+    },
+    "sales_modal": {
+        "word": "Sales Modal",
+        "type": "frontend"
+    },
+    "creation_type": {
+        "word": "Creation Type",
+        "type": "frontend"
+    },
+    "sale_currency": {
+        "word": "Sale Currency",
+        "type": "frontend"
+    },
+    "sale_goal": {
+        "word": "Sale Goal",
+        "type": "frontend"
+    },
+    "landing_page_style": {
+        "word": "Landing Page Style",
+        "type": "frontend"
+    },
+    "landing_page_note": {
+        "word": "Landing Page Note",
+        "type": "frontend"
+    },
+    "head_selling_price": {
+        "word": "Head Selling Price",
+        "type": "frontend"
+    },
+    "price_patterns": {
+        "word": "Price Patterns",
+        "type": "frontend"
+    },
+    "delivery_status": {
+        "word": "Delivery Status",
+        "type": "frontend"
+    },
+    "connection_code": {
+        "word": "Connection Code",
+        "type": "frontend"
+    },
+    "generated_link": {
+        "word": "Generated Link",
+        "type": "frontend"
+    },
+    "generated_link_date": {
+        "word": "Generated Link Date",
+        "type": "frontend"
+    },
+    "data_date": {
+        "word": "Data Date",
+        "type": "frontend"
+    },
+    "server_created_at": {
+        "word": "Server Created At",
+        "type": "frontend"
+    },
+    "server_updated_at": {
+        "word": "Server Updated At",
+        "type": "frontend"
+    },
+    "amount": {
+        "word": "Amount",
+        "type": "frontend"
+    },
+    "platform_logo": {
+        "word": "Platform Logo",
+        "type": "frontend"
+    },
+    "scope": {
+        "word": "Scope",
+        "type": "frontend"
+    },
+    "sourcing_type": {
+        "word": "Sourcing Type",
+        "type": "frontend"
+    },
+    "importing_country": {
+        "word": "Importing Country",
+        "type": "frontend"
+    },
+    "receiving_country": {
+        "word": "Receiving Country",
+        "type": "frontend"
+    },
+    "product_category": {
+        "word": "Product Category",
+        "type": "frontend"
+    },
+    "reason_for_search": {
+        "word": "Reason For Search",
+        "type": "frontend"
+    },
+    "approx_quantity": {
+        "word": "Approx Quntity",
+        "type": "frontend"
+    },
+    "required_shipping_method": {
+        "word": "Required Shipping Method",
+        "type": "frontend"
+    },
+    "target_countries": {
+        "word": "Target Countries",
+        "type": "frontend"
+    },
+    "target_country": {
+        "word": "Target Country",
+        "type": "frontend"
+    },
+    "target_cities": {
+        "word": "Target Cities",
+        "type": "frontend"
+    },
+    "target_gender": {
+        "word": "Target Gender",
+        "type": "frontend"
+    },
+    "target_age": {
+        "word": "Target Age",
+        "type": "frontend"
+    },
+    "target_date": {
+        "word": "Target Date",
+        "type": "frontend"
+    },
+    "target_audience": {
+        "word": "Target Audience",
+        "type": "frontend"
+    },
+    "is_approved": {
+        "word": "Is Approved",
+        "type": "frontend"
+    },
+    "parent_sku": {
+        "word": "Parent SKU",
+        "type": "frontend"
+    },
+    "sku": {
+        "word": "SKU",
+        "type": "frontend"
+    },
+    "pcode": {
+        "word": "Pcode",
+        "type": "frontend"
+    },
+    "unit": {
+        "word": "Unit",
+        "type": "frontend"
+    },
+    "number_of_sales": {
+        "word": "Number of Sales",
+        "type": "frontend"
+    },
+    "selling_goals": {
+        "word": "Selling Goals",
+        "type": "frontend"
+    },
+    "product_study_id": {
+        "word": "Product Study ID",
+        "type": "frontend"
+    },
+    "goals": {
+        "word": "Goals",
+        "type": "frontend"
+    },
+    "arrival_time": {
+        "word": "Arrival Time",
+        "type": "frontend"
+    },
+    "order_note": {
+        "word": "Order Note",
+        "type": "frontend"
+    },
+    "banner": {
+        "word": "Banner",
+        "type": "frontend"
+    },
+    "ad_set": {
+        "word": "Adset",
+        "type": "frontend"
+    },
+    "item_code": {
+        "word": "Item Code",
+        "type": "frontend"
+    },
+    "select_item_code": {
+        "word": "Select Item Code",
+        "type": "frontend"
+    },
+    "column_category": {
+        "word": "Column Category",
+        "type": "frontend"
+    },
+    "add_category": {
+        "word": "Add Category",
+        "type": "frontend"
+    },
+    "the_table_has_been_refreshed": {
+        "word": "The table has already been refreshed!",
+        "type": "frontend"
+    },
+    "please_try_again_later": {
+        "word": "Please Try again Later",
+        "type": "frontend"
+    },
+    "the_table_has_been_refreshed_at": {
+        "word": "The table has already refreshed at {1}.",
+        "type": "frontend"
+    },
+    "do_you_wnat_to_refresh_again": {
+        "word": "Do you want to refresh again?",
+        "type": "frontend"
+    },
+    "refresh_anyway": {
+        "word": "Refresh Anyway",
+        "type": "frontend"
+    },
+    "refresh_missed_ads": {
+        "word": "Refresh Missed Ads",
+        "type": "frontend"
+    },
+    "select_categories": {
+        "word": "Select Categories",
+        "type": "frontend"
+    },
+    "sortable": {
+        "word": "Sortable",
+        "type": "frontend"
+    },
+    "jump_to": {
+        "word": "Jump To",
+        "type": "frontend"
+    },
+    "please_wait_30_seconds_before_your_next_remark": {
+        "word": "Please wait 30 seconds before you next remark!",
+        "type": "frontend"
+    },
+    "please_save_your_changes_first": {
+        "word": "Please save your changes first!",
+        "type": "frontend"
+    },
+    "is_equal_to": {
+        "word": "Is equal to",
+        "type": "frontend"
+    },
+    "is_greater_than": {
+        "word": "Is greater than",
+        "type": "frontend"
+    },
+    "is_less_than": {
+        "word": "Is less than",
+        "type": "frontend"
+    },
+    "is_between": {
+        "word": "Is between",
+        "type": "frontend"
+    },
+    "common": {
+        "word": "Common",
+        "type": "frontend"
+    },
+    "metrics": {
+        "word": "Metrics",
+        "type": "frontend"
+    },
+    "crms": {
+        "word": "CRMs",
+        "type": "frontend"
+    },
+    "google_analytics": {
+        "word": "Google Analytics",
+        "type": "frontend"
+    },
+    "confirmed": {
+        "word": "Confirmed",
+        "type": "frontend"
+    },
+    "sales": {
+        "word": "Sales",
+        "type": "frontend"
+    },
+    "costs": {
+        "word": "Costs",
+        "type": "frontend"
+    },
+    "who_download_table": {
+        "word": "Show who downloaded this file",
+        "type": "frontend"
+    },
+    "archive_this_label_for_future_use": {
+        "word": "Archive this label for future use",
+        "type": "frontend"
+    },
+    "download_time": {
+        "word": "Show the current time & date of the downloaded file",
+        "type": "frontend"
+    },
+    "product_study_orders": {
+        "word": "Product Study Orders",
+        "type": "frontend"
+    },
+    "supplier_management_system": {
+        "word": "Supplier Management System",
+        "type": "frontend"
+    },
+    "supplier": {
+        "word": "Supplier",
+        "type": "frontend"
+    },
+    "suppliers": {
+        "word": "Suppliers",
+        "type": "frontend"
+    },
+    "with_supplier": {
+        "word": "With Supplier",
+        "type": "frontend"
+    },
+    "without_supplier": {
+        "word": "Without Supplier",
+        "type": "frontend"
+    },
+    "platform_id": {
+        "word": "Platform ID",
+        "type": "frontend"
+    },
+    "please_selecte_a_system": {
+        "word": "Please select a system",
+        "type": "frontend"
+    },
+    "please_selecte_a_sub_system": {
+        "word": "Please select a subsystem",
+        "type": "frontend"
+    },
+    "remember_me": {
+        "word": "remember me",
+        "type": "frontend"
+    },
+    "you_can_add_one_or_more_brand": {
+        "word": "You can add one or more brand for your system.",
+        "type": "frontend"
+    },
+    "brand_name": {
+        "word": "Brand Name",
+        "type": "frontend"
+    },
+    "upload_icon": {
+        "word": "Upload Icon",
+        "type": "frontend"
+    },
+    "upload_your_icon_here": {
+        "word": "Upload your icon here...",
+        "type": "frontend"
+    },
+    "add_another_brand": {
+        "word": "Add another brand",
+        "type": "frontend"
+    },
+    "daily_budget": {
+        "word": "Daily Budget",
+        "type": "frontend"
+    },
+    "budget": {
+        "word": "Budget",
+        "type": "frontend"
+    },
+    "bid": {
+        "word": "BID",
+        "type": "frontend"
+    },
+    "issp_code": {
+        "word": "Issp Code",
+        "type": "frontend"
+    },
+    "tab_system": {
+        "word": "Tab System",
+        "type": "frontend"
+    },
+    "ad_account_name": {
+        "word": "Ad Account Name",
+        "type": "frontend"
+    },
+    "account_po": {
+        "word": "Account PO",
+        "type": "frontend"
+    },
+    "please_ad_account_po_code": {
+        "word": "Please AD Account PO Code",
+        "type": "frontend"
+    },
+    "total_budgets": {
+        "word": "Total Budgets",
+        "type": "frontend"
+    },
+    "avg_bids": {
+        "word": "AVG BIDS",
+        "type": "frontend"
+    },
+    "please_select_reasons": {
+        "word": "Please Select Reasons why you want {1} it",
+        "type": "frontend"
+    },
+    "comparison": {
+        "word": "Comparison",
+        "type": "frontend"
+    },
+    "filters": {
+        "word": "Filters",
+        "type": "frontend"
+    },
+    "choose_connection_type": {
+        "word": "Choose Connection Type",
+        "type": "frontend"
+    },
+    "connection_type": {
+        "word": "Connection Type",
+        "type": "frontend"
+    },
+    "connection_template": {
+        "word": "Connection Template",
+        "type": "frontend"
+    },
+    "choose_a_template": {
+        "word": "Choose A Template",
+        "type": "frontend"
+    },
+    "create_new": {
+        "word": "Create New",
+        "type": "frontend"
+    },
+    "connection_information": {
+        "word": "Connection Information",
+        "type": "frontend"
+    },
+    "ad_accounts": {
+        "word": "Ad Accounts",
+        "type": "frontend"
+    },
+    "account_pixel": {
+        "word": "Account Pixel",
+        "type": "frontend"
+    },
+    "account_pixels": {
+        "word": "Account Pixels",
+        "type": "frontend"
+    },
+    "ad_information": {
+        "word": "Ad Information",
+        "type": "frontend"
+    },
+    "template_name": {
+        "word": "Template Name",
+        "type": "frontend"
+    },
+    "history_status": {
+        "word": "History Reason",
+        "type": "frontend"
+    },
+    "3_days_ago": {
+        "word": "3 days ago",
+        "type": "frontend"
+    },
+    "1_week_ago": {
+        "word": "1 week ago",
+        "type": "frontend"
+    },
+    "1_month_ago": {
+        "word": "1 month ago",
+        "type": "frontend"
+    },
+    "custom_date": {
+        "word": "Custom Date",
+        "type": "frontend"
+    },
+    "bid_history": {
+        "word": "Bid History",
+        "type": "frontend"
+    },
+    "download_connection_template": {
+        "word": "Download Connection Template",
+        "type": "frontend"
+    },
+    "manual_upload": {
+        "word": "Manual Upload",
+        "type": "frontend"
+    },
+    "generate_connection_link": {
+        "word": "Generate Connection Link",
+        "type": "frontend"
+    },
+    "no_data": {
+        "word": "No Data",
+        "type": "frontend"
+    },
+    "organization": {
+        "word": "Organization",
+        "type": "frontend"
+    },
+    "last_7_days": {
+        "word": "Last 7 Days",
+        "type": "frontend"
+    },
+    "last_30_days": {
+        "word": "Last 30 Days",
+        "type": "frontend"
+    },
+    "last_3_months": {
+        "word": "Last 3 Months",
+        "type": "frontend"
+    },
+    "lifetime": {
+        "word": "Lifetime",
+        "type": "frontend"
+    },
+    "campaign": {
+        "word": "Campaign",
+        "type": "frontend"
+    },
+    "ad": {
+        "word": "Ad",
+        "type": "frontend"
+    },
+    "in_review": {
+        "word": "In Review",
+        "type": "frontend"
+    },
+    "in_creation": {
+        "word": "In Creation",
+        "type": "frontend"
+    },
+    "in_testing": {
+        "word": "In Testing",
+        "type": "frontend"
+    },
+    "sales_moving": {
+        "word": "Sales Moving",
+        "type": "frontend"
+    },
+    "sales_unstable": {
+        "word": "Sales Unstable",
+        "type": "frontend"
+    },
+    "stopped": {
+        "word": "Stopped",
+        "type": "frontend"
+    },
+    "archived": {
+        "word": "Archived",
+        "type": "frontend"
+    },
+    "activity": {
+        "word": "Activity",
+        "type": "frontend"
+    },
+    "you_have_unlimited_storage_size": {
+        "word": "You have unlimited storage size.",
+        "type": "frontend"
+    },
+    "you_can_request_to_buy_more_storage": {
+        "word": "You can request to buy more storage.",
+        "type": "frontend"
+    },
+    "choose_a_default_view_for_my_folders_team_folders_and_favorites": {
+        "word": "Choose a default view for My Folders, Team Folders, and Favorites.",
+        "type": "frontend"
+    },
+    "choose_a_default_sort_option_for_my_folders_team_folders_and_favorites": {
+        "word": "Choose a default sort option for My Folders, Team Folders, and Favorites.",
+        "type": "frontend"
+    },
+    "calculateds": {
+        "word": "Calculateds",
+        "type": "frontend"
+    },
+    "value": {
+        "word": "Value",
+        "type": "frontend"
+    },
+    "min_age": {
+        "word": "Min Age",
+        "type": "frontend"
+    },
+    "max_age": {
+        "word": "Max Age",
+        "type": "frontend"
+    },
+    "upload_image": {
+        "word": "Upload Image",
+        "type": "frontend"
+    },
+    "upload_slider_1_images": {
+        "word": "Upload Slider 1 Images",
+        "type": "frontend"
+    },
+    "upload_slider_2_images": {
+        "word": "Upload Slider 2 Images",
+        "type": "frontend"
+    },
+    "upload_content_images": {
+        "word": "Upload Content Images",
+        "type": "frontend"
+    },
+    "ad_manual_upload": {
+        "word": "Ad Manual Upload",
+        "type": "frontend"
+    },
+    "product_type": {
+        "word": "Product Type",
+        "type": "frontend"
+    },
+    "product_collection_items": {
+        "word": "Product Collection Items",
+        "type": "frontend"
+    },
+    "product_title_ar": {
+        "word": "Product Title (AR)",
+        "type": "frontend"
+    },
+    "product_title_en": {
+        "word": "Product Title (EN)",
+        "type": "frontend"
+    },
+    "product_name_in_english": {
+        "word": "Product Name In English",
+        "type": "frontend"
+    },
+    "english": {
+        "word": "English",
+        "type": "frontend"
+    },
+    "product_name_in_arabic": {
+        "word": "Product Name In Arabic",
+        "type": "frontend"
+    },
+    "product_note_ar": {
+        "word": "Product Note (Arabic)",
+        "type": "frontend"
+    },
+    "product_note_en": {
+        "word": "Product Note (English)",
+        "type": "frontend"
+    },
+    "transfar_message_ar": {
+        "word": "Transfar Message (Arabic)",
+        "type": "frontend"
+    },
+    "transfar_message_en": {
+        "word": "Transfar Message (English)",
+        "type": "frontend"
+    },
+    "message_here": {
+        "word": "Message Here",
+        "type": "frontend"
+    },
+    "drag_and_drop_images_to_upload": {
+        "word": "Drag and Drop Images to upload",
+        "type": "frontend"
+    },
+    "or_browse_files_on_your_computer": {
+        "word": "or browse files on your computer",
+        "type": "frontend"
+    },
+    "drag_and_drop_your_template": {
+        "word": "Drag and drop your template to upload",
+        "type": "frontend"
+    },
+    "please_select_an_item": {
+        "word": "Please select a {1}",
+        "type": "frontend"
+    },
+    "budget_history": {
+        "word": "Budget History",
+        "type": "frontend"
+    },
+    "show_spends": {
+        "word": "Show spends",
+        "type": "frontend"
+    },
+    "total_bid": {
+        "word": "Total Bids",
+        "type": "frontend"
+    },
+    "pixel_id": {
+        "word": "Pixel Id",
+        "type": "frontend"
+    },
+    "total_remarks": {
+        "word": "Total Remarks",
+        "type": "frontend"
+    },
+    "changes_history": {
+        "word": "Changes History",
+        "type": "frontend"
+    },
+    "status_history": {
+        "word": "Status History",
+        "type": "frontend"
+    },
+    "remark_label": {
+        "word": "Label Remark",
+        "type": "frontend"
+    },
+    "no_status_activity": {
+        "word": "No status activity",
+        "type": "frontend"
+    },
+    "no_label_activity": {
+        "word": "No label activity",
+        "type": "frontend"
+    },
+    "no_remark_activity": {
+        "word": "No remark activity",
+        "type": "frontend"
+    },
+    "country_created_date": {
+        "word": "Country created date",
+        "type": "frontend"
+    },
+    "country_created_time": {
+        "word": "Country created durations",
+        "type": "frontend"
+    },
+    "company_created_date": {
+        "word": "Company created date",
+        "type": "frontend"
+    },
+    "company_created_time": {
+        "word": "Company created durations",
+        "type": "frontend"
+    },
+    "project_created_date": {
+        "word": "Project created date",
+        "type": "frontend"
+    },
+    "project_created_time": {
+        "word": "Project created durations",
+        "type": "frontend"
+    },
+    "item_code_created_date": {
+        "word": "Item Code created date",
+        "type": "frontend"
+    },
+    "item_code_created_time": {
+        "word": "Item Code created durations",
+        "type": "frontend"
+    },
+    "platform_created_date": {
+        "word": "Platform created date",
+        "type": "frontend"
+    },
+    "platform_created_time": {
+        "word": "Platform created durations",
+        "type": "frontend"
+    },
+    "organization_created_date": {
+        "word": "Organization created date",
+        "type": "frontend"
+    },
+    "organization_created_time": {
+        "word": "Organization created durations",
+        "type": "frontend"
+    },
+    "ad_account_created_date": {
+        "word": "Ad Account created date",
+        "type": "frontend"
+    },
+    "ad_account_created_time": {
+        "word": "Ad Account created durations",
+        "type": "frontend"
+    },
+    "campaign_created_date": {
+        "word": "Campaign created date",
+        "type": "frontend"
+    },
+    "campaign_created_time": {
+        "word": "Campaign created durations",
+        "type": "frontend"
+    },
+    "ad_set_created_date": {
+        "word": "Ad Set created date",
+        "type": "frontend"
+    },
+    "ad_set_created_time": {
+        "word": "Ad Set created durations",
+        "type": "frontend"
+    },
+    "ad_created_date": {
+        "word": "Ad created date",
+        "type": "frontend"
+    },
+    "ad_created_time": {
+        "word": "Ad created durations",
+        "type": "frontend"
+    },
+    "created_order": {
+        "word": "Created Order",
+        "type": "frontend"
+    },
+    "total_active_ads": {
+        "word": "Total Active Ads",
+        "type": "frontend"
+    },
+    "total_inactive_ads": {
+        "word": "Total Inactive Ads",
+        "type": "frontend"
+    },
+    "avg_sale_per_confirm": {
+        "word": "Avg Sales Per Confirm",
+        "type": "frontend"
+    },
+    "create_label": {
+        "word": "Create Label",
+        "type": "frontend"
+    },
+    "create_label_text": {
+        "word": "You can create one or more labels as needed.",
+        "type": "frontend"
+    },
+    "product_list": {
+        "word": "Product List",
+        "type": "frontend"
+    },
+    "create_product_list": {
+        "word": "You can create one or more products as needed.",
+        "type": "frontend"
+    },
+    "create_one_or_more": {
+        "word": "You can create one or more {1} as needed.",
+        "type": "frontend"
+    },
+    "add_item": {
+        "word": "Add {1}",
+        "type": "frontend"
+    },
+    "label_name": {
+        "word": "Label Name",
+        "type": "frontend"
+    },
+    "last_updated_date": {
+        "word": "Last Updated Date",
+        "type": "frontend"
+    },
+    "avg_sales_per_confirm": {
+        "word": "Avg sales per confirm",
+        "type": "frontend"
+    },
+    "total_register_sales": {
+        "word": "Total register sales",
+        "type": "frontend"
+    },
+    "avg_sales_order": {
+        "word": "Avg sales order",
+        "type": "frontend"
+    },
+    "total_active_ad_account": {
+        "word": "Total active ad accounts",
+        "type": "frontend"
+    },
+    "total_active_ad_inccount": {
+        "word": "Total inactive ad accounts",
+        "type": "frontend"
+    },
+    "total_balance": {
+        "word": "Total Balance",
+        "type": "frontend"
+    },
+    "refresh_table": {
+        "word": "Refresh Table",
+        "type": "frontend"
+    },
+    "card_number": {
+        "word": "Card Number",
+        "type": "frontend"
+    },
+    "bank_name": {
+        "word": "Bank name",
+        "type": "frontend"
+    },
+    "bank_details": {
+        "word": "Bank Detials",
+        "type": "frontend"
+    },
+    "add_item_value": {
+        "word": "Add {1} Value",
+        "type": "frontend"
+    },
+    "refresh_by_date": {
+        "word": "Refresh By Date",
+        "type": "frontend"
+    },
+    "crm_orders": {
+        "word": "CRM Orders",
+        "type": "frontend"
+    },
+    "new_order": {
+        "word": "New Order",
+        "type": "frontend"
+    },
+    "bid_&_budget_info": {
+        "word": "bid & budget info",
+        "type": "frontend"
+    },
+    "related_ads": {
+        "word": "Related Ads",
+        "type": "frontend"
+    },
+    "upload_ads": {
+        "word": "Upload Ads",
+        "type": "frontend"
+    },
+    "cost_image": {
+        "word": "Cost & IMage",
+        "type": "frontend"
+    },
+    "product_info": {
+        "word": "Product Info",
+        "type": "frontend"
+    },
+    "product_profile_info": {
+        "word": "Product Profile Info",
+        "type": "frontend"
+    },
+    "keep_it_private": {
+        "word": "Keep it private",
+        "type": "frontend"
+    },
+    "prod_cost": {
+        "word": "Product Cost",
+        "type": "frontend"
+    },
+    "prod_available_quantity": {
+        "word": "Available Quantitiy.",
+        "type": "frontend"
+    },
+    "prod_max_adver_cost": {
+        "word": "Max. advertising cost",
+        "type": "frontend"
+    },
+    "prod_sales_stability": {
+        "word": "Product sales stability",
+        "type": "frontend"
+    },
+    "prod_source": {
+        "word": "Product source",
+        "type": "frontend"
+    },
+    "prod_work_type": {
+        "word": "Product work types",
+        "type": "frontend"
+    },
+    "prod_style": {
+        "word": "Product style",
+        "type": "frontend"
+    },
+    "prod_section": {
+        "word": "Product Section",
+        "type": "frontend"
+    },
+    "prod_import_source": {
+        "word": "Product import source",
+        "type": "frontend"
+    },
+    "prod_new_product_source": {
+        "word": "New Product source",
+        "type": "frontend"
+    },
+    "prod_production_type": {
+        "word": "Product production type",
+        "type": "frontend"
+    },
+    "connection_deriction": {
+        "word": "Connection Deriction",
+        "type": "frontend"
+    },
+    "eloquant_arabic": {
+        "word": "Eloquant Arabic",
+        "type": "frontend"
+    },
+    "gulf_emirate": {
+        "word": "Gulf Emirate",
+        "type": "frontend"
+    },
+    "trending_global_songs": {
+        "word": "Trending Global Songs",
+        "type": "frontend"
+    },
+    "gulf_song": {
+        "word": "Gulf Songs",
+        "type": "frontend"
+    },
+    "trending_audios": {
+        "word": "Trending Audios",
+        "type": "frontend"
+    },
+    "musical_background": {
+        "word": "Muical background",
+        "type": "frontend"
+    },
+    "music": {
+        "word": "Music",
+        "type": "frontend"
+    },
+    "local_shooting": {
+        "word": "Local Shooting",
+        "type": "frontend"
+    },
+    "clip_from_the_internet": {
+        "word": "Clip From The Internet",
+        "type": "frontend"
+    },
+    "person_behind_of_the_camera": {
+        "word": "Person Behind Of The Camera",
+        "type": "frontend"
+    },
+    "person_infront_of_the_camera": {
+        "word": "Person Infront Of The Camera",
+        "type": "frontend"
+    },
+    "people": {
+        "word": "People",
+        "type": "frontend"
+    },
+    "graphics": {
+        "word": "Graphics",
+        "type": "frontend"
+    },
+    "full_graphics": {
+        "word": "Full Graphics",
+        "type": "frontend"
+    },
+    "meduim_graphics": {
+        "word": "Meduim Graphics",
+        "type": "frontend"
+    },
+    "simple_graphics": {
+        "word": "Simple Graphics",
+        "type": "frontend"
+    },
+    "prod_sale_goal": {
+        "word": "Product sale Goal",
+        "type": "frontend"
+    },
+    "prod_profit": {
+        "word": "Profit",
+        "type": "frontend"
+    },
+    "live_preview": {
+        "word": "Live Preview",
+        "type": "frontend"
+    },
+    "set_to": {
+        "word": "Set To",
+        "type": "frontend"
+    },
+    "interesting": {
+        "word": "Interesting",
+        "type": "frontend"
+    },
+    "suspense": {
+        "word": "Suspense",
+        "type": "frontend"
+    },
+    "attractive": {
+        "word": "Attractive",
+        "type": "frontend"
+    },
+    "fanny": {
+        "word": "Fanny",
+        "type": "frontend"
+    },
+    "shocking": {
+        "word": "Shocking",
+        "type": "frontend"
+    },
+    "lure": {
+        "word": "Lure",
+        "type": "frontend"
+    },
+    "surprise": {
+        "word": "Surprise",
+        "type": "frontend"
+    },
+    "how_do_you_want_to_create_your_link": {
+        "word": "How Do You to Create Yor Link?",
+        "type": "frontend"
+    },
+    "ad_attraction_percentage": {
+        "word": "Ad Attraction Percentage",
+        "type": "frontend"
+    },
+    "buyer_percentage": {
+        "word": "Buyer Percentage",
+        "type": "frontend"
+    },
+    "view_quality_percantage": {
+        "word": "View Quality Percentage",
+        "type": "frontend"
+    },
+    "audience_quality": {
+        "word": "Audience Quality Percentage",
+        "type": "frontend"
+    },
+    "allow_microphone": {
+        "word": "Allow Microphone",
+        "type": "frontend"
+    },
+    "duplications": {
+        "word": "Duplications Ad ",
+        "type": "frontend"
+    },
+    "new_ad_account": {
+        "word": "New Ad Account",
+        "type": "frontend"
+    },
+    "supplier_phone": {
+        "word": "Supplier Phone",
+        "type": "frontend"
+    },
+    "supplier_email": {
+        "word": "Supplier Email",
+        "type": "frontend"
+    },
+    "bank_account": {
+        "word": "Bank Account",
+        "type": "frontend"
+    },
+    "bank_account_info": {
+        "word": "Bank Account Info",
+        "type": "frontend"
+    },
+    "bank_account_name": {
+        "word": "Bank Account Name",
+        "type": "frontend"
+    },
+    "bank_account_number": {
+        "word": "Bank Account Number",
+        "type": "frontend"
+    },
+    "bank_account_number_iban": {
+        "word": "Bank Account Number Iban",
+        "type": "frontend"
+    },
+    "swift_code": {
+        "word": "Swift Code",
+        "type": "frontend"
+    },
+    "supplier_location": {
+        "word": "Supplier Location",
+        "type": "frontend"
+    },
+    "current_ad_account": {
+        "word": "Current Ad Account",
+        "type": "frontend"
+    },
+    "placement_and_goals": {
+        "word": "placement & goals",
+        "type": "frontend"
+    },
+    "how_you_choose_your_canva": {
+        "word": "How you choose your canva link?",
+        "type": "frontend"
+    },
+    "new_canva": {
+        "word": "New Canva",
+        "type": "frontend"
+    },
+    "current_canva": {
+        "word": "Current Canva",
+        "type": "frontend"
+    },
+    "risk_palicy": {
+        "word": "Risk Policy",
+        "type": "frontend"
+    },
+    "new_item": {
+        "word": "New Item",
+        "type": "frontend"
+    },
+    "in_study": {
+        "word": "In Study",
+        "type": "frontend"
+    },
+    "create_content": {
+        "word": "Create Content",
+        "type": "frontend"
+    },
+    "content_review": {
+        "word": "Content Review",
+        "type": "frontend"
+    },
+    "ready_to_sale": {
+        "word": "Ready To Sale",
+        "type": "frontend"
+    },
+    "waiting_for_md": {
+        "word": "Waiting For MD",
+        "type": "frontend"
+    },
+    "in_sales": {
+        "word": "In Sales",
+        "type": "frontend"
+    },
+    "short_stop": {
+        "word": "Short Stop",
+        "type": "frontend"
+    },
+    "final_stop": {
+        "word": "Final Stop",
+        "type": "frontend"
+    },
+    "retesting": {
+        "word": "Retesting",
+        "type": "frontend"
+    },
+    "main_or_customer": {
+        "word": "Main or Customer",
+        "type": "frontend"
+    },
+    "info_offer": {
+        "word": "Info Offer",
+        "type": "frontend"
+    },
+    "content_size": {
+        "word": "Content Size",
+        "type": "frontend"
+    },
+    "requested_when": {
+        "word": "Registered When",
+        "type": "frontend"
+    },
+    "content_direction": {
+        "word": "Conten Direction",
+        "type": "frontend"
+    },
+    "season": {
+        "word": "Season",
+        "type": "frontend"
+    },
+    "more_details": {
+        "word": "More Details",
+        "type": "frontend"
+    },
+    "inventory_details": {
+        "word": "Inventory Details",
+        "type": "frontend"
+    },
+    "atrribute_names": {
+        "word": "Atrribute Names",
+        "type": "frontend"
+    },
+    "online_store_management_system": {
+        "word": "Online Store Management System",
+        "type": "frontend"
+    },
+    "online_sales_management_system": {
+        "word": "Online Sales Management System",
+        "type": "frontend"
+    },
+    "online_sales": {
+        "word": "Online sales",
+        "type": "frontend"
+    },
+    "atrribute_values": {
+        "word": "Atrribute Values",
+        "type": "frontend"
+    },
+    "new_sales": {
+        "word": "New sales",
+        "type": "frontend"
+    },
+    "content_creation": {
+        "word": "Content Creation",
+        "type": "frontend"
+    },
+    "final_review": {
+        "word": "Final Review",
+        "type": "frontend"
+    },
+    "item_sales_management_system": {
+        "word": "Item Sales Management System",
+        "type": "frontend"
+    },
+    "item_sales": {
+        "word": "Item Sales",
+        "type": "frontend"
+    },
+    "item_sales_english_name": {
+        "word": "Item Sales English Name",
+        "type": "frontend"
+    },
+    "item_sales_arabic_name": {
+        "word": "Item Sales Arabic Name",
+        "type": "frontend"
+    },
+    "item_sales_code": {
+        "word": "Item Sales Code",
+        "type": "frontend"
+    },
+    "costum_item_sales_code": {
+        "word": "Costum Item Sales Code",
+        "type": "frontend"
+    },
+    "item_status": {
+        "word": "Item Status",
+        "type": "frontend"
+    },
+    "value_select": {
+        "word": "Value Select",
+        "type": "frontend"
+    },
+    "value_input": {
+        "word": "Value Input",
+        "type": "frontend"
+    },
+    "first_stop_recording": {
+        "word": "First stop the recording!",
+        "type": "frontend"
+    },
+    "company_name_not_mutched_with_content_management_companies": {
+        "word": "Company name not mutched with Content Management Companies",
+        "type": "frontend"
+    },
+    "in_source": {
+        "word": "In Source",
+        "type": "frontend"
+    },
+    "profile_info_not_added": {
+        "word": "Profile info not added",
+        "type": "frontend"
+    },
+    "new_sales_count": {
+        "word": "New Sales ",
+        "type": "frontend"
+    },
+    "in_source_count": {
+        "word": "In Sounce ",
+        "type": "frontend"
+    },
+    "in_study_count": {
+        "word": "In Study ",
+        "type": "frontend"
+    },
+    "store_creation_count": {
+        "word": "Store Creation ",
+        "type": "frontend"
+    },
+    "content_creation_count": {
+        "word": "Content Creation ",
+        "type": "frontend"
+    },
+    "final_review_count": {
+        "word": "Final Review ",
+        "type": "frontend"
+    },
+    "ready_to_sale_count": {
+        "word": "Ready To Sale ",
+        "type": "frontend"
+    },
+    "cancel_count": {
+        "word": "Cancel",
+        "type": "frontend"
+    },
+    "store_creation": {
+        "word": "Store Creation",
+        "type": "frontend"
+    },
+    "choose_user_give_permissions_to_company": {
+        "word": "Choose users from the list below to grant them all permissions related to  the company. If not, just simply click on the change button!",
+        "type": "frontend"
+    },
+    "remove_count": {
+        "word": " Cancel",
+        "type": "frontend"
+    }
+}

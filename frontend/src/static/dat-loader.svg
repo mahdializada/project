@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 45 45" stroke="#fff" style="&#10;    background:#00000038">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="1">
+        <circle cx="22" cy="22" r="8">
+            <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite"/>
+        </circle>
+    </g>
+</svg>

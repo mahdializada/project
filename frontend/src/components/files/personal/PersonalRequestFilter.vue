@@ -1,0 +1,179 @@
+<template>
+  <v-dialog v-model="model" persistent max-width="1300" width="1300">
+    <CustomFilter
+      @onClose="changeModel"
+      @onSubmit="onSubmit"
+      @onClear="onClear"
+      :cardTitle="$tr('filter_item', $tr('storage_request'))"
+    >
+      <template v-slot:data>
+        <FilterInput
+          v-model="form.user_id"
+          :type="`autocomplete`"
+          :items="users"
+          :label="$tr('user')"
+          :item-text="(item) => item.firstname + ' ' + item.lastname"
+        />
+        <FilterInput v-model="form.amount" :label="$tr('amount')" />
+        <FilterInput v-model="form.size" :label="$tr('size')" />
+        <FilterInput
+          v-model="form.type"
+          :type="`autocomplete`"
+          :items="typeItems"
+          :label="$tr('type')"
+        />
+      </template>
+      <template v-slot:date_range>
+        <FilterInput
+          v-model="form.created_date"
+          @getDate="getDate"
+          :label="$tr('created_at')"
+          :type="'date-range'"
+        />
+        <FilterInput
+          :clearInput.sync="clearInput"
+          v-model="form.updated_date"
+          @getDate="getDate"
+          :label="$tr('updated_at')"
+          :type="'date-range'"
+        />
+      </template>
+      <template v-slot:id_filtering>
+        <FilterInput
+          :clearInput.sync="clearInput"
+          @isInclude="(isInclude) => (form.include = isInclude)"
+          @getIds="(ids) => (form.ids = ids)"
+          :label="$tr('id')"
+          :type="'id_filtering'"
+        />
+      </template>
+    </CustomFilter>
+  </v-dialog>
+</template>
+
+<script>
+import FilterInput from "~/components/design/components/FilterInput.vue";
+import CustomFilter from "~/components/common/CustomFilter.vue";
+export default {
+  components: {
+    FilterInput,
+    CustomFilter,
+  },
+  data() {
+    return {
+      model: false,
+      users: [],
+      form: {
+        user_id: "",
+        type: "",
+        amount: "",
+        size: "",
+        created_date: null,
+        updated_date: null,
+        include: 1,
+        ids: [],
+      },
+      sortedData: {},
+      clearInput: false,
+      typeItems: [
+        { id: "limited", name: this.$tr("limited") },
+        { id: "unlimited", name: this.$tr("unlimited") },
+      ],
+    };
+  },
+
+  methods: {
+    changeModel() {
+      this.model = !this.model;
+      if (this.model) {
+        this.fetchAllUsers();
+      }
+    },
+
+    // fetch all users
+    async fetchAllUsers() {
+      try {
+        if (this.users.length > 0) {
+          return;
+        }
+        const { data } = await this.$axios.get(
+          "common/users?filter=storage_request"
+        );
+        this.users = data.users;
+      } catch (_) {}
+    },
+
+    getDate(date, selected) {
+      if (selected.toLowerCase().includes("created"))
+        this.form.created_date = date;
+      else if (selected.toLowerCase().includes("updated"))
+        this.form.updated_date = date;
+    },
+
+    sortData() {
+      this.form = JSON.parse(JSON.stringify(this.form)); // Add this line to prevent reference.
+      this.sortedData = {};
+      if (this.form.user_id)
+        this.sortedData.user_id = ["whereHas", "user", this.form.user_id];
+
+      if (this.form.type) this.sortedData.type = "exact@@" + this.form.type;
+
+      if (this.form.amount)
+        this.sortedData.amount = "like@@" + this.form.amount;
+
+      if (this.form.size) this.sortedData.size = "like@@" + this.form.size;
+
+      if (this.form.updated_date)
+        this.sortedData.updated_at = ["date", "range"].concat(
+          this.form.updated_date
+        );
+
+      if (this.form.created_date)
+        this.sortedData.created_at = ["date", "range"].concat(
+          this.form.created_date
+        );
+
+      if (this.form.ids.length > 0) {
+        this.sortedData.ids = this.form.ids;
+        this.sortedData.include = this.form.include;
+      }
+    },
+
+    onSubmit() {
+      if (!this.isAlreadySubmited()) {
+        this.$emit("filterRecords", this.sortedData);
+        this.changeModel();
+      }
+    },
+    onClear() {
+      this.form = {
+        user_id: "",
+        type: "",
+        amount: "",
+        size: "",
+        created_date: null,
+        updated_date: null,
+        include: 1,
+        ids: [],
+      };
+      this.clearInput = true;
+      setTimeout(() => {
+        this.clearInput = false;
+      }, 2000);
+
+      if (!this.isAlreadySubmited()) {
+        this.$emit("filterRecords", this.sortedData);
+        this.changeModel();
+      }
+      this.sortedData = {};
+    },
+
+    isAlreadySubmited() {
+      const obj1 = this.sortedData;
+      this.sortData();
+      const obj2 = this.sortedData;
+      return JSON.stringify(obj1) === JSON.stringify(obj2);
+    },
+  },
+};
+</script>

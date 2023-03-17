@@ -1,0 +1,36 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "logo",
+            "value": "logoAvatar"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "department",
+            "value": "departments"
+        },
+        {
+            "text": "note",
+            "value": "note"
+        },
+        {
+            "text": "created_by",
+            "value": "created_by"
+        },
+        {
+            "text": "updated_by",
+            "value": "updated_by"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        }
+    ]
+}

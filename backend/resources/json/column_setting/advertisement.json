@@ -1,0 +1,5316 @@
+{
+    "country": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "advertisement_status",
+            "tooltip": "",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "flag",
+            "value": "iso2",
+            "tooltip": "Flag Of Country",
+            "visible": true
+        },
+        {
+            "text": "Total Products",
+            "value": "total_products",
+            "tooltip": "Total Number Of products Within the country",
+            "visible": true
+        },
+        {
+            "text": "Country Created Duration",
+            "value": "generated_link_date2",
+            "tooltip": "Country created durations",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize Country Quickly",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment Or Suggestion For Your Team",
+            "visible": true
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "Total bid of this country",
+            "visible": true
+        },
+        {
+            "text": "Total Balance",
+            "sortable": true,
+            "value": "total_ad_account_balance",
+            "tooltip": "Total Balance",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "ad_through_connection.spend",
+            "tooltip": "Total Spend based on delivery within the country",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "ad_through_connection.crm_total_orders",
+            "tooltip": "The total number of orders you recieved in CRM.",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "ad_through_connection.cpo",
+            "tooltip": "Effective cost per order.",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "ad_through_connection.impressions",
+            "tooltip": "Total Number Of impressions Within the country",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "ad_through_connection.cpm",
+            "tooltip": "Effective cost per thousand impressions.",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "ad_through_connection.clicks",
+            "tooltip": "The total number of taps on your Public Profile from your ads",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "ad_through_connection.cpc",
+            "tooltip": "Cost Per Click ",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "ad_through_connection.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "ad_through_connection.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "ad_through_connection.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Ad Accounts",
+            "value": "total_accounts",
+            "tooltip": "Total Number Of ad accounts Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ad Accounts",
+            "value": "total_active_ad_account",
+            "tooltip": "Total number of active ad accounts Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ad Accounts",
+            "value": "total_inactive_ad_account",
+            "tooltip": "Total number of inactive ad accounts Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Campaigns",
+            "value": "total_campaigns",
+            "tooltip": "(total campaigns) Total Number Of campaigns Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Active Campaigns",
+            "value": "active_history_campaigns",
+            "tooltip": "(total active campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive campaigns",
+            "value": "inactive_history_campaigns",
+            "tooltip": "(total inactive campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "Total Number Of adsets Within the country"
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_history_adsets",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_history_adsets",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "Total Number Of ads Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "Total Number Of Active Ads in this country",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "History Status"
+        },
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "Unique Code Of Country"
+        },
+        {
+            "text": "name",
+            "value": "name",
+            "tooltip": "Name Of Country"
+        },
+        {
+            "text": "Prject Created Date",
+            "value": "generated_link_date",
+            "tooltip": "Country Created Date"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "bid history"
+        },
+        {
+            "text": "Total Companies",
+            "value": "total_companies",
+            "tooltip": "Total Number Of companies in this country"
+        },
+        {
+            "text": "Total Platforms",
+            "value": "total_platforms",
+            "tooltip": "Total Number Of platforms Within the country"
+        },
+        {
+            "text": "Total Organizations",
+            "value": "total_organizations",
+            "tooltip": "Total Number Of organizations Within the country"
+        },
+        {
+            "text": "result",
+            "value": "ad_through_connection.result",
+            "tooltip": "Results in particular country"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "ad_through_connection.viewable_impressions",
+            "tooltip": "(viewable impressions)An ad that meets the criteria of being visible in the browser window for a continous 1 second."
+        },
+        {
+            "text": "Video Views",
+            "value": "ad_through_connection.video_views",
+            "tooltip": "(video views) Total number of views we got on our video"
+        },
+        {
+            "text": "View Watch 2s",
+            "value": "ad_through_connection.two_second_video_views",
+            "tooltip": "(View Watch 2s)The total number of impressions that meet the qualifying video view criteria of at least 2 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "video watched 6s",
+            "value": "ad_through_connection.six_second_video_views",
+            "tooltip": "(video watched 6s)The total number of impressions that meet the qualifying video view criteria of at least 6 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "ad_through_connection.average_screen_time",
+            "tooltip": "(avg screen time)The average number of seconds spent watching your ad across all paid impressions. Screen time starts recording as soon as the media is fully rendered on the device and the autoplay video starts."
+        },
+        {
+            "text": "Total Page Views",
+            "value": "ad_through_connection.total_page_views",
+            "tooltip": "(total_page_view)The total number of times a user has viewed an ad in your app or website."
+        },
+        {
+            "text": "Story Opens",
+            "value": "ad_through_connection.story_opens",
+            "tooltip": "(story opens) Number of times a Snapchatter taps on the Story Ad in the Discover Feed."
+        },
+        {
+            "text": "ctr",
+            "value": "ad_through_connection.ctr",
+            "tooltip": "Clickthrough rate (clicks ÷ impressions = CTR)"
+        },
+        {
+            "text": "cpp",
+            "value": "ad_through_connection.cpp",
+            "tooltip": " Cost it will take to reach a certain desired goal and/or objective."
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "ad_through_connection.story_open_rate",
+            "tooltip": "(story open rate)The rate at which Snapchatters tap on the tile. (Story Opens / Story Impressions) * 100."
+        },
+        {
+            "text": "Cost / Story Open",
+            "value": "ad_through_connection.cost_per_story_open",
+            "tooltip": "(cost per story open) The average cost of each Story Open."
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "ad_through_connection.crm_confirm",
+            "tooltip": "(CRM Confirmed) The total number of orders confirmed by CRM."
+        },
+        {
+            "text": "AVG Sale / Confirm",
+            "value": "ad_through_connection.avg_sales_per_confirm",
+            "tooltip": "(avg sales per confirm)The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "ad_through_connection.total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "Order AVG Sales",
+            "value": "ad_through_connection.avg_sales_order",
+            "tooltip": "avg sales order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "ad_through_connection.crm_cancelled",
+            "tooltip": "(CRM cancelled) The total number of orders cancelled by CRM."
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "(CRM sendback) The total number of Repeated orders in CRM."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "ad_through_connection.crm_total_pickedup",
+            "tooltip": "(total picked up)The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "ad_through_connection.crm_pickedup",
+            "tooltip": "(picked up) Order is picked up by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "ad_through_connection.crm_logis_deliverd",
+            "tooltip": "(logis delivered)The total number of orders delivered by CRM team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "ad_through_connection.crm_logis_cancelled",
+            "tooltip": "(logis cancelled)The total number of orders cancelled by CRM team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "ad_through_connection.sale_price",
+            "tooltip": "(sale_price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "ad_through_connection.exact_price",
+            "tooltip": "(exact price) the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "ad_through_connection.crm_total_sale",
+            "tooltip": "(total sales) the Total Sale within the country"
+        },
+        {
+            "text": "Product Cost",
+            "value": "ad_through_connection.crm_product_cost",
+            "tooltip": "(product cost)The Cost Of Product"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "ad_through_connection.crm_delivery_cost",
+            "tooltip": "(delivery cost)The Cost Of Delivery"
+        },
+        {
+            "text": "CRM Confirmed %",
+            "value": "ad_through_connection.crm_confirmed_percentage",
+            "tooltip": "(CRM confirmed percentage)CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(CRM cancelled percentage)CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "CRM sendback in percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "ad_through_connection.crm_difference",
+            "tooltip": "Difference of CRM"
+        },
+        {
+            "text": "Delivered %",
+            "value": "ad_through_connection.crm_delivered_percentage",
+            "tooltip": "(logis delivered percentage)Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(logis cancelled percentage)Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "ad_through_connection.crm_final_percentage",
+            "tooltip": "(Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expenses",
+            "value": "ad_through_connection.crm_total_expense",
+            "tooltip": "(total expense) Product Cost + Ad cost + delivery cost "
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "ad_through_connection.crm_profit_lose",
+            "tooltip": "(profit_and_loss)Total Sales - Total Expense"
+        },
+        {
+            "text": "Profit%",
+            "value": "ad_through_connection.crm_profit_percentage",
+            "tooltip": "(profit percentage)(Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost %",
+            "value": "ad_through_connection.crm_product_cost_percentage",
+            "tooltip": "Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "ad_through_connection.crm_delivery_cost_percentage",
+            "tooltip": "Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "ad_through_connection.crm_ad_cost_percentage",
+            "tooltip": "Ad cost in percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "ad_through_connection.crm_percentage",
+            "tooltip": "CRM in percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "ad_through_connection.crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ad_through_connection.ga_total_users",
+            "tooltip": "(Total User) The total number of users  we got in lifetime "
+        },
+        {
+            "text": "New Users",
+            "value": "ad_through_connection.ga_new_users",
+            "tooltip": "(NEW USERS) The total number of new user we got for a certain period of time"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ad_through_connection.ga_user_engagement",
+            "tooltip": "(user engagement)The total number of user engaging with our platform"
+        },
+        {
+            "text": "sessions",
+            "value": "ad_through_connection.ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engaged Sessions",
+            "value": "ad_through_connection.ga_engaged_sessions",
+            "tooltip": "(engaged sessions) The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "ad_through_connection.ga_page_views",
+            "tooltip": "(page view) The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ad_through_connection.ga_engagement_rate_percentage",
+            "tooltip": "(engagement rate)The number of interactions divided by actual reach and multiplied by 100."
+        }
+    ],
+    "company": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "advertisement_status",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "logo",
+            "value": "logo",
+            "tooltip": "unique logo of your company",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "name",
+            "tooltip": "full name of your company",
+            "visible": true
+        },
+        {
+            "text": "Total Products",
+            "value": "total_products",
+            "tooltip": "Total Products",
+            "visible": true
+        },
+        {
+            "text": "Company created date",
+            "value": "generated_link_date2",
+            "tooltip": "company created time",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize your company Quickly",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment Or Suggestion For Your Team",
+            "visible": true
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "total bid",
+            "visible": true
+        },
+        {
+            "text": "Total Balance",
+            "sortable": true,
+            "value": "total_ad_account_balance",
+            "tooltip": "Total Balance",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "ad_through_connection.spend",
+            "tooltip": "Total amount spend for the particular company",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "ad_through_connection.crm_total_orders",
+            "tooltip": "Total Number Of orders You recieved by CRM for the particular company.",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "ad_through_connection.cpo",
+            "tooltip": "Effective cost per order for the particular company",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "ad_through_connection.impressions",
+            "tooltip": "Total number of impressions you recieved from all the campaigns within your company",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "ad_through_connection.clicks",
+            "tooltip": "Total number of clicks you got for the particular company",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "ad_through_connection.cpc",
+            "tooltip": "Effective cost per click for the particular company",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "ad_through_connection.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "ad_through_connection.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "ad_through_connection.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Ad Accounts",
+            "value": "total_accounts",
+            "tooltip": "Total Ad Accounts",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ad Accounts",
+            "value": "total_active_ad_account",
+            "tooltip": "Total Active Ad Account",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ad Accounts",
+            "value": "total_inactive_ad_account",
+            "tooltip": "Total Inactive Ad Account",
+            "visible": true
+        },
+        {
+            "text": "Total Campaigns",
+            "value": "total_campaigns",
+            "tooltip": "Total Campaigns",
+            "visible": true
+        },
+        {
+            "text": "Total Active Campaigns",
+            "value": "active_history_campaigns",
+            "tooltip": "(total active campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive campaigns",
+            "value": "inactive_history_campaigns",
+            "tooltip": "(total inactive campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "Total number of adsets within your company"
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_history_adsets",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_history_adsets",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "Total number of ads within your company",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "Total Active Ads",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "status history"
+        },
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "unique id of your company"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "Bid History"
+        },
+        {
+            "text": "Prject Created Date",
+            "value": "generated_link_date",
+            "tooltip": "company created date"
+        },
+        {
+            "text": "Total Platforms",
+            "value": "total_platforms",
+            "tooltip": "(Total Platforms)Total number of platforms within your company"
+        },
+        {
+            "text": "Total Organizations",
+            "value": "total_organizations",
+            "tooltip": "Total number of organizations within your company"
+        },
+        {
+            "text": "result",
+            "value": "ad_through_connection.result",
+            "tooltip": "Total result for your company from all the campaigns"
+        },
+        {
+            "text": "CPM",
+            "sortable": true,
+            "value": "ad_through_connection.cpm",
+            "tooltip": "Effective cost per thousand impressions for the particular company"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "ad_through_connection.viewable_impressions",
+            "tooltip": "(Viewable Impressions) Total number of viewable impressions within the company"
+        },
+        {
+            "text": "Video Views",
+            "value": "ad_through_connection.video_views",
+            "tooltip": "(video views) Total number of video views of all the campaigns within the company"
+        },
+        {
+            "text": "Product History",
+            "value": "product_history",
+            "tooltip": "product history"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "ad_through_connection.two_second_video_views",
+            "tooltip": "(Video Watched 2s)Total number of 2 second views within the company"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "ad_through_connection.six_second_video_views",
+            "tooltip": "(Video Watched 6s)Total number of 6 second views within the company"
+        },
+        {
+            "text": "Avg Screen Time",
+            "value": "ad_through_connection.average_screen_time",
+            "tooltip": "(Avg Screen Time)average screen time of all the campaigns within the company"
+        },
+        {
+            "text": "Total Page Views",
+            "value": "ad_through_connection.total_page_views",
+            "tooltip": "(Total Page View) Total page views for the particular company"
+        },
+        {
+            "text": "Story Opens",
+            "value": "ad_through_connection.story_opens",
+            "tooltip": "(Story Opens) Number of times a Snapchatter taps on the Story Ad in the Discover Feed."
+        },
+        {
+            "text": "ctr",
+            "value": "ad_through_connection.ctr",
+            "tooltip": "Effective Clickthrough rate (clicks ÷ impressions = CTR) for the particular company"
+        },
+        {
+            "text": "cpp",
+            "value": "ad_through_connection.cpp",
+            "tooltip": "average Cost it will take to reach a certain desired goal and/or objective for the particular company"
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "ad_through_connection.story_open_rate",
+            "tooltip": "(Story Open Rate) The average rate at which Snapchatters tap on the tile (Story Opens / Story Impressions) * 100 for the particular company"
+        },
+        {
+            "text": "Cost / Story Open",
+            "value": "ad_through_connection.cost_per_story_open",
+            "tooltip": "(Cost Per Story Open) The average cost per story open for the particular company"
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "ad_through_connection.crm_confirm",
+            "tooltip": "(crm confirmed)The total number of orders confirmed by CRM for the particular company"
+        },
+        {
+            "text": "AVG Sale / Confirm",
+            "value": "ad_through_connection.avg_sales_per_confirm",
+            "tooltip": "(Avg Sales Per Confirm) The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "ad_through_connection.total_register_sales",
+            "tooltip": "Total Register Sales"
+        },
+        {
+            "text": "Order AVG Sales",
+            "value": "ad_through_connection.avg_sales_order",
+            "tooltip": "Avg Sales Order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "ad_through_connection.crm_cancelled",
+            "tooltip": "(crm cancelled) The total number of orders cancelled by CRM for the particular company."
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "(CRM Sendback) The total number of repeated orders in CRM for the particular company."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "ad_through_connection.crm_total_pickedup",
+            "tooltip": "(Total Picked Up) The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "ad_through_connection.crm_pickedup",
+            "tooltip": "(Picked Up) Order is picked up by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "ad_through_connection.crm_logis_deliverd",
+            "tooltip": "(Logis Delivered)The total number of orders delivered by CRM team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "ad_through_connection.crm_logis_cancelled",
+            "tooltip": "(Logis Cancelled) The total number of orders cancelled by CRM team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "ad_through_connection.sale_price",
+            "tooltip": "(Sale Price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "ad_through_connection.exact_price",
+            "tooltip": "(Exact Price) the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "ad_through_connection.crm_total_sale",
+            "tooltip": "the Total Sale of company."
+        },
+        {
+            "text": "Product Cost",
+            "value": "ad_through_connection.crm_product_cost",
+            "tooltip": "The Cost Of Product"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "ad_through_connection.crm_delivery_cost",
+            "tooltip": "The Cost Of Delivery"
+        },
+        {
+            "text": "CRM Confirmed %",
+            "value": "ad_through_connection.crm_confirmed_percentage",
+            "tooltip": "(CRM Confirmed Percentage) CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(CRM Cancelled Percentage) CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "CRM Sendback Percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "ad_through_connection.crm_difference",
+            "tooltip": "CRM Difference"
+        },
+        {
+            "text": "Delivered %",
+            "value": "ad_through_connection.crm_delivered_percentage",
+            "tooltip": "(logis_delivered_percentage) Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(Logis Cancelled Percentage) Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "ad_through_connection.crm_final_percentage",
+            "tooltip": "(Final Percentage)=(Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expenses",
+            "value": "ad_through_connection.crm_total_expense",
+            "tooltip": "(Total Expense) Product Cost + Ad cost + delivery cost "
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "ad_through_connection.crm_profit_lose",
+            "tooltip": "(Profit and Loss) Total Sales - Total Expense"
+        },
+        {
+            "text": "Profit%",
+            "value": "ad_through_connection.crm_profit_percentage",
+            "tooltip": "(profit percentage)=(Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost %",
+            "value": "ad_through_connection.crm_product_cost_percentage",
+            "tooltip": "Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "ad_through_connection.crm_delivery_cost_percentage",
+            "tooltip": "Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "ad_through_connection.crm_ad_cost_percentage",
+            "tooltip": "Ad cost in percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "ad_through_connection.crm_percentage",
+            "tooltip": "CRM in percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "ad_through_connection.crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ad_through_connection.ga_total_users",
+            "tooltip": "(total users) The total number of users  we got in lifetime for the particular company"
+        },
+        {
+            "text": "New Users",
+            "value": "ad_through_connection.ga_new_users",
+            "tooltip": "(new users)The total number of new user we got for a certain period of time"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ad_through_connection.ga_user_engagement",
+            "tooltip": "(user engagement)The total number of user engaging with our company"
+        },
+        {
+            "text": "sessions",
+            "value": "ad_through_connection.ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engaged Sessions",
+            "value": "ad_through_connection.ga_engaged_sessions",
+            "tooltip": "(engaged sessions) The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "ad_through_connection.ga_page_views",
+            "tooltip": "(page view) The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ad_through_connection.ga_engagement_rate_percentage",
+            "tooltip": "(Engagement Rate)The number of interactions divided by actual reach and multiplied by 100."
+        }
+    ],
+    "project": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "advertisement_status",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "name",
+            "visible": true
+        },
+        {
+            "text": "Total Products",
+            "value": "total_products",
+            "tooltip": "total products",
+            "visible": true
+        },
+        {
+            "text": "Project Created Duration",
+            "value": "generated_link_date2",
+            "tooltip": "project created time",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "visible": true
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "total bid",
+            "visible": true
+        },
+        {
+            "text": "Total Balance",
+            "sortable": true,
+            "value": "total_ad_account_balance",
+            "tooltip": "total balance",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "ad_through_connection.spend",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "ad_through_connection.crm_total_orders",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "ad_through_connection.cpo",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "ad_through_connection.impressions",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "ad_through_connection.cpm",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "ad_through_connection.clicks",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "ad_through_connection.cpc",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "ad_through_connection.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "ad_through_connection.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "ad_through_connection.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "ad_through_connection.total_page_views",
+            "tooltip": "total page view",
+            "visible": true
+        },
+        {
+            "text": "Total Ad Accounts",
+            "value": "total_accounts",
+            "tooltip": "total ad acounts",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ad Accounts",
+            "value": "total_active_ad_account",
+            "tooltip": "(total active ad account)Total number of active ad accounts Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ad Accounts",
+            "value": "total_inactive_ad_account",
+            "tooltip": "(total inactive ad account)Total number of inactive ad accounts Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Campaigns",
+            "value": "total_campaigns",
+            "tooltip": "(total campaigns) Cost it will take to reach a certain desired goal and/or objective.",
+            "visible": true
+        },
+        {
+            "text": "Total Active Campaigns",
+            "value": "active_history_campaigns",
+            "tooltip": "(total active campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive campaigns",
+            "value": "inactive_history_campaigns",
+            "tooltip": "(total inactive campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "total adsets"
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_history_adsets",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_history_adsets",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "total ads",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "(Total Active Ads)Total Number Of Ads Within the project",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "history status"
+        },
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "logo",
+            "value": "logo-avatar"
+        },
+        {
+            "text": "Prject Created Date",
+            "value": "generated_link_date",
+            "tooltip": "Project Created Date"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "bid history"
+        },
+        {
+            "text": "Total Platforms",
+            "value": "total_platforms",
+            "tooltip": "total platforms "
+        },
+        {
+            "text": "Total Organizations",
+            "value": "total_organizations",
+            "tooltip": "total organizations"
+        },
+        {
+            "text": "result",
+            "value": "ad_through_connection.result"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "ad_through_connection.viewable_impressions"
+        },
+        {
+            "text": "Video Views",
+            "value": "ad_through_connection.video_views",
+            "tooltip": "Video view"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "ad_through_connection.two_second_video_views",
+            "tooltip": "video watched 2 second"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "ad_through_connection.six_second_video_views",
+            "tooltip": "video watched 6 second"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "ad_through_connection.average_screen_time",
+            "tooltip": "avg screen time"
+        },
+        {
+            "text": "Story Opens",
+            "value": "ad_through_connection.story_opens",
+            "tooltip": "story opens"
+        },
+        {
+            "text": "ctr",
+            "value": "ad_through_connection.ctr"
+        },
+        {
+            "text": "cpp",
+            "value": "ad_through_connection.cpp"
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "ad_through_connection.story_open_rate",
+            "tooltip": "story_open_rate"
+        },
+        {
+            "text": "Cost/Story Open",
+            "value": "ad_through_connection.cost_per_story_open",
+            "tooltip": "cost per story open"
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "ad_through_connection.crm_confirm",
+            "tooltip": "crm confirmed"
+        },
+        {
+            "text": "AVG Sale / Confirm",
+            "value": "ad_through_connection.avg_sales_per_confirm",
+            "tooltip": "(avg_sales_per_confirm)The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "ad_through_connection.total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "Order AVG Sales",
+            "value": "ad_through_connection.avg_sales_order",
+            "tooltip": "avg sales order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "ad_through_connection.crm_cancelled",
+            "tooltip": "crm cancelled"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "crm sendback"
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "ad_through_connection.crm_total_pickedup",
+            "tooltip": "total picked up"
+        },
+        {
+            "text": "Picked Up",
+            "value": "ad_through_connection.crm_pickedup",
+            "tooltip": "picked up"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "ad_through_connection.crm_logis_deliverd",
+            "tooltip": "logis delivered"
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "ad_through_connection.crm_logis_cancelled",
+            "tooltip": "logis cancelled"
+        },
+        {
+            "text": "Sale Price",
+            "value": "ad_through_connection.sale_price",
+            "tooltip": "(sale price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "ad_through_connection.exact_price",
+            "tooltip": "the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "ad_through_connection.crm_total_sale",
+            "tooltip": "total sales"
+        },
+        {
+            "text": "Product Cost",
+            "value": "ad_through_connection.crm_product_cost",
+            "tooltip": "product cost"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "ad_through_connection.crm_delivery_cost",
+            "tooltip": "delivery cost"
+        },
+        {
+            "text": "CRM Confirmed %",
+            "value": "ad_through_connection.crm_confirmed_percentage",
+            "tooltip": "crm confirmed percentage"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "crm cancelled percentage"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "crm sendback percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "ad_through_connection.crm_difference",
+            "tooltip": "crm_difference"
+        },
+        {
+            "text": "Delivered %",
+            "value": "ad_through_connection.crm_delivered_percentage",
+            "tooltip": "logis delivered percentage"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "logis cancelled percentage"
+        },
+        {
+            "text": "Final%",
+            "value": "ad_through_connection.crm_final_percentage",
+            "tooltip": "final percentage"
+        },
+        {
+            "text": "Total Expenses",
+            "value": "ad_through_connection.crm_total_expense",
+            "tooltip": "total expense"
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "ad_through_connection.crm_profit_lose",
+            "tooltip": "profit_and_loss"
+        },
+        {
+            "text": "Profit%",
+            "value": "ad_through_connection.crm_profit_percentage",
+            "tooltip": "profit percentage"
+        },
+        {
+            "text": "Product Cost %",
+            "value": "ad_through_connection.crm_product_cost_percentage",
+            "tooltip": "product_cost_percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "ad_through_connection.crm_delivery_cost_percentage",
+            "tooltip": "DELIVERY COST PERCENTAGE"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "ad_through_connection.crm_ad_cost_percentage",
+            "tooltip": "ad cost percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "ad_through_connection.crm_percentage",
+            "tooltip": "crm_percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "ad_through_connection.crm_logistics_percentage",
+            "tooltip": "logistics percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ad_through_connection.ga_total_users",
+            "tooltip": "total users"
+        },
+        {
+            "text": "New Users",
+            "value": "ad_through_connection.ga_new_users",
+            "tooltip": "new users"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ad_through_connection.ga_user_engagement",
+            "tooltip": "user engagement"
+        },
+        {
+            "text": "sessions",
+            "value": "ad_through_connection.ga_sessions"
+        },
+        {
+            "text": "Engaged Sessions",
+            "value": "ad_through_connection.ga_engaged_sessions",
+            "tooltip": "engaged sessions"
+        },
+        {
+            "text": "Page Views",
+            "value": "ad_through_connection.ga_page_views",
+            "tooltip": "page view"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ad_through_connection.ga_engagement_rate_percentage",
+            "tooltip": "engagement rate"
+        }
+    ],
+    "sales_type": [
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "Sales Type",
+            "value": "sales_type",
+            "tooltip": "Sales type of your product",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An inforation tag",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment Or Suggestion For Your Team",
+            "visible": true
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "total bid",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "spend",
+            "tooltip": "Spend based on delivery",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "crm_total_orders",
+            "tooltip": "The total number of orders you recieved in CRM.",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "cpo",
+            "tooltip": "Effective cost per order.",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "impressions",
+            "tooltip": "The total number of times your ad was served to a user. Tracked when the ad fully renders on a device for the first time during a user’s viewing session.",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "cpm",
+            "tooltip": "Effective cost per thousand impressions.",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "clicks",
+            "tooltip": "The total number of taps on your Public Profile from your ads",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "cpc",
+            "tooltip": "Cost Per Click ",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "total_page_views",
+            "tooltip": "(total page view) The total number of times a user has viewed an ad in your app or website.",
+            "visible": true
+        },
+        {
+            "text": "Total Ad Accounts",
+            "value": "total_accounts",
+            "tooltip": "(total ad accounts)Total number of accounts",
+            "visible": true
+        },
+        {
+            "text": "Total Campaigns",
+            "value": "total_campaigns",
+            "tooltip": "Total number of campaigns",
+            "visible": true
+        },
+        {
+            "text": "Total Active Campaigns",
+            "value": "active_history_campaigns",
+            "tooltip": "(total active campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive campaigns",
+            "value": "inactive_history_campaigns",
+            "tooltip": "(total inactive campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "Total number of adsets"
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_adset",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_adset",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_ads",
+            "tooltip": "(total active ads)Total Number Of Ads Within the Item Code",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "Total number of ads",
+            "visible": true
+        },
+        {
+            "text": "logo",
+            "value": "logo-avatar",
+            "tooltip": "Logo"
+        },
+        {
+            "text": "Budget History",
+            "value": "budget_history",
+            "tooltip": "budget history"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "bid history"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "status history"
+        },
+        {
+            "text": "Total Platforms",
+            "value": "total_platforms",
+            "tooltip": "(total platforms)Total number of platform "
+        },
+        {
+            "text": "Total Organizations",
+            "value": "total_organizations",
+            "tooltip": "total number of organization"
+        },
+        {
+            "text": "result",
+            "value": "result",
+            "tooltip": "Result of your campaign"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "viewable_impressions",
+            "tooltip": "(viewable_impressions) An ad that meets the criteria of being visible in the browser window for a continous 1 second."
+        },
+        {
+            "text": "Video Views",
+            "value": "video_views",
+            "tooltip": "(video views) Total number of views we got on our video"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "two_second_video_views",
+            "tooltip": "(video watched 2second) The total number of impressions that meet the qualifying video view criteria of at least 2 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "six_second_video_views",
+            "tooltip": "(video watched 6second)The total number of impressions that meet the qualifying video view criteria of at least 6 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "average_screen_time",
+            "tooltip": "(avg_screen_time) The average number of seconds spent watching your ad across all paid impressions. Screen time starts recording as soon as the media is fully rendered on the device and the autoplay video starts."
+        },
+        {
+            "text": "Story Open",
+            "value": "story_opens",
+            "tooltip": "(story open ) Number of times a Snapchatter taps on the Story Ad in the Discover Feed."
+        },
+        {
+            "text": "ctr",
+            "value": "ctr",
+            "tooltip": "Clickthrough rate (clicks ÷ impressions = CTR)"
+        },
+        {
+            "text": "cpp",
+            "value": "cpp",
+            "tooltip": " Cost it will take to reach a certain desired goal and/or objective."
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "story_open_rate",
+            "tooltip": "(story_open_rate)The rate at which Snapchatters tap on the tile. (Story Opens / Story Impressions) * 100."
+        },
+        {
+            "text": "Cost/Story Open",
+            "value": "cost_per_story_open",
+            "tooltip": "(cost per story open)The average cost of each Story Open."
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "crm_confirm",
+            "tooltip": "(crm confirmed) The total number of orders confirmed by CRM."
+        },
+        {
+            "text": "Avg Sales/Confirm",
+            "value": "avg_sales_per_confirm",
+            "tooltip": "(avg sales per confirm)The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "AVG Sale Order",
+            "value": "avg_sales_order",
+            "tooltip": "avg sales order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "crm_cancelled",
+            "tooltip": "(crm cancelled) The total number of orders cancelled by CRM."
+        },
+        {
+            "text": "CRM SendBack %",
+            "value": "crm_repeated",
+            "tooltip": "(crm sendback) The total number of Repeated orders in CRM."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "crm_total_pickedup",
+            "tooltip": "(total picked up)The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "crm_pickedup",
+            "tooltip": "(total picked up)Order is picked up by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "crm_logis_deliverd",
+            "tooltip": "(logis delivered) The total number of orders delivered by CRM team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "crm_logis_cancelled",
+            "tooltip": "(logis cancelled) The total number of orders cancelled by CRM team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "sale_price",
+            "tooltip": "(sale price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "exact_price",
+            "tooltip": "the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "crm_total_sale",
+            "tooltip": "(Total Sale)the Total Sale of particular item code"
+        },
+        {
+            "text": "Product Cost",
+            "value": "crm_product_cost",
+            "tooltip": "(product cost)The Cost Of Product for the particular item code"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "crm_delivery_cost",
+            "tooltip": "(delivery cost) The Cost Of Delivery for the particular item code"
+        },
+        {
+            "text": "CRM Confrimed %",
+            "value": "crm_confirmed_percentage",
+            "tooltip": "(crm confirmed percentage)=CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "crm_cancelled_percentage",
+            "tooltip": "(crm cancelled percentage)= CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM SendBack %",
+            "value": "crm_repeated",
+            "tooltip": "CRM sendback in percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "crm_difference",
+            "tooltip": "(crm difference) Difference of CRM for the particular item code"
+        },
+        {
+            "text": "Logis Delivered %",
+            "value": "crm_delivered_percentage",
+            "tooltip": "(logis delivered percentage)=Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Logis Cancelled %",
+            "value": "crm_cancelled_percentage",
+            "tooltip": "(logis cancelled percentage)= Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "crm_final_percentage",
+            "tooltip": "(final percentage)=(Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expense",
+            "value": "crm_total_expense",
+            "tooltip": "(total expense)= Product Cost + Ad cost + delivery cost "
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "crm_profit_lose",
+            "tooltip": "(total expense)= Total Sales - Total Expense"
+        },
+        {
+            "text": "Profit%",
+            "value": "crm_profit_percentage",
+            "tooltip": "(profit percentage)= (Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost%",
+            "value": "crm_product_cost_percentage",
+            "tooltip": "Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "crm_delivery_cost_percentage",
+            "tooltip": "Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "crm_ad_cost_percentage",
+            "tooltip": "Ad cost in percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "crm_percentage",
+            "tooltip": "CRM in percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ga_total_users",
+            "tooltip": "(total users) The total number of users  we got in lifetime"
+        },
+        {
+            "text": "New Users",
+            "value": "ga_new_users",
+            "tooltip": "(new_users) The total number of new user we got for a certain period of time"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ga_user_engagement",
+            "tooltip": "(user engagement) The total number of user engaging with our platform"
+        },
+        {
+            "text": "sessions",
+            "value": "ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engagement Sessions",
+            "value": "ga_engaged_sessions",
+            "tooltip": "(engaged sessions) The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "ga_page_views",
+            "tooltip": "(page view) The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ga_engagement_rate_percentage",
+            "tooltip": "(page view) The number of interactions divided by actual reach and multiplied by 100."
+        }
+    ],
+    "item_code": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "advertisement_status",
+            "tooltip": "",
+            "visible": true
+        },
+        {
+            "text": "Item status",
+            "value": "item_status",
+            "tooltip": "Item status",
+            "visible": true
+        },
+        {
+            "text": "p images",
+            "value": "product_images",
+            "tooltip": "product image",
+            "visible": true
+        },
+        {
+            "text": "sale goal",
+            "value": "prod_sale_goal",
+            "tooltip": "Product Sale Goal",
+            "visible": true
+        },
+        {
+            "text": "iiu",
+            "value": "iiu",
+            "tooltip": "Item Inforation Update",
+            "visible": true
+        },
+        {
+            "text": "id",
+            "value": "pcode",
+            "tooltip": "unique product code of your product",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "Product Name",
+            "value": "pname",
+            "tooltip": "Product Name",
+            "visible": true
+        },
+        {
+            "text": "Item Code Created Time",
+            "value": "first_generated_date2",
+            "tooltip": "(item code created time) First generated date",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize Products Quickly",
+            "visible": true
+        },
+        {
+            "text": "pmac",
+            "value": "pmac",
+            "tooltip": "Product Max Advertisement Cost",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment Or Suggestion For Your Team",
+            "visible": true
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "total bid",
+            "visible": true
+        },
+        {
+            "text": "Spend Control",
+            "sortable": true,
+            "value": "spend_control",
+            "tooltip": "Spend Control ((PMAC * order ) - spend) ",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "item_code_history_ads.spend",
+            "tooltip": "history of total ad spend ",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "item_code_history_ads.crm_total_orders",
+            "tooltip": "The total number of orders you recieved in CRM.",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "item_code_history_ads.cpo",
+            "tooltip": "history of cost per order for particular item code",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "item_code_history_ads.impressions",
+            "tooltip": "history of total number of impressions for particular item code",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "item_code_history_ads.cpm",
+            "tooltip": "history of cost per thousand impression for particular item code",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "item_code_history_ads.clicks",
+            "tooltip": "history of total ad clicks",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "item_code_history_ads.cpc",
+            "tooltip": "history of cost per click for particular item code",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "item_code_history_ads.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "item_code_history_ads.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "item_code_history_ads.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "item_code_history_ads.total_page_views",
+            "tooltip": "(total page view) history of total page views for particular item code",
+            "visible": true
+        },
+        {
+            "text": "Total Ad Accounts",
+            "value": "total_accounts",
+            "tooltip": "(total ad accounts)Total number of accounts",
+            "visible": true
+        },
+        {
+            "text": "Total Campaigns",
+            "value": "total_campaigns",
+            "tooltip": "Total number of campaigns",
+            "visible": true
+        },
+        {
+            "text": "Total Active Campaigns",
+            "value": "active_history_campaigns",
+            "tooltip": "(total active campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive campaigns",
+            "value": "inactive_history_campaigns",
+            "tooltip": "(total inactive campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "Total number of adsets"
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_history_adsets",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_history_adsets",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "Total number of ads",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "(total active ads)Total Number Of Ads Within the Item Code",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Landing Page Link",
+            "value": "pcode_landing_urls",
+            "tooltip": "(landing page link)Unique link of your product",
+            "visible": true
+        },
+        {
+            "text": "state",
+            "value": "product_profile_info.state",
+            "tooltip": "Product Profile State",
+            "visible": true
+        },
+        {
+            "text": "ps stability",
+            "value": "product_profile_info.prod_sales_stability",
+            "tooltip": "Product Sales Stability",
+            "visible": true
+        },
+        {
+            "text": "prod_source",
+            "value": "product_profile_info.prod_source",
+            "tooltip": "Product Source",
+            "visible": true
+        },
+        {
+            "text": "p style",
+            "value": "product_profile_info.prod_style",
+            "tooltip": "Product Style",
+            "visible": true
+        },
+        {
+            "text": "p section",
+            "value": "product_profile_info.prod_section",
+            "tooltip": "Product Section",
+            "visible": true
+        },
+        {
+            "text": "prod_new_product_source",
+            "value": "prod_new_product_source",
+            "tooltip": "New Product Source",
+            "visible": true
+        },
+        {
+            "text": "pw type",
+            "value": "product_profile_info.prod_work_type",
+            "tooltip": "Product Work Type",
+            "visible": true
+        },
+        {
+            "text": "product import source",
+            "value": "prod_import_source",
+            "tooltip": "Product Import Source",
+            "visible": true
+        },
+        {
+            "text": "pp type",
+            "value": "product_profile_info.prod_production_type",
+            "tooltip": "Product Production Type",
+            "visible": true
+        },
+        {
+            "text": "p cost",
+            "value": "product_profile_info.prod_cost",
+            "tooltip": "Product Cost",
+            "visible": true
+        },
+        {
+            "text": "paq",
+            "value": "product_profile_info.prod_available_quantity",
+            "tooltip": "Product Available Quantity",
+            "visible": true
+        },
+        {
+            "text": "p pro",
+            "value": "product_profile_info.prod_profitability",
+            "tooltip": "Product Profitability",
+            "visible": true
+        },
+        {
+            "text": "p profit",
+            "value": "product_profile_info.prod_profit",
+            "tooltip": "Product Profit",
+            "visible": true
+        },
+        {
+            "text": "logo",
+            "value": "logo-avatar",
+            "tooltip": "Logo"
+        },
+        {
+            "text": "Item Code Created Date",
+            "value": "first_generated_date",
+            "tooltip": "(item code created date) First generated date"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "Last Update Date",
+            "value": "last_updated_date",
+            "tooltip": "Last Updated Date"
+        },
+        {
+            "text": "country",
+            "value": "country",
+            "tooltip": "country Name"
+        },
+        {
+            "text": "company",
+            "value": "company",
+            "tooltip": "company Name"
+        },
+        {
+            "text": "Budget History",
+            "value": "budget_history",
+            "tooltip": "budget history"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "bid history"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "status history"
+        },
+        {
+            "text": "Total Platforms",
+            "value": "total_platforms",
+            "tooltip": "(total platforms)Total number of platform "
+        },
+        {
+            "text": "Total Organizations",
+            "value": "total_organizations",
+            "tooltip": "total number of organization"
+        },
+        {
+            "text": "result",
+            "value": "item_code_history_ads.result",
+            "tooltip": "history of ad results"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "item_code_history_ads.viewable_impressions",
+            "tooltip": "(viewable impressions) history of total number of viewable impressions for particular item code"
+        },
+        {
+            "text": "Video Views",
+            "value": "item_code_history_ads.video_views",
+            "tooltip": "(video views)history of total number of video views for particular item code"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "item_code_history_ads.two_second_video_views",
+            "tooltip": "(total video watched 2 second )history of total number of 2 second video views for particular item code"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "item_code_history_ads.six_second_video_views",
+            "tooltip": "(video watched 6s) history of total number of 6 second video views for particular item code"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "item_code_history_ads.average_screen_time",
+            "tooltip": "(avg screen time) history of average screen time for particular item code"
+        },
+        {
+            "text": "Story Open",
+            "value": "item_code_history_ads.story_opens",
+            "tooltip": "(story opens) history of story opens"
+        },
+        {
+            "text": "ctr",
+            "value": "item_code_history_ads.ctr",
+            "tooltip": "history of click through rate for particular item code"
+        },
+        {
+            "text": "cpp",
+            "value": "item_code_history_ads.cpp",
+            "tooltip": " history of Cost it will take to reach a certain desired goal and/or objective."
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "item_code_history_ads.story_open_rate",
+            "tooltip": "(story open rate) The rate at which Snapchatters tap on the tile. (Story Opens / Story Impressions) * 100."
+        },
+        {
+            "text": "Cost/Story Open",
+            "value": "item_code_history_ads.cost_per_story_open",
+            "tooltip": "(cost per story open) The average cost of each Story Open."
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "item_code_history_ads.crm_confirm",
+            "tooltip": "(crm confirmed) The total number of orders confirmed by CRM."
+        },
+        {
+            "text": "Avg Sales/Confirm",
+            "value": "item_code_history_ads.avg_sales_per_confirm",
+            "tooltip": "(avg sales per confirm)The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "item_code_history_ads.total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "AVG Sale Order",
+            "value": "item_code_history_ads.avg_sales_order",
+            "tooltip": "avg sales order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "item_code_history_ads.crm_cancelled",
+            "tooltip": "(crm cancelled) The total number of orders cancelled by CRM."
+        },
+        {
+            "text": "CRM  endSack endBack",
+            "value": "item_code_history_ads.crm_repeated",
+            "tooltip": "(crm sendback) The total number of Repeated orders in CRM."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "item_code_history_ads.crm_total_pickedup",
+            "tooltip": "(total picked up)The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "item_code_history_ads.crm_pickedup",
+            "tooltip": "(total picked up)Order is picked up by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "item_code_history_ads.crm_logis_deliverd",
+            "tooltip": "(logis delivered) The total number of orders delivered by CRM team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "item_code_history_ads.crm_logis_cancelled",
+            "tooltip": "(logis cancelled) The total number of orders cancelled by CRM team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "item_code_history_ads.sale_price",
+            "tooltip": "(sale price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "item_code_history_ads.exact_price",
+            "tooltip": "the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "item_code_history_ads.crm_total_sale",
+            "tooltip": "(Total Sale)the Total Sale of particular item code"
+        },
+        {
+            "text": "Product Cost",
+            "value": "item_code_history_ads.crm_product_cost",
+            "tooltip": "(product cost)The Cost Of Product for the particular item code"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "item_code_history_ads.crm_delivery_cost",
+            "tooltip": "(delivery cost) The Cost Of Delivery for the particular item code"
+        },
+        {
+            "text": "CRM Confrimed %",
+            "value": "item_code_history_ads.crm_confirmed_percentage",
+            "tooltip": "(crm confirmed percentage)=CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Confrimed %",
+            "value": "item_code_history_ads.crm_cancelled_percentage",
+            "tooltip": "(crm cancelled percentage)= CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM SendBack %",
+            "value": "item_code_history_ads.crm_repeated",
+            "tooltip": "CRM sendback in percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "item_code_history_ads.crm_difference",
+            "tooltip": "(crm difference) Difference of CRM for the particular item code"
+        },
+        {
+            "text": "Logis Delivered %",
+            "value": "item_code_history_ads.crm_delivered_percentage",
+            "tooltip": "(logis delivered percentage)=Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Logis Cancelled %",
+            "value": "item_code_history_ads.crm_cancelled_percentage",
+            "tooltip": "(logis cancelled percentage)= Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "item_code_history_ads.crm_final_percentage",
+            "tooltip": "(final percentage)=(Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expense",
+            "value": "item_code_history_ads.crm_total_expense",
+            "tooltip": "(total expense)= Product Cost + Ad cost + delivery cost "
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "item_code_history_ads.crm_profit_lose",
+            "tooltip": "(total expense)= Total Sales - Total Expense"
+        },
+        {
+            "text": "Profit%",
+            "value": "item_code_history_ads.crm_profit_percentage",
+            "tooltip": "(profit percentage)= (Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost%",
+            "value": "item_code_history_ads.crm_product_cost_percentage",
+            "tooltip": "Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "item_code_history_ads.crm_delivery_cost_percentage",
+            "tooltip": "Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "item_code_history_ads.crm_ad_cost_percentage",
+            "tooltip": "Ad cost in percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "item_code_history_ads.crm_percentage",
+            "tooltip": "CRM in percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "item_code_history_ads.crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "item_code_history_ads.ga_total_users",
+            "tooltip": "(total users) The total number of users  we got in lifetime"
+        },
+        {
+            "text": "New Users",
+            "value": "item_code_history_ads.ga_new_users",
+            "tooltip": "(new_users) The total number of new user we got for a certain period of time"
+        },
+        {
+            "text": "User Engagement",
+            "value": "item_code_history_ads.ga_user_engagement",
+            "tooltip": "(user engagement) The total number of user engaging with our platform"
+        },
+        {
+            "text": "sessions",
+            "value": "item_code_history_ads.ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engagement Sessions",
+            "value": "item_code_history_ads.ga_engaged_sessions",
+            "tooltip": "(engaged sessions) The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "item_code_history_ads.ga_page_views",
+            "tooltip": "(page view) The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "item_code_history_ads.ga_engagement_rate_percentage",
+            "tooltip": "(page view) The number of interactions divided by actual reach and multiplied by 100."
+        }
+    ],
+    "ispp_code": [
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile"
+        },
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "unique id of a ispp"
+        },
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "tooltip": "live status by ispp code"
+        },
+        {
+            "text": "Product Study",
+            "value": "product_study.code",
+            "tooltip": "(product study) detail study of your product"
+        },
+        {
+            "text": "Sales Modal",
+            "value": "sales_modal",
+            "tooltip": "(sales modal) sort by sales modal"
+        },
+        {
+            "text": "Creation Type",
+            "value": "creation_type",
+            "tooltip": "(creation type) sort by creation type"
+        },
+        {
+            "text": "Sale Currency",
+            "value": "sale_currency",
+            "tooltip": "(sale currency) currency of product being sold."
+        },
+        {
+            "text": "Landing Page Style",
+            "value": "landing_page_style",
+            "tooltip": "(landing page style) sort by landing page style"
+        },
+        {
+            "text": "Landing Page Note ",
+            "value": "landing_page_note",
+            "tooltip": "(landing page note) special note for landing page"
+        },
+        {
+            "text": "Head Selling Price",
+            "value": "head_selling_price",
+            "tooltip": "(head selling price) sort by maximum selling price"
+        },
+        {
+            "text": "Price Patterns",
+            "value": "price_patterns",
+            "tooltip": "(price patterns) sort by price patterns "
+        }
+    ],
+    "platform": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "advertisement_status",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "logo",
+            "value": "logo",
+            "tooltip": "unique logo of platform",
+            "visible": true
+        },
+        {
+            "text": "Platform Created Time",
+            "value": "generated_link_date2",
+            "tooltip": "platform created time",
+            "visible": true
+        },
+        {
+            "text": "Total Balance",
+            "sortable": true,
+            "value": "total_ad_account_balance",
+            "tooltip": "total balance",
+            "visible": true
+        },
+        {
+            "text": "Payment Method",
+            "value": "payment_method",
+            "tooltip": "payment method",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize platform Quickly",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment Or Suggestion For Your Team",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "ad_through_connection.spend",
+            "tooltip": "Total amount Spend within the particular platform",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "ad_through_connection.crm_total_orders",
+            "tooltip": "Total Number Of orders You recieved by CRM for the particular platform",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "ad_through_connection.cpo",
+            "tooltip": "Effective cost per orders for the particular platform.",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "ad_through_connection.impressions",
+            "tooltip": "Total number of impressions within the platform",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "ad_through_connection.cpm",
+            "tooltip": "Effective cost per thousand impressions.",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "ad_through_connection.clicks",
+            "tooltip": "Total Number of clicks we got in the platform",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "ad_through_connection.cpc",
+            "tooltip": "Effective cost per clicks for the particular platform.",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "ad_through_connection.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "ad_through_connection.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "ad_through_connection.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "ad_through_connection.total_page_views",
+            "tooltip": "(total page view) The total number of times a user has viewed an ad in your app or website.",
+            "visible": true
+        },
+        {
+            "text": "Total Organizations",
+            "value": "total_organizations",
+            "tooltip": "(total organizations) Total number of organization within the platform",
+            "visible": true
+        },
+        {
+            "text": "Total Ad Accounts",
+            "value": "total_accounts",
+            "tooltip": "(total ad accounts) Total number of ad accounts within the platform",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ad Accounts",
+            "value": "total_active_ad_account",
+            "tooltip": "(total active ad account) Total number of active ad accounts Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ad Accounts",
+            "value": "total_inactive_ad_account",
+            "tooltip": "(total inactive ad account) Total number of inactive ad accounts Within the country"
+        },
+        {
+            "text": "Total Campaigns",
+            "value": "total_campaigns",
+            "tooltip": "(total campaigns) Total number of campaigns within the platform",
+            "visible": true
+        },
+        {
+            "text": "Total Active Campaigns",
+            "value": "active_history_campaigns",
+            "tooltip": "(total active campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive campaigns",
+            "value": "inactive_history_campaigns",
+            "tooltip": "(total inactive campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "(total adsets) Total number of adsets within the platform",
+            "visible": true
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_history_adsets",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_history_adsets",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "(total ads) Total number of ads within the platform",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "(total active ads) Total Number Of Ads Within the platform",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "status history"
+        },
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "unique id of platform"
+        },
+        {
+            "text": "Platform Name",
+            "value": "platform_name",
+            "tooltip": "(platform name) unique name of platform"
+        },
+        {
+            "text": "Prject Created Date",
+            "value": "generated_link_date",
+            "tooltip": "platform created date"
+        },
+        {
+            "text": "Platform Key",
+            "value": "platform_key",
+            "tooltip": "unique platform key "
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "total bid"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "bid history"
+        },
+        {
+            "text": "result",
+            "value": "ad_through_connection.result",
+            "tooltip": "result of particular platform"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "ad_through_connection.viewable_impressions",
+            "tooltip": "(viewable impressions) Total number of viewable impressions within the platform"
+        },
+        {
+            "text": "Video Views",
+            "value": "ad_through_connection.video_views",
+            "tooltip": "(video views) Total number of video views within the platform"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "ad_through_connection.two_second_video_views",
+            "tooltip": "(video watched 2s)The total number of impressions that meet the qualifying video view criteria of at least 2 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "ad_through_connection.six_second_video_views",
+            "tooltip": "(video watched 6 second) The total number of impressions that meet the qualifying video view criteria of at least 6 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "ad_through_connection.average_screen_time",
+            "tooltip": "(video watched 6s) The average number of seconds spent watching your ad across all paid impressions. Screen time starts recording as soon as the media is fully rendered on the device and the autoplay video starts."
+        },
+        {
+            "text": "Story Opens",
+            "value": "ad_through_connection.story_opens",
+            "tooltip": "(story open) Number of times a Snapchatter taps on the Story Ad in the Discover Feed."
+        },
+        {
+            "text": "ctr",
+            "value": "ad_through_connection.ctr",
+            "tooltip": "Effective Clickthrough rate (clicks ÷ impressions = CTR) for the particular platform"
+        },
+        {
+            "text": "cpp",
+            "value": "ad_through_connection.cpp",
+            "tooltip": "average Cost it will take to reach a certain desired goal and/or objective for the particular platform"
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "ad_through_connection.story_open_rate",
+            "tooltip": "(story open rate) The average rate at which Snapchatters tap on the tile (Story Opens / Story Impressions) * 100 for the particular platform."
+        },
+        {
+            "text": "Cost/Story Open",
+            "value": "ad_through_connection.cost_per_story_open",
+            "tooltip": "(cost per story open) The average cost per story open for the particular platform"
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "ad_through_connection.crm_confirm",
+            "tooltip": "(crm confirmed) The total number of orders confirmed by CRM for the particular platform"
+        },
+        {
+            "text": "AVG Sale / Confirm",
+            "value": "ad_through_connection.avg_sales_per_confirm",
+            "tooltip": "(avg sales per confirm) The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "ad_through_connection.total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "Order AVG Sales",
+            "value": "ad_through_connection.avg_sales_order",
+            "tooltip": "avg sales order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "ad_through_connection.crm_cancelled",
+            "tooltip": "(crm cancelled) The total number of orders cancelled by CRM for the particular platform."
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "(crm sendback) The total number of repeated orders in CRM for the particular platform."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "ad_through_connection.crm_total_pickedup",
+            "tooltip": "(total picked up) The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "ad_through_connection.crm_pickedup",
+            "tooltip": "(picked up) Order is picked up by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "ad_through_connection.crm_logis_deliverd",
+            "tooltip": "(logis delivered) The total number of orders delivered by CRM team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "ad_through_connection.crm_logis_cancelled",
+            "tooltip": "(logis cancelled) The total number of orders cancelled by CRM team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "ad_through_connection.sale_price",
+            "tooltip": "(sale price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "ad_through_connection.exact_price",
+            "tooltip": "(exact price) the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "ad_through_connection.crm_total_sale",
+            "tooltip": "(total sales) the Total Sale from the particular platform."
+        },
+        {
+            "text": "Product Cost",
+            "value": "ad_through_connection.crm_product_cost",
+            "tooltip": "(product cost) The Cost Of Product"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "ad_through_connection.crm_delivery_cost",
+            "tooltip": "(delivery cost) The Cost Of Delivery"
+        },
+        {
+            "text": "CRM Confirmed %",
+            "value": "ad_through_connection.crm_confirmed_percentage",
+            "tooltip": "(crm confirmed percentage) CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(crm cancelled percentage) = CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "CRM sendback in percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "ad_through_connection.crm_difference",
+            "tooltip": "CRM Difference"
+        },
+        {
+            "text": "Delivered %",
+            "value": "ad_through_connection.crm_delivered_percentage",
+            "tooltip": "(logis delivered percentage)= Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(logis delivered percentage)= Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "ad_through_connection.crm_final_percentage",
+            "tooltip": "(final percentage)= (Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expenses",
+            "value": "ad_through_connection.crm_total_expense",
+            "tooltip": "Product Cost + Ad cost + delivery cost "
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "ad_through_connection.crm_profit_lose",
+            "tooltip": "Total Sales - Total Expense"
+        },
+        {
+            "text": "profit_percentage",
+            "value": "ad_through_connection.crm_profit_percentage",
+            "tooltip": "(Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost %",
+            "value": "ad_through_connection.crm_product_cost_percentage",
+            "tooltip": "Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "ad_through_connection.crm_delivery_cost_percentage",
+            "tooltip": "Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "ad_through_connection.crm_ad_cost_percentage",
+            "tooltip": "Ad cost in percentage"
+        },
+        {
+            "text": "crm_percentage",
+            "value": "ad_through_connection.crm_percentage",
+            "tooltip": "CRM in percentage"
+        },
+        {
+            "text": "logistics_percentage",
+            "value": "ad_through_connection.crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ad_through_connection.ga_total_users",
+            "tooltip": "The total number of users  we got in lifetime for the particular organization"
+        },
+        {
+            "text": "New Users",
+            "value": "ad_through_connection.ga_new_users",
+            "tooltip": "The total number of new user we got for a certain period of time"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ad_through_connection.ga_user_engagement",
+            "tooltip": "The total number of user engaging with our platform"
+        },
+        {
+            "text": "sessions",
+            "value": "ad_through_connection.ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engaged Sessions",
+            "value": "ad_through_connection.ga_engaged_sessions",
+            "tooltip": " (engaged_sessions) The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "ad_through_connection.ga_page_views",
+            "tooltip": "(page_view )The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ad_through_connection.ga_engagement_rate_percentage",
+            "tooltip": " (engagement_rate) The number of interactions divided by actual reach and multiplied by 100."
+        }
+    ],
+    "organization": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "advertisement_status",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "name",
+            "tooltip": "name of your organization",
+            "visible": true
+        },
+        {
+            "text": "Org Created Duration",
+            "value": "generated_link_date2",
+            "tooltip": "organization created time",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize organization Quickly",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment Or Suggestion For Your Team",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "ad_through_connection.spend",
+            "tooltip": "Total amount spend for the particular organization",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "ad_through_connection.crm_total_orders",
+            "tooltip": "Total Number Of orders You recieved by CRM for the particular organization.",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "ad_through_connection.cpo",
+            "tooltip": "Effective cost per order for the particular organization",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "ad_through_connection.impressions",
+            "tooltip": "Total number of impression within the organization",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "ad_through_connection.cpm",
+            "tooltip": "Effective cost per thousand impressions for the particular organization",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "ad_through_connection.clicks",
+            "tooltip": "Total number of clicks you got for the particular organziation",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "ad_through_connection.cpc",
+            "tooltip": "Effective cost per click for the particular organization",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "ad_through_connection.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "ad_through_connection.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "ad_through_connection.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "ad_through_connection.total_page_views",
+            "tooltip": " (total page view) Total page views for the particular organization",
+            "visible": true
+        },
+        {
+            "text": "Total Ad Accounts",
+            "value": "total_accounts",
+            "tooltip": "(total ad accounts) Total Number Of ad accounts Within the organization",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ad Accounts",
+            "value": "total_active_ad_account",
+            "tooltip": "(total active ad account) Total number of active ad accounts Within the country",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ad Accounts",
+            "value": "total_inactive_ad_account",
+            "tooltip": "(total inactive ad account) Total number of inactive ad accounts Within the country"
+        },
+        {
+            "text": "Total Campaigns",
+            "value": "total_campaigns",
+            "tooltip": "(total campaigns) Total Number Of campaigns Within the organization",
+            "visible": true
+        },
+        {
+            "text": "Total Active Campaigns",
+            "value": "active_history_campaigns",
+            "tooltip": "(total active campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive campaigns",
+            "value": "inactive_history_campaigns",
+            "tooltip": "(total inactive campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "(total adsets) Total Number Of adsets Within the organization",
+            "visible": true
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_history_adsets",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_history_adsets",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "(total_ads)Total Number Of ads Within the organization",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "(total active ads) Total Number Of Ads Within the Organization",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "Unique id of your organization"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "history status"
+        },
+        {
+            "text": "Org Created Date",
+            "value": "generated_link_date",
+            "tooltip": "organization created date"
+        },
+        {
+            "text": "logo",
+            "value": "logo-avatar",
+            "tooltip": "logo"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "bid history"
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "total bid"
+        },
+        {
+            "text": "result",
+            "value": "ad_through_connection.result",
+            "tooltip": "Total result of all the campaign within the organization"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "ad_through_connection.viewable_impressions",
+            "tooltip": " (viewable_impressions)Total number of viewable impressions within the organization"
+        },
+        {
+            "text": "Video Views",
+            "value": "ad_through_connection.video_views",
+            "tooltip": " (video_views) Total number of video views of all the campaigns within the organization"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "ad_through_connection.two_second_video_views",
+            "tooltip": " (video watched 2s)Total number of 2 second views within the organization"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "ad_through_connection.six_second_video_views",
+            "tooltip": " (video watched 6s)Total number of 6 second views within the organization"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "ad_through_connection.average_screen_time",
+            "tooltip": " (avg_screen_time)average screen time of all the campaigns within the organization"
+        },
+        {
+            "text": "Story Opens",
+            "value": "ad_through_connection.story_opens",
+            "tooltip": " (Story open ) Number of times a Snapchatter taps on the Story Ad in the Discover Feed."
+        },
+        {
+            "text": "ctr",
+            "value": "ad_through_connection.ctr",
+            "tooltip": "Effective Clickthrough rate (clicks ÷ impressions = CTR) for the particular organization"
+        },
+        {
+            "text": "cpp",
+            "value": "ad_through_connection.cpp",
+            "tooltip": "average Cost it will take to reach a certain desired goal and/or objective for the particular organization"
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "ad_through_connection.story_open_rate",
+            "tooltip": " (story open rate)The average rate at which Snapchatters tap on the tile (Story Opens / Story Impressions) * 100 for the particular organization"
+        },
+        {
+            "text": "Cost/Story Open",
+            "value": "ad_through_connection.cost_per_story_open",
+            "tooltip": " ( cost per story open) The average cost per story open for the particular organization"
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "ad_through_connection.crm_confirm",
+            "tooltip": " (crm confirmed) The total number of orders confirmed by CRM for the particular organization"
+        },
+        {
+            "text": "AVG Sale / Confirm",
+            "value": "ad_through_connection.avg_sales_per_confirm",
+            "tooltip": " (avg sales per confirm)The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "ad_through_connection.total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "Order AVG Sales",
+            "value": "ad_through_connection.avg_sales_order",
+            "tooltip": " avg sales order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "ad_through_connection.crm_cancelled",
+            "tooltip": " (crm connection )The total number of orders cancelled by CRM for the particular organization."
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": " (crm sendback)The total number of repeated orders in CRM for the particular organization."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "ad_through_connection.crm_total_pickedup",
+            "tooltip": " (total_picked_up) The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "ad_through_connection.crm_pickedup",
+            "tooltip": "(picked up) Order is picked up by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "ad_through_connection.crm_logis_deliverd",
+            "tooltip": " (logis delivered) The total number of orders delivered by CRM team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "ad_through_connection.crm_logis_cancelled",
+            "tooltip": "(logis cancelled) The total number of orders cancelled by CRM team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "ad_through_connection.sale_price",
+            "tooltip": "(sale price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "ad_through_connection.exact_price",
+            "tooltip": " (exact price) the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "ad_through_connection.crm_total_sale",
+            "tooltip": "(total sales)the Total Sale of organization."
+        },
+        {
+            "text": "Product Cost",
+            "value": "ad_through_connection.crm_product_cost",
+            "tooltip": "(product cost) The Cost Of Product"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "ad_through_connection.crm_delivery_cost",
+            "tooltip": "(delivery cost)The Cost Of Delivery"
+        },
+        {
+            "text": "CRM Confirmed %",
+            "value": "ad_through_connection.crm_confirmed_percentage",
+            "tooltip": " (crm confirmed percentage) = CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": " (crm cancelled percentage) = CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "CRM sendback in percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "ad_through_connection.crm_difference",
+            "tooltip": "Difference of CRM"
+        },
+        {
+            "text": "Delivered %",
+            "value": "ad_through_connection.crm_delivered_percentage",
+            "tooltip": "(logis delivered percentage)Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": " (logis_cancelled_percentage) Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "ad_through_connection.crm_final_percentage",
+            "tooltip": "(final percentage) = (Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expenses",
+            "value": "ad_through_connection.crm_total_expense",
+            "tooltip": "(total expense) Product Cost + Ad cost + delivery cost "
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "ad_through_connection.crm_profit_lose",
+            "tooltip": "(profit and loss) Total Sales - Total Expense"
+        },
+        {
+            "text": "Profit%",
+            "value": "ad_through_connection.crm_profit_percentage",
+            "tooltip": "(profit percentage)=(Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost %",
+            "value": "ad_through_connection.crm_product_cost_percentage",
+            "tooltip": "(product cost percentage) Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "ad_through_connection.crm_delivery_cost_percentage",
+            "tooltip": " (delivery cost percentage) Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "ad_through_connection.crm_ad_cost_percentage",
+            "tooltip": "Ad cost in percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "ad_through_connection.crm_percentage",
+            "tooltip": "CRM in percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "ad_through_connection.crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ad_through_connection.ga_total_users",
+            "tooltip": "(total users)The total number of users  we got in lifetime for the particular organization"
+        },
+        {
+            "text": "New Users",
+            "value": "ad_through_connection.ga_new_users",
+            "tooltip": "(new users) The total number of new user we got for a certain period of time"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ad_through_connection.ga_user_engagement",
+            "tooltip": "(user engagement) The total number of user engaging with our platform"
+        },
+        {
+            "text": "sessions",
+            "value": "ad_through_connection.ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engaged Sessions",
+            "value": "ad_through_connection.ga_engaged_sessions",
+            "tooltip": " (engaged sessions)The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "ad_through_connection.ga_page_views",
+            "tooltip": "(page view)The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ad_through_connection.ga_engagement_rate_percentage",
+            "tooltip": "(engagement rate)The number of interactions divided by actual reach and multiplied by 100."
+        }
+    ],
+    "ad_account": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "advertisement_status",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "name",
+            "visible": true
+        },
+        {
+            "text": "Ad Account Created Time",
+            "value": "generated_link_date2",
+            "tooltip": "ad account_created time",
+            "visible": true
+        },
+        {
+            "text": "System balance",
+            "value": "balance",
+            "visible": true
+        },
+        {
+            "text": "Total Balance",
+            "sortable": true,
+            "value": "total_balance",
+            "tooltip": "total balance",
+            "visible": true
+        },
+        {
+            "text": "Payment Method",
+            "value": "payment_method",
+            "tooltip": "payment method",
+            "visible": true
+        },
+        {
+            "text": "bank details",
+            "value": "bank_details",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "ad_through_connection.spend",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "ad_through_connection.crm_total_orders",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "ad_through_connection.cpo",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "ad_through_connection.impressions",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "ad_through_connection.cpm",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "ad_through_connection.clicks",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "ad_through_connection.cpc",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "ad_through_connection.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "ad_through_connection.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "ad_through_connection.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "ad_through_connection.total_page_views",
+            "tooltip": "total page view",
+            "visible": true
+        },
+        {
+            "text": "Total Campaigns",
+            "value": "total_campaigns",
+            "tooltip": "total campaigns",
+            "visible": true
+        },
+        {
+            "text": "Total Active Campaigns",
+            "value": "active_history_campaigns",
+            "tooltip": "(total active campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive campaigns",
+            "value": "inactive_history_campaigns",
+            "tooltip": "(total inactive campaigns)Total Number Of Campaigns Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "total adsets",
+            "visible": true
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_history_adsets",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_history_adsets",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "total ads",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "(total active ads) Total Number Of Ads Within the Ad Account",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "logo",
+            "value": "logo-avatar"
+        },
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "Account Created Date",
+            "value": "generated_link_date",
+            "tooltip": "ad account created date"
+        },
+        {
+            "text": "Platform ID",
+            "value": "id",
+            "tooltip": "platform id"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "status history"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "bid history"
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "total bid"
+        },
+        {
+            "text": "currency",
+            "value": "currency"
+        },
+        {
+            "text": "Account Pixel Po Code",
+            "value": "account_po",
+            "tooltip": "(account pixel po) Account Pixel Po Code"
+        },
+        {
+            "text": "Account Pixel",
+            "value": "ad_account_pixels",
+            "tooltip": "Account Pixel"
+        },
+        {
+            "text": "timezone",
+            "value": "timezone_name"
+        },
+        {
+            "text": "result",
+            "value": "ad_through_connection.result"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "ad_through_connection.viewable_impressions",
+            "tooltip": "viewable impressions"
+        },
+        {
+            "text": "Video Views",
+            "value": "ad_through_connection.video_views",
+            "tooltip": "video views"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "ad_through_connection.two_second_video_views",
+            "tooltip": "video watched 2s"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "ad_through_connection.six_second_video_views",
+            "tooltip": "video watched 6second"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "ad_through_connection.average_screen_time",
+            "tooltip": "avg screen time"
+        },
+        {
+            "text": "Story Opens",
+            "value": "ad_through_connection.story_opens",
+            "story_opens": "story opens"
+        },
+        {
+            "text": "ctr",
+            "value": "ad_through_connection.ctr"
+        },
+        {
+            "text": "cpp",
+            "value": "ad_through_connection.cpp"
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "ad_through_connection.story_open_rate",
+            "tooltip": "story open rate"
+        },
+        {
+            "text": "cost_per_story_open",
+            "value": "ad_through_connection.cost_per_story_open"
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "ad_through_connection.crm_confirm",
+            "tooltip": "crm confirmed"
+        },
+        {
+            "text": "AVG Sale / Confirm",
+            "value": "ad_through_connection.avg_sales_per_confirm",
+            "tooltip": "(avg sales per confirm) The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "ad_through_connection.total_register_sales",
+            "tooltip": "avg sales per confirm"
+        },
+        {
+            "text": "Order AVG Sales",
+            "value": "ad_through_connection.avg_sales_order",
+            "tooltip": "avg sales order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "ad_through_connection.crm_cancelled",
+            "tooltip": "crm cancelled"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "crm sendback"
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "ad_through_connection.crm_total_pickedup",
+            "tooltip": "total picked up"
+        },
+        {
+            "text": "Picked Up",
+            "value": "ad_through_connection.crm_pickedup",
+            "tooltip": "picked up"
+        },
+        {
+            "text": "Logistic Delivered",
+            "value": "ad_through_connection.crm_logis_deliverd",
+            "tooltip": "logis delivered"
+        },
+        {
+            "text": "Logistic Cancelled",
+            "value": "ad_through_connection.crm_logis_cancelled",
+            "tooltip": "logis cancelled"
+        },
+        {
+            "text": "Sale Price",
+            "value": "ad_through_connection.sale_price",
+            "tooltip": "(sale price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "ad_through_connection.exact_price",
+            "tooltip": "(exact price) the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "ad_through_connection.crm_total_sale",
+            "tooltip": "total sales"
+        },
+        {
+            "text": "Product Cost",
+            "value": "ad_through_connection.crm_product_cost",
+            "tooltip": "product cost"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "ad_through_connection.crm_delivery_cost",
+            "tooltip": "delivery cost"
+        },
+        {
+            "text": "CRM Confirmed %",
+            "value": "ad_through_connection.crm_confirmed_percentage",
+            "tooltip": "crm confirmed percentage"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "crm cancelled percentage"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "crm sendback percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "ad_through_connection.crm_difference",
+            "tooltip": "crm difference"
+        },
+        {
+            "text": "Delivered %",
+            "value": "ad_through_connection.crm_delivered_percentage",
+            "tooltip": "logis delivered percentage"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "logis cancelled percentage"
+        },
+        {
+            "text": "Final%",
+            "value": "ad_through_connection.crm_final_percentage",
+            "tooltip": "final percentage"
+        },
+        {
+            "text": "Total Expenses",
+            "value": "ad_through_connection.crm_total_expense",
+            "tooltip": "total expense"
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "ad_through_connection.crm_profit_lose",
+            "tooltip": "profit and loss"
+        },
+        {
+            "text": "Profit%",
+            "value": "ad_through_connection.crm_profit_percentage",
+            "tooltip": "profit percentage"
+        },
+        {
+            "text": "Product Cost %",
+            "value": "ad_through_connection.crm_product_cost_percentage",
+            "tooltip": "product cost percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "ad_through_connection.crm_delivery_cost_percentage",
+            "tooltip": "delivery cost percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "ad_through_connection.crm_ad_cost_percentage",
+            "tooltip": "ad cost percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "ad_through_connection.crm_percentage",
+            "tooltip": "crm percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "ad_through_connection.crm_logistics_percentage",
+            "tooltip": "logistics percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ad_through_connection.ga_total_users",
+            "tooltip": "total users"
+        },
+        {
+            "text": "New Users",
+            "value": "ad_through_connection.ga_new_users",
+            "tooltip": "new users"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ad_through_connection.ga_user_engagement",
+            "tooltip": "user engagement"
+        },
+        {
+            "text": "sessions",
+            "value": "ad_through_connection.ga_sessions"
+        },
+        {
+            "text": "Engaged Sessions",
+            "value": "ad_through_connection.ga_engaged_sessions",
+            "tooltip": "engaged sessions"
+        },
+        {
+            "text": "Page Views",
+            "value": "ad_through_connection.ga_page_views",
+            "tooltip": "page view"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ad_through_connection.ga_engagement_rate_percentage",
+            "tooltip": "engagement rate"
+        }
+    ],
+    "campaign": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "tooltip": "Activity Status Of Your Campaign",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "Platform",
+            "value": "platform.logo",
+            "tooltip": "platform logo",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "name",
+            "tooltip": "Full Name Of Your Campaign",
+            "visible": true
+        },
+        {
+            "text": "campaign created time",
+            "value": "generated_link_date2",
+            "tooltip": "campaign created time",
+            "visible": true
+        },
+        {
+            "text": "objective",
+            "value": "objective",
+            "tooltip": "The Desired Output You Want To Achieve With Advertising",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize Campaign Quickly",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment Or Suggestion For Your Team",
+            "visible": true
+        },
+        {
+            "text": "Spend Control",
+            "sortable": true,
+            "value": "spend_control",
+            "tooltip": "Spend Control ((PMAC * order ) - spend) ",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "ad_through_connection.spend",
+            "tooltip": "Spend based on delivery",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "ad_through_connection.crm_total_orders",
+            "tooltip": "The total number of orders you recieved in CRM.",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "ad_through_connection.cpo",
+            "tooltip": "Effective cost per order.",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "ad_through_connection.impressions",
+            "tooltip": "The total number of times your ad was served to a user. Tracked when the ad fully renders on a device for the first time during a user’s viewing session.",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "ad_through_connection.cpm",
+            "tooltip": "Effective cost per thousand impressions.",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "ad_through_connection.clicks",
+            "tooltip": "The total number of taps on your Public Profile from your ads",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "ad_through_connection.cpc",
+            "tooltip": "Cost Per Click ",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "ad_through_connection.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "ad_through_connection.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "ad_through_connection.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "ad_through_connection.total_page_views",
+            "tooltip": "(total page view) The total number of times a user has viewed an ad in your app or website.",
+            "visible": true
+        },
+        {
+            "text": "Total Adsets",
+            "value": "total_adsets",
+            "tooltip": "(total adsets) Total Number of Adset Present within the campaign",
+            "visible": true
+        },
+        {
+            "text": "Total Active Adsets",
+            "value": "active_history_adsets",
+            "tooltip": "(total active adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Inactive Adsets",
+            "value": "inactive_history_adsets",
+            "tooltip": "(total inactive adsets)Total Number Of Adsets Within the item Code",
+            "visible": false
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": "(total ads) Total Number of Ads Present within the campaign",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "(total active ads) Total Number Of Ads Within the Campaign",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "logo",
+            "value": "logo-avatar"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created order"
+        },
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "Unique Code Of Your Adset"
+        },
+        {
+            "text": "compaign Created Date",
+            "value": "generated_link_date",
+            "tooltip": "campaign created date"
+        },
+        {
+            "text": "Ad Account Name",
+            "value": "ad_account.name",
+            "tooltip": "ad account name"
+        },
+        {
+            "text": "Platform Name",
+            "value": "platform.platform_name",
+            "tooltip": "platform name"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "history status"
+        },
+        {
+            "text": "Budget History",
+            "value": "budget_history",
+            "tooltip": "budget history"
+        },
+        {
+            "text": "Bid History",
+            "value": "bid_history",
+            "tooltip": "bid history"
+        },
+        {
+            "text": "Total Bid",
+            "sortable": true,
+            "value": "total_bid",
+            "tooltip": "total bid"
+        },
+        {
+            "text": "Delivery Status",
+            "value": "delivery_status",
+            "tooltip": "(delivery_status) Delivery Status Of Your Campaign"
+        },
+        {
+            "text": "result",
+            "value": "ad_through_connection.result",
+            "tooltip": "Result of your campaign"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "ad_through_connection.viewable_impressions",
+            "tooltip": "(viewable impressions) An ad that meets the criteria of being visible in the browser window for a continous 1 second."
+        },
+        {
+            "text": "Video Views",
+            "value": "ad_through_connection.video_views",
+            "tooltip": "(video views) Total number of views we got on our video"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "ad_through_connection.two_second_video_views",
+            "tooltip": "(video watched 2s) The total number of impressions that meet the qualifying video view criteria of at least 2 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "ad_through_connection.six_second_video_views",
+            "tooltip": "(video watched 2s) The total number of impressions that meet the qualifying video view criteria of at least 6 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "ad_through_connection.average_screen_time",
+            "tooltip": "(avg screen time)The average number of seconds spent watching your ad across all paid impressions. Screen time starts recording as soon as the media is fully rendered on the device and the autoplay video starts."
+        },
+        {
+            "text": "Story Opens",
+            "value": "ad_through_connection.story_opens",
+            "tooltip": "(story_opens) Number of times a Snapchatter taps on the Story Ad in the Discover Feed."
+        },
+        {
+            "text": "ctr",
+            "value": "ad_through_connection.ctr",
+            "tooltip": "Clickthrough rate (clicks ÷ impressions = CTR)"
+        },
+        {
+            "text": "cpp",
+            "value": "ad_through_connection.cpp",
+            "tooltip": " Cost it will take to reach a certain desired goal and/or objective."
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "ad_through_connection.story_open_rate",
+            "tooltip": "(story open rate) The rate at which Snapchatters tap on the tile. (Story Opens / Story Impressions) * 100."
+        },
+        {
+            "text": "Cost/Story Open",
+            "value": "ad_through_connection.cost_per_story_open",
+            "tooltip": "(cost per story open) The average cost of each Story Open."
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "ad_through_connection.crm_confirm",
+            "tooltip": "(crm_confirmed)The total number of orders confirmed by CRM."
+        },
+        {
+            "text": "AVG Sale / Confirm",
+            "value": "ad_through_connection.avg_sales_per_confirm",
+            "tooltip": "(avg_sales_per_confirm) The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "ad_through_connection.total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "Order AVG Sales",
+            "value": "ad_through_connection.avg_sales_order",
+            "tooltip": "avg sales order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "ad_through_connection.crm_cancelled",
+            "tooltip": "(crm cancelled) The total number of orders cancelled by CRM."
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "(crm sendback) The total number of Repeated orders in CRM."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "ad_through_connection.crm_total_pickedup",
+            "tooltip": "(total picked up) The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "ad_through_connection.crm_pickedup",
+            "tooltip": "(picked up) Order is picked up by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "ad_through_connection.crm_logis_deliverd",
+            "tooltip": "(logis delivered)The total number of orders delivered by CRM team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "ad_through_connection.crm_logis_cancelled",
+            "tooltip": "(logis cancelledThe) total number of orders cancelled by CRM team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "ad_through_connection.sale_price",
+            "tooltip": "(sale price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "ad_through_connection.exact_price",
+            "tooltip": "(exact price)the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "ad_through_connection.crm_total_sale",
+            "tooltip": "(total sales) the Total Sale"
+        },
+        {
+            "text": "Product Cost",
+            "value": "ad_through_connection.crm_product_cost",
+            "tooltip": " Cost Of Product"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "ad_through_connection.crm_delivery_cost",
+            "tooltip": "Cost Of Delivery"
+        },
+        {
+            "text": "CRM Confirmed %",
+            "value": "ad_through_connection.crm_confirmed_percentage",
+            "tooltip": "(crm_confirmed_percentage) = CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(crm_cancelled_percentage) = CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "CRM sendback in percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "ad_through_connection.crm_difference",
+            "tooltip": "Difference of CRM"
+        },
+        {
+            "text": "Delivered %",
+            "value": "ad_through_connection.crm_delivered_percentage",
+            "tooltip": "(logis_delivered_percentage) = Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(logis_cancelled_percentage) = Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "ad_through_connection.crm_final_percentage",
+            "tooltip": "(final percentage)=(Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expenses",
+            "value": "ad_through_connection.crm_total_expense",
+            "tooltip": "(total expense) = Product Cost + Ad cost + delivery cost "
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "ad_through_connection.crm_profit_lose",
+            "tooltip": "(profit andloss) = Total Sales - Total Expense"
+        },
+        {
+            "text": "Profit%",
+            "value": "ad_through_connection.crm_profit_percentage",
+            "tooltip": "(profit percentage)=(Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost %",
+            "value": "ad_through_connection.crm_product_cost_percentage",
+            "tooltip": "Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "ad_through_connection.crm_delivery_cost_percentage",
+            "tooltip": "Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "ad_through_connection.crm_ad_cost_percentage",
+            "tooltip": "Ad cost in percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "ad_through_connection.crm_percentage",
+            "tooltip": "CRM percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "ad_through_connection.crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ad_through_connection.ga_total_users",
+            "tooltip": "(total_users) The total number of users  we got in lifetime"
+        },
+        {
+            "text": "New Users",
+            "value": "ad_through_connection.ga_new_users",
+            "tooltip": "(new_users) The total number of new user we got for a certain period of time"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ad_through_connection.ga_user_engagement",
+            "tooltip": "(user_engagement) The total number of user engaging with our platform"
+        },
+        {
+            "text": "sessions",
+            "value": "ad_through_connection.ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engaged Sessions",
+            "value": "ad_through_connection.ga_engaged_sessions",
+            "tooltip": " (engaged_sessions) The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "ad_through_connection.ga_page_views",
+            "tooltip": "(page view) The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ad_through_connection.ga_engagement_rate_percentage",
+            "tooltip": "(engagement rate) The number of interactions divided by actual reach and multiplied by 100."
+        }
+    ],
+    "ad_set": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "tooltip": "Activity Status Of Your Adset",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "Platform",
+            "value": "platform.logo",
+            "tooltip": "platform logo",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "name",
+            "tooltip": "Full Name Of Your Adset",
+            "visible": true
+        },
+        {
+            "text": "Adset Created Date",
+            "value": "generated_link_date",
+            "tooltip": "ad set created date",
+            "visible": true
+        },
+        {
+            "text": "Daily Budget",
+            "value": "daily_budget",
+            "tooltip": " (daily budget)  The Average Amount You Are Willing To Spend On A Specific Ad Set Per Day",
+            "visible": true
+        },
+        {
+            "text": "Bid",
+            "value": "bid",
+            "tooltip": "The Maximum Amount Of Money You Are Willing To Pay For Your Desired Output",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An Information Tag To Recognize Adsets Quickly",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment Or Suggestion For Your Team",
+            "visible": true
+        },
+        {
+            "text": "Spend Control",
+            "sortable": true,
+            "value": "spend_control",
+            "tooltip": "Spend Control ((PMAC * order ) - spend) ",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "ad_through_connection.spend",
+            "tooltip": "Spend based on delivery",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "ad_through_connection.crm_total_orders",
+            "tooltip": "The total number of orders you recieved in CRM.",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "ad_through_connection.cpo",
+            "tooltip": "Effective cost per order.",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "ad_through_connection.impressions",
+            "tooltip": "The total number of times your ad was served to a user. Tracked when the ad fully renders on a device for the first time during a user’s viewing session.",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "ad_through_connection.cpm",
+            "tooltip": "Effective cost per thousand impressions.",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "ad_through_connection.clicks",
+            "tooltip": "The total number of taps on your Public Profile from your ads",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "ad_through_connection.cpc",
+            "tooltip": "Cost Per Click ",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "ad_through_connection.bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "ad_through_connection.aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "ad_through_connection.vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "ad_through_connection.total_page_views",
+            "tooltip": "(total page view) The total number of times a user has viewed an ad in your app or website.",
+            "visible": true
+        },
+        {
+            "text": "Total Ads",
+            "value": "total_ads",
+            "tooltip": " (total ads)Total Number of Ads ",
+            "visible": true
+        },
+        {
+            "text": "Total Active Ads",
+            "value": "active_history_ads",
+            "tooltip": "(total active ads)Total Number Of Ads Within the Adset",
+            "visible": true
+        },
+        {
+            "text": "Total Inactive Ads",
+            "value": "inactive_history_ads",
+            "tooltip": "Total Number Of Inactive Ads in this country"
+        },
+        {
+            "text": "logo",
+            "value": "logo-avatar"
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created_order"
+        },
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "Unique Code Of Your Adset"
+        },
+        {
+            "text": "created durations time",
+            "value": "generated_link_date2",
+            "tooltip": "ad set created time"
+        },
+        {
+            "text": "Platform Name",
+            "value": "platform.platform_name",
+            "tooltip": "platform name"
+        },
+        {
+            "text": "Budget History",
+            "value": "budget_history",
+            "tooltip": "budget history"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "status history"
+        },
+        {
+            "text": "Delivery Status",
+            "value": "delivery_status",
+            "tooltip": " (delivery status) Delivery Status Of Your Adsets"
+        },
+        {
+            "text": "goal",
+            "value": "optimization_goal",
+            "tooltip": "The Desired Output You Want To Achieve With Advertising"
+        },
+        {
+            "text": "result",
+            "value": "ad_through_connection.result",
+            "tooltip": "Result Of Your Adset"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "ad_through_connection.viewable_impressions",
+            "tooltip": "(viewable impressions) An ad that meets the criteria of being visible in the browser window for a continous 1 second."
+        },
+        {
+            "text": "Video Views",
+            "value": "ad_through_connection.video_views",
+            "tooltip": "(video views) Total number of views we got on our video"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "ad_through_connection.two_second_video_views",
+            "tooltip": "(video watch 2second)The total number of impressions that meet the qualifying video view criteria of at least 2 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "ad_through_connection.six_second_video_views",
+            "tooltip": "(video watched 6second)The total number of impressions that meet the qualifying video view criteria of at least 6 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "ad_through_connection.average_screen_time",
+            "tooltip": "(avg screen time) The average number of seconds spent watching your ad across all paid impressions. Screen time starts recording as soon as the media is fully rendered on the device and the autoplay video starts."
+        },
+        {
+            "text": "Story Opens",
+            "value": "ad_through_connection.story_opens",
+            "tooltip": "(story opens)Number of times a Snapchatter taps on the Story Ad in the Discover Feed."
+        },
+        {
+            "text": "ctr",
+            "value": "ad_through_connection.ctr",
+            "tooltip": "Clickthrough rate (clicks ÷ impressions = CTR)"
+        },
+        {
+            "text": "cpp",
+            "value": "ad_through_connection.cpp",
+            "tooltip": " Cost it will take to reach a certain desired goal and/or objective."
+        },
+        {
+            "text": "STOR",
+            "value": "ad_through_connection.story_open_rate",
+            "tooltip": "(story open rate)The rate at which Snapchatters tap on the tile. (Story Opens / Story Impressions) * 100."
+        },
+        {
+            "text": "Cost/Story Open",
+            "value": "ad_through_connection.cost_per_story_open",
+            "tooltip": "(cost per story open) The average cost of each Story Open."
+        },
+        {
+            "text": "AVG Sale / Confirm",
+            "value": "ad_through_connection.avg_sales_per_confirm",
+            "tooltip": "(avg sales per confirm) The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "ad_through_connection.total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "Order AVG Sales",
+            "value": "ad_through_connection.avg_sales_order",
+            "tooltip": "avg sales order"
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "ad_through_connection.crm_confirm",
+            "tooltip": "(crm confirmed) The total number of orders confirmed by CRM."
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "ad_through_connection.crm_cancelled",
+            "tooltip": "( crm cancelled )The total number of orders cancelled by CRM."
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "(crm sendback ) The total number of Repeated orders in CRM."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "ad_through_connection.crm_total_pickedup",
+            "tooltip": "(total_picked_up) The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "ad_through_connection.crm_pickedup",
+            "tooltip": "(Picked Up) Order is picked up by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "ad_through_connection.crm_logis_deliverd",
+            "tooltip": "(logis delivered) The total number of orders delivered by CRM team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "ad_through_connection.crm_logis_cancelled",
+            "tooltip": "(logis cancelled) The total number of orders cancelled by CRM team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "ad_through_connection.sale_price",
+            "tooltip": "(sale price) the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "ad_through_connection.exact_price",
+            "tooltip": "(exact price) the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "ad_through_connection.crm_total_sale",
+            "tooltip": "(total sales)the Total Sale"
+        },
+        {
+            "text": "Product Cost",
+            "value": "ad_through_connection.crm_product_cost",
+            "tooltip": " (product cost)The Cost Of Product"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "ad_through_connection.crm_delivery_cost",
+            "tooltip": " (delivery cost) The Cost Of Delivery"
+        },
+        {
+            "text": "CRM Confirmed %",
+            "value": "ad_through_connection.crm_confirmed_percentage",
+            "tooltip": " (crm confirmed percentage) =CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": " (crm_cancelled_percentage) =CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM Sendback",
+            "value": "ad_through_connection.crm_repeated",
+            "tooltip": "(crm_sendback_percentage) CRM sendback in percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "ad_through_connection.crm_difference",
+            "tooltip": " (crm difference)Difference of CRM"
+        },
+        {
+            "text": "Delivered %",
+            "value": "ad_through_connection.crm_delivered_percentage",
+            "tooltip": "(logis delivered percentage) Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "ad_through_connection.crm_cancelled_percentage",
+            "tooltip": "(logis cancelled percentage)Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "ad_through_connection.crm_final_percentage",
+            "tooltip": " (final percentage) = (Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expenses",
+            "value": "ad_through_connection.crm_total_expense",
+            "tooltip": "(total_expense) = Product Cost + Ad cost + delivery cost "
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "ad_through_connection.crm_profit_lose",
+            "tooltip": "(profit and loss)Total Sales - Total Expense"
+        },
+        {
+            "text": "profit%",
+            "value": "ad_through_connection.crm_profit_percentage",
+            "tooltip": " (profit percentage) = (Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost %",
+            "value": "ad_through_connection.crm_product_cost_percentage",
+            "tooltip": " ( product cost percentage) Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "ad_through_connection.crm_delivery_cost_percentage",
+            "tooltip": "(delivery cost percentage) Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "ad_through_connection.crm_ad_cost_percentage",
+            "tooltip": "(ad cost percentage) Ad cost in percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "ad_through_connection.crm_percentage",
+            "tooltip": "(crm percentage) CRM in percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "ad_through_connection.crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ad_through_connection.ga_total_users",
+            "tooltip": "(total users) The total number of users  we got in lifetime"
+        },
+        {
+            "text": "New Users",
+            "value": "ad_through_connection.ga_new_users",
+            "tooltip": "(new users) The total number of new user we got for a certain period of time"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ad_through_connection.ga_user_engagement",
+            "tooltip": "(user engagement)The total number of user engaging with our platform"
+        },
+        {
+            "text": "sessions",
+            "value": "ad_through_connection.ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engaged Sessions",
+            "value": "ad_through_connection.ga_engaged_sessions",
+            "tooltip": " (engaged sessions) The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "ad_through_connection.ga_page_views",
+            "tooltip": "(page_view) The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ad_through_connection.ga_engagement_rate_percentage",
+            "tooltip": "(engagement rate) The number of interactions divided by actual reach and multiplied by 100."
+        }
+    ],
+    "ad": [
+        {
+            "text": "status",
+            "sortable": true,
+            "value": "status",
+            "tooltip": "Activity of your ad",
+            "visible": true
+        },
+        {
+            "text": "p images",
+            "value": "product_images",
+            "tooltip": "product image",
+            "visible": true
+        },
+        {
+            "text": "Profile",
+            "value": "view_profile",
+            "tooltip": "View Profile",
+            "visible": true
+        },
+        {
+            "text": "Video Profile",
+            "value": "video_profile",
+            "tooltip": "View Video Profile",
+            "visible": true
+        },
+        {
+            "text": "platform",
+            "value": "platform.logo",
+            "visible": true
+        },
+        {
+            "text": "Product Code",
+            "value": "connection.pcode",
+            "tooltip": "(product code) Unique code of your product",
+            "visible": true
+        },
+        {
+            "text": "name",
+            "value": "ad_name",
+            "tooltip": "Full name of your ad",
+            "visible": true
+        },
+        {
+            "text": "Ads Duration time",
+            "value": "generated_link_date2",
+            "tooltip": "ad created date",
+            "visible": true
+        },
+        {
+            "text": "labels",
+            "value": "labels",
+            "tooltip": "An inforation tag ",
+            "visible": true
+        },
+        {
+            "text": "pmac",
+            "value": "pmac",
+            "tooltip": "Product Max Advertisement Cost",
+            "visible": true
+        },
+        {
+            "text": "remarks",
+            "value": "remarks_count",
+            "tooltip": "Comment or suggestion for your team",
+            "visible": true
+        },
+        {
+            "text": "Spend Control",
+            "sortable": true,
+            "value": "spend_control",
+            "tooltip": "Spend Control ((PMAC * order ) - spend) ",
+            "visible": true
+        },
+        {
+            "text": "spend",
+            "sortable": true,
+            "value": "spend",
+            "tooltip": "Spend based on delivery",
+            "visible": true
+        },
+        {
+            "text": "orders",
+            "sortable": true,
+            "value": "crm_total_orders",
+            "tooltip": "The total number of orders you recieved in CRM.",
+            "visible": true
+        },
+        {
+            "text": "cpo",
+            "sortable": true,
+            "value": "cpo",
+            "tooltip": "Effective cost per order.",
+            "visible": true
+        },
+        {
+            "text": "impressions",
+            "sortable": true,
+            "value": "impressions",
+            "tooltip": "The total number of times your ad was served to a user. Tracked when the ad fully renders on a device for the first time during a user’s viewing session.",
+            "visible": true
+        },
+        {
+            "text": "cpm",
+            "sortable": true,
+            "value": "cpm",
+            "tooltip": "Effective cost per thousand impressions.",
+            "visible": true
+        },
+        {
+            "text": "clicks",
+            "sortable": true,
+            "value": "clicks",
+            "tooltip": "The total number of taps on your Public Profile from your ads",
+            "visible": true
+        },
+        {
+            "text": "cpc",
+            "sortable": true,
+            "value": "cpc",
+            "tooltip": "Cost Per Click ",
+            "visible": true
+        },
+        {
+            "text": "Buyer %",
+            "value": "bp",
+            "tooltip": "Buyer percentage <br/> (Total orders*100/Clicks)",
+            "visible": true
+        },
+        {
+            "text": "Ad attractions %",
+            "value": "aap",
+            "tooltip": "Ad attractions percentage <br/> (Clicks*100/six second video views)",
+            "visible": true
+        },
+        {
+            "text": "Views quality %",
+            "value": "vqp",
+            "tooltip": "Views quality percentage <br/> (six second video views*100/two second video views)",
+            "visible": true
+        },
+        {
+            "text": "Total Page Views",
+            "value": "total_page_views",
+            "tooltip": "(total page view) The total number of times a user has viewed an ad in your app or website.",
+            "visible": true
+        },
+        {
+            "text": "Created Order",
+            "value": "index",
+            "tooltip": "created order"
+        },
+        {
+            "text": "logo",
+            "value": "logo-avatar"
+        },
+        {
+            "text": "id",
+            "value": "code",
+            "tooltip": "Unique code of your ad"
+        },
+        {
+            "text": "Id Platform",
+            "value": "ad_id",
+            "tooltip": "Ad Id platform"
+        },
+        {
+            "text": "Ads Created Date",
+            "value": "generated_link_date",
+            "tooltip": "ad created date"
+        },
+        {
+            "text": "Platform Name",
+            "value": "platform.platform_name",
+            "tooltip": "platform name"
+        },
+        {
+            "text": "Budget History",
+            "value": "budget_history",
+            "tooltip": "budget history"
+        },
+        {
+            "text": "History Status",
+            "value": "history_status",
+            "tooltip": "status history"
+        },
+        {
+            "text": "Connection Code",
+            "value": "connection.code",
+            "tooltip": "(connection code) Unique code for connection between platform & landing page."
+        },
+        {
+            "text": "Generated Link",
+            "value": "connection.generated_link",
+            "tooltip": "(generated link) Unique link of your product generated by CRM"
+        },
+        {
+            "text": "Landing Page Link",
+            "value": "connection.landing_page_link",
+            "tooltip": "(landing page link) Unique link of your product"
+        },
+        {
+            "text": "Delivery Satatus",
+            "value": "delivery_status",
+            "tooltip": "(deliverystatus) Status of your campaign"
+        },
+        {
+            "text": "result",
+            "value": "result",
+            "tooltip": "Result of your campaign"
+        },
+        {
+            "text": "Viewable Impressions",
+            "value": "viewable_impressions",
+            "tooltip": "(viewable_impressions) An ad that meets the criteria of being visible in the browser window for a continous 1 second."
+        },
+        {
+            "text": "Video Views",
+            "value": "video_views",
+            "tooltip": "(video views) Total number of views we got on our video"
+        },
+        {
+            "text": "Video Watched 2s",
+            "value": "two_second_video_views",
+            "tooltip": "(video watched 2second) The total number of impressions that meet the qualifying video view criteria of at least 2 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "Video Watched 6s",
+            "value": "six_second_video_views",
+            "tooltip": "(video watched 6second)The total number of impressions that meet the qualifying video view criteria of at least 6 seconds of consecutive watch time or a swipe up action on the Top Snap"
+        },
+        {
+            "text": "AVG Screen Time",
+            "value": "average_screen_time",
+            "tooltip": "(avg_screen_time) The average number of seconds spent watching your ad across all paid impressions. Screen time starts recording as soon as the media is fully rendered on the device and the autoplay video starts."
+        },
+        {
+            "text": "Story Open",
+            "value": "story_opens",
+            "tooltip": "(story open ) Number of times a Snapchatter taps on the Story Ad in the Discover Feed."
+        },
+        {
+            "text": "ctr",
+            "value": "ctr",
+            "tooltip": "Clickthrough rate (clicks ÷ impressions = CTR)"
+        },
+        {
+            "text": "cpp",
+            "value": "cpp",
+            "tooltip": " Cost it will take to reach a certain desired goal and/or objective."
+        },
+        {
+            "text": "Story Open Rate",
+            "value": "story_open_rate",
+            "tooltip": "(story_open_rate)The rate at which Snapchatters tap on the tile. (Story Opens / Story Impressions) * 100."
+        },
+        {
+            "text": "Cost/Story Open",
+            "value": "cost_per_story_open",
+            "tooltip": "(cost per story open)The average cost of each Story Open."
+        },
+        {
+            "text": "CRM Confirm",
+            "value": "crm_confirm",
+            "tooltip": "(crm confirmed) The total number of orders confirmed by CRM."
+        },
+        {
+            "text": "AVG Sale/Confirm",
+            "value": "avg_sales_per_confirm",
+            "tooltip": "(avg sales per confirm) The Average number of sales per confirmed CRM's."
+        },
+        {
+            "text": "Total Register Sales",
+            "value": "total_register_sales",
+            "tooltip": "total register sales"
+        },
+        {
+            "text": "AVG Sale Order",
+            "value": "avg_sales_order",
+            "tooltip": "avg seles order"
+        },
+        {
+            "text": "CRM Cancelled",
+            "value": "crm_cancelled",
+            "tooltip": "(crm cancelled) The total number of orders cancelled by CRM."
+        },
+        {
+            "text": "CRM SendBack",
+            "value": "crm_repeated",
+            "tooltip": "(crm sendback) The total number of sendback by CRM."
+        },
+        {
+            "text": "Total Picked Up",
+            "value": "crm_total_pickedup",
+            "tooltip": "(total picked up)The total number of orders picked by delivery team."
+        },
+        {
+            "text": "Picked Up",
+            "value": "crm_pickedup",
+            "tooltip": "(picked up) Order picked by delivery team"
+        },
+        {
+            "text": "Logis Delivered",
+            "value": "crm_logis_deliverd",
+            "tooltip": "(logis delivered)The total number of orders delivered by logistics team."
+        },
+        {
+            "text": "Logis Cancelled",
+            "value": "crm_logis_cancelled",
+            "tooltip": "(logis cancelled) The total number of orders cancelled by logistics team."
+        },
+        {
+            "text": "Sale Price",
+            "value": "sale_price",
+            "tooltip": "(sale price)the Total Sale Price"
+        },
+        {
+            "text": "Exact Price",
+            "value": "exact_price",
+            "tooltip": "(exact price) the Total Exact Price"
+        },
+        {
+            "text": "Total Sales",
+            "value": "crm_total_sale",
+            "tooltip": "The total sale "
+        },
+        {
+            "text": "Product Cost",
+            "value": "crm_product_cost",
+            "tooltip": "The cost of product"
+        },
+        {
+            "text": "Delivery Cost",
+            "value": "crm_delivery_cost",
+            "tooltip": "The cost of delivery"
+        },
+        {
+            "text": " CRM Confirmed %",
+            "value": "crm_confirmed_percentage",
+            "tooltip": "(crm confirmed percentage) = CRM Confirmed % ((CRM Confirmed * 100 ) ÷ Total Order) "
+        },
+        {
+            "text": "CRM Cancelled %",
+            "value": "crm_cancelled_percentage",
+            "tooltip": "(crm cancelled percentage) = CRM Cancelled % ((CRM Cancelled * 100) ÷ Total Order"
+        },
+        {
+            "text": "CRM SendBack %",
+            "value": "crm_repeated",
+            "tooltip": "CRM sendback in percentage"
+        },
+        {
+            "text": "CRM Difference",
+            "value": "crm_difference",
+            "tooltip": "Difference of CRM"
+        },
+        {
+            "text": "Logis Delivered %",
+            "value": "crm_delivered_percentage",
+            "tooltip": "(crm delivered percentage)  Total number of orders delivered by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Logis Cancelled %",
+            "value": "crm_cancelled_percentage",
+            "tooltip": "(crm_cancelled_percentage) = Total number of orders cancelled by logistics team * 100  ÷ Total orders confirmed by CRM"
+        },
+        {
+            "text": "Final%",
+            "value": "crm_final_percentage",
+            "tooltip": "(final percentage) = (Total number of orders delivered orders ÷ total orders) * 100"
+        },
+        {
+            "text": "Total Expense",
+            "value": "crm_total_expense",
+            "tooltip": "(total expense) Ad cost + delivery cost"
+        },
+        {
+            "text": "Profit & Loss",
+            "value": "crm_profit_lose",
+            "tooltip": "Total profit and loss "
+        },
+        {
+            "text": "Profit %",
+            "value": "crm_profit_percentage",
+            "tooltip": "(Profit percentage) = (Total sales - total expense) ÷ Total sales"
+        },
+        {
+            "text": "Product Cost%",
+            "value": "crm_product_cost_percentage",
+            "tooltip": "Product cost in percentage"
+        },
+        {
+            "text": "Delivery Cost %",
+            "value": "crm_delivery_cost_percentage",
+            "tooltip": "Delivery cost in percentage"
+        },
+        {
+            "text": "Ad Cost %",
+            "value": "crm_ad_cost_percentage",
+            "tooltip": "Ad cost in percentage"
+        },
+        {
+            "text": "CRM%",
+            "value": "crm_percentage",
+            "tooltip": "CRM in percentage"
+        },
+        {
+            "text": "Logistics%",
+            "value": "crm_logistics_percentage",
+            "tooltip": "Logistics in percentage"
+        },
+        {
+            "text": "Total Users",
+            "value": "ga_total_users",
+            "tooltip": "(Total users) The total number of users  we got in lifetime"
+        },
+        {
+            "text": "New Users",
+            "value": "ga_new_users",
+            "tooltip": "(new users) The total number of new user we got"
+        },
+        {
+            "text": "User Engagement",
+            "value": "ga_user_engagement",
+            "tooltip": "(user engagement) The total number of user engaging with our platform"
+        },
+        {
+            "text": "sessions",
+            "value": "ga_sessions",
+            "tooltip": "Group of user interactions with your website that take place within a given time frame"
+        },
+        {
+            "text": "Engagement Sessions",
+            "value": "ga_engaged_sessions",
+            "tooltip": "(engaged sessions) The number of sessions that lasted 10 seconds or longer, or had 1 or more conversion events or 2 or more page or screen views."
+        },
+        {
+            "text": "Page Views",
+            "value": "ga_page_views",
+            "tooltip": "(page view) The total number of page views divided by the total number of visits during the same timeframe"
+        },
+        {
+            "text": "Engagement Rate",
+            "value": "ga_engagement_rate_percentage",
+            "tooltip": "(engagement rate) The number of interactions divided by actual reach and multiplied by 100."
+        },
+        {
+            "text": "Server Created At",
+            "value": "server_created_at",
+            "tooltip": "(server created at)The date when server was created "
+        },
+        {
+            "text": "Server Updated At",
+            "value": "server_updated_at",
+            "tooltip": "(server updated at)The date when server was updated"
+        },
+        {
+            "text": "Data Date",
+            "value": "data_date",
+            "tooltip": "(data date)For which date the data belongs to"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at",
+            "tooltip": "The date/time when data was created"
+        },
+        {
+            "text": "updated_at",
+            "value": "updated_at",
+            "tooltip": "The date/time when data was updated"
+        }
+    ]
+}

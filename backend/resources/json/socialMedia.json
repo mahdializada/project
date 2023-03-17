@@ -1,0 +1,50 @@
+[
+   {
+       "name": "Facebook",
+       "logo": "/social-media/circle_facebook_logo_icon.svg",
+       "website": "http://www.facebook.com/"
+   },
+   {
+       "name": "Instagram",
+       "logo": "/social-media/circle_instagram_icon.svg",
+       "website": "http://www.instagram.com/",
+       "sample_url_account": "http://www.instagram.com/username"
+   },
+   {
+       "name": "LinkedIn",
+       "logo": "/social-media/circle_linkedin_icon.svg",
+       "website": "http://www.linkedin.com/"
+   },
+   {
+       "name": "Whatsapp",
+       "logo": "/social-media/circle_whatsapp_icon.svg",
+       "website": "http://www.whatsapp.com/",
+       "sample_url_account": "https://wa.me/777777777"
+   },
+   {
+       "name": "Telegram",
+       "logo":"/social-media/circle_telegram_logo_icon.svg",
+       "website": "https://telegram.org/",
+       "sample_url_account": "https://telegram.me/username"
+   },
+   {
+       "name": "Twitter",
+       "logo":"/social-media/circle_twitter_icon.svg",
+       "website": "http://www.twitter.com/"
+   },
+   {
+       "name": "Youtube",
+       "logo":"/social-media/circle_youtube_icon.svg",
+       "website": "http://www.youtube.com/"
+   },
+   {
+       "name": "Zoom",
+       "logo": "/social-media/zoom.svg",
+       "website": "https://zoom.us/"
+   },
+   {
+       "name": "Imo",
+       "logo": "/social-media/circle_imo_icon.svg",
+       "website": "https://imo.im/"
+   }
+]

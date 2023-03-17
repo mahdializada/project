@@ -1,0 +1,56 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "flag",
+            "value": "iso2"
+        },
+        {
+            "text": "name",
+            "value": "name"
+        },
+        {
+            "text": "capital",
+            "value": "capital"
+        },
+        {
+            "text": "national",
+            "value": "national"
+        },
+        {
+            "text": "native",
+            "value": "native"
+        },
+        {
+            "text": "phone_code",
+            "value": "phone_code"
+        },
+        {
+            "text": "currency",
+            "value": "currency_name"
+        },
+        {
+            "text": "currency_symbol",
+            "value": "currency_symbol"
+        },
+        {
+            "text": "region",
+            "value": "region"
+        },
+        {
+            "text": "sub_region",
+            "value": "subregion"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "timezones",
+            "value": "timezones"
+        }
+    ]
+}

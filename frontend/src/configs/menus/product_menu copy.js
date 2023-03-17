@@ -1,0 +1,92 @@
+import Icons from "./menuIcons";
+export default {
+  color: "",
+  text: "Product Management System",
+  key: "product_management_system",
+  icon: Icons.advertisement_management_system,
+  items: [
+    {
+      text: "Products",
+      key: "products",
+      link: "/product-management/products",
+      exact: true,
+      scope: "pv",
+      icon: Icons.products,
+    },
+    {
+      text: "product_study",
+      key: "product_study",
+      link: "/product-management/product-study",
+      exact: true,
+      scope: "prsv",
+      icon: Icons.product_study,
+    },
+    {
+      text: "brand",
+      key: "brand",
+      link: "/product-management/brand",
+      exact: true,
+      scope: "brv",
+      icon: Icons.brand,
+    },
+    {
+      text: "Attributes",
+      key: "attributes",
+      link: "/product-management/attributes",
+      exact: true,
+      scope: "attv",
+      icon: Icons.attributes,
+    },
+    {
+      text: "Catogories",
+      key: "catogories",
+      link: "/product-management/categories",
+      exact: true,
+      scope: "catv",
+      icon: Icons.catogories,
+    },
+
+    {
+      text: "my_orders",
+      key: "my_orders",
+      subLink: "product-settings",
+      scope: ["pov"],
+      icon: Icons.sourcing_orders,
+      items: [
+        {
+          text: "product_study_orders",
+          key: "product_study_orders",
+          link: "/product-management/orders/product-study",
+          exact: true,
+          scope: "pov",
+          icon: Icons.my_orders,
+        },
+      ],
+    },
+    {
+      text: "Settings",
+      key: "settings",
+      subLink: "product-settings",
+      scope: ["lpv"],
+      icon: Icons.settings,
+      items: [
+        {
+          text: "Study Categories",
+          key: "study_categories",
+          link: "/product-management/study/categories",
+          exact: true,
+          scope: "lpv",
+          icon: Icons.labels,
+        },
+        {
+          text: "Labels",
+          key: "labels",
+          link: "/labels/product",
+          exact: true,
+          scope: "lpv",
+          icon: Icons.labels,
+        },
+      ],
+    },
+  ],
+};

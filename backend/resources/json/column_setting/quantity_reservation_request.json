@@ -1,0 +1,44 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "quantity",
+            "value": "quantity"
+        },
+        {
+            "text": "receiving_country",
+            "value": "receiving_country"
+        },
+        {
+            "text": "product",
+            "value": "products"
+        },
+        {
+            "text": "required_shipping_method",
+            "value": "shipping_method"
+        },
+        {
+            "text": "arrival_time",
+            "value": "arrival_time"
+        },
+        {
+            "text": "purchase_order_number",
+            "value": "purchase_order_number"
+        },
+        {
+            "text": "order_note",
+            "value": "order_note"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

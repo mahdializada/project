@@ -1,0 +1,266 @@
+export default function (appContext) {
+  return {
+    category: [
+      {
+        text: "all_caps",
+        value: 0,
+        category_id: 0,
+        selected: true,
+      },
+      {
+        text: "general_info_caps",
+        value: 0,
+        category_id: 1,
+        selected: false,
+      },
+      {
+        text: "design_request_info",
+        value: 0,
+        category_id: 2,
+        selected: false,
+      },
+
+      {
+        text: "datewise_caps",
+        value: 0,
+        category_id: 4,
+        selected: false,
+      },
+    ],
+
+    // Register Company Steppers
+    steppers: [
+      {
+        icon: "fa-question-circle",
+        title: "general",
+        slotName: "step1",
+      },
+      {
+        icon: "fa-lock",
+        title: "company",
+        slotName: "step2",
+      },
+      {
+        icon: "fa-icons",
+        title: "social_media",
+        slotName: "step3",
+      },
+      {
+        icon: "fa-comment-dots",
+        title: "remarks",
+        slotName: "step4",
+      },
+      {
+        icon: "fa-thumbs-up",
+        title: "done",
+        slotName: "step5",
+      },
+    ],
+
+    // breadcrumb
+    breadcrumb: [
+      { text: "dashboard", exact: true, to: "/" },
+      {
+        text: "design_request",
+        disabled: true,
+        to: "",
+        icon: "mdi-note-edit",
+      },
+    ],
+
+    // table headers
+    headers: [
+      {
+        text: "id",
+        value: "code",
+        select: false,
+        id: 1,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "content_type",
+        value: "content_type",
+        select: false,
+        id: 2,
+        category_id: 2,
+      },
+      {
+        text: "company",
+        value: "company",
+        select: false,
+        id: 3,
+        category_id: 2,
+      },
+
+      {
+        text: "template",
+        value: "template",
+        select: false,
+        id: 4,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "product_code",
+        value: "product_code",
+        select: false,
+        id: 5,
+        category_id: 2,
+      },
+      {
+        text: "product_name",
+        value: "product_name",
+        select: false,
+        id: 6,
+        category_id: 2,
+      },
+      {
+        text: "priority",
+        value: "priority",
+        select: false,
+        id: 7,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "percentage",
+        value: "percentage",
+        select: false,
+        id: 8,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "request_type",
+        value: "requestType",
+        select: false,
+        sortable: false,
+        id: 9,
+        category_id: 1,
+      },
+      {
+        text: "total_time_spent",
+        value: "total_time_spent",
+        select: false,
+        id: 10,
+        sortable: false,
+        category_id: 4,
+      },
+
+      {
+        text: "assigned_user",
+        value: "assignedUser",
+        select: false,
+        id: 11,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "status",
+        value: "status",
+        select: false,
+        id: 12,
+        sortable: false,
+        category_id: 2,
+      },
+      {
+        text: "order_type",
+        value: "order_type",
+        select: false,
+        id: 13,
+        sortable: false,
+        category_id: 2,
+      },
+      {
+        text: "Sales Notes",
+        value: "sales_note",
+        select: false,
+        id: 14,
+        sortable: false,
+        category_id: 2,
+      },
+      {
+        text: "StoryBoard Note",
+        value: "storyboard_note",
+        select: false,
+        id: 15,
+        sortable: false,
+        category_id: 2,
+      },
+      {
+        text: "design_note",
+        value: "design_note",
+        select: false,
+        sortable: false,
+        id: 16,
+        category_id: 2,
+      },
+      {
+        text: "design_link",
+        value: "design_link",
+        select: false,
+        sortable: false,
+        id: 17,
+        category_id: 2,
+      },
+      {
+        text: "landing_page_link",
+        value: "landing_page_link",
+        select: false,
+        id: 18,
+        sortable: false,
+        category_id: 2,
+      },
+      {
+        text: "total_storyboard_rejected",
+        value: "storyboard_reject_count",
+        select: false,
+        id: 19,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "total_design_rejected",
+        value: "design_reject_count",
+        select: false,
+        id: 20,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "cancels",
+        value: "cancels",
+        select: false,
+        id: 21,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "label",
+        value: "label",
+        select: false,
+        id: 22,
+        sortable: false,
+        category_id: 1,
+      },
+      {
+        text: "updated_by",
+        value: "updatedBy",
+        select: false,
+        id: 23,
+        sortable: false,
+        category_id: 1,
+      },
+
+      {
+        text: "created_at",
+        value: "created_at",
+        select: false,
+        id: 24,
+        sortable: false,
+        category_id: 4,
+      },
+    ],
+  };
+}

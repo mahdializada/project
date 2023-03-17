@@ -1,0 +1,32 @@
+{
+    "all": [
+
+        {
+            "text": "id",
+            "value": "code"
+
+        },
+        {
+            "text": "name",
+            "value": "category_name"
+
+        },
+        {
+            "text": "sub_system",
+            "value": "sub_systems"
+
+        },
+
+        {
+            "text": "created_by",
+            "value": "user"
+
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+
+        }
+    ]
+
+}

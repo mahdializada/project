@@ -1,0 +1,24 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "id"
+        },
+        {
+            "text": "reason",
+            "value": "title"
+        },
+        {
+            "text": "types",
+            "value": "type"
+        },
+        {
+            "text": "sub_systems",
+            "value": "sub_systems"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

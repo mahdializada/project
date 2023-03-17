@@ -1,0 +1,24 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "platform_name",
+            "value": "platform_name"
+        },
+        {
+            "text": "platform_key",
+            "value": "platform_key"
+        },
+        {
+            "text": "companies",
+            "value": "companies"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

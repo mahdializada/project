@@ -1,0 +1,100 @@
+{
+    "all": [
+        {
+            "text": "id",
+            "value": "code"
+        },
+        {
+            "text": "profile",
+            "value": "image"
+        },
+        {
+            "text": "firstname",
+            "value": "firstname"
+        },
+        {
+            "text": "lastname",
+            "value": "lastname"
+        },
+        {
+            "text": "username",
+            "value": "username"
+        },
+        {
+            "text": "email",
+            "value": "email"
+        },
+        {
+            "text": "phone",
+            "value": "phone"
+        },
+        {
+            "text": "whatsapp",
+            "value": "whatsapp"
+        },
+        {
+            "text": "gender",
+            "value": "gender"
+        },
+        {
+            "text": "address",
+            "value": "address"
+        },
+        {
+            "text": "roles",
+            "value": "roles"
+        },
+        {
+            "text": "birth_date",
+            "value": "birth_date"
+        },
+        {
+            "text": "national",
+            "value": "country.national"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "language",
+            "value": "language.name"
+        },
+        {
+            "text": "country",
+            "value": "country.name"
+        },
+        {
+            "text": "companies",
+            "value": "companies"
+        },
+        {
+            "text": "team",
+            "value": "teams"
+        },
+        {
+            "text": "state",
+            "value": "state.name"
+        },
+        {
+            "text": "tracing",
+            "value": "tracing_status"
+        },
+        {
+            "text": "current_country",
+            "value": "current_country.name"
+        },
+        {
+            "text": "note",
+            "value": "note"
+        },
+        {
+            "text": "created_by",
+            "value": "created_by"
+        },
+        {
+            "text": "created_at",
+            "value": "created_at"
+        }
+    ]
+}

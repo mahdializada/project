@@ -1,0 +1,78 @@
+{
+    "all": [
+        {
+            "text": "code",
+            "value": "code"
+        },
+        {
+            "text": "parent_sku",
+            "value": "parent_sku"
+        },
+        {
+            "text": "pcode",
+            "value": "pcode"
+        },
+        {
+            "text": "arabic_name",
+            "value": "arabic_name"
+        },
+        {
+            "text": "english_name",
+            "value": "name"
+        },
+        {
+            "text": "company",
+            "value": "company"
+        },
+
+        {
+            "text": "description",
+            "value": "description"
+        },
+        {
+            "text": "arabic_description",
+            "value": "arabic_description"
+        },
+
+        {
+            "text": "quantity",
+            "value": "quantity"
+        },
+        {
+            "text": "cost_per_unit",
+            "value": "cost_per_unit"
+        },
+        {
+            "text": "status",
+            "value": "status"
+        },
+        {
+            "text": "attribute",
+            "value": "attribute"
+        },
+        {
+            "text": "attribute_values",
+            "value": "attribute_values"
+        },
+        {
+            "text": "supplier",
+            "value": "supplier.supplier_name"
+        },
+        {
+            "text": "category",
+            "value": "category.name"
+        },
+        {
+            "text": "brand",
+            "value": "name"
+        },
+        {
+            "text": "is_published",
+            "value": "is_published"
+        },
+        {
+            "text": "created at",
+            "value": "created_at"
+        }
+    ]
+}
