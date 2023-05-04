@@ -7,7 +7,7 @@ export default {
 		{
 			text: "Attributes",
 			key: "attributes",
-			link: "/single_sales_management_system/attributes",
+			link: "/single_sales_management_system/attribute",
 			exact: true,
 			scope: "advv",
 			icon: Icons.attributes,
@@ -67,6 +67,14 @@ export default {
 			exact: true,
 			scope: "advv",
 			icon: Icons.catogories,
+		},
+		{
+			text: "Product Type",
+			key: "products_type",
+			link: "/single_sales_management_system/productsType",
+			exact: true,
+			scope: "advv",
+			icon: Icons.products,
 		},
 
 		{
