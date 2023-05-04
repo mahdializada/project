@@ -1,6 +1,7 @@
 <template>
   <client-only>
     <div>
+
       <LogPageWrapper>
         <template slot="form">
           <v-card

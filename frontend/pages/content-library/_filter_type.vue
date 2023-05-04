@@ -3,6 +3,7 @@
     <ProfileDialog ref="profileDialogRefs" :filter_type="filter_type" />
     <LibraryOperationStepper ref="InsertDialogRef" @addRecord="addRecord" />
     <LabelForm
+
       ref="labelRef"
       subsystem_name="content_library"
       :model_name="tabKey"

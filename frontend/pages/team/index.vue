@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <v-col cols="12">
         <teamHead />
     </v-col>

@@ -8,6 +8,7 @@
       <SearchCountry :download_data="country" @search="search"/>
     </v-col>
 
+
     <v-col cols="12">
       <DataTable
         :top="headers"

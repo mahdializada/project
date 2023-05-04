@@ -6,6 +6,7 @@
 					color="white"
 					class="pa-1 d-flex flex-column justify-space-around pt-5 pb-4 px-3 white--text"
 					:evaluation="0"
+
 					max-width="430"
 					height="450"
 					style="

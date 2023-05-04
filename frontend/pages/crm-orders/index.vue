@@ -1,11 +1,13 @@
 <template>
 	<!-- main components in a page -->
 	<v-container fluid class="pa-0">
+
 		<InsertOrderStepper ref="InsertOrderStepperRef"></InsertOrderStepper>
 		<client-only>
 			<v-row no-gutters>
 				<ProgressBar v-if="showProgressBar" />
 				<v-col cols="12">
+
 					<PageHeader
 						:Icon="`my_orders`"
 						:Title="breadcrumb[1].text"

@@ -1,5 +1,6 @@
 <template>
   <client-only>
+
     <div>
       <!-- The video -->
       <video autoplay muted loop id="myVideo">
