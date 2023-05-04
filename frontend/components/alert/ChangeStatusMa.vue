@@ -8,7 +8,7 @@
       <v-card-text
         class="blue lighten-5 pt-2"
         :style="`
-        background-color: rgba(17, 85, 152, 5%) !important; 
+        background-color: rgba(17, 85, 152, 5%) !important;
         height:${hasStatus ? '350px' : '420px'};
         overflow-y: hidden;
       `"
