@@ -303,7 +303,7 @@ export default {
 ;
           this.$toasterNA("green", this.$tr('successfully_deleted'));
 
-          
+
         } else {
           this.$toasterNA("red", this.$tr('something_went_wrong'));
         }

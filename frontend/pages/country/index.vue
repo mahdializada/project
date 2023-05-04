@@ -12,7 +12,7 @@
       <DataTable
         :top="headers"
         :country="country"
-        
+
         :load="loading"
         @getRecord="getData"
         @changeStatus="changeStatus"
@@ -123,7 +123,7 @@ export default {
   },
   created() {
     this.getData();
-    
+
   },
   methods: {
     async getData(item) {

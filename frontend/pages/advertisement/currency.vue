@@ -337,7 +337,7 @@ export default {
 					this.isRedirecting = false;
 					// this.$toastr.e(this.$tr("application_authentication_failed"));
 				this.$toasterNA("red", this.$tr('application_authentication_failed'));
-					
+
 				}
 			} else {
         this.$toasterNA("red" , this.$tr('cant_view_more_than_one_item_at_the_same_time'))
@@ -361,7 +361,7 @@ export default {
 					} else {
 						// this.$toastr.e(this.$tr("invalid_authentication_code"));
 				this.$toasterNA("red", this.$tr('invalid_authentication_code'));
-						
+
 					}
 				} catch (error) {
 					// this.$toastr.e(this.$tr("application_authentication_failed"));
@@ -396,7 +396,7 @@ export default {
 						// this.$toastr.e(this.$tr("invalid_authentication_code"));
 				this.$toasterNA("red", this.$tr('invalid_authentication_code'));
 
-						
+
 					}
 				} catch (error) {
 					// this.$toastr.e(this.$tr("application_authentication_failed"));

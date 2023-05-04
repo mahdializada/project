@@ -5,7 +5,7 @@
     :search_tab="searchtab"
     />
     <Stepper ref="stepperRef" @submit="pushData" />
-    <socialview ref="viewRef" /> 
+    <socialview ref="viewRef" />
     <template>
       <div class="text-center">
         <v-dialog v-model="dialog" width="500">

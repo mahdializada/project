@@ -203,7 +203,7 @@
                   class="d-flex align-center px-1"
                   style="
                     overflow-x: hidden;
-                    scroll-behavior: smooth;  
+                    scroll-behavior: smooth;
                     width: 100%;
                   "
                 >
@@ -504,7 +504,7 @@
                   >
                     <template v-slot:activator="{ on, attrs }">
                       <div v-bind="attrs" v-on="on" class="">
-                        <CustomButton 
+                        <CustomButton
                           v-show="currentTab.key=='sales_type'"
                           icon="fa-trash"
                           text="Delete un used Ads"
@@ -513,7 +513,7 @@
                       </div>
                     </template>
                     <v-date-picker
-                  
+
                       :min="minDate"
                       :max="deleteMaxDate"
                       v-model="deleteDate"
@@ -2107,13 +2107,13 @@ export default {
       this.deleteDate;
       console.log('deleteDateddd', this.deleteDate);
       if (this.deleteDate != null) {
-    
+
         this.delete_loading = true;
-       
+
         const response = await this.$axios.delete('advertisement/delete-ads', {
             params: {
-          data_date:this.deleteDate  
-          } 
+          data_date:this.deleteDate
+          }
         });
 
         this.delete_loading = false;
@@ -3232,7 +3232,7 @@ export default {
             }
             return item;
           });
-          
+
         }
       } catch (error) {
         console.log("error count", error);
@@ -3585,7 +3585,7 @@ export default {
     showProductProfileInfo(item) {
       if (item) this.$refs.ShowProductProfileInfoImageRef.showDialog(item);
     },
-   
+
   },
 };
 </script>

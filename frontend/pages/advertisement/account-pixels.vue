@@ -79,7 +79,7 @@
           </client-only>
      </v-container>
 </template>
-   
+
 <script>
 import CustomButton from "~/components/design/components/CustomButton.vue";
 import DataTable from "~/components/design/DataTable.vue";
@@ -375,8 +375,7 @@ export default {
      },
 };
 </script>
-   
+
 <style>
 
 </style>
-   

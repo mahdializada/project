@@ -18,7 +18,7 @@
       @deleteItem="deletedItem"
         />
     </v-col>
-    
+
   </div>
 </template>
 
@@ -68,7 +68,7 @@ export default {
         const re = await this.$axios.get("team", {params:filter
         });
         this.teams = re.data;
-     
+
     },
     async selectStatus(item, tabkey){
       const se = await this.$axios.put(`team/id`, item);
@@ -80,7 +80,7 @@ export default {
         const show = await this.$axios.get("team",{params:{
           tabkey:item,
         }});
-        
+
         this.teams=show.data;
         this.loading=false;
     },

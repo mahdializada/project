@@ -381,7 +381,7 @@
 								text="refresh_table"
 								type="refresh"
 							/>
-							<!-- 
+							<!--
 							<CustomButton @click="toggleSelectedStatus" icon="fa-toggle-off" text="Toggle Status"
 								type="danger2" /> -->
 						</template>

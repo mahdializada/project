@@ -25,7 +25,7 @@
             @onBulkUpload="adBulkUpload = !adBulkUpload" @onDownload="downloadDialog = !downloadDialog"
             @clearAndUnselectId="clearAndUnselectId" @searchByContent="searchByContent"
             @onTypeChange="onSearchTypeChange" @onColumn="columnDialog = true">
-          
+
           </PageFilters>
         </v-col>
 
@@ -34,7 +34,7 @@
             :ignoreReason="false" :showSelect="false" :showApply="false" :showAssign="false" :showApprove="false"
             :showUnAssign="false" :selectedItems.sync="currentTab.selectedItems" :tab-key="'not'" :showBlock="false"
             :showRestore="false" :statusItems="[]">
-           
+
           </CustomPageActions>
         </v-col>
 
@@ -57,20 +57,20 @@
               </span>
             </template>
 
-        
+
             <template v-slot:[`item.advertisement_status`]="{ item }">
               <v-switch @click.stop="changeRecordStatus(item)" v-model="item.advertisement_status" inset
                 @click.native.stop :color="primaryColor" class="mt-0" hide-details true-value="active"
                 false-value="inactive" :title="'active'" :loading="status_loading && item.id == status_id"></v-switch>
             </template>
-       
+
             <template v-slot:[`item.total_bid`]="{ item }">
               {{ getTotalBid(item) }}
             </template>
             <template v-slot:[`item.payment_method`]="{ item }">
               {{ getPaymentMethod(item) }}
             </template>
-           
+
           </DataTable>
         </v-col>
       </v-row>
@@ -260,7 +260,7 @@ export default {
       };
       this.tabItems.forEach(changeItem);
     },
-   
+
   },
   computed: {
     ...mapGetters({
@@ -771,7 +771,7 @@ export default {
       this.tableRecords = [];
       this.totalRecords = 0;
     },
- 
+
     getTotalBid(item) {
       let total = 0;
       let adsets = Array.isArray(item.adsets)
