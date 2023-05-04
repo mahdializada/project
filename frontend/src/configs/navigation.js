@@ -10,6 +10,7 @@ import Icons from "./menus/menuIcons";
 import SupplierMunu from "./menus/supplier_menu";
 import OrdersMenu from "./menus/crm_orders_menu";
 import content_library from "./menus/content_library";
+import file_management from "./menus/file_management";
 
 export default {
 	// main navigation - side menu
@@ -32,5 +33,6 @@ export default {
 		online_sales_management,
 		OrdersMenu,
 		content_library,
+		file_management
 	],
 };
