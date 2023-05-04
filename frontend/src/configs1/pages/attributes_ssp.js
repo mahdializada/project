@@ -14,7 +14,7 @@ export default function (appContext) {
 				icon: menuIcons.attributes,
 				text: "Attributes",
 				disabled: true,
-				to: "/attribute",
+				to: "/attributes",
 			},
 		],
 		// tab items

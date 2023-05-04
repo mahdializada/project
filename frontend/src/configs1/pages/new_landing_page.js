@@ -1,8 +1,33 @@
-
-import Icons from '~/configs/menus/menuIcons.js'
-
 export default function (appContext) {
   return {
+    category: [
+      {
+        text: "all_caps",
+        value: 0,
+        category_id: 0,
+        selected: true,
+      },
+      {
+        text: "general_info_caps",
+        value: 0,
+        category_id: 1,
+        selected: false,
+      },
+      {
+        text: "design_request_info",
+        value: 0,
+        category_id: 2,
+        selected: false,
+      },
+
+      {
+        text: "datewise_caps",
+        value: 0,
+        category_id: 4,
+        selected: false,
+      },
+    ],
+
     // Register Company Steppers
     steppers: [
       {
@@ -34,110 +59,14 @@ export default function (appContext) {
 
     // breadcrumb
     breadcrumb: [
-
-      {
-        text: "content_management_system",
-        disabled: true,
-        to: "",
-        icon: Icons.content_management_system,
-      },
+      { text: "dashboard", exact: true, to: "/" },
       {
         text: "design_request",
         disabled: true,
         to: "",
-        icon: Icons.design_request,
+        icon: "mdi-note-edit",
       },
     ],
-
-    //  tabItem
-    tabItems: [
-      {
-        text: "all",
-        icon: "fa-table",
-        isSelected: 1,
-        key: "all",
-      },
-      {
-        text: "assigned",
-        icon: "fa-user-check",
-        isSelected: 0,
-        key: "assigned",
-      },
-      {
-        text: "not_assigned",
-        icon: "fa-user-times",
-        isSelected: 0,
-        key: "not assigned",
-      },
-      {
-        text: "waiting",
-        icon: "fa-spinner",
-        isSelected: 0,
-        key: "waiting",
-      },
-      // {
-      //   text: "in_storyboard",
-      //   icon: "fa-hourglass-start",
-      //   isSelected: 0,
-      //   key: "in storyboard",
-      // },
-      // {
-      //   text: "storyboard_review",
-      //   icon: "fa-tasks",
-      //   isSelected: 0,
-      //   key: "storyboard review",
-      // },
-      // {
-      //   text: "storyboard_rejected",
-      //   icon: "fa-comment-slash",
-      //   isSelected: 0,
-      //   key: "storyboard rejected",
-      // },
-      {
-        text: "in_design",
-        icon: "fa-drafting-compass",
-        isSelected: 0,
-        key: "in design",
-      },
-      {
-        text: "design_review",
-        icon: "fa-tasks",
-        isSelected: 0,
-        key: "design review",
-      },
-      {
-        text: "design_rejected",
-        icon: "fa-tint-slash",
-        isSelected: 0,
-        key: "design rejected",
-      },
-      {
-        text: "in_programming",
-        icon: "fa-code",
-        isSelected: 0,
-        key: "in programming",
-      },
-      {
-        text: "completed",
-        icon: "fa-check",
-        isSelected: 0,
-        key: "completed",
-      },
-      {
-        text: "cancelled",
-        icon: "fa-times",
-        isSelected: 0,
-        key: "cancelled",
-      },
-      {
-        text: "removed",
-        icon: "fa-trash",
-        isSelected: 0,
-        key: "removed",
-      },
-    ],
-
-    // table headers
 
     // table headers
     headers: [
@@ -163,6 +92,7 @@ export default function (appContext) {
         id: 3,
         category_id: 2,
       },
+
       {
         text: "template",
         value: "template",
@@ -186,26 +116,10 @@ export default function (appContext) {
         category_id: 2,
       },
       {
-        text: "project_url",
-        value: "project_url",
-        select: false,
-        sortable: false,
-        id: 7,
-        category_id: 2,
-      },
-      {
-        text: "canva_video",
-        value: "video",
-        select: false,
-        sortable: false,
-        id: 8,
-        category_id: 2,
-      },
-      {
         text: "priority",
         value: "priority",
         select: false,
-        id: 9,
+        id: 7,
         sortable: false,
         category_id: 1,
       },
@@ -213,39 +127,32 @@ export default function (appContext) {
         text: "percentage",
         value: "percentage",
         select: false,
-        id: 10,
+        id: 8,
         sortable: false,
         category_id: 1,
       },
-      // {
-      //   text: "download_status",
-      //   value: "download_status",
-      //   select: false,
-      //   id: 11,
-      //   sortable: false,
-      //   category_id: 1,
-      // },
       {
         text: "request_type",
         value: "requestType",
         select: false,
         sortable: false,
-        id: 12,
+        id: 9,
         category_id: 1,
       },
       {
         text: "total_time_spent",
         value: "total_time_spent",
         select: false,
-        id: 13,
+        id: 10,
         sortable: false,
         category_id: 4,
       },
+
       {
         text: "assigned_user",
         value: "assignedUser",
         select: false,
-        id: 14,
+        id: 11,
         sortable: false,
         category_id: 1,
       },
@@ -253,7 +160,7 @@ export default function (appContext) {
         text: "status",
         value: "status",
         select: false,
-        id: 15,
+        id: 12,
         sortable: false,
         category_id: 2,
       },
@@ -261,7 +168,7 @@ export default function (appContext) {
         text: "order_type",
         value: "order_type",
         select: false,
-        id: 16,
+        id: 13,
         sortable: false,
         category_id: 2,
       },
@@ -269,7 +176,7 @@ export default function (appContext) {
         text: "Sales Notes",
         value: "sales_note",
         select: false,
-        id: 17,
+        id: 14,
         sortable: false,
         category_id: 2,
       },
@@ -277,7 +184,7 @@ export default function (appContext) {
         text: "StoryBoard Note",
         value: "storyboard_note",
         select: false,
-        id: 18,
+        id: 15,
         sortable: false,
         category_id: 2,
       },
@@ -286,14 +193,22 @@ export default function (appContext) {
         value: "design_note",
         select: false,
         sortable: false,
-        id: 19,
+        id: 16,
+        category_id: 2,
+      },
+      {
+        text: "design_link",
+        value: "design_link",
+        select: false,
+        sortable: false,
+        id: 17,
         category_id: 2,
       },
       {
         text: "landing_page_link",
         value: "landing_page_link",
         select: false,
-        id: 20,
+        id: 18,
         sortable: false,
         category_id: 2,
       },
@@ -301,7 +216,7 @@ export default function (appContext) {
         text: "total_storyboard_rejected",
         value: "storyboard_reject_count",
         select: false,
-        id: 21,
+        id: 19,
         sortable: false,
         category_id: 1,
       },
@@ -309,7 +224,7 @@ export default function (appContext) {
         text: "total_design_rejected",
         value: "design_reject_count",
         select: false,
-        id: 22,
+        id: 20,
         sortable: false,
         category_id: 1,
       },
@@ -317,7 +232,7 @@ export default function (appContext) {
         text: "cancels",
         value: "cancels",
         select: false,
-        id: 23,
+        id: 21,
         sortable: false,
         category_id: 1,
       },
@@ -325,33 +240,24 @@ export default function (appContext) {
         text: "label",
         value: "label",
         select: false,
-        id: 24,
+        id: 22,
         sortable: false,
         category_id: 1,
       },
       {
-        text: "created_by",
-        value: "created_by",
+        text: "updated_by",
+        value: "updatedBy",
         select: false,
-        id: 25,
+        id: 23,
         sortable: false,
         category_id: 1,
       },
-
-      // {
-      //   text: "updated_by",
-      //   value: "updated_by",
-      //   select: false,
-      //   id: 26,
-      //   sortable: false,
-      //   category_id: 4,
-      // },
 
       {
         text: "created_at",
         value: "created_at",
         select: false,
-        id: 27,
+        id: 24,
         sortable: false,
         category_id: 4,
       },

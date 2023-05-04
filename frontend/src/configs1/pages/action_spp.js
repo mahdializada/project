@@ -2,7 +2,6 @@ import menuIcons from "../menus/menuIcons";
 
 export default function (appContext) {
 	return {
-	
 		// breadcrumb
 		breadcrumb: [
 			{
@@ -11,10 +10,10 @@ export default function (appContext) {
 				to: "/",
 			},
 			{
-				icon: menuIcons.attributes,
-				text: "Attributes",
+				icon: menuIcons.actions,
+				text: "Actions",
 				disabled: true,
-				to: "/attribute",
+				to: "/actions",
 			},
 		],
 		// tab items
@@ -26,16 +25,34 @@ export default function (appContext) {
 				key: "all",
 			},
 			{
-				text: "active",
-				icon: "fa-thumbs-up",
+				text: "inprocess",
+				icon: "fa-chalkboard-teacher",
 				isSelected: 0,
-				key: "active",
+				key: "inprocess",
 			},
 			{
-				text: "inactive",
+				text: "archived",
+				icon: "fa-archive",
+				isSelected: 0,
+				key: "archived",
+			},
+			{
+				text: "cancelled",
 				icon: "fa-ban",
 				isSelected: 0,
-				key: "inactive",
+				key: "cancelled",
+			},
+			{
+				text: "done",
+				icon: "fa-check-circle",
+				isSelected: 0,
+				key: "done",
+			},
+			{
+				text: "failed",
+				icon: "fa-ban",
+				isSelected: 0,
+				key: "failed",
 			},
 			{
 				text: "removed",
@@ -44,8 +61,5 @@ export default function (appContext) {
 				key: "removed",
 			},
 		],
-
-		// table headers
-		
 	};
 }

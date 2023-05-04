@@ -2,7 +2,6 @@ import menuIcons from "../menus/menuIcons";
 
 export default function (appContext) {
 	return {
-	
 		// breadcrumb
 		breadcrumb: [
 			{
@@ -11,10 +10,10 @@ export default function (appContext) {
 				to: "/",
 			},
 			{
-				icon: menuIcons.attributes,
-				text: "Attributes",
+				icon: menuIcons.catogories,
+				text: "Categories",
 				disabled: true,
-				to: "/attribute",
+				to: "/categories",
 			},
 		],
 		// tab items
@@ -43,9 +42,9 @@ export default function (appContext) {
 				isSelected: 0,
 				key: "removed",
 			},
+			
 		],
 
 		// table headers
-		
 	};
 }

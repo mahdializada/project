@@ -13,14 +13,6 @@ export default {
 			scope: "crm_ordersv",
 			icon: Icons.my_orders,
 		},
-		{
-			text: "missed_orders",
-			key: "missed_orders",
-			link: "/crm-orders/missed_orders",
-			exact: true,
-			scope: "crm_ordersv",
-			icon: Icons.my_orders,
-		},
 
 	],
 };

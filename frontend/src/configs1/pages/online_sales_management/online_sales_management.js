@@ -12,7 +12,7 @@ export default function (appContext) {
         icon: Icons.products,
       },
       {
-        text: "store_list",
+        text: "online_sales",
         disabled: true,
         to: "",
         icon: Icons.products,
@@ -63,8 +63,8 @@ export default function (appContext) {
 
       },
       {
-        text: "store_code",
-        name: "Store Code",
+        text: "item_code",
+        name: "Item Code",
         icon: tableIcons.item_code,
         isSelected: 0,
         key: "item_code",

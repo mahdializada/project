@@ -1,8 +1,7 @@
-import menuIcons from "../menus/menuIcons";
+import Icons from "~/configs/menus/menuIcons";
 
 export default function (appContext) {
 	return {
-	
 		// breadcrumb
 		breadcrumb: [
 			{
@@ -10,11 +9,18 @@ export default function (appContext) {
 				exact: true,
 				to: "/",
 			},
+			// {
+			// 	icon: "mdi-professional-hexagon",
+			// 	text: "products",
+			// 	disabled: true,
+			// 	to: "/products",
+			// },
 			{
-				icon: menuIcons.attributes,
-				text: "Attributes",
+				icon: Icons.products,
+
+				text: "Products",
 				disabled: true,
-				to: "/attribute",
+				to: "/products",
 			},
 		],
 		// tab items
@@ -24,6 +30,18 @@ export default function (appContext) {
 				icon: "fa-table",
 				isSelected: 1,
 				key: "all",
+			},
+			{
+				text: "now",
+				icon: "fa-thumbs-up",
+				isSelected: 0,
+				key: "now",
+			},
+			{
+				text: "comming_soon",
+				icon: "fa-ban",
+				isSelected: 0,
+				key: "comming soon",
 			},
 			{
 				text: "active",
@@ -39,13 +57,11 @@ export default function (appContext) {
 			},
 			{
 				text: "removed",
-				icon: "fa-trash",
+				icon: "fa-ban",
 				isSelected: 0,
 				key: "removed",
 			},
 		],
-
 		// table headers
-		
 	};
 }

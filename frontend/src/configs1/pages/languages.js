@@ -1,22 +1,30 @@
-import menuIcons from "../menus/menuIcons";
+import Icons from "~/configs/menus/menuIcons";
 
 export default function (appContext) {
 	return {
-	
 		// breadcrumb
 		breadcrumb: [
+			
 			{
-				text: "dashboard",
-				exact: true,
-				to: "/",
+				text: "master_management_system",
+				disabled: true,
+				to: "",
+				icon: Icons.master_management_system,
 			},
 			{
-				icon: menuIcons.attributes,
-				text: "Attributes",
+				text: "language_setting",
 				disabled: true,
-				to: "/attribute",
+				to: "",
+				icon: Icons.language_setting,
+			},
+			{
+				text: "languages",
+				disabled: true,
+				to: "",
+				icon: Icons.languages,
 			},
 		],
+
 		// tab items
 		tabItems: [
 			{
@@ -38,6 +46,18 @@ export default function (appContext) {
 				key: "inactive",
 			},
 			{
+				text: "pending",
+				icon: "fa-ban",
+				isSelected: 0,
+				key: "pending",
+			},
+			{
+				text: "blocked",
+				icon: "fa-times-circle",
+				isSelected: 0,
+				key: "blocked",
+			},
+			{
 				text: "removed",
 				icon: "fa-trash",
 				isSelected: 0,
@@ -46,6 +66,5 @@ export default function (appContext) {
 		],
 
 		// table headers
-		
 	};
 }

@@ -1,22 +1,29 @@
-import menuIcons from "../menus/menuIcons";
+import menuIcons from "../../menus/menuIcons";
 
 export default function (appContext) {
 	return {
-	
 		// breadcrumb
 		breadcrumb: [
+			// {
+			// 	text: "dashboard",
+			// 	exact: true,
+			// 	to: "/",
+			// 	icon: menuIcons.dashbourd,
+			// },
 			{
-				text: "dashboard",
-				exact: true,
-				to: "/",
+				text: "advertisement_management_system",
+				disabled: true,
+				to: "",
+				icon: menuIcons.advertisement_management_system,
 			},
 			{
-				icon: menuIcons.attributes,
-				text: "Attributes",
+				text: "applications",
 				disabled: true,
-				to: "/attribute",
+				to: "",
+				icon: menuIcons.applications,
 			},
 		],
+
 		// tab items
 		tabItems: [
 			{
@@ -32,20 +39,17 @@ export default function (appContext) {
 				key: "active",
 			},
 			{
-				text: "inactive",
+				text: "expired",
 				icon: "fa-ban",
 				isSelected: 0,
-				key: "inactive",
+				key: "token_expired",
 			},
 			{
 				text: "removed",
-				icon: "fa-trash",
+				icon: "fa-ban",
 				isSelected: 0,
 				key: "removed",
 			},
 		],
-
-		// table headers
-		
 	};
 }

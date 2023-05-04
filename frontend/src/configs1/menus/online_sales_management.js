@@ -6,34 +6,18 @@ export default {
   icon: Icons.products,
   items: [
     {
-      text: "store_list",
-      key: "store_list",
-      link: "/online-sales-management-system/",
+      text: "online_sales",
+      key: "online_sales",
+      link: "/online-sales-management-system/online-sales/",
       exact: true,
       scope: "osv",
       icon: Icons.products,
     },
-    // {
-    //   text: "sales_category",
-    //   key: "sales_category",
-    //   link: "/online-sales-management-system/sales-category/",
-    //   exact: true,
-    //   scope: "losv",
-    //   // scope: "scv",
-    //   icon: Icons.products,
-    // },
-    {
-      text: "SubItem List",
-      key: "sub_item_list",
-      link: "/online-sales-management-system/sub-item-list/",
-      exact: true,
-      scope: "ipav",
-      icon: Icons.ipa,
-    },
+
     {
       text: "Settings",
       key: "settings",
-      subLink: "online-sales-management-system",
+      subLink: "online-sales-management",
       scope: ["losv"],
       icon: Icons.settings,
       items: [

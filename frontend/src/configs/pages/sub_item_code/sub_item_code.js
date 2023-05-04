@@ -6,20 +6,20 @@ export default function (appContext) {
     // breadcrumb
     breadcrumb: [
       {
-        text: "online_sales_management_system",
+        text: "advertisement_management_system",
         disabled: true,
         to: "",
-        icon: Icons.products,
+        icon: Icons.advertisement_management_system,
       },
       {
-        text: "store_list",
+        text: "sub_item_list",
         disabled: true,
         to: "",
-        icon: Icons.products,
+        icon: Icons.advertisement_management_system,
       },
     ],
     // tab items
-    itemTabs: [
+    tabItems: [
       {
         text: "country",
         name: "Country",
@@ -67,7 +67,17 @@ export default function (appContext) {
         name: "Store Code",
         icon: tableIcons.item_code,
         isSelected: 0,
-        key: "item_code",
+        key: "store_code",
+        selectedItems: [],
+        count: 0,
+        id_selector: 'id'
+      },
+      {
+        text: "sub_item_code",
+        name: "Sub Item Code",
+        icon: tableIcons.item_code,
+        isSelected: 0,
+        key: "sub_item_code",
         selectedItems: [],
         count: 0,
         id_selector: 'id'

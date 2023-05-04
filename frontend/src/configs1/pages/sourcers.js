@@ -11,10 +11,10 @@ export default function (appContext) {
 				to: "/",
 			},
 			{
-				icon: menuIcons.attributes,
-				text: "Attributes",
+				icon: menuIcons.sourcer,
+				text: "Sourcers",
 				disabled: true,
-				to: "/attribute",
+				to: "/sourcers",
 			},
 		],
 		// tab items
