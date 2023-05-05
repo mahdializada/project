@@ -8,7 +8,6 @@
               <h3><i class="fa fa-filter">&nbsp;&nbsp;</i>{{ title }}</h3>
               <v-spacer></v-spacer>
               <v-btn
-
                 solo
                 dense
                 fab
