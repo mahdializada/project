@@ -14,7 +14,6 @@
       />
     </client-only>
   </v-container>
-
 </template>
 
 <script>

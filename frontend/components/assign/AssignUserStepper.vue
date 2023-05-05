@@ -7,7 +7,6 @@
       @validate="() => {}"
       @close="
         () => {
-
           $emit('close');
         }
       "
@@ -141,7 +140,6 @@ import DoneMessage from "~/components/design/components/DoneMessage.vue";
 import CustomInput from "../design/components/CustomInput";
 import SelectedItem from "../design/components/SelectedItem";
 import FormBtn from "../design/components/FormBtn";
-
 export default {
   components: {
     CustomStepper,
