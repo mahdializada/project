@@ -6,6 +6,7 @@
           <div class="d-flex align-center">
             <v-avatar
               size="70"
+
               style="
                 background-color: lightblue;
                 margin-left: 20px;
