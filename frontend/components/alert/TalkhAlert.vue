@@ -6,6 +6,7 @@
     style="z-index: 200000000000000"
   >
     <v-card>
+
       <v-card-text
         class="
           blue
