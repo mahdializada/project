@@ -5,6 +5,7 @@
         <MyView />
 
       </div>
+
     </template>
     <template>
       <v-col class="mb-5" cols="12" style=" margin-top: 10px">
