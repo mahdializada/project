@@ -12,6 +12,7 @@
         @filterRecords="onFilterRecords"
       />
 
+
       <v-dialog v-model="columnDialog" width="1300" persistent>
         <CustomizeColumn
           @saveChanges="
@@ -68,6 +69,7 @@
             />
           </PageFilters>
         </v-col>
+
 
         <v-col cols="12">
           <CustomPageActions
