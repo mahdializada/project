@@ -7,6 +7,7 @@
       @validate="() => {}"
       @close="
         () => {
+
           $emit('close');
         }
       "
