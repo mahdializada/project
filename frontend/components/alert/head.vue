@@ -2,6 +2,7 @@
   <div>
     <v-card style="height: 100px" class="pt-2">
       <v-row>
+
         <v-avatar
           size="80"
           style="
