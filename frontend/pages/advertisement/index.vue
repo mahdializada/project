@@ -4,6 +4,7 @@
     <VideoAdProfile ref="videoProfileRefs" />
     <!-- view canva video 1  -->
     <CanvaVideoView ref="canvaVideoViewRefs" />
+
     <ProductProfileInfoStepper
       ref="productCreationRefs"
       @addProductProfile="addProductProfile"
