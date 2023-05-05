@@ -3,6 +3,7 @@
 		<div class="w-full h-full pt-5">
 			<div class="mb-3">
 				<InputCard
+
 					:title="'Teams'"
 					:hasSearch="true"
 					:sub_title="'You can select one or multiple teams.'"
