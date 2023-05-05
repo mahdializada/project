@@ -9,6 +9,7 @@
       ref="productCreationRefs"
       @addProductProfile="addProductProfile"
     />
+
     <ChangeStatusMa @changeStatus="changeItemStatus" ref="changeStatusMaRef" />
     <ShowProductProfileInfoImage ref="ShowProductProfileInfoImageRef" />
     <CMahdi ref="target" />
@@ -16,6 +17,7 @@
       ref="itemCodeDeleteRefs"
       @onSuccess="deleteItemCode(true)"
     />
+
     <ProductProfileStatistics ref="productProfile" @updateAttachment="updateAttachmentProductProfile"/>
 
     <AdvertisementGraphProfile
