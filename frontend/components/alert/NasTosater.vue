@@ -5,6 +5,7 @@
 			v-for="(item, i) in arrayOfTosater"
 			:key="i"
 			:item="item"
+
 			class="haidar">
 		</Toaster>
 	</div>
