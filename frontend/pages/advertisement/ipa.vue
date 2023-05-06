@@ -5,7 +5,6 @@
       <IPAFilter ref="ipaFilter" @filterRecords="onFilterRecords" />
       <StepperComponent
         ref="ipaComponentStepper"
-
         @pushRecord="pushRecord"
         @updateRecord="updateRecord"
       />
