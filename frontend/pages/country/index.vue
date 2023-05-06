@@ -3,7 +3,6 @@
     <v-col cols="12">
       <Head />
     </v-col>
-
     <v-col cols="12">
       <SearchCountry :download_data="country" @search="search"/>
     </v-col>
