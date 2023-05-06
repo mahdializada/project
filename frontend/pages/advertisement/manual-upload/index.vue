@@ -51,7 +51,6 @@
         </v-col>
 
         <v-col cols="12">
-
           <CustomPageActions
             :showView="false"
             :showEdit="false"
