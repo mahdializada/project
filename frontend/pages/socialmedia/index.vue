@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <Header @openD="openD" :allList="allList" :header="header" @getfilter="datafilter"  @saveChanges="saveChanges" :download_data="datas.data"
     @searchresult="se_result"
     :search_tab="searchtab"
