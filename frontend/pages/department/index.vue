@@ -5,7 +5,6 @@
     </template>
     <!-- <template>
       <div>
-
         <v-dialog v-model="viewValue" width="1250" persistent>
           <v-card class="mx-auto" max-width="1000">
             <v-system-bar>
