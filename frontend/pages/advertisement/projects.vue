@@ -26,6 +26,7 @@
 			<v-row no-gutters>
 				<v-col cols="12">
 					<PageHeader
+
 						Icon="projects"
 						:Title="breadcrumb[1].text"
 						:show_ad_img="true"
