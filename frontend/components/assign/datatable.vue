@@ -15,6 +15,7 @@
           <v-row>
             <v-col cols="5">
               <div class="ml-8 mb-0">
+
                 <v-row>
                   <v-col cols="10">
                     <v-text-field label="Search..." append-icon="mdi-magnify" v-model="searchValue" outlined focused
