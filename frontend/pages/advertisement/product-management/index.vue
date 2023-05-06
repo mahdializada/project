@@ -17,7 +17,6 @@
       ref="itemCodeDeleteRefs"
       @onSuccess="deleteItemCode(true)"
     />
-
     <ProductProfileStatistics ref="productProfile" @updateAttachment="updateAttachmentProductProfile"/>
 
     <AdvertisementGraphProfile
