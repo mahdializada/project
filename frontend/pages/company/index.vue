@@ -5,7 +5,6 @@
         <Header></Header>
       </v-col>
       <v-col cols="12">
-
         <search
           @createModel="createModel"
           :d_data="companies"
