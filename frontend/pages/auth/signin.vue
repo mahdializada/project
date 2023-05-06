@@ -14,7 +14,6 @@
 						backdrop-filter: blur(1.5px);
 						border-radius: 20px;
 					">
-
 					<lottie-player
 						v-show="aniPass"
 						src="/assets/loginAni.json"
