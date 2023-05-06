@@ -1,7 +1,6 @@
 <template>
 	<!-- main components in a page -->
 	<v-container fluid class="pa-0">
-
 		<InsertOrderStepper ref="InsertOrderStepperRef"></InsertOrderStepper>
 		<client-only>
 			<v-row no-gutters>
