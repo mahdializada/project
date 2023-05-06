@@ -1,7 +1,6 @@
 <template>
   <v-app
     class="login"
-
     :style="{ backgroundImage: `url(${backgroundImagePath})` }"
   >
     <v-main>
