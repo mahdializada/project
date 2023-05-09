@@ -6,6 +6,7 @@
 				ref="projectOperationRef"
 				@getRecord="fetchDataAccordingtoStatus"
 			/>
+
 			<ProjectFilter ref="projectFilter" @filterRecords="onFilterRecords" />
 
 			<v-dialog v-model="columnDialog" width="1300" persistent>

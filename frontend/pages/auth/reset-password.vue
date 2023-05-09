@@ -13,6 +13,7 @@
           height="39.61"
           viewBox="0 0 176.229 39.61"
         >
+
           <defs>
             <linearGradient
               id="linear-gradient"
@@ -57,6 +58,7 @@
                 transform="translate(-54.462 -38.142)"
                 fill="#fff"
               />
+
               <path
                 id="Path_4"
                 data-name="Path 4"
@@ -78,6 +80,7 @@
                   transform="translate(-142.3 -29.085)"
                   fill="#fff"
                 />
+
                 <path
                   id="Path_6"
                   data-name="Path 6"
@@ -106,6 +109,7 @@
                   transform="translate(-219.124 -28.8)"
                   fill="#fff"
                 />
+
                 <path
                   id="Path_10"
                   data-name="Path 10"
@@ -133,6 +137,7 @@
                   transform="translate(-147.689 -73.1)"
                   fill="#fff"
                 />
+
                 <path
                   id="Path_13"
                   data-name="Path 13"

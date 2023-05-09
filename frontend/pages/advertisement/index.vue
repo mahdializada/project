@@ -8,6 +8,7 @@
       ref="productCreationRefs"
       @addProductProfile="addProductProfile"
     />
+
     <ChangeStatusMa @changeStatus="changeItemStatus" ref="changeStatusMaRef" />
     <ShowProductProfileInfoImage ref="ShowProductProfileInfoImageRef" />
     <CMahdi ref="target" />

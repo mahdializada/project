@@ -7,6 +7,7 @@
 			:current_tab="currentTab.key"
 		/>
 
+
 		<BudgetForm ref="historyRefs"></BudgetForm>
 		<updateBidBudget ref="updateBidBudgetRef" @submit="onUpdateBidBudget" />
 		<BulkUploadStepper
