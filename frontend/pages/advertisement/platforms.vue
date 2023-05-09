@@ -17,6 +17,7 @@
               columnDialog = false;
             }
           "
+
           :page_headers.sync="all_headers[0]"
           :page_name="'platforms_all'"
           @closeColumnDialog="columnDialog = false"
