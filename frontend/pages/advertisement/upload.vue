@@ -9,6 +9,7 @@
             all_headers[selectedIndex] = data;
             columnDialog = false;
           }
+
         " :page_headers.sync="all_headers[selectedIndex]" :page_name="'advertisement_' + currentTab.key"
           @closeColumnDialog="columnDialog = false" :key="selectedIndex" />
       </v-dialog>
