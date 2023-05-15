@@ -18,6 +18,7 @@
             }
           "
 
+
           :page_headers.sync="all_headers[0]"
           :page_name="'platforms_all'"
           @closeColumnDialog="columnDialog = false"
@@ -372,6 +373,8 @@ export default {
         !isNaN(code) ? row.code !== "LDR000" + code : row.code !== code
       );
     },
+
+
 
     checkSelectedTab(value) {
       this.selectedItems = [];
