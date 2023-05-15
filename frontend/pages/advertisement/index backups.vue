@@ -20,6 +20,7 @@
 		<BalanceModal ref="balanceModal" />
 
 		<AdvertismentFilter
+
 			ref="advertismentFilterRefs"
 			@filterRecords="onFilterRecords"
 			:currentTab="currentTab.key"
