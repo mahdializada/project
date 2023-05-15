@@ -10,6 +10,7 @@
           <v-row
 
             align="center"
+
             justify="center"
 
           >
