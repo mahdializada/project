@@ -6,6 +6,7 @@
         <CustomizeColumn v-if="columnDialog" @saveChanges="
           (data) => {
 
+
             all_headers[selectedIndex] = data;
             columnDialog = false;
           }

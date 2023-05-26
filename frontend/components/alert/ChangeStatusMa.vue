@@ -3,6 +3,7 @@
     v-model="showAlert"
     :width="`${hasStatus ? '580' : '780'}`"
     persistent
+
   >
 
     <v-card>

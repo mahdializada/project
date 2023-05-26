@@ -6,6 +6,7 @@
       :options.sync="options"
       :server-items-length="totalDesserts"
       :loading="loading"
+
       class="elevation-1"
     >
     </v-data-table>
